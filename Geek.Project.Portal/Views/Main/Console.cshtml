@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "Console";
+    Layout = "~/Views/Shared/_PageLayout.cshtml";
+}
+@section styles{
+    <style>
+        /** 卡片轮播图样式 */
+        .admin-carousel .layui-carousel-ind {
+            position: absolute;
+            top: -41px;
+            text-align: right;
+        }
+
+            .admin-carousel .layui-carousel-ind ul {
+                background: 0 0;
+            }
+
+            .admin-carousel .layui-carousel-ind li {
+                background-color: #e2e2e2;
+            }
+
+                .admin-carousel .layui-carousel-ind li.layui-this {
+                    background-color: #999;
+                }
+
+        /** 广告位轮播图 */
+        .admin-news .layui-carousel-ind {
+            height: 45px;
+        }
+
+        .admin-news a {
+            display: block;
+            line-height: 60px;
+            text-align: center;
+        }
+    </style>
+}
+<!-- 加载动画，移除位置在common.js中 -->
+<div class="page-loading">
+    <div class="rubik-loader"></div>
+</div>
+<!-- 正文开始 -->
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-xs12 layui-col-sm6 layui-col-md3">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    访问量<span class="layui-badge layui-bg-blue pull-right">周</span>
+                </div>
+                <div class="layui-card-body">
+                    <p class="lay-big-font">9,999,666</p>
+                    <p>总计访问量<span class="pull-right">88万 <i class="layui-icon layui-icon-flag"></i></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-xs12 layui-col-sm6 layui-col-md3">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    下载<span class="layui-badge layui-bg-black pull-right">月</span>
+                </div>
+                <div class="layui-card-body">
+                    <p class="lay-big-font">33,555</p>
+                    <p>新下载<span class="pull-right">10% <i class="layui-icon">&#xe601</i></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-xs12 layui-col-sm6 layui-col-md3">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    Start<span class="layui-badge layui-bg-green pull-right">周</span>
+                </div>
+                <div class="layui-card-body">
+                    <p class="lay-big-font">999,666</p>
+                    <p>总Start数<span class="pull-right">88万 <i class="layui-icon layui-icon-rate"></i></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-xs12 layui-col-sm6 layui-col-md3">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    活跃用户<span class="layui-badge layui-bg-orange pull-right">月</span>
+                </div>
+                <div class="layui-card-body">
+                    <p class="lay-big-font">66,666</p>
+                    <p>最近一个月<span class="pull-right">15% <i class="layui-icon layui-icon-user"></i></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
