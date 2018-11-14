@@ -10,6 +10,7 @@
         elem: '#userTable',
         url: '/json/user.json',
         page: true,
+        height: 'full-120',
         cols: [[
             { type: 'checkbox' },
             { field: 'username', sort: true, title: '账号' },
