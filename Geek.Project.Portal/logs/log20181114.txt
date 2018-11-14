@@ -1,0 +1,1061 @@
+2018-11-14 17:15:27.984 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:16:03.703 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:16:06.098 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:16:06.195 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:16:06.204 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:16:06.215 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6624ms.
+2018-11-14 17:16:06.237 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:16:06.327 +08:00 [INF] Executed ViewResult - view Index executed in 103.9299ms.
+2018-11-14 17:16:06.329 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 132.36610000000002ms
+2018-11-14 17:16:06.345 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/css/site.css  
+2018-11-14 17:16:06.345 +08:00 [INF] Request finished in 247.3943ms 200 text/html; charset=utf-8
+2018-11-14 17:16:06.348 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner1.svg  
+2018-11-14 17:16:06.348 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner2.svg  
+2018-11-14 17:16:06.348 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/jquery/dist/jquery.js  
+2018-11-14 17:16:06.351 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:16:06.359 +08:00 [INF] Sending file. Request path: '/images/banner2.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner2.svg'
+2018-11-14 17:16:06.360 +08:00 [INF] Request finished in 12.493ms 200 image/svg+xml
+2018-11-14 17:16:06.362 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:16:06.359 +08:00 [INF] Sending file. Request path: '/images/banner1.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner1.svg'
+2018-11-14 17:16:06.364 +08:00 [INF] Request finished in 18.0294ms 200 image/svg+xml
+2018-11-14 17:16:06.369 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\css\site.css'
+2018-11-14 17:16:06.372 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-11-14 17:16:06.374 +08:00 [INF] Request finished in 29.3106ms 200 text/css
+2018-11-14 17:16:06.374 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:16:06.379 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner3.svg  
+2018-11-14 17:16:06.380 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-11-14 17:16:06.382 +08:00 [INF] Request finished in 20.3993ms 200 application/javascript
+2018-11-14 17:16:06.384 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.js'
+2018-11-14 17:16:06.389 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\js\site.js'
+2018-11-14 17:16:06.391 +08:00 [INF] Sending file. Request path: '/images/banner3.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner3.svg'
+2018-11-14 17:16:06.397 +08:00 [INF] Request finished in 45.691ms 200 text/css
+2018-11-14 17:16:06.405 +08:00 [INF] Request finished in 56.5762ms 200 application/javascript
+2018-11-14 17:16:06.416 +08:00 [INF] Request finished in 41.8455ms 200 application/javascript
+2018-11-14 17:16:06.421 +08:00 [INF] Request finished in 45.8231ms 200 image/svg+xml
+2018-11-14 17:16:06.430 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:16:06.434 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-11-14 17:16:06.442 +08:00 [INF] Request finished in 11.5688ms 200 font/woff2
+2018-11-14 17:16:06.536 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/favicon.ico  
+2018-11-14 17:16:06.539 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-11-14 17:16:06.544 +08:00 [INF] Request finished in 8.39ms 200 image/x-icon
+2018-11-14 17:16:18.508 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/api/test/Test1  
+2018-11-14 17:16:18.511 +08:00 [INF] Request finished in 3.725ms 404 
+2018-11-14 17:16:29.094 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/api/Test/Test1  
+2018-11-14 17:16:29.097 +08:00 [INF] Request finished in 2.2182ms 404 
+2018-11-14 17:16:34.725 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/api/Test/  
+2018-11-14 17:16:34.731 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: Geek.Project.Portal.Controllers.TestController.Test1 (Geek.Project.Portal)
+Geek.Project.Portal.Controllers.TestController.Test2 (Geek.Project.Portal)
+2018-11-14 17:16:34.734 +08:00 [ERR] Connection id "0HLIA276NHK8F", Request id "0HLIA276NHK8F:00000003": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+Geek.Project.Portal.Controllers.TestController.Test1 (Geek.Project.Portal)
+Geek.Project.Portal.Controllers.TestController.Test2 (Geek.Project.Portal)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:16:34.828 +08:00 [INF] Request finished in 103.0938ms 500 
+2018-11-14 17:17:13.221 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:17:13.926 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:17:14.056 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:17:14.069 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:17:14.078 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3035ms.
+2018-11-14 17:17:14.100 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:17:14.189 +08:00 [INF] Executed ViewResult - view Index executed in 101.9473ms.
+2018-11-14 17:17:14.193 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 131.48250000000002ms
+2018-11-14 17:17:14.203 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/css/site.css  
+2018-11-14 17:17:14.204 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner1.svg  
+2018-11-14 17:17:14.209 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner2.svg  
+2018-11-14 17:17:14.210 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/jquery/dist/jquery.js  
+2018-11-14 17:17:14.211 +08:00 [INF] Request finished in 287.912ms 200 text/html; charset=utf-8
+2018-11-14 17:17:14.216 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:17:14.222 +08:00 [INF] The file /css/site.css was not modified
+2018-11-14 17:17:14.222 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-14 17:17:14.222 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-14 17:17:14.222 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-14 17:17:14.222 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-14 17:17:14.228 +08:00 [INF] Request finished in 17.6836ms 304 application/javascript
+2018-11-14 17:17:14.228 +08:00 [INF] Request finished in 24.0918ms 304 image/svg+xml
+2018-11-14 17:17:14.228 +08:00 [INF] Request finished in 24.8053ms 304 text/css
+2018-11-14 17:17:14.229 +08:00 [INF] Request finished in 20.3393ms 304 image/svg+xml
+2018-11-14 17:17:14.229 +08:00 [INF] Request finished in 13.3074ms 304 text/css
+2018-11-14 17:17:14.232 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:17:14.237 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner3.svg  
+2018-11-14 17:17:14.237 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:17:14.246 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-14 17:17:14.247 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-14 17:17:14.254 +08:00 [INF] The file /js/site.js was not modified
+2018-11-14 17:17:14.259 +08:00 [INF] Request finished in 27.8644ms 304 application/javascript
+2018-11-14 17:17:14.261 +08:00 [INF] Request finished in 23.8112ms 304 image/svg+xml
+2018-11-14 17:17:14.265 +08:00 [INF] Request finished in 27.7684ms 304 application/javascript
+2018-11-14 17:17:14.279 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:17:14.283 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-14 17:17:14.296 +08:00 [INF] Request finished in 16.4336ms 304 font/woff2
+2018-11-14 17:17:20.028 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/users1  
+2018-11-14 17:17:20.035 +08:00 [INF] Request finished in 7.7596ms 404 
+2018-11-14 17:17:28.015 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/api/users1  
+2018-11-14 17:17:28.019 +08:00 [INF] Request finished in 4.5542ms 404 
+2018-11-14 17:17:33.435 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/api/Test/users1  
+2018-11-14 17:17:33.445 +08:00 [INF] Route matched with {action = "Test1", controller = "Test"}. Executing action Geek.Project.Portal.Controllers.TestController.Test1 (Geek.Project.Portal)
+2018-11-14 17:17:33.449 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.TestController.Test1 (Geek.Project.Portal) in 2.0202ms
+2018-11-14 17:17:33.458 +08:00 [ERR] Connection id "0HLIA27RE87Q0", Request id "0HLIA27RE87Q0:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:17:33.555 +08:00 [INF] Request finished in 120.3826ms 500 
+2018-11-14 17:17:54.689 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:17:57.213 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:17:57.375 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:17:57.384 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:17:57.394 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5894ms.
+2018-11-14 17:17:57.425 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:17:57.547 +08:00 [INF] Executed ViewResult - view Index executed in 143.5946ms.
+2018-11-14 17:17:57.550 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 173.8948ms
+2018-11-14 17:17:57.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner1.svg  
+2018-11-14 17:17:57.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:17:57.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner2.svg  
+2018-11-14 17:17:57.582 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/jquery/dist/jquery.js  
+2018-11-14 17:17:57.590 +08:00 [INF] Request finished in 377.0566ms 200 text/html; charset=utf-8
+2018-11-14 17:17:57.593 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/css/site.css  
+2018-11-14 17:17:57.594 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-14 17:17:57.594 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-14 17:17:57.594 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-14 17:17:57.594 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-14 17:17:57.595 +08:00 [INF] The file /css/site.css was not modified
+2018-11-14 17:17:57.598 +08:00 [INF] Request finished in 15.9494ms 304 application/javascript
+2018-11-14 17:17:57.598 +08:00 [INF] Request finished in 15.7415ms 304 application/javascript
+2018-11-14 17:17:57.598 +08:00 [INF] Request finished in 15.9494ms 304 image/svg+xml
+2018-11-14 17:17:57.598 +08:00 [INF] Request finished in 16.0468ms 304 image/svg+xml
+2018-11-14 17:17:57.599 +08:00 [INF] Request finished in 5.2672ms 304 text/css
+2018-11-14 17:17:57.599 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:17:57.613 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner3.svg  
+2018-11-14 17:17:57.615 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:17:57.620 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-14 17:17:57.625 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-14 17:17:57.630 +08:00 [INF] The file /js/site.js was not modified
+2018-11-14 17:17:57.631 +08:00 [INF] Request finished in 31.2122ms 304 text/css
+2018-11-14 17:17:57.635 +08:00 [INF] Request finished in 21.7218ms 304 image/svg+xml
+2018-11-14 17:17:57.642 +08:00 [INF] Request finished in 27.0239ms 304 application/javascript
+2018-11-14 17:17:57.659 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:17:57.662 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-14 17:17:57.671 +08:00 [INF] Request finished in 11.8744ms 304 font/woff2
+2018-11-14 17:18:47.692 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/api/Test/users1  
+2018-11-14 17:18:47.702 +08:00 [INF] Route matched with {action = "Test1", controller = "Test"}. Executing action Geek.Project.Portal.Controllers.TestController.Test1 (Geek.Project.Portal)
+2018-11-14 17:18:47.712 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.TestController.Test1 (Geek.Project.Portal) in 3.3226ms
+2018-11-14 17:18:47.719 +08:00 [ERR] Connection id "0HLIA287Q83GP", Request id "0HLIA287Q83GP:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:18:47.856 +08:00 [INF] Request finished in 164.1244ms 500 
+2018-11-14 17:18:51.767 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/api/users1  
+2018-11-14 17:18:51.773 +08:00 [INF] Request finished in 6.1876ms 404 
+2018-11-14 17:19:45.367 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/api/test/users1  
+2018-11-14 17:19:45.374 +08:00 [INF] Route matched with {action = "Test1", controller = "Test"}. Executing action Geek.Project.Portal.Controllers.TestController.Test1 (Geek.Project.Portal)
+2018-11-14 17:19:45.380 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.TestController.Test1 (Geek.Project.Portal) in 2.6769000000000003ms
+2018-11-14 17:19:45.385 +08:00 [ERR] Connection id "0HLIA287Q83GP", Request id "0HLIA287Q83GP:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:19:45.483 +08:00 [INF] Request finished in 116.4445ms 500 
+2018-11-14 17:21:37.013 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:21:39.010 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:21:39.218 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:21:39.235 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:21:39.247 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4938ms.
+2018-11-14 17:21:39.293 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:21:39.412 +08:00 [INF] Executed ViewResult - view Index executed in 147.79410000000001ms.
+2018-11-14 17:21:39.413 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 193.4482ms
+2018-11-14 17:21:39.430 +08:00 [INF] Request finished in 423.249ms 200 text/html; charset=utf-8
+2018-11-14 17:21:39.436 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner1.svg  
+2018-11-14 17:21:39.436 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner2.svg  
+2018-11-14 17:21:39.436 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/css/site.css  
+2018-11-14 17:21:39.438 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:21:39.440 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:21:39.448 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-14 17:21:39.448 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-14 17:21:39.448 +08:00 [INF] The file /css/site.css was not modified
+2018-11-14 17:21:39.448 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-14 17:21:39.448 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-14 17:21:39.452 +08:00 [INF] Request finished in 16.1421ms 304 text/css
+2018-11-14 17:21:39.452 +08:00 [INF] Request finished in 16.4022ms 304 image/svg+xml
+2018-11-14 17:21:39.452 +08:00 [INF] Request finished in 16.4185ms 304 image/svg+xml
+2018-11-14 17:21:39.453 +08:00 [INF] Request finished in 14.7479ms 304 application/javascript
+2018-11-14 17:21:39.454 +08:00 [INF] Request finished in 13.8302ms 304 text/css
+2018-11-14 17:21:39.459 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/jquery/dist/jquery.js  
+2018-11-14 17:21:39.466 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:21:39.466 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner3.svg  
+2018-11-14 17:21:39.489 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-14 17:21:39.482 +08:00 [INF] The file /js/site.js was not modified
+2018-11-14 17:21:39.495 +08:00 [INF] Request finished in 29.2535ms 304 application/javascript
+2018-11-14 17:21:39.493 +08:00 [INF] Request finished in 27.0727ms 304 image/svg+xml
+2018-11-14 17:21:39.477 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-14 17:21:39.506 +08:00 [INF] Request finished in 46.7272ms 304 application/javascript
+2018-11-14 17:21:39.499 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:21:39.514 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-14 17:21:39.515 +08:00 [INF] Request finished in 15.9186ms 304 font/woff2
+2018-11-14 17:21:52.317 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test  
+2018-11-14 17:21:52.322 +08:00 [INF] Request finished in 5.1476ms 404 
+2018-11-14 17:21:55.425 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test1  
+2018-11-14 17:21:55.439 +08:00 [INF] Route matched with {action = "Test1", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal)
+2018-11-14 17:21:55.444 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal) in 2.8785000000000003ms
+2018-11-14 17:21:55.453 +08:00 [ERR] Connection id "0HLIA2AA24P8G", Request id "0HLIA2AA24P8G:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:21:55.539 +08:00 [INF] Request finished in 114.2364ms 500 
+2018-11-14 17:22:01.918 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:22:01.928 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:22:01.934 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 1.7912000000000001ms
+2018-11-14 17:22:01.944 +08:00 [ERR] Connection id "0HLIA2AA24P8G", Request id "0HLIA2AA24P8G:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:22:02.034 +08:00 [INF] Request finished in 115.6145ms 500 
+2018-11-14 17:22:10.090 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:22:10.091 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:22:10.108 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 0.5368ms
+2018-11-14 17:22:10.111 +08:00 [ERR] Connection id "0HLIA2AA24P8K", Request id "0HLIA2AA24P8K:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:22:10.171 +08:00 [INF] Request finished in 81.1588ms 500 
+2018-11-14 17:22:25.028 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:22:25.876 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:22:26.072 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:22:26.083 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:22:26.097 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.63540000000000008ms.
+2018-11-14 17:22:26.131 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:22:26.252 +08:00 [INF] Executed ViewResult - view Index executed in 143.18030000000002ms.
+2018-11-14 17:22:26.260 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 186.2415ms
+2018-11-14 17:22:26.285 +08:00 [INF] Request finished in 414.4006ms 200 text/html; charset=utf-8
+2018-11-14 17:22:29.804 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:22:29.815 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:22:29.820 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 1.9304000000000001ms
+2018-11-14 17:22:29.826 +08:00 [ERR] Connection id "0HLIA2AOB1G25", Request id "0HLIA2AOB1G25:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:22:29.920 +08:00 [INF] Request finished in 115.7047ms 500 
+2018-11-14 17:23:38.718 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:23:39.390 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:23:39.502 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:23:39.519 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:23:39.530 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3199ms.
+2018-11-14 17:23:39.557 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:23:39.640 +08:00 [INF] Executed ViewResult - view Index executed in 102.10520000000001ms.
+2018-11-14 17:23:39.642 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 135.1355ms
+2018-11-14 17:23:39.660 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:23:39.660 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/css/site.css  
+2018-11-14 17:23:39.661 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner2.svg  
+2018-11-14 17:23:39.661 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/jquery/dist/jquery.js  
+2018-11-14 17:23:39.663 +08:00 [INF] Request finished in 274.0449ms 200 text/html; charset=utf-8
+2018-11-14 17:23:39.669 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:23:39.673 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-14 17:23:39.674 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-14 17:23:39.674 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-14 17:23:39.674 +08:00 [INF] The file /css/site.css was not modified
+2018-11-14 17:23:39.674 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-14 17:23:39.680 +08:00 [INF] Request finished in 18.5543ms 304 application/javascript
+2018-11-14 17:23:39.680 +08:00 [INF] Request finished in 11.1625ms 304 text/css
+2018-11-14 17:23:39.680 +08:00 [INF] Request finished in 18.7367ms 304 image/svg+xml
+2018-11-14 17:23:39.680 +08:00 [INF] Request finished in 19.9348ms 304 text/css
+2018-11-14 17:23:39.680 +08:00 [INF] Request finished in 20.8005ms 304 application/javascript
+2018-11-14 17:23:39.681 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner1.svg  
+2018-11-14 17:23:39.690 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner3.svg  
+2018-11-14 17:23:39.697 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:23:39.699 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-14 17:23:39.702 +08:00 [INF] Request finished in 21.4221ms 304 image/svg+xml
+2018-11-14 17:23:39.701 +08:00 [INF] The file /js/site.js was not modified
+2018-11-14 17:23:39.700 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-14 17:23:39.712 +08:00 [INF] Request finished in 14.879ms 304 application/javascript
+2018-11-14 17:23:39.717 +08:00 [INF] Request finished in 27.5871ms 304 image/svg+xml
+2018-11-14 17:23:39.731 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:23:39.739 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-14 17:23:39.742 +08:00 [INF] Request finished in 10.8252ms 304 font/woff2
+2018-11-14 17:23:41.245 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:23:41.262 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:23:41.265 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 1.2793ms
+2018-11-14 17:23:41.276 +08:00 [ERR] Connection id "0HLIA2BEAP3D1", Request id "0HLIA2BEAP3D1:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:23:41.384 +08:00 [INF] Request finished in 139.4291ms 500 
+2018-11-14 17:23:42.142 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:23:42.144 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:23:42.150 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 0.63740000000000008ms
+2018-11-14 17:23:42.155 +08:00 [ERR] Connection id "0HLIA2BEAP3D1", Request id "0HLIA2BEAP3D1:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:23:42.234 +08:00 [INF] Request finished in 92.1858ms 500 
+2018-11-14 17:23:42.730 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:23:42.732 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:23:42.734 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 0.49660000000000004ms
+2018-11-14 17:23:42.736 +08:00 [ERR] Connection id "0HLIA2BEAP3D1", Request id "0HLIA2BEAP3D1:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:23:42.821 +08:00 [INF] Request finished in 90.9268ms 500 
+2018-11-14 17:23:45.461 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:23:45.463 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:23:45.468 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 0.4913ms
+2018-11-14 17:23:45.473 +08:00 [ERR] Connection id "0HLIA2BEAP3D1", Request id "0HLIA2BEAP3D1:00000008": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:23:45.553 +08:00 [INF] Request finished in 92.2709ms 500 
+2018-11-14 17:23:45.927 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:23:45.930 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:23:45.936 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 0.41490000000000005ms
+2018-11-14 17:23:45.941 +08:00 [ERR] Connection id "0HLIA2BEAP3D1", Request id "0HLIA2BEAP3D1:00000009": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:23:46.016 +08:00 [INF] Request finished in 89.0947ms 500 
+2018-11-14 17:23:46.228 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:23:46.231 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:23:46.236 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 0.4761ms
+2018-11-14 17:23:46.241 +08:00 [ERR] Connection id "0HLIA2BEAP3D1", Request id "0HLIA2BEAP3D1:0000000A": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Repository.Interface.ISysUserRepository' while attempting to activate 'Geek.Project.Core.Service.Impl.SysUserService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:23:46.359 +08:00 [INF] Request finished in 130.3973ms 500 
+2018-11-14 17:25:00.478 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:25:01.153 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:25:01.289 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:25:01.306 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:25:01.315 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6894ms.
+2018-11-14 17:25:01.334 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:25:01.416 +08:00 [INF] Executed ViewResult - view Index executed in 93.5445ms.
+2018-11-14 17:25:01.417 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 126.674ms
+2018-11-14 17:25:01.425 +08:00 [INF] Request finished in 274.8616ms 200 text/html; charset=utf-8
+2018-11-14 17:25:01.435 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner2.svg  
+2018-11-14 17:25:01.435 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:25:01.435 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/css/site.css  
+2018-11-14 17:25:01.436 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner1.svg  
+2018-11-14 17:25:01.436 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:25:01.446 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-14 17:25:01.446 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-14 17:25:01.446 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-14 17:25:01.446 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-14 17:25:01.446 +08:00 [INF] The file /css/site.css was not modified
+2018-11-14 17:25:01.456 +08:00 [INF] Request finished in 20.2013ms 304 text/css
+2018-11-14 17:25:01.456 +08:00 [INF] Request finished in 20.343ms 304 application/javascript
+2018-11-14 17:25:01.456 +08:00 [INF] Request finished in 20.2197ms 304 image/svg+xml
+2018-11-14 17:25:01.456 +08:00 [INF] Request finished in 20.343ms 304 image/svg+xml
+2018-11-14 17:25:01.456 +08:00 [INF] Request finished in 20.4543ms 304 text/css
+2018-11-14 17:25:01.458 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/jquery/dist/jquery.js  
+2018-11-14 17:25:01.465 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/images/banner3.svg  
+2018-11-14 17:25:01.469 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:25:01.471 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-14 17:25:01.475 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-14 17:25:01.484 +08:00 [INF] Request finished in 18.7982ms 304 image/svg+xml
+2018-11-14 17:25:01.482 +08:00 [INF] Request finished in 24.4229ms 304 application/javascript
+2018-11-14 17:25:01.478 +08:00 [INF] The file /js/site.js was not modified
+2018-11-14 17:25:01.493 +08:00 [INF] Request finished in 23.8846ms 304 application/javascript
+2018-11-14 17:25:01.498 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:25:01.499 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-14 17:25:01.503 +08:00 [INF] Request finished in 5.1296ms 304 font/woff2
+2018-11-14 17:25:09.749 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/Demo/Test2  
+2018-11-14 17:25:09.762 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:25:10.071 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:25:10.075 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:25:10.576 +08:00 [INF] Executed DbCommand (98ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[UpdateTime], [s].[UserName]
+FROM [SysUser] AS [s]
+2018-11-14 17:25:10.640 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 562.8868ms.
+2018-11-14 17:25:10.650 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:25:10.692 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 927.12520000000006ms
+2018-11-14 17:25:10.698 +08:00 [INF] Request finished in 949.5417ms 200 application/json; charset=utf-8
+2018-11-14 17:28:34.069 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:28:34.755 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:28:34.788 +08:00 [INF] Request finished in 36.9064ms 307 
+2018-11-14 17:28:34.876 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-14 17:28:34.956 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:28:34.967 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:28:34.978 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9536ms.
+2018-11-14 17:28:35.005 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:28:35.148 +08:00 [INF] Executed ViewResult - view Index executed in 161.58270000000002ms.
+2018-11-14 17:28:35.171 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 213.1129ms
+2018-11-14 17:28:35.204 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-14 17:28:35.212 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-14 17:28:35.212 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-14 17:28:35.212 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:28:35.236 +08:00 [INF] Request finished in 360.4282ms 200 text/html; charset=utf-8
+2018-11-14 17:28:35.243 +08:00 [INF] Sending file. Request path: '/images/banner1.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner1.svg'
+2018-11-14 17:28:35.250 +08:00 [INF] Request finished in 45.2447ms 200 image/svg+xml
+2018-11-14 17:28:35.250 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\css\site.css'
+2018-11-14 17:28:35.254 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:28:35.255 +08:00 [INF] Request finished in 42.819ms 200 text/css
+2018-11-14 17:28:35.258 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-14 17:28:35.262 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-11-14 17:28:35.270 +08:00 [INF] Request finished in 57.7907ms 200 application/javascript
+2018-11-14 17:28:35.265 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-14 17:28:35.267 +08:00 [INF] Sending file. Request path: '/images/banner2.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner2.svg'
+2018-11-14 17:28:35.265 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:28:35.272 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-11-14 17:28:35.281 +08:00 [INF] Sending file. Request path: '/images/banner3.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner3.svg'
+2018-11-14 17:28:35.284 +08:00 [INF] Request finished in 25.3613ms 200 image/svg+xml
+2018-11-14 17:28:35.286 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\js\site.js'
+2018-11-14 17:28:35.294 +08:00 [INF] Request finished in 40.1466ms 200 text/css
+2018-11-14 17:28:35.301 +08:00 [INF] Request finished in 35.2607ms 200 image/svg+xml
+2018-11-14 17:28:35.308 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.js'
+2018-11-14 17:28:35.311 +08:00 [INF] Request finished in 45.9397ms 200 application/javascript
+2018-11-14 17:28:35.318 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:28:35.322 +08:00 [INF] Request finished in 110.4003ms 200 application/javascript
+2018-11-14 17:28:35.339 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-11-14 17:28:35.349 +08:00 [INF] Request finished in 30.9455ms 200 font/woff2
+2018-11-14 17:28:49.701 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+2018-11-14 17:28:49.744 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test2  
+2018-11-14 17:28:49.793 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:28:49.947 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:28:49.951 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:28:50.346 +08:00 [INF] Executed DbCommand (87ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[UpdateTime], [s].[UserName]
+FROM [SysUser] AS [s]
+2018-11-14 17:28:50.441 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 487.73ms.
+2018-11-14 17:28:50.458 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:28:50.511 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 714.9588ms
+2018-11-14 17:28:50.514 +08:00 [INF] Request finished in 769.9184ms 200 application/json; charset=utf-8
+2018-11-14 17:28:58.476 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test1  
+2018-11-14 17:28:58.479 +08:00 [INF] Route matched with {action = "Test1", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal)
+2018-11-14 17:28:58.482 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:28:58.494 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:28:58.551 +08:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[UpdateTime], [s].[UserName]
+FROM [SysUser] AS [s]
+2018-11-14 17:28:58.558 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 62.1642ms.
+2018-11-14 17:28:58.565 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:28:58.570 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal) in 89.802500000000009ms
+2018-11-14 17:28:58.571 +08:00 [INF] Request finished in 94.8233ms 200 application/json; charset=utf-8
+2018-11-14 17:29:24.729 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test2  
+2018-11-14 17:29:24.731 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:29:24.734 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:29:24.736 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:29:24.788 +08:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[UpdateTime], [s].[UserName]
+FROM [SysUser] AS [s]
+2018-11-14 17:29:24.795 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 51.7359ms.
+2018-11-14 17:29:24.801 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:29:24.807 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 73.914600000000007ms
+2018-11-14 17:29:24.810 +08:00 [INF] Request finished in 81.126ms 200 application/json; charset=utf-8
+2018-11-14 17:36:14.706 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:36:16.956 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:36:16.997 +08:00 [INF] Request finished in 42.8494ms 307 
+2018-11-14 17:36:17.156 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-14 17:36:17.277 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:36:17.294 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:36:17.308 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6097ms.
+2018-11-14 17:36:17.347 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:36:17.472 +08:00 [INF] Executed ViewResult - view Index executed in 147.5615ms.
+2018-11-14 17:36:17.490 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 210.6225ms
+2018-11-14 17:36:17.504 +08:00 [INF] Request finished in 348.3854ms 200 text/html; charset=utf-8
+2018-11-14 17:36:17.519 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:36:17.520 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-14 17:36:17.521 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:36:17.521 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-14 17:36:17.521 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-14 17:36:17.533 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-14 17:36:17.533 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-14 17:36:17.533 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-14 17:36:17.533 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-14 17:36:17.533 +08:00 [INF] The file /css/site.css was not modified
+2018-11-14 17:36:17.536 +08:00 [INF] Request finished in 17.3188ms 304 text/css
+2018-11-14 17:36:17.536 +08:00 [INF] Request finished in 15.2748ms 304 image/svg+xml
+2018-11-14 17:36:17.537 +08:00 [INF] Request finished in 16.2292ms 304 application/javascript
+2018-11-14 17:36:17.538 +08:00 [INF] Request finished in 17.1628ms 304 application/javascript
+2018-11-14 17:36:17.539 +08:00 [INF] Request finished in 19.0088ms 304 text/css
+2018-11-14 17:36:17.540 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-14 17:36:17.551 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:36:17.556 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-14 17:36:17.561 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-14 17:36:17.566 +08:00 [INF] The file /js/site.js was not modified
+2018-11-14 17:36:17.567 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-14 17:36:17.568 +08:00 [INF] Request finished in 28.4121ms 304 image/svg+xml
+2018-11-14 17:36:17.573 +08:00 [INF] Request finished in 21.8619ms 304 application/javascript
+2018-11-14 17:36:17.576 +08:00 [INF] Request finished in 19.1096ms 304 image/svg+xml
+2018-11-14 17:36:17.585 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:36:17.598 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-14 17:36:17.615 +08:00 [INF] Request finished in 29.6239ms 304 font/woff2
+2018-11-14 17:36:22.316 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+2018-11-14 17:36:22.342 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test2  
+2018-11-14 17:36:22.408 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:36:22.558 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:36:22.563 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:36:23.019 +08:00 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[Age], [u].[CreateTime], [u].[Email], [u].[Password], [u].[RealName], [u].[Remark], [u].[RoleId], [u].[UpdateTime], [u].[UserName], [u.Role].[Id], [u.Role].[RoleName]
+FROM [SysUser] AS [u]
+LEFT JOIN [SysRole] AS [u.Role] ON [u].[RoleId] = [u.Role].[Id]
+WHERE [u].[Id] >= 26
+2018-11-14 17:36:23.088 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 523.6137ms.
+2018-11-14 17:36:23.098 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:36:23.138 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 728.1762ms
+2018-11-14 17:36:23.142 +08:00 [INF] Request finished in 799.9716ms 200 application/json; charset=utf-8
+2018-11-14 17:38:56.276 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+2018-11-14 17:38:56.284 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test1  
+2018-11-14 17:38:56.302 +08:00 [INF] Route matched with {action = "Test1", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal)
+2018-11-14 17:38:56.306 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:38:56.336 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:38:56.405 +08:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[UpdateTime], [s].[UserName]
+FROM [SysUser] AS [s]
+2018-11-14 17:38:56.413 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 68.2872ms.
+2018-11-14 17:38:56.423 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:38:56.424 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal) in 120.3048ms
+2018-11-14 17:38:56.428 +08:00 [INF] Request finished in 143.5004ms 200 application/json; charset=utf-8
+2018-11-14 17:50:59.430 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:51:00.205 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:51:00.259 +08:00 [INF] Request finished in 56.1099ms 307 
+2018-11-14 17:51:00.288 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-14 17:51:00.411 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:51:00.425 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:51:00.438 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.48200000000000004ms.
+2018-11-14 17:51:00.472 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:51:00.609 +08:00 [INF] Executed ViewResult - view Index executed in 160.9358ms.
+2018-11-14 17:51:00.627 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 214.8228ms
+2018-11-14 17:51:00.645 +08:00 [INF] Request finished in 356.9243ms 200 text/html; charset=utf-8
+2018-11-14 17:51:00.704 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:51:00.705 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-14 17:51:00.705 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-14 17:51:00.706 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:51:00.709 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-14 17:51:00.716 +08:00 [INF] The file /css/site.css was not modified
+2018-11-14 17:51:00.716 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-14 17:51:00.717 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-14 17:51:00.726 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-14 17:51:00.727 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-14 17:51:00.731 +08:00 [INF] Request finished in 25.7126ms 304 text/css
+2018-11-14 17:51:00.735 +08:00 [INF] Request finished in 31.2273ms 304 text/css
+2018-11-14 17:51:00.736 +08:00 [INF] Request finished in 30.4369ms 304 application/javascript
+2018-11-14 17:51:00.737 +08:00 [INF] Request finished in 31.2912ms 304 application/javascript
+2018-11-14 17:51:00.739 +08:00 [INF] Request finished in 30.6695ms 304 image/svg+xml
+2018-11-14 17:51:00.742 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-14 17:51:00.765 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-14 17:51:00.778 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:51:00.779 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-14 17:51:00.780 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:51:00.792 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-14 17:51:00.799 +08:00 [INF] The file /js/site.js was not modified
+2018-11-14 17:51:00.803 +08:00 [INF] Request finished in 60.7879ms 304 image/svg+xml
+2018-11-14 17:51:00.809 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-14 17:51:00.810 +08:00 [INF] Request finished in 44.6349ms 304 image/svg+xml
+2018-11-14 17:51:00.813 +08:00 [INF] Request finished in 35.7916ms 304 application/javascript
+2018-11-14 17:51:00.827 +08:00 [INF] Request finished in 46.8408ms 304 font/woff2
+2018-11-14 17:51:27.870 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+2018-11-14 17:51:27.882 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test1  
+2018-11-14 17:51:27.914 +08:00 [INF] Route matched with {action = "Test1", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal)
+2018-11-14 17:51:28.069 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:51:28.072 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:51:28.482 +08:00 [INF] Executed DbCommand (91ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[UpdateTime], [s].[UserName]
+FROM [SysUser] AS [s]
+2018-11-14 17:51:28.518 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 444.9957ms.
+2018-11-14 17:51:28.523 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:51:28.568 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test1 (Geek.Project.Portal) in 652.96440000000007ms
+2018-11-14 17:51:28.570 +08:00 [INF] Request finished in 687.4635ms 200 application/json; charset=utf-8
+2018-11-14 17:51:35.750 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test2  
+2018-11-14 17:51:35.757 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:51:35.759 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:51:35.764 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:51:35.783 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 24.925600000000003ms
+2018-11-14 17:51:35.786 +08:00 [ERR] Connection id "0HLIA2QN9BNKF", Request id "0HLIA2QN9BNKF:00000002": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityTypeExtensions.DisplayName(IEntityType type)
+   at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.WalkNavigations(IEntityType entityType, IReadOnlyList`1 navigationPropertyPaths, IncludeLoadTree includeLoadTree)
+   at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.PopulateIncludeLoadTree(IncludeResultOperator includeResultOperator, IncludeLoadTree includeLoadTree)
+   at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.CreateIncludeLoadTrees(QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.IncludeCompiler.CompileIncludes(QueryModel queryModel, Boolean trackingQuery, Boolean asyncQuery)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.OptimizeQueryModel(QueryModel queryModel, Boolean asyncQuery)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryModelVisitor.OptimizeQueryModel(QueryModel queryModel, Boolean asyncQuery)
+   at Microsoft.EntityFrameworkCore.Query.EntityQueryModelVisitor.CreateAsyncQueryExecutor[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileAsyncQuery[TResult](QueryModel queryModel)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileAsyncQueryCore[TResult](Expression query, IQueryModelGenerator queryModelGenerator, IDatabase database)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass22_0`1.<CompileAsyncQuery>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddAsyncQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileAsyncQuery[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.System.Collections.Generic.IAsyncEnumerable<TResult>.GetEnumerator()
+   at System.Linq.AsyncEnumerable.Aggregate_[TSource,TAccumulate,TResult](IAsyncEnumerable`1 source, TAccumulate seed, Func`3 accumulator, Func`2 resultSelector, CancellationToken cancellationToken)
+   at Geek.Project.Core.Repository.Impl.SysUserRepository.GetAllListAsync() in C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Core\Repository\Impl\SysUserRepository.cs:line 23
+   at Geek.Project.Core.Service.Impl.SysUserService.GetUserListAsync() in C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Core\Service\Impl\SysUserService.cs:line 37
+   at Geek.Project.Portal.Controllers.DemoController.Test2() in C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\Controllers\DemoController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-11-14 17:51:35.832 +08:00 [INF] Request finished in 82.0088ms 500 
+2018-11-14 17:52:14.989 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:52:15.606 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:52:15.641 +08:00 [INF] Request finished in 36.6501ms 307 
+2018-11-14 17:52:15.742 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-14 17:52:15.841 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:52:15.855 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:52:15.863 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.48810000000000003ms.
+2018-11-14 17:52:15.893 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:52:16.026 +08:00 [INF] Executed ViewResult - view Index executed in 149.5619ms.
+2018-11-14 17:52:16.047 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 203.74380000000002ms
+2018-11-14 17:52:16.121 +08:00 [INF] Request finished in 379.0366ms 200 text/html; charset=utf-8
+2018-11-14 17:52:20.175 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+2018-11-14 17:52:20.214 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test2  
+2018-11-14 17:52:20.238 +08:00 [INF] Route matched with {action = "Test2", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal)
+2018-11-14 17:52:20.399 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:52:20.403 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:52:20.860 +08:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[Age], [u].[CreateTime], [u].[Email], [u].[Password], [u].[RealName], [u].[Remark], [u].[RoleId], [u].[UpdateTime], [u].[UserName], [u.Role].[Id], [u.Role].[RoleName]
+FROM [SysUser] AS [u]
+LEFT JOIN [SysRole] AS [u.Role] ON [u].[RoleId] = [u.Role].[Id]
+WHERE [u].[Id] >= 26
+2018-11-14 17:52:20.932 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 527.6304ms.
+2018-11-14 17:52:20.942 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:52:20.990 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test2 (Geek.Project.Portal) in 748.25380000000007ms
+2018-11-14 17:52:20.995 +08:00 [INF] Request finished in 781.5546ms 200 application/json; charset=utf-8
+2018-11-14 17:59:32.688 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 17:59:33.448 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 17:59:33.496 +08:00 [INF] Request finished in 50.0515ms 307 
+2018-11-14 17:59:33.551 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-14 17:59:33.646 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 17:59:33.663 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:59:33.677 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.618ms.
+2018-11-14 17:59:33.705 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 17:59:33.814 +08:00 [INF] Executed ViewResult - view Index executed in 126.6397ms.
+2018-11-14 17:59:33.825 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 176.9712ms
+2018-11-14 17:59:33.842 +08:00 [INF] Request finished in 291.4876ms 200 text/html; charset=utf-8
+2018-11-14 17:59:33.862 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-14 17:59:33.864 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-14 17:59:33.864 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-14 17:59:33.864 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-14 17:59:33.871 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-14 17:59:33.871 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-14 17:59:33.871 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-14 17:59:33.871 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-14 17:59:33.871 +08:00 [INF] The file /css/site.css was not modified
+2018-11-14 17:59:33.880 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-14 17:59:33.882 +08:00 [INF] Request finished in 17.975ms 304 image/svg+xml
+2018-11-14 17:59:33.882 +08:00 [INF] Request finished in 19.9413ms 304 text/css
+2018-11-14 17:59:33.883 +08:00 [INF] Request finished in 18.515ms 304 application/javascript
+2018-11-14 17:59:33.883 +08:00 [INF] Request finished in 19.3139ms 304 text/css
+2018-11-14 17:59:33.884 +08:00 [INF] Request finished in 13.273ms 304 application/javascript
+2018-11-14 17:59:33.893 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-14 17:59:33.902 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-14 17:59:33.907 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-14 17:59:33.909 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-14 17:59:33.912 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-14 17:59:33.917 +08:00 [INF] The file /js/site.js was not modified
+2018-11-14 17:59:33.918 +08:00 [INF] Request finished in 25.6073ms 304 image/svg+xml
+2018-11-14 17:59:33.923 +08:00 [INF] Request finished in 20.9274ms 304 image/svg+xml
+2018-11-14 17:59:33.925 +08:00 [INF] Request finished in 18.1958ms 304 application/javascript
+2018-11-14 17:59:33.931 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-14 17:59:33.944 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-14 17:59:33.947 +08:00 [INF] Request finished in 16.2547ms 304 font/woff2
+2018-11-14 17:59:46.945 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+2018-11-14 17:59:46.964 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test3  
+2018-11-14 17:59:47.004 +08:00 [INF] Route matched with {action = "Test3", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test3 (Geek.Project.Portal)
+2018-11-14 17:59:47.158 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 17:59:47.163 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test3 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 17:59:47.567 +08:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[Age], [u].[CreateTime], [u].[Email], [u].[Password], [u].[RealName], [u].[Remark], [u].[RoleId], [u].[UpdateTime], [u].[UserName], [u.Role].[Id], [u.Role].[RoleName]
+FROM [SysUser] AS [u]
+LEFT JOIN [SysRole] AS [u.Role] ON [u].[RoleId] = [u.Role].[Id]
+WHERE [u].[Age] >= 23
+2018-11-14 17:59:47.634 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test3 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 469.045ms.
+2018-11-14 17:59:47.644 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 17:59:47.687 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test3 (Geek.Project.Portal) in 678.6737ms
+2018-11-14 17:59:47.692 +08:00 [INF] Request finished in 727.1828ms 200 application/json; charset=utf-8
+2018-11-14 18:02:15.855 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-14 18:02:16.507 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-14 18:02:16.554 +08:00 [INF] Request finished in 48.8009ms 307 
+2018-11-14 18:02:16.578 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-14 18:02:16.681 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-14 18:02:16.688 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 18:02:16.696 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2973ms.
+2018-11-14 18:02:16.717 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-14 18:02:16.807 +08:00 [INF] Executed ViewResult - view Index executed in 102.3722ms.
+2018-11-14 18:02:16.808 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 126.3159ms
+2018-11-14 18:02:16.823 +08:00 [INF] Request finished in 244.937ms 200 text/html; charset=utf-8
+2018-11-14 18:02:21.719 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+2018-11-14 18:02:21.742 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Demo/Test3  
+2018-11-14 18:02:21.777 +08:00 [INF] Route matched with {action = "Test3", controller = "Demo"}. Executing action Geek.Project.Portal.Controllers.DemoController.Test3 (Geek.Project.Portal)
+2018-11-14 18:02:21.927 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-14 18:02:21.932 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.DemoController.Test3 (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-14 18:02:22.329 +08:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[Age], [u].[CreateTime], [u].[Email], [u].[Password], [u].[RealName], [u].[Remark], [u].[RoleId], [u].[UpdateTime], [u].[UserName], [u.Role].[Id], [u.Role].[RoleName]
+FROM [SysUser] AS [u]
+LEFT JOIN [SysRole] AS [u.Role] ON [u].[RoleId] = [u.Role].[Id]
+WHERE [u].[Age] >= 23
+2018-11-14 18:02:22.397 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.DemoController.Test3 (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 463.4365ms.
+2018-11-14 18:02:22.408 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Geek.Project.Entity.SysUser, Geek.Project.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-14 18:02:22.449 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.DemoController.Test3 (Geek.Project.Portal) in 671.2122ms
+2018-11-14 18:02:22.454 +08:00 [INF] Request finished in 712.0307ms 200 application/json; charset=utf-8

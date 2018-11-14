@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Geek.Project.Entity\Geek.Project.Entity.csproj" />
+    <ProjectReference Include="..\Geek.Project.Infrastructure\Geek.Project.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
