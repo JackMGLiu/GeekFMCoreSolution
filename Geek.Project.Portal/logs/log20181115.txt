@@ -1075,3 +1075,900 @@
 2018-11-15 00:23:07.491 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
 2018-11-15 00:23:07.493 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
 2018-11-15 00:23:07.496 +08:00 [INF] Request finished in 5.2493ms 200 image/x-icon
+2018-11-15 00:43:02.936 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-15 00:43:03.673 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-15 00:43:03.704 +08:00 [INF] Request finished in 33.5067ms 307 
+2018-11-15 00:43:03.758 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-15 00:43:03.931 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-15 00:43:03.945 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:43:03.956 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.35500000000000004ms.
+2018-11-15 00:43:03.978 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:43:04.065 +08:00 [INF] Executed ViewResult - view Index executed in 99.3027ms.
+2018-11-15 00:43:04.068 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 134.3229ms
+2018-11-15 00:43:04.086 +08:00 [INF] Request finished in 327.6776ms 200 text/html; charset=utf-8
+2018-11-15 00:43:04.114 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-15 00:43:04.114 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-15 00:43:04.114 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-15 00:43:04.114 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-15 00:43:04.116 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-15 00:43:04.131 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\css\site.css'
+2018-11-15 00:43:04.133 +08:00 [INF] Request finished in 18.6727ms 200 text/css
+2018-11-15 00:43:04.134 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-15 00:43:04.131 +08:00 [INF] Sending file. Request path: '/images/banner1.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner1.svg'
+2018-11-15 00:43:04.140 +08:00 [INF] Sending file. Request path: '/images/banner2.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner2.svg'
+2018-11-15 00:43:04.141 +08:00 [INF] Request finished in 26.9764ms 200 image/svg+xml
+2018-11-15 00:43:04.144 +08:00 [INF] Request finished in 28.3995ms 200 image/svg+xml
+2018-11-15 00:43:04.158 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-15 00:43:04.156 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-11-15 00:43:04.171 +08:00 [INF] Request finished in 56.8976ms 200 application/javascript
+2018-11-15 00:43:04.159 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-11-15 00:43:04.183 +08:00 [INF] Request finished in 49.1927ms 200 text/css
+2018-11-15 00:43:04.168 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\js\site.js'
+2018-11-15 00:43:04.155 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-15 00:43:04.163 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.js'
+2018-11-15 00:43:04.193 +08:00 [INF] Request finished in 34.7744ms 200 application/javascript
+2018-11-15 00:43:04.213 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-15 00:43:04.207 +08:00 [INF] Request finished in 92.4768ms 200 application/javascript
+2018-11-15 00:43:04.202 +08:00 [INF] Sending file. Request path: '/images/banner3.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner3.svg'
+2018-11-15 00:43:04.240 +08:00 [INF] Request finished in 85.3889ms 200 image/svg+xml
+2018-11-15 00:43:04.226 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-11-15 00:43:04.251 +08:00 [INF] Request finished in 37.8159ms 200 font/woff2
+2018-11-15 00:43:11.823 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:43:11.832 +08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:43:11.845 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:43:11.852 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.35810000000000003ms.
+2018-11-15 00:43:11.873 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:43:11.899 +08:00 [INF] Executed ViewResult - view Index executed in 32.849000000000004ms.
+2018-11-15 00:43:11.905 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 60.4654ms
+2018-11-15 00:43:11.922 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:43:11.923 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/main.js  
+2018-11-15 00:43:11.927 +08:00 [INF] Request finished in 104.6902ms 200 text/html; charset=utf-8
+2018-11-15 00:43:11.930 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-11-15 00:43:11.930 +08:00 [INF] The file /assets/js/main.js was not modified
+2018-11-15 00:43:11.937 +08:00 [INF] Request finished in 14.1647ms 304 application/javascript
+2018-11-15 00:43:11.946 +08:00 [INF] Request finished in 22.9052ms 304 application/javascript
+2018-11-15 00:43:12.029 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/admin.js  
+2018-11-15 00:43:12.031 +08:00 [INF] The file /module/admin.js was not modified
+2018-11-15 00:43:12.032 +08:00 [INF] Request finished in 2.9389ms 304 application/javascript
+2018-11-15 00:43:12.041 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/index.js  
+2018-11-15 00:43:12.043 +08:00 [INF] The file /module/index.js was not modified
+2018-11-15 00:43:12.048 +08:00 [INF] Request finished in 6.1087ms 304 application/javascript
+2018-11-15 00:43:12.060 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:43:12.062 +08:00 [INF] Route matched with {action = "Console", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:43:12.066 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:43:12.081 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2886ms.
+2018-11-15 00:43:12.099 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:43:12.190 +08:00 [INF] Executed ViewResult - view Console executed in 95.1965ms.
+2018-11-15 00:43:12.192 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 126.05760000000001ms
+2018-11-15 00:43:12.195 +08:00 [INF] Request finished in 134.914ms 200 text/html; charset=utf-8
+2018-11-15 00:43:17.253 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:43:17.255 +08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:43:17.259 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:43:17.267 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0279ms.
+2018-11-15 00:43:17.284 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:43:17.288 +08:00 [INF] Executed ViewResult - view Index executed in 3.9658ms.
+2018-11-15 00:43:17.298 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 38.9855ms
+2018-11-15 00:43:17.301 +08:00 [INF] Request finished in 48.0899ms 200 text/html; charset=utf-8
+2018-11-15 00:43:17.348 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:43:17.351 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:43:17.355 +08:00 [INF] Request finished in 6.8016ms 200 image/x-icon
+2018-11-15 00:43:17.379 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:43:17.382 +08:00 [INF] Route matched with {action = "Console", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:43:17.386 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:43:17.394 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0257ms.
+2018-11-15 00:43:17.406 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:43:17.416 +08:00 [INF] Executed ViewResult - view Console executed in 10.2497ms.
+2018-11-15 00:43:17.417 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 30.860500000000002ms
+2018-11-15 00:43:17.429 +08:00 [INF] Request finished in 49.2977ms 200 text/html; charset=utf-8
+2018-11-15 00:43:21.352 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:43:21.354 +08:00 [INF] Request finished in 2.1723ms 404 
+2018-11-15 00:43:30.905 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:43:30.909 +08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:43:30.912 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:43:30.920 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.034ms.
+2018-11-15 00:43:30.926 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:43:30.929 +08:00 [INF] Executed ViewResult - view Index executed in 2.9551000000000003ms.
+2018-11-15 00:43:30.951 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 37.927800000000005ms
+2018-11-15 00:43:30.958 +08:00 [INF] Request finished in 53.2714ms 200 text/html; charset=utf-8
+2018-11-15 00:43:31.020 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:43:31.021 +08:00 [INF] Route matched with {action = "Console", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:43:31.023 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:43:31.026 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.018600000000000002ms.
+2018-11-15 00:43:31.028 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:43:31.044 +08:00 [INF] Executed ViewResult - view Console executed in 16.1831ms.
+2018-11-15 00:43:31.046 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 23.1778ms
+2018-11-15 00:43:31.055 +08:00 [INF] Request finished in 35.3103ms 200 text/html; charset=utf-8
+2018-11-15 00:43:31.092 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:43:31.093 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:43:31.096 +08:00 [INF] Request finished in 3.9365ms 200 image/x-icon
+2018-11-15 00:45:11.248 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:45:11.250 +08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:45:11.253 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:45:11.261 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0267ms.
+2018-11-15 00:45:11.271 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:45:11.274 +08:00 [INF] Executed ViewResult - view Index executed in 2.6659ms.
+2018-11-15 00:45:11.281 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 27.7967ms
+2018-11-15 00:45:11.294 +08:00 [INF] Request finished in 45.9446ms 200 text/html; charset=utf-8
+2018-11-15 00:45:11.444 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:45:11.447 +08:00 [INF] Route matched with {action = "Console", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:45:11.458 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:45:11.463 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0207ms.
+2018-11-15 00:45:11.465 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:45:11.474 +08:00 [INF] Executed ViewResult - view Console executed in 9.1811ms.
+2018-11-15 00:45:11.482 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 24.399700000000003ms
+2018-11-15 00:45:11.498 +08:00 [INF] Request finished in 54.1233ms 200 text/html; charset=utf-8
+2018-11-15 00:45:11.589 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:45:11.592 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:45:11.595 +08:00 [INF] Request finished in 5.5734ms 200 image/x-icon
+2018-11-15 00:45:18.074 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:45:18.077 +08:00 [INF] Request finished in 3.0181ms 404 
+2018-11-15 00:46:19.806 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-15 00:46:20.396 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-15 00:46:20.439 +08:00 [INF] Request finished in 44.7394ms 307 
+2018-11-15 00:46:20.511 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-15 00:46:20.664 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-15 00:46:20.678 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:46:20.695 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3556ms.
+2018-11-15 00:46:20.725 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:46:20.874 +08:00 [INF] Executed ViewResult - view Index executed in 167.8599ms.
+2018-11-15 00:46:20.892 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 225.43130000000002ms
+2018-11-15 00:46:20.909 +08:00 [INF] Request finished in 397.8423ms 200 text/html; charset=utf-8
+2018-11-15 00:46:20.922 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-15 00:46:20.923 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-15 00:46:20.924 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-15 00:46:20.924 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-15 00:46:20.929 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-15 00:46:20.951 +08:00 [INF] Sending file. Request path: '/images/banner1.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner1.svg'
+2018-11-15 00:46:20.951 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\css\site.css'
+2018-11-15 00:46:20.959 +08:00 [INF] Sending file. Request path: '/images/banner2.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner2.svg'
+2018-11-15 00:46:21.012 +08:00 [INF] Request finished in 87.6791ms 200 image/svg+xml
+2018-11-15 00:46:21.014 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-15 00:46:21.010 +08:00 [INF] Request finished in 86.3349ms 200 image/svg+xml
+2018-11-15 00:46:21.010 +08:00 [INF] Request finished in 87.9049ms 200 text/css
+2018-11-15 00:46:20.984 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-15 00:46:20.993 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-11-15 00:46:21.025 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\js\site.js'
+2018-11-15 00:46:21.030 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-15 00:46:21.039 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.js'
+2018-11-15 00:46:21.062 +08:00 [INF] Request finished in 138.1107ms 200 application/javascript
+2018-11-15 00:46:21.068 +08:00 [INF] Sending file. Request path: '/images/banner3.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner3.svg'
+2018-11-15 00:46:21.054 +08:00 [INF] Request finished in 40.6554ms 200 application/javascript
+2018-11-15 00:46:21.044 +08:00 [INF] Request finished in 116.006ms 200 text/css
+2018-11-15 00:46:21.046 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-11-15 00:46:21.076 +08:00 [INF] Request finished in 46.6759ms 200 image/svg+xml
+2018-11-15 00:46:21.095 +08:00 [INF] Request finished in 111.0796ms 200 application/javascript
+2018-11-15 00:46:21.112 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-15 00:46:21.122 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-11-15 00:46:21.133 +08:00 [INF] Request finished in 21.8748ms 200 font/woff2
+2018-11-15 00:46:24.346 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:46:24.360 +08:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:46:24.363 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:46:24.375 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.326ms.
+2018-11-15 00:46:24.392 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:46:24.412 +08:00 [INF] Executed ViewResult - view Index executed in 25.2114ms.
+2018-11-15 00:46:24.415 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 52.819500000000005ms
+2018-11-15 00:46:24.418 +08:00 [INF] Request finished in 72.71ms 200 text/html; charset=utf-8
+2018-11-15 00:46:24.440 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/layui.css  
+2018-11-15 00:46:24.441 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/css/admin.css  
+2018-11-15 00:46:24.442 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/logo.png  
+2018-11-15 00:46:24.442 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/head.png  
+2018-11-15 00:46:24.449 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/layui.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\layui.css'
+2018-11-15 00:46:24.449 +08:00 [INF] Sending file. Request path: '/assets/css/admin.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\admin.css'
+2018-11-15 00:46:24.456 +08:00 [INF] Sending file. Request path: '/assets/images/logo.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\logo.png'
+2018-11-15 00:46:24.462 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.min.js  
+2018-11-15 00:46:24.469 +08:00 [INF] Request finished in 29.9112ms 200 text/css
+2018-11-15 00:46:24.475 +08:00 [INF] Request finished in 34.897ms 200 text/css
+2018-11-15 00:46:24.480 +08:00 [INF] Request finished in 39.4934ms 200 image/png
+2018-11-15 00:46:24.483 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/layui.js  
+2018-11-15 00:46:24.487 +08:00 [INF] Sending file. Request path: '/assets/images/head.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\head.png'
+2018-11-15 00:46:24.492 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.min.js'
+2018-11-15 00:46:24.493 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:46:24.498 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/layui.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\layui.js'
+2018-11-15 00:46:24.505 +08:00 [INF] Request finished in 62.7269ms 200 image/png
+2018-11-15 00:46:24.507 +08:00 [INF] Request finished in 44.8852ms 200 application/javascript
+2018-11-15 00:46:24.509 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/main.js  
+2018-11-15 00:46:24.514 +08:00 [INF] Request finished in 30.7641ms 200 application/javascript
+2018-11-15 00:46:24.521 +08:00 [INF] Sending file. Request path: '/assets/js/common.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\common.js'
+2018-11-15 00:46:24.526 +08:00 [INF] Sending file. Request path: '/assets/js/main.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\main.js'
+2018-11-15 00:46:24.556 +08:00 [INF] Request finished in 46.7508ms 200 application/javascript
+2018-11-15 00:46:24.540 +08:00 [INF] Request finished in 46.478ms 200 application/javascript
+2018-11-15 00:46:24.565 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/ic_loading.gif  
+2018-11-15 00:46:24.572 +08:00 [INF] Sending file. Request path: '/assets/images/ic_loading.gif'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\ic_loading.gif'
+2018-11-15 00:46:24.577 +08:00 [INF] Request finished in 12.214ms 200 image/gif
+2018-11-15 00:46:24.579 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/font/iconfont.woff?v=240  
+2018-11-15 00:46:24.583 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/font/iconfont.woff'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\font\iconfont.woff'
+2018-11-15 00:46:24.596 +08:00 [INF] Request finished in 16.5376ms 200 application/font-woff
+2018-11-15 00:46:24.679 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/layer.js  
+2018-11-15 00:46:24.681 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/layer.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\layer.js'
+2018-11-15 00:46:24.701 +08:00 [INF] Request finished in 22.5155ms 200 application/javascript
+2018-11-15 00:46:24.737 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/layer/default/layer.css?v=3.1.1  
+2018-11-15 00:46:24.743 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/element.js  
+2018-11-15 00:46:24.746 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/element.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\element.js'
+2018-11-15 00:46:24.747 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/layer.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\layer.css'
+2018-11-15 00:46:24.756 +08:00 [INF] Request finished in 12.6602ms 200 application/javascript
+2018-11-15 00:46:24.775 +08:00 [INF] Request finished in 37.9876ms 200 text/css
+2018-11-15 00:46:24.798 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/admin.js  
+2018-11-15 00:46:24.801 +08:00 [INF] Sending file. Request path: '/module/admin.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\admin.js'
+2018-11-15 00:46:24.814 +08:00 [INF] Request finished in 15.2362ms 200 application/javascript
+2018-11-15 00:46:24.826 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/index.js  
+2018-11-15 00:46:24.829 +08:00 [INF] Sending file. Request path: '/module/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\index.js'
+2018-11-15 00:46:24.843 +08:00 [INF] Request finished in 16.6558ms 200 application/javascript
+2018-11-15 00:46:24.855 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:46:24.867 +08:00 [INF] Route matched with {action = "Console", controller = "Main"}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:46:24.881 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:46:24.894 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2892ms.
+2018-11-15 00:46:24.909 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:46:25.004 +08:00 [INF] Executed ViewResult - view Console executed in 104.9294ms.
+2018-11-15 00:46:25.007 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 126.37230000000001ms
+2018-11-15 00:46:25.009 +08:00 [INF] Request finished in 155.0472ms 200 text/html; charset=utf-8
+2018-11-15 00:46:25.164 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:46:25.166 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:46:25.175 +08:00 [INF] Request finished in 10.78ms 200 image/x-icon
+2018-11-15 00:46:30.800 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:46:30.802 +08:00 [INF] Request finished in 2.4276ms 404 
+2018-11-15 00:46:59.896 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/System/SysUser/Inde  
+2018-11-15 00:46:59.904 +08:00 [INF] Request finished in 7.576ms 404 
+2018-11-15 00:47:02.531 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/System/SysUser/Index  
+2018-11-15 00:47:02.535 +08:00 [INF] Request finished in 3.7066ms 404 
+2018-11-15 00:48:33.278 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-15 00:48:33.928 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-15 00:48:33.954 +08:00 [INF] Request finished in 28.9985ms 307 
+2018-11-15 00:48:34.009 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-15 00:48:34.154 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-15 00:48:34.168 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:48:34.180 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3645ms.
+2018-11-15 00:48:34.209 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:48:34.336 +08:00 [INF] Executed ViewResult - view Index executed in 146.741ms.
+2018-11-15 00:48:34.338 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 182.8169ms
+2018-11-15 00:48:34.358 +08:00 [INF] Request finished in 348.057ms 200 text/html; charset=utf-8
+2018-11-15 00:48:37.745 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/System/SysUser/Index  
+2018-11-15 00:48:37.749 +08:00 [INF] Request finished in 3.9114ms 404 
+2018-11-15 00:48:40.132 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/System/SysUser/Index  
+2018-11-15 00:48:40.135 +08:00 [INF] Request finished in 2.3405ms 404 
+2018-11-15 00:50:40.195 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-15 00:50:40.801 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-15 00:50:40.833 +08:00 [INF] Request finished in 36.036ms 307 
+2018-11-15 00:50:40.889 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-15 00:50:41.071 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-15 00:50:41.086 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:50:41.100 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5641ms.
+2018-11-15 00:50:41.130 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:50:41.253 +08:00 [INF] Executed ViewResult - view Index executed in 139.7878ms.
+2018-11-15 00:50:41.258 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 185.44490000000002ms
+2018-11-15 00:50:41.278 +08:00 [INF] Request finished in 387.4313ms 200 text/html; charset=utf-8
+2018-11-15 00:50:45.571 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/System/SysUser/Index  
+2018-11-15 00:50:45.574 +08:00 [INF] Request finished in 2.5892ms 404 
+2018-11-15 00:50:49.033 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/System/SysUser/Index  
+2018-11-15 00:50:49.036 +08:00 [INF] Request finished in 2.8458ms 404 
+2018-11-15 00:50:59.731 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:50:59.737 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:50:59.742 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:50:59.743 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2398ms.
+2018-11-15 00:50:59.754 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:50:59.774 +08:00 [INF] Executed ViewResult - view Index executed in 27.2767ms.
+2018-11-15 00:50:59.781 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 39.3057ms
+2018-11-15 00:50:59.787 +08:00 [INF] Request finished in 56.6956ms 200 text/html; charset=utf-8
+2018-11-15 00:50:59.803 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:50:59.803 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/main.js  
+2018-11-15 00:50:59.819 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-11-15 00:50:59.819 +08:00 [INF] The file /assets/js/main.js was not modified
+2018-11-15 00:50:59.823 +08:00 [INF] Request finished in 20.0699ms 304 application/javascript
+2018-11-15 00:50:59.824 +08:00 [INF] Request finished in 20.613ms 304 application/javascript
+2018-11-15 00:50:59.916 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:50:59.918 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:50:59.920 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:50:59.930 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:50:59.930 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.44770000000000004ms.
+2018-11-15 00:50:59.932 +08:00 [INF] Request finished in 1.3224ms 404 
+2018-11-15 00:50:59.945 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:51:00.049 +08:00 [INF] Executed ViewResult - view Console executed in 112.04140000000001ms.
+2018-11-15 00:51:00.050 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 130.2785ms
+2018-11-15 00:51:00.052 +08:00 [INF] Request finished in 135.787ms 200 text/html; charset=utf-8
+2018-11-15 00:51:00.151 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:51:00.155 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:51:00.164 +08:00 [INF] Request finished in 12.4045ms 200 image/x-icon
+2018-11-15 00:51:03.015 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/page/system/role.html  
+2018-11-15 00:51:03.018 +08:00 [INF] Request finished in 2.1263ms 404 
+2018-11-15 00:51:05.758 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/theme  
+2018-11-15 00:51:05.758 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/layer/default/loading-1.gif  
+2018-11-15 00:51:05.775 +08:00 [INF] Route matched with {action = "Theme", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Theme (Geek.Project.Portal)
+2018-11-15 00:51:05.785 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/loading-1.gif'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\loading-1.gif'
+2018-11-15 00:51:05.802 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Theme (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:51:05.817 +08:00 [INF] Request finished in 59.0084ms 200 image/gif
+2018-11-15 00:51:05.823 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Theme (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2467ms.
+2018-11-15 00:51:05.861 +08:00 [INF] Executing ViewResult, running view Theme.
+2018-11-15 00:51:05.892 +08:00 [INF] Executed ViewResult - view Theme executed in 50.8162ms.
+2018-11-15 00:51:05.898 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Theme (Geek.Project.Portal) in 99.9435ms
+2018-11-15 00:51:05.913 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_1.png  
+2018-11-15 00:51:05.915 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/theme.js  
+2018-11-15 00:51:05.925 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_1.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_1.png'
+2018-11-15 00:51:05.915 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_7.png  
+2018-11-15 00:51:05.917 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_3.png  
+2018-11-15 00:51:05.922 +08:00 [INF] Request finished in 164.0323ms 200 text/html; charset=utf-8
+2018-11-15 00:51:05.915 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_2.png  
+2018-11-15 00:51:05.926 +08:00 [INF] Sending file. Request path: '/assets/js/theme.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\theme.js'
+2018-11-15 00:51:05.935 +08:00 [INF] Request finished in 21.3987ms 200 image/png
+2018-11-15 00:51:05.937 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_7.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_7.png'
+2018-11-15 00:51:05.938 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_3.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_3.png'
+2018-11-15 00:51:05.973 +08:00 [INF] Request finished in 55.4807ms 200 image/png
+2018-11-15 00:51:05.979 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_8.png  
+2018-11-15 00:51:05.954 +08:00 [INF] Request finished in 39.8716ms 200 application/javascript
+2018-11-15 00:51:05.984 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_8.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_8.png'
+2018-11-15 00:51:05.966 +08:00 [INF] Request finished in 50.6322ms 200 image/png
+2018-11-15 00:51:05.995 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_9.png  
+2018-11-15 00:51:05.945 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_2.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_2.png'
+2018-11-15 00:51:06.004 +08:00 [INF] Request finished in 89.4984ms 200 image/png
+2018-11-15 00:51:05.960 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_5.png  
+2018-11-15 00:51:05.989 +08:00 [INF] Request finished in 9.5007ms 200 image/png
+2018-11-15 00:51:05.942 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_4.png  
+2018-11-15 00:51:06.000 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_9.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_9.png'
+2018-11-15 00:51:05.984 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_6.png  
+2018-11-15 00:51:06.006 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_12.png  
+2018-11-15 00:51:06.012 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_5.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_5.png'
+2018-11-15 00:51:06.024 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_4.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_4.png'
+2018-11-15 00:51:06.024 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_11.png  
+2018-11-15 00:51:06.033 +08:00 [INF] Request finished in 37.3846ms 200 image/png
+2018-11-15 00:51:06.039 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_6.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_6.png'
+2018-11-15 00:51:06.043 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_12.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_12.png'
+2018-11-15 00:51:06.054 +08:00 [INF] Request finished in 94.2216ms 200 image/png
+2018-11-15 00:51:06.060 +08:00 [INF] Request finished in 118.6962ms 200 image/png
+2018-11-15 00:51:06.068 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_11.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_11.png'
+2018-11-15 00:51:06.068 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/img_theme_10.png  
+2018-11-15 00:51:06.074 +08:00 [INF] Request finished in 90.2308ms 200 image/png
+2018-11-15 00:51:06.085 +08:00 [INF] Request finished in 78.6518ms 200 image/png
+2018-11-15 00:51:06.088 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/form.js  
+2018-11-15 00:51:06.099 +08:00 [INF] Request finished in 75.0496ms 200 image/png
+2018-11-15 00:51:06.101 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_10.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_10.png'
+2018-11-15 00:51:06.108 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/form.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\form.js'
+2018-11-15 00:51:06.121 +08:00 [INF] Request finished in 52.6366ms 200 image/png
+2018-11-15 00:51:06.132 +08:00 [INF] Request finished in 43.6552ms 200 application/javascript
+2018-11-15 00:51:09.802 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:51:09.804 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:51:09.808 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:51:09.810 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0235ms.
+2018-11-15 00:51:09.821 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:51:09.828 +08:00 [INF] Executed ViewResult - view Index executed in 6.5932ms.
+2018-11-15 00:51:09.833 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 25.354000000000003ms
+2018-11-15 00:51:09.847 +08:00 [INF] Request finished in 44.4065ms 200 text/html; charset=utf-8
+2018-11-15 00:51:09.948 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:51:09.953 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:51:09.956 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:51:09.961 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0227ms.
+2018-11-15 00:51:09.977 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:51:09.991 +08:00 [INF] Executed ViewResult - view Console executed in 14.2208ms.
+2018-11-15 00:51:09.995 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 38.800000000000004ms
+2018-11-15 00:51:10.005 +08:00 [INF] Request finished in 56.6752ms 200 text/html; charset=utf-8
+2018-11-15 00:51:10.086 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:51:10.090 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:51:10.092 +08:00 [INF] Request finished in 6.0287ms 200 image/x-icon
+2018-11-15 00:51:13.378 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/page/system/role.html  
+2018-11-15 00:51:13.380 +08:00 [INF] Request finished in 1.9167ms 404 
+2018-11-15 00:51:14.601 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:51:14.603 +08:00 [INF] Request finished in 2.0313ms 404 
+2018-11-15 00:52:40.010 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-15 00:52:40.664 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-15 00:52:40.698 +08:00 [INF] Request finished in 36.4355ms 307 
+2018-11-15 00:52:40.734 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-15 00:52:40.886 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-15 00:52:40.898 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:52:40.908 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.54ms.
+2018-11-15 00:52:40.946 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:52:41.068 +08:00 [INF] Executed ViewResult - view Index executed in 147.5122ms.
+2018-11-15 00:52:41.070 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 183.01510000000002ms
+2018-11-15 00:52:41.105 +08:00 [INF] Request finished in 371.0648ms 200 text/html; charset=utf-8
+2018-11-15 00:52:47.858 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/System/SysUser/Index  
+2018-11-15 00:52:47.867 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:52:47.869 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:52:47.870 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1361ms.
+2018-11-15 00:52:47.874 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:52:48.044 +08:00 [INF] Executed ViewResult - view Index executed in 171.96540000000002ms.
+2018-11-15 00:52:48.046 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 176.6754ms
+2018-11-15 00:52:48.052 +08:00 [INF] Request finished in 194.5012ms 200 text/html; charset=utf-8
+2018-11-15 00:52:48.059 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:52:48.061 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:52:48.073 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-11-15 00:52:48.074 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-15 00:52:48.075 +08:00 [INF] Request finished in 14.3768ms 304 application/javascript
+2018-11-15 00:52:48.077 +08:00 [INF] Request finished in 17.7382ms 200 application/javascript
+2018-11-15 00:52:48.140 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/table.js  
+2018-11-15 00:52:48.152 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/table.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\table.js'
+2018-11-15 00:52:48.156 +08:00 [INF] Request finished in 15.9071ms 200 application/javascript
+2018-11-15 00:52:48.162 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laytpl.js  
+2018-11-15 00:52:48.165 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laytpl.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laytpl.js'
+2018-11-15 00:52:48.172 +08:00 [INF] Request finished in 10.0233ms 200 application/javascript
+2018-11-15 00:52:48.174 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laypage.js  
+2018-11-15 00:52:48.181 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laypage.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laypage.js'
+2018-11-15 00:52:48.189 +08:00 [INF] Request finished in 14.9926ms 200 application/javascript
+2018-11-15 00:52:48.195 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/util.js  
+2018-11-15 00:52:48.198 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/util.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\util.js'
+2018-11-15 00:52:48.212 +08:00 [INF] Request finished in 16.9961ms 200 application/javascript
+2018-11-15 00:52:48.224 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/admin.js  
+2018-11-15 00:52:48.226 +08:00 [INF] The file /module/admin.js was not modified
+2018-11-15 00:52:48.232 +08:00 [INF] Request finished in 7.5159ms 304 application/javascript
+2018-11-15 00:52:48.256 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:52:48.260 +08:00 [INF] Request finished in 3.9757ms 404 
+2018-11-15 00:52:56.279 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:52:56.281 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:52:56.284 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:52:56.291 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9575ms.
+2018-11-15 00:52:56.304 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:52:56.328 +08:00 [INF] Executed ViewResult - view Index executed in 30.3672ms.
+2018-11-15 00:52:56.330 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 46.1912ms
+2018-11-15 00:52:56.335 +08:00 [INF] Request finished in 56.5763ms 200 text/html; charset=utf-8
+2018-11-15 00:52:56.356 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:52:56.366 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-11-15 00:52:56.368 +08:00 [INF] Request finished in 12.7743ms 304 application/javascript
+2018-11-15 00:52:56.452 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/index.js  
+2018-11-15 00:52:56.456 +08:00 [INF] The file /module/index.js was not modified
+2018-11-15 00:52:56.459 +08:00 [INF] Request finished in 7.0292ms 304 application/javascript
+2018-11-15 00:52:56.468 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:52:56.474 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:52:56.481 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:52:56.494 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2564ms.
+2018-11-15 00:52:56.505 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:52:56.512 +08:00 [INF] Executed ViewResult - view Console executed in 11.876100000000001ms.
+2018-11-15 00:52:56.515 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 33.0445ms
+2018-11-15 00:52:56.516 +08:00 [INF] Request finished in 47.9882ms 200 text/html; charset=utf-8
+2018-11-15 00:52:56.583 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:52:56.584 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:52:56.595 +08:00 [INF] Request finished in 12.4784ms 200 image/x-icon
+2018-11-15 00:52:59.664 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:52:59.666 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:52:59.669 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:52:59.673 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0357ms.
+2018-11-15 00:52:59.683 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:52:59.688 +08:00 [INF] Executed ViewResult - view Index executed in 5.3902ms.
+2018-11-15 00:52:59.701 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 32.052ms
+2018-11-15 00:52:59.715 +08:00 [INF] Request finished in 50.2166ms 200 text/html; charset=utf-8
+2018-11-15 00:52:59.813 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:52:59.815 +08:00 [INF] Request finished in 1.439ms 404 
+2018-11-15 00:54:01.178 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:54:01.183 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:54:01.187 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:54:01.194 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0896ms.
+2018-11-15 00:54:01.218 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:54:01.222 +08:00 [INF] Executed ViewResult - view Index executed in 4.4932ms.
+2018-11-15 00:54:01.237 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 49.949400000000004ms
+2018-11-15 00:54:01.246 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:54:01.254 +08:00 [INF] Request finished in 75.5133ms 200 text/html; charset=utf-8
+2018-11-15 00:54:01.255 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-11-15 00:54:01.265 +08:00 [INF] Request finished in 18.568ms 304 application/javascript
+2018-11-15 00:54:01.357 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:54:01.359 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:54:01.362 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:54:01.372 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.027600000000000003ms.
+2018-11-15 00:54:01.378 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:54:01.385 +08:00 [INF] Executed ViewResult - view Console executed in 6.8775ms.
+2018-11-15 00:54:01.396 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 34.3575ms
+2018-11-15 00:54:01.407 +08:00 [INF] Request finished in 50.2129ms 200 text/html; charset=utf-8
+2018-11-15 00:54:01.476 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:54:01.478 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:54:01.489 +08:00 [INF] Request finished in 13.0462ms 200 image/x-icon
+2018-11-15 00:54:06.274 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:54:06.276 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:54:06.280 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:54:06.291 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0466ms.
+2018-11-15 00:54:06.296 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:54:06.300 +08:00 [INF] Executed ViewResult - view Index executed in 4.2075000000000005ms.
+2018-11-15 00:54:06.324 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:54:06.345 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 65.5329ms
+2018-11-15 00:54:06.347 +08:00 [INF] The file /assets/js/user/index.js was not modified
+2018-11-15 00:54:06.352 +08:00 [INF] Request finished in 77.5219ms 200 text/html; charset=utf-8
+2018-11-15 00:54:06.357 +08:00 [INF] Request finished in 33.1411ms 304 application/javascript
+2018-11-15 00:54:06.445 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:54:06.447 +08:00 [INF] Request finished in 2.1564ms 404 
+2018-11-15 00:55:23.985 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json  
+2018-11-15 00:55:23.991 +08:00 [INF] Request finished in 6.716ms 404 
+2018-11-15 00:56:04.725 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/json/user.json  
+2018-11-15 00:56:04.731 +08:00 [INF] Request finished in 5.0249ms 307 
+2018-11-15 00:56:04.734 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json  
+2018-11-15 00:56:04.739 +08:00 [INF] Request finished in 5.0288ms 404 
+2018-11-15 00:56:11.761 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json  
+2018-11-15 00:56:11.763 +08:00 [INF] Request finished in 1.9683ms 404 
+2018-11-15 00:56:49.124 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:56:49.126 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:56:49.129 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:56:49.138 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0222ms.
+2018-11-15 00:56:49.143 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:56:49.145 +08:00 [INF] Executed ViewResult - view Index executed in 2.166ms.
+2018-11-15 00:56:49.158 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 28.809ms
+2018-11-15 00:56:49.161 +08:00 [INF] Request finished in 36.32ms 200 text/html; charset=utf-8
+2018-11-15 00:56:49.174 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:56:49.177 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-11-15 00:56:49.178 +08:00 [INF] Request finished in 3.6146ms 304 application/javascript
+2018-11-15 00:56:49.182 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/main.js  
+2018-11-15 00:56:49.186 +08:00 [INF] The file /assets/js/main.js was not modified
+2018-11-15 00:56:49.187 +08:00 [INF] Request finished in 5.1338ms 304 application/javascript
+2018-11-15 00:56:49.324 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:56:49.340 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:56:49.344 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:56:49.359 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.087500000000000008ms.
+2018-11-15 00:56:49.386 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:56:49.405 +08:00 [INF] Executed ViewResult - view Console executed in 19.335800000000003ms.
+2018-11-15 00:56:49.411 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 66.484400000000008ms
+2018-11-15 00:56:49.416 +08:00 [INF] Request finished in 92.6888ms 200 text/html; charset=utf-8
+2018-11-15 00:56:49.556 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:56:49.559 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:56:49.575 +08:00 [INF] Request finished in 18.9195ms 200 image/x-icon
+2018-11-15 00:56:55.810 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:56:55.812 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:56:55.815 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:56:55.825 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.028900000000000002ms.
+2018-11-15 00:56:55.847 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:56:55.850 +08:00 [INF] Executed ViewResult - view Index executed in 2.8284000000000002ms.
+2018-11-15 00:56:55.871 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:56:55.965 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 150.2381ms
+2018-11-15 00:56:55.967 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-15 00:56:55.992 +08:00 [INF] Request finished in 121.5153ms 200 application/javascript
+2018-11-15 00:56:55.982 +08:00 [INF] Request finished in 171.8337ms 200 text/html; charset=utf-8
+2018-11-15 00:56:56.077 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:56:56.084 +08:00 [INF] Request finished in 6.4835ms 404 
+2018-11-15 00:57:07.685 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:57:07.701 +08:00 [INF] Request finished in 15.8872ms 404 
+2018-11-15 00:57:16.624 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:57:16.627 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:57:16.630 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:57:16.635 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0244ms.
+2018-11-15 00:57:16.642 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:57:16.650 +08:00 [INF] Executed ViewResult - view Index executed in 8.3286ms.
+2018-11-15 00:57:16.659 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 28.947100000000002ms
+2018-11-15 00:57:16.668 +08:00 [INF] Request finished in 44.2139ms 200 text/html; charset=utf-8
+2018-11-15 00:57:16.679 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/css/admin.css  
+2018-11-15 00:57:16.685 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.min.js  
+2018-11-15 00:57:16.686 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/layui.js  
+2018-11-15 00:57:16.687 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/logo.png  
+2018-11-15 00:57:16.688 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/head.png  
+2018-11-15 00:57:16.690 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/layui.css  
+2018-11-15 00:57:16.694 +08:00 [INF] Sending file. Request path: '/assets/css/admin.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\admin.css'
+2018-11-15 00:57:16.722 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/layui.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\layui.js'
+2018-11-15 00:57:16.722 +08:00 [INF] Sending file. Request path: '/assets/images/logo.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\logo.png'
+2018-11-15 00:57:16.730 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.min.js'
+2018-11-15 00:57:16.741 +08:00 [INF] Sending file. Request path: '/assets/images/head.png'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\head.png'
+2018-11-15 00:57:16.750 +08:00 [INF] Request finished in 70.8406ms 200 text/css
+2018-11-15 00:57:16.753 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/layui.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\layui.css'
+2018-11-15 00:57:16.762 +08:00 [INF] Request finished in 76.1025ms 200 application/javascript
+2018-11-15 00:57:16.773 +08:00 [INF] Request finished in 85.8039ms 200 image/png
+2018-11-15 00:57:16.777 +08:00 [INF] Request finished in 92.2669ms 200 application/javascript
+2018-11-15 00:57:16.779 +08:00 [INF] Request finished in 91.7054ms 200 image/png
+2018-11-15 00:57:16.780 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:57:16.790 +08:00 [INF] Request finished in 99.8148ms 200 text/css
+2018-11-15 00:57:16.791 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/main.js  
+2018-11-15 00:57:16.798 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/font/iconfont.woff?v=240  
+2018-11-15 00:57:16.809 +08:00 [INF] Sending file. Request path: '/assets/js/common.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\common.js'
+2018-11-15 00:57:16.810 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/ic_loading.gif  
+2018-11-15 00:57:16.814 +08:00 [INF] Sending file. Request path: '/assets/js/main.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\main.js'
+2018-11-15 00:57:16.818 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/font/iconfont.woff'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\font\iconfont.woff'
+2018-11-15 00:57:16.852 +08:00 [INF] Request finished in 54.5217ms 200 application/font-woff
+2018-11-15 00:57:16.832 +08:00 [INF] Sending file. Request path: '/assets/images/ic_loading.gif'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\ic_loading.gif'
+2018-11-15 00:57:16.841 +08:00 [INF] Request finished in 49.4857ms 200 application/javascript
+2018-11-15 00:57:16.827 +08:00 [INF] Request finished in 46.444ms 200 application/javascript
+2018-11-15 00:57:16.860 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/layer.js  
+2018-11-15 00:57:16.864 +08:00 [INF] Request finished in 54.8373ms 200 image/gif
+2018-11-15 00:57:16.878 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/layer.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\layer.js'
+2018-11-15 00:57:16.892 +08:00 [INF] Request finished in 31.9037ms 200 application/javascript
+2018-11-15 00:57:16.893 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/layer/default/layer.css?v=3.1.1  
+2018-11-15 00:57:16.894 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/element.js  
+2018-11-15 00:57:16.904 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/layer.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\layer.css'
+2018-11-15 00:57:16.907 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/element.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\element.js'
+2018-11-15 00:57:16.911 +08:00 [INF] Request finished in 18.4856ms 200 text/css
+2018-11-15 00:57:16.914 +08:00 [INF] Request finished in 19.6291ms 200 application/javascript
+2018-11-15 00:57:16.934 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/admin.js  
+2018-11-15 00:57:16.937 +08:00 [INF] Sending file. Request path: '/module/admin.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\admin.js'
+2018-11-15 00:57:16.945 +08:00 [INF] Request finished in 10.7776ms 200 application/javascript
+2018-11-15 00:57:16.955 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/index.js  
+2018-11-15 00:57:16.957 +08:00 [INF] Sending file. Request path: '/module/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\index.js'
+2018-11-15 00:57:16.962 +08:00 [INF] Request finished in 6.8347ms 200 application/javascript
+2018-11-15 00:57:16.973 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:57:16.975 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:57:16.981 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:57:16.990 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0821ms.
+2018-11-15 00:57:16.994 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:57:16.996 +08:00 [INF] Executed ViewResult - view Console executed in 1.4491ms.
+2018-11-15 00:57:17.005 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 24.214000000000002ms
+2018-11-15 00:57:17.008 +08:00 [INF] Request finished in 35.7353ms 200 text/html; charset=utf-8
+2018-11-15 00:57:17.094 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:57:17.096 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:57:17.100 +08:00 [INF] Request finished in 6.1666ms 200 image/x-icon
+2018-11-15 00:57:19.908 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:57:19.910 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:57:19.913 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:57:19.918 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0252ms.
+2018-11-15 00:57:19.927 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:57:19.933 +08:00 [INF] Executed ViewResult - view Index executed in 6.6502ms.
+2018-11-15 00:57:19.946 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 32.429500000000004ms
+2018-11-15 00:57:19.954 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:57:19.958 +08:00 [INF] Request finished in 50.0959ms 200 text/html; charset=utf-8
+2018-11-15 00:57:19.961 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-15 00:57:19.974 +08:00 [INF] Request finished in 20.8419ms 200 application/javascript
+2018-11-15 00:57:20.006 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/form.js  
+2018-11-15 00:57:20.009 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/form.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\form.js'
+2018-11-15 00:57:20.012 +08:00 [INF] Request finished in 6.6613ms 200 application/javascript
+2018-11-15 00:57:20.025 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/table.js  
+2018-11-15 00:57:20.027 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/table.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\table.js'
+2018-11-15 00:57:20.033 +08:00 [INF] Request finished in 8.0887ms 200 application/javascript
+2018-11-15 00:57:20.040 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laytpl.js  
+2018-11-15 00:57:20.042 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laytpl.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laytpl.js'
+2018-11-15 00:57:20.048 +08:00 [INF] Request finished in 8.948ms 200 application/javascript
+2018-11-15 00:57:20.051 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laypage.js  
+2018-11-15 00:57:20.056 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laypage.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laypage.js'
+2018-11-15 00:57:20.061 +08:00 [INF] Request finished in 10.648ms 200 application/javascript
+2018-11-15 00:57:20.066 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/util.js  
+2018-11-15 00:57:20.073 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/util.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\util.js'
+2018-11-15 00:57:20.081 +08:00 [INF] Request finished in 15.123ms 200 application/javascript
+2018-11-15 00:57:20.100 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:57:20.102 +08:00 [INF] Request finished in 1.7358ms 404 
+2018-11-15 00:57:24.704 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:57:24.706 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:57:24.711 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:57:24.718 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.06770000000000001ms.
+2018-11-15 00:57:24.733 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:57:24.736 +08:00 [INF] Executed ViewResult - view Index executed in 2.8442000000000003ms.
+2018-11-15 00:57:24.749 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 38.062200000000004ms
+2018-11-15 00:57:24.764 +08:00 [INF] Request finished in 59.6114ms 200 text/html; charset=utf-8
+2018-11-15 00:57:24.859 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:57:24.861 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:57:24.864 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:57:24.866 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0244ms.
+2018-11-15 00:57:24.872 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:57:24.876 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:57:24.879 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:57:24.881 +08:00 [INF] Executed ViewResult - view Console executed in 4.2216000000000005ms.
+2018-11-15 00:57:24.888 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:57:24.897 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 33.1591ms
+2018-11-15 00:57:24.904 +08:00 [INF] Request finished in 44.7502ms 200 text/html; charset=utf-8
+2018-11-15 00:57:24.902 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.021400000000000002ms.
+2018-11-15 00:57:24.915 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:57:24.917 +08:00 [INF] Executed ViewResult - view Index executed in 1.7538ms.
+2018-11-15 00:57:24.922 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 33.906400000000005ms
+2018-11-15 00:57:24.929 +08:00 [INF] Request finished in 57.4137ms 200 text/html; charset=utf-8
+2018-11-15 00:57:24.968 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:57:24.970 +08:00 [INF] The file /assets/js/user/index.js was not modified
+2018-11-15 00:57:24.978 +08:00 [INF] Request finished in 9.7239ms 304 application/javascript
+2018-11-15 00:57:25.104 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:57:25.109 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:57:25.117 +08:00 [INF] Request finished in 12.8504ms 200 image/x-icon
+2018-11-15 00:57:25.133 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:57:25.134 +08:00 [INF] Request finished in 1.1833ms 404 
+2018-11-15 00:57:33.250 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:57:33.252 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:57:33.256 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:57:33.259 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.023700000000000002ms.
+2018-11-15 00:57:33.268 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:57:33.274 +08:00 [INF] Executed ViewResult - view Index executed in 5.7487ms.
+2018-11-15 00:57:33.276 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 19.796300000000002ms
+2018-11-15 00:57:33.292 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:57:33.296 +08:00 [INF] Request finished in 45.6408ms 200 text/html; charset=utf-8
+2018-11-15 00:57:33.299 +08:00 [INF] The file /assets/js/user/index.js was not modified
+2018-11-15 00:57:33.302 +08:00 [INF] Request finished in 9.2559ms 304 application/javascript
+2018-11-15 00:57:33.398 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:57:33.400 +08:00 [INF] Request finished in 1.9958ms 404 
+2018-11-15 00:58:09.384 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:58:09.387 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:58:09.392 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:58:09.398 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.021ms.
+2018-11-15 00:58:09.410 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:58:09.415 +08:00 [INF] Executed ViewResult - view Index executed in 5.7489ms.
+2018-11-15 00:58:09.425 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 33.527300000000004ms
+2018-11-15 00:58:09.429 +08:00 [INF] Request finished in 44.7556ms 200 text/html; charset=utf-8
+2018-11-15 00:58:09.546 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:58:09.547 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:58:09.550 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:58:09.559 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:58:09.564 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:58:09.564 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.088000000000000009ms.
+2018-11-15 00:58:09.567 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:58:09.575 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:58:09.577 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.017400000000000002ms.
+2018-11-15 00:58:09.583 +08:00 [INF] Executed ViewResult - view Console executed in 8.0489ms.
+2018-11-15 00:58:09.594 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:58:09.596 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 46.5471ms
+2018-11-15 00:58:09.607 +08:00 [INF] Request finished in 60.9173ms 200 text/html; charset=utf-8
+2018-11-15 00:58:09.601 +08:00 [INF] Executed ViewResult - view Index executed in 6.7499ms.
+2018-11-15 00:58:09.610 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 43.4625ms
+2018-11-15 00:58:09.616 +08:00 [INF] Request finished in 56.5537ms 200 text/html; charset=utf-8
+2018-11-15 00:58:09.666 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:58:09.673 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-15 00:58:09.680 +08:00 [INF] Request finished in 14.2457ms 200 application/javascript
+2018-11-15 00:58:09.720 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:58:09.727 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:58:09.729 +08:00 [INF] Request finished in 8.7526ms 200 image/x-icon
+2018-11-15 00:58:09.781 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:58:09.783 +08:00 [INF] Request finished in 1.7626ms 404 
+2018-11-15 00:58:23.624 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:58:23.626 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:58:23.630 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:58:23.638 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0563ms.
+2018-11-15 00:58:23.653 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:58:23.660 +08:00 [INF] Executed ViewResult - view Index executed in 7.1038000000000006ms.
+2018-11-15 00:58:23.664 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 33.481300000000005ms
+2018-11-15 00:58:23.691 +08:00 [INF] Request finished in 66.3478ms 200 text/html; charset=utf-8
+2018-11-15 00:58:23.821 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:58:23.822 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:58:23.826 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:58:23.835 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0205ms.
+2018-11-15 00:58:23.838 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:58:23.861 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:58:23.864 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:58:23.869 +08:00 [INF] Executed ViewResult - view Console executed in 8.9533ms.
+2018-11-15 00:58:23.874 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:58:23.876 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 50.3678ms
+2018-11-15 00:58:23.888 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.021ms.
+2018-11-15 00:58:23.892 +08:00 [INF] Request finished in 71.6035ms 200 text/html; charset=utf-8
+2018-11-15 00:58:23.904 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:58:23.911 +08:00 [INF] Executed ViewResult - view Index executed in 7.4707000000000008ms.
+2018-11-15 00:58:23.919 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 44.2978ms
+2018-11-15 00:58:23.924 +08:00 [INF] Request finished in 86.3531ms 200 text/html; charset=utf-8
+2018-11-15 00:58:23.970 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:58:23.972 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-15 00:58:23.976 +08:00 [INF] Request finished in 6.0228ms 200 application/javascript
+2018-11-15 00:58:24.055 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:58:24.058 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:58:24.060 +08:00 [INF] Request finished in 4.8638ms 200 image/x-icon
+2018-11-15 00:58:24.078 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user1.json?page=1&limit=10  
+2018-11-15 00:58:24.084 +08:00 [INF] Request finished in 6.0479ms 404 
+2018-11-15 00:59:04.772 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:59:04.775 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:59:04.778 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:59:04.785 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.042300000000000004ms.
+2018-11-15 00:59:04.799 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:59:04.802 +08:00 [INF] Executed ViewResult - view Index executed in 2.2977000000000003ms.
+2018-11-15 00:59:04.825 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-15 00:59:04.835 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 57.8284ms
+2018-11-15 00:59:04.836 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-11-15 00:59:04.839 +08:00 [INF] Request finished in 66.8062ms 200 text/html; charset=utf-8
+2018-11-15 00:59:04.843 +08:00 [INF] Request finished in 17.9249ms 304 application/javascript
+2018-11-15 00:59:04.948 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:59:04.950 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:59:04.953 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:59:04.956 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0154ms.
+2018-11-15 00:59:04.966 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:59:04.968 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:59:04.975 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:59:04.984 +08:00 [INF] Executed ViewResult - view Console executed in 16.0989ms.
+2018-11-15 00:59:04.993 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:59:04.995 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 42.3887ms
+2018-11-15 00:59:05.018 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1791ms.
+2018-11-15 00:59:05.019 +08:00 [INF] Request finished in 71.7268ms 200 text/html; charset=utf-8
+2018-11-15 00:59:05.029 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:59:05.036 +08:00 [INF] Executed ViewResult - view Index executed in 6.9262000000000006ms.
+2018-11-15 00:59:05.041 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 47.764700000000005ms
+2018-11-15 00:59:05.052 +08:00 [INF] Request finished in 85.4866ms 200 text/html; charset=utf-8
+2018-11-15 00:59:05.099 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:59:05.101 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-15 00:59:05.105 +08:00 [INF] Request finished in 5.9415ms 200 application/javascript
+2018-11-15 00:59:05.197 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:59:05.200 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:59:05.203 +08:00 [INF] Request finished in 6.0184ms 200 image/x-icon
+2018-11-15 00:59:05.228 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/json/user.json?page=1&limit=10  
+2018-11-15 00:59:05.232 +08:00 [INF] Request finished in 4.1348ms 404 
+2018-11-15 00:59:25.268 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 00:59:25.277 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 00:59:25.282 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:59:25.293 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.019200000000000002ms.
+2018-11-15 00:59:25.305 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:59:25.320 +08:00 [INF] Executed ViewResult - view Index executed in 14.7314ms.
+2018-11-15 00:59:25.332 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 49.9917ms
+2018-11-15 00:59:25.339 +08:00 [INF] Request finished in 71.5037ms 200 text/html; charset=utf-8
+2018-11-15 00:59:25.414 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 00:59:25.416 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 00:59:25.419 +08:00 [INF] Request finished in 4.1368ms 200 image/x-icon
+2018-11-15 00:59:25.461 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 00:59:25.462 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 00:59:25.464 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:59:25.467 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.018500000000000003ms.
+2018-11-15 00:59:25.477 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 00:59:25.477 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 00:59:25.482 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 00:59:25.485 +08:00 [INF] Executed ViewResult - view Console executed in 7.8661ms.
+2018-11-15 00:59:25.498 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 00:59:25.500 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 36.4805ms
+2018-11-15 00:59:25.507 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0887ms.
+2018-11-15 00:59:25.512 +08:00 [INF] Request finished in 51.5095ms 200 text/html; charset=utf-8
+2018-11-15 00:59:25.517 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 00:59:25.530 +08:00 [INF] Executed ViewResult - view Index executed in 12.458300000000001ms.
+2018-11-15 00:59:25.533 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 35.5317ms
+2018-11-15 00:59:25.545 +08:00 [INF] Request finished in 68.3661ms 200 text/html; charset=utf-8
+2018-11-15 00:59:25.585 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 00:59:25.587 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-15 00:59:25.594 +08:00 [INF] Request finished in 8.8484ms 200 application/javascript
+2018-11-15 00:59:25.691 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 00:59:25.693 +08:00 [INF] Request finished in 1.4134ms 404 
+2018-11-15 01:00:13.565 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJ-Pro\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-15 01:00:14.157 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-15 01:00:14.211 +08:00 [INF] Request finished in 57.0834ms 307 
+2018-11-15 01:00:14.253 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-15 01:00:14.458 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-15 01:00:14.474 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 01:00:14.492 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6645ms.
+2018-11-15 01:00:14.532 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 01:00:14.665 +08:00 [INF] Executed ViewResult - view Index executed in 156.7423ms.
+2018-11-15 01:00:14.667 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 207.8699ms
+2018-11-15 01:00:14.690 +08:00 [INF] Request finished in 436.8037ms 200 text/html; charset=utf-8
+2018-11-15 01:00:14.729 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-15 01:00:14.730 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-15 01:00:14.732 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-15 01:00:14.732 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-15 01:00:14.745 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-15 01:00:14.756 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\css\site.css'
+2018-11-15 01:00:14.759 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-15 01:00:14.763 +08:00 [INF] Sending file. Request path: '/images/banner1.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner1.svg'
+2018-11-15 01:00:14.761 +08:00 [INF] Request finished in 32.0272ms 200 text/css
+2018-11-15 01:00:14.766 +08:00 [INF] Request finished in 34.3984ms 200 image/svg+xml
+2018-11-15 01:00:14.768 +08:00 [INF] Sending file. Request path: '/images/banner2.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner2.svg'
+2018-11-15 01:00:14.778 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-15 01:00:14.779 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-11-15 01:00:14.780 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-11-15 01:00:14.781 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.js'
+2018-11-15 01:00:14.784 +08:00 [INF] Request finished in 38.6319ms 200 image/svg+xml
+2018-11-15 01:00:14.796 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\js\site.js'
+2018-11-15 01:00:14.803 +08:00 [INF] Request finished in 70.8294ms 200 application/javascript
+2018-11-15 01:00:14.817 +08:00 [INF] Request finished in 58.1419ms 200 text/css
+2018-11-15 01:00:14.829 +08:00 [INF] Request finished in 99.3555ms 200 application/javascript
+2018-11-15 01:00:14.835 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-15 01:00:14.842 +08:00 [INF] Request finished in 64.6503ms 200 application/javascript
+2018-11-15 01:00:14.864 +08:00 [INF] Sending file. Request path: '/images/banner3.svg'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner3.svg'
+2018-11-15 01:00:14.871 +08:00 [INF] Request finished in 35.4955ms 200 image/svg+xml
+2018-11-15 01:00:14.875 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-15 01:00:14.886 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-11-15 01:00:14.916 +08:00 [INF] Request finished in 40.447ms 200 font/woff2
+2018-11-15 01:00:17.078 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 01:00:17.082 +08:00 [INF] Request finished in 4.5731ms 404 
+2018-11-15 01:00:25.303 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/Main  
+2018-11-15 01:00:25.310 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-15 01:00:25.321 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 01:00:25.327 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3028ms.
+2018-11-15 01:00:25.343 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 01:00:25.370 +08:00 [INF] Executed ViewResult - view Index executed in 31.0282ms.
+2018-11-15 01:00:25.374 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 54.702000000000005ms
+2018-11-15 01:00:25.377 +08:00 [INF] Request finished in 74.6541ms 200 text/html; charset=utf-8
+2018-11-15 01:00:25.471 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-15 01:00:25.476 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'C:\DevCodes\Project\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-15 01:00:25.487 +08:00 [INF] Request finished in 17.4808ms 200 image/x-icon
+2018-11-15 01:00:25.523 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-15 01:00:25.526 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-15 01:00:25.541 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 01:00:25.549 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-15 01:00:25.557 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3378ms.
+2018-11-15 01:00:25.565 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-15 01:00:25.579 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-15 01:00:25.588 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-15 01:00:25.602 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4307ms.
+2018-11-15 01:00:25.623 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-15 01:00:25.703 +08:00 [INF] Executed ViewResult - view Console executed in 128.7312ms.
+2018-11-15 01:00:25.706 +08:00 [INF] Executed ViewResult - view Index executed in 92.7778ms.
+2018-11-15 01:00:25.707 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 166.5574ms
+2018-11-15 01:00:25.708 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 120.561ms
+2018-11-15 01:00:25.710 +08:00 [INF] Request finished in 187.004ms 200 text/html; charset=utf-8
+2018-11-15 01:00:25.723 +08:00 [INF] Request finished in 174.2125ms 200 text/html; charset=utf-8
+2018-11-15 01:00:25.757 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-15 01:00:25.761 +08:00 [INF] The file /assets/js/user/index.js was not modified
+2018-11-15 01:00:25.773 +08:00 [INF] Request finished in 16.2171ms 304 application/javascript
+2018-11-15 01:00:25.989 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 01:00:25.993 +08:00 [INF] Request finished in 4.1737ms 404 
+2018-11-15 01:01:24.243 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 01:01:24.247 +08:00 [INF] Request finished in 4.3405ms 404 
+2018-11-15 01:01:25.049 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 01:01:25.051 +08:00 [INF] Request finished in 2.1985ms 404 
+2018-11-15 01:01:25.515 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json?page=1&limit=10  
+2018-11-15 01:01:25.517 +08:00 [INF] Request finished in 2.4494ms 404 
+2018-11-15 01:01:29.669 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json  
+2018-11-15 01:01:29.671 +08:00 [INF] Request finished in 2.0451ms 404 
+2018-11-15 01:01:58.437 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslState.ThrowIfExceptional()
+   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
+2018-11-15 01:01:58.446 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json  
+2018-11-15 01:01:58.481 +08:00 [INF] Request finished in 34.2413ms 404 
+2018-11-15 01:02:13.663 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/user.json  
+2018-11-15 01:02:13.665 +08:00 [INF] Request finished in 1.658ms 404 
+2018-11-15 01:02:26.257 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/json/user.json  
+2018-11-15 01:02:26.258 +08:00 [INF] Request finished in 1.4708ms 404 

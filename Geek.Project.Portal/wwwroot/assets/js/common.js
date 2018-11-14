@@ -32,7 +32,7 @@ function removeTheme() {
 
 // 获取主题css的路径
 function getThemeDir() {
-    console.log(getProjectUrl() + 'assets/css/theme/');
+    //console.log(getProjectUrl() + 'assets/css/theme/');
     return getProjectUrl() + 'assets/css/theme/';
 }
 

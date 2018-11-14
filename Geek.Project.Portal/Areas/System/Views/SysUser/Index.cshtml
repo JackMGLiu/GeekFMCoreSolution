@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "用户信息管理";
+    Layout = "~/Views/Shared/_PageLayout.cshtml";
+}
+@section styles{
+
+}
+<!-- 页面加载loading -->
+<div class="page-loading">
+    <div class="rubik-loader"></div>
+</div>
+<!-- 正文开始 -->
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body">
+
+            <div class="layui-form toolbar">
+                <div class="layui-form-item">
+                    <div class="layui-inline" style="width: 120px;">
+                        <select id="sltKey">
+                            <option value="">搜索条件</option>
+                            <option value="user_id">ID</option>
+                            <option value="username">账号</option>
+                            <option value="nick_name">用户名</option>
+                            <option value="phone">手机号</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <input id="edtSearch" class="layui-input" type="text" placeholder="输入关键字" />
+                    </div>
+                    <div class="layui-inline">
+                        <button id="btnSearch" class="layui-btn icon-btn"><i class="layui-icon">&#xe615;</i>搜索</button>
+                        <button id="btnAdd" class="layui-btn icon-btn"><i class="layui-icon">&#xe654;</i>添加</button>
+                        <button id="btnExp" class="layui-btn icon-btn"><i class="layui-icon">&#xe67d;</i>导出</button>
+                    </div>
+                </div>
+            </div>
+
+            <table class="layui-table" id="userTable" lay-filter="userTable"></table>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- 表格操作列 -->
+<script type="text/html" id="tableBar">
+    <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="edit">修改</a>
+    <a class="layui-btn layui-btn-xs" lay-event="reset">重置密码</a>
+</script>
+
+<!-- 表格状态列 -->
+<script type="text/html" id="tbaleState">
+    <input type="checkbox" lay-filter="ckState" value="{{d.userId}}" lay-skin="switch" lay-text="正常|锁定"
+           {{d.state==0?'checked':''}} />
+</script>
+@section scripts{
+    <script src="~/assets/js/user/index.js"></script>
+}
