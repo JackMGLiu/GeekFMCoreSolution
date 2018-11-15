@@ -8,12 +8,21 @@ using System.Threading.Tasks;
 namespace Geek.Project.Infrastructure.Repository
 {
     public interface IBaseRepository<TEntity, TKey>
-         where TEntity : class, IEntity<TKey>
+         where TEntity : class, IEntity
     {
         #region Query
 
         TEntity GetByKey(TKey key);
         Task<TEntity> GetByKeyAsync(TKey key);
+
+        TEntity GetSingle(Expression<Func<TEntity, bool>> expression, params string[] includes);
+
+        Task<TEntity> GetSingleAsync(Expression<Func<TEntity, bool>> expression, params string[] includes);
+
+        bool IsExist(Expression<Func<TEntity, bool>> expression, params string[] includes);
+
+        Task<bool> IsExistAsync(Expression<Func<TEntity, bool>> expression, params string[] includes);
+
         IQueryable<TEntity> Query();
 
         IQueryable<TEntity> Query(params string[] includes);

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Geek.Project.Core.Service.Interface;
+using Geek.Project.Core.ViewModel.SysUser;
+using Geek.Project.Infrastructure.QueryModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Geek.Project.Portal.Controllers
@@ -35,6 +37,38 @@ namespace Geek.Project.Portal.Controllers
         {
             var res = await _sysUserService.GetUsersAsync();
             return Ok(res);
+        }
+
+        [HttpGet()]
+        public async Task<IActionResult> Test4()
+        {
+            var res = await _sysUserService.IsExist();
+            return Ok(res);
+        }
+
+        [HttpGet()]
+        public async Task<IActionResult> Test5(UserParameters parameters)
+        {
+            var data = await _sysUserService.GetAllUsersAsync(parameters);
+            //var res = _mapper.Map<IEnumerable<UserViewModel>>(data);
+            var shapedUserResources = data.ToDynamicIEnumerable(parameters.Fields);
+
+            //var previousPageLink =
+            //    data.HasPrevious ? CreatePostUri(parameters, PaginationResourceUriType.PreviousPage) : null;
+
+            //var nextPageLink = data.HasNext ? CreatePostUri(parameters, PaginationResourceUriType.NextPage) : null;
+
+            var meta = new
+            {
+                data.PageIndex,
+                data.PageSize,
+                TotalCount = data.TotalItemsCount,
+                data.PageCount,
+                resources = shapedUserResources
+                //previousPageLink,
+                //nextPageLink
+            };
+            return Ok(meta);
         }
     }
 }

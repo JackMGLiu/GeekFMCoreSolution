@@ -1,6 +1,10 @@
 ﻿using Geek.Project.Core.Repository.Interface;
 using Geek.Project.Core.Service.Interface;
+using Geek.Project.Core.ViewModel.SysUser;
 using Geek.Project.Entity;
+using Geek.Project.Infrastructure.Extensions;
+using Geek.Project.Infrastructure.QueryModel;
+using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,11 +18,13 @@ namespace Geek.Project.Core.Service.Impl
     {
         private readonly IUnitOfWork _uow;
         private readonly ISysUserRepository _userRepository;
+        private readonly IPropertyMappingContainer _propertyMappingContainer;
 
-        public SysUserService(IUnitOfWork uow, ISysUserRepository userRepository)
+        public SysUserService(IUnitOfWork uow, ISysUserRepository userRepository, IPropertyMappingContainer propertyMappingContainer)
         {
             this._uow = uow;
             this._userRepository = userRepository;
+            this._propertyMappingContainer = propertyMappingContainer;
         }
 
         public SysUser GetUserByKey(int key)
@@ -42,6 +48,11 @@ namespace Geek.Project.Core.Service.Impl
             return await _userRepository.Query(u => u.Age >= 23, "Role").ToListAsync();
         }
 
+        public async Task<bool> IsExist()
+        {
+            return await _userRepository.IsExistAsync(u => u.Age == 63);
+        }
+
         public void Update()
         {
             //_uow.BeginTransaction();
@@ -51,5 +62,28 @@ namespace Geek.Project.Core.Service.Impl
             _userRepository.Update(user);
             _uow.Commit();
         }
+
+        public async Task<PagedList<SysUser>> GetAllUsersAsync(UserParameters parameters)
+        {
+            var query = _userRepository.Query("Role");
+            //if (!string.IsNullOrEmpty(parameters.Title))
+            //{
+            //    var title = parameters.Title.ToLowerInvariant();
+            //    query = query.Where(x => x.Title.ToLowerInvariant() == title);
+            //}
+
+            //var query = _dbContext.Posts.OrderBy(x => x.Id);
+            //query = query.OrderBy(x => x.Id);
+
+            query = query.ApplySort(parameters.OrderBy, _propertyMappingContainer.Resolve<UserViewModel, SysUser>()); //排序
+
+            var count = await query.CountAsync();
+            var data = await query
+                .Skip(parameters.PageIndex * parameters.PageSize)
+                .Take(parameters.PageSize)
+                .ToListAsync();
+            return new PagedList<SysUser>(parameters.PageIndex, parameters.PageSize, count, data);
+        }
+
     }
 }

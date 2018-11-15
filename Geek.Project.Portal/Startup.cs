@@ -6,8 +6,10 @@ using Geek.Project.Core.Repository.Impl;
 using Geek.Project.Core.Repository.Interface;
 using Geek.Project.Core.Service.Impl;
 using Geek.Project.Core.Service.Interface;
+using Geek.Project.Core.ViewModel.SysUser;
 using Geek.Project.Infrastructure.DataBase;
 using Geek.Project.Infrastructure.Repository;
+using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -61,6 +63,14 @@ namespace Geek.Project.Portal
             //services.AddScoped(typeof(IBaseRepository<,>), typeof(BaseRepository<,>));
 
             services.AddScoped<ISysUserService, SysUserService>();
+
+
+            //排序
+            var propertyMappingContainer = new PropertyMappingContainer();
+            propertyMappingContainer.Register<UserPropertyMapping>();
+            services.AddSingleton<IPropertyMappingContainer>(propertyMappingContainer);
+
+            services.AddTransient<ITypeHelperService, TypeHelperService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

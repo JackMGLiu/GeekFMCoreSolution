@@ -1,13 +1,14 @@
-﻿using Geek.Project.Entity.Base;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Geek.Project.Entity
+namespace Geek.Project.Core.ViewModel.SysUser
 {
-    public class SysUser : IEntity
+    public class UserViewModel
     {
         public int Id { get; set; }
         public string UserName { get; set; }
-        public string Password { get; set; }
+        //public string Password { get; set; }
         public string RealName { get; set; }
         public int? RoleId { get; set; }
         public int? Age { get; set; }
@@ -17,7 +18,6 @@ namespace Geek.Project.Entity
         public DateTime? CreateTime { get; set; }
         public string Remark { get; set; }
 
-        public virtual SysRole Role { get; set; }
-
+        //public virtual SysRole Role { get; set; }
     }
 }

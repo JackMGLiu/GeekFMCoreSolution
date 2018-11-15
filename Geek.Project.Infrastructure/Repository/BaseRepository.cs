@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Geek.Project.Infrastructure.Repository
 {
     public class BaseRepository<TEntity, TKey> : IBaseRepository<TEntity, TKey>
-        where TEntity : class, IEntity<TKey>
+        where TEntity : class, IEntity
     {
         #region fields
 
@@ -35,6 +35,74 @@ namespace Geek.Project.Infrastructure.Repository
         public async Task<TEntity> GetByKeyAsync(TKey key)
         {
             return await _dbSet.FindAsync(key);
+        }
+
+        public TEntity GetSingle(Expression<Func<TEntity, bool>> expression, params string[] includes)
+        {
+            if (includes.Length > 0)
+            {
+                IQueryable<TEntity> data = _dbSet.AsQueryable<TEntity>();
+                foreach (var prop in includes)
+                {
+                    data = data.Include(prop);
+                }
+                return data.Single(expression);
+            }
+            else
+            {
+                return _dbSet.Single(expression); ;
+            }
+        }
+
+        public async Task<TEntity> GetSingleAsync(Expression<Func<TEntity, bool>> expression, params string[] includes)
+        {
+            if (includes.Length > 0)
+            {
+                IQueryable<TEntity> data = _dbSet.AsQueryable<TEntity>();
+                foreach (var prop in includes)
+                {
+                    data = data.Include(prop);
+                }
+                return await data.SingleAsync(expression);
+            }
+            else
+            {
+                return await _dbSet.SingleAsync(expression);
+            }
+        }
+
+        public bool IsExist(Expression<Func<TEntity, bool>> expression, params string[] includes)
+        {
+            if (includes.Length > 0)
+            {
+                IQueryable<TEntity> data = _dbSet.AsQueryable<TEntity>();
+                foreach (var prop in includes)
+                {
+                    data = data.Include(prop);
+                }
+                return data.Any(expression);
+            }
+            else
+            {
+                return _dbSet.Any(expression);
+            }
+        }
+
+        public async Task<bool> IsExistAsync(Expression<Func<TEntity, bool>> expression, params string[] includes)
+        {
+            if (includes.Length > 0)
+            {
+                IQueryable<TEntity> data = _dbSet.AsQueryable<TEntity>();
+                foreach (var prop in includes)
+                {
+                    data = data.Include(prop);
+                }
+                return await data.AnyAsync(expression);
+            }
+            else
+            {
+                return await _dbSet.AnyAsync(expression);
+            }
         }
 
         public IQueryable<TEntity> Query()

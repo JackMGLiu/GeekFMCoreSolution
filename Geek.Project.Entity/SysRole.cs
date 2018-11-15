@@ -2,7 +2,7 @@
 
 namespace Geek.Project.Entity
 {
-    public class SysRole : IEntity<int>
+    public class SysRole : IEntity
     {
         public int Id { get; set; }
 
