@@ -1,6 +1,7 @@
 ﻿using Geek.Project.Core.ViewModel.SysUser;
 using Geek.Project.Entity;
 using Geek.Project.Infrastructure.QueryModel;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -21,5 +22,12 @@ namespace Geek.Project.Core.Service.Interface
         Task<bool> IsExist();
 
         Task<PagedList<SysUser>> GetAllUsersAsync(UserParameters parameters);
+
+        /// <summary>
+        /// 用户登录
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        Task<Tuple<bool, string, UserViewModel>> AccountLogin(LoginViewModel model);
     }
 }

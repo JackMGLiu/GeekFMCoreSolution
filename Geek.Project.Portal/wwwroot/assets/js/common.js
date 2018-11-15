@@ -11,6 +11,8 @@ layui.config({
     var $ = layui.jquery;
     var layer = layui.layer;
 
+    //console.log("tztztztz", getProjectUrl() + 'module/');
+
     // 加载缓存的主题
     var theme = layui.data('geekweb').theme;
     if (theme) {

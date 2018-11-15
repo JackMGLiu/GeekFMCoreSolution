@@ -46,11 +46,11 @@ namespace Geek.Project.Infrastructure.Repository
                 {
                     data = data.Include(prop);
                 }
-                return data.Single(expression);
+                return data.SingleOrDefault(expression);
             }
             else
             {
-                return _dbSet.Single(expression); ;
+                return _dbSet.SingleOrDefault(expression); ;
             }
         }
 
@@ -63,11 +63,11 @@ namespace Geek.Project.Infrastructure.Repository
                 {
                     data = data.Include(prop);
                 }
-                return await data.SingleAsync(expression);
+                return await data.SingleOrDefaultAsync(expression);
             }
             else
             {
-                return await _dbSet.SingleAsync(expression);
+                return await _dbSet.SingleOrDefaultAsync(expression);
             }
         }
 

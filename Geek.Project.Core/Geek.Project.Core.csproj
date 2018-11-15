@@ -5,8 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Geek.Project.Entity\Geek.Project.Entity.csproj" />
     <ProjectReference Include="..\Geek.Project.Infrastructure\Geek.Project.Infrastructure.csproj" />
+    <ProjectReference Include="..\Geek.Project.Utils\Geek.Project.Utils.csproj" />
   </ItemGroup>
 
 </Project>

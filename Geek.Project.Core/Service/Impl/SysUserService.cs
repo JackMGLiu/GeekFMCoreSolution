@@ -1,4 +1,5 @@
-﻿using Geek.Project.Core.Repository.Interface;
+﻿using AutoMapper;
+using Geek.Project.Core.Repository.Interface;
 using Geek.Project.Core.Service.Interface;
 using Geek.Project.Core.ViewModel.SysUser;
 using Geek.Project.Entity;
@@ -6,6 +7,7 @@ using Geek.Project.Infrastructure.Extensions;
 using Geek.Project.Infrastructure.QueryModel;
 using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
+using Geek.Project.Utils.Extensions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -17,12 +19,14 @@ namespace Geek.Project.Core.Service.Impl
     public class SysUserService : ISysUserService
     {
         private readonly IUnitOfWork _uow;
+        private readonly IMapper _mapper;
         private readonly ISysUserRepository _userRepository;
         private readonly IPropertyMappingContainer _propertyMappingContainer;
 
-        public SysUserService(IUnitOfWork uow, ISysUserRepository userRepository, IPropertyMappingContainer propertyMappingContainer)
+        public SysUserService(IUnitOfWork uow, IMapper mapper, ISysUserRepository userRepository, IPropertyMappingContainer propertyMappingContainer)
         {
             this._uow = uow;
+            this._mapper = mapper;
             this._userRepository = userRepository;
             this._propertyMappingContainer = propertyMappingContainer;
         }
@@ -85,5 +89,37 @@ namespace Geek.Project.Core.Service.Impl
             return new PagedList<SysUser>(parameters.PageIndex, parameters.PageSize, count, data);
         }
 
+        public async Task<Tuple<bool, string, UserViewModel>> AccountLogin(LoginViewModel model)
+        {
+            Tuple<bool, string, UserViewModel> res = null;
+            if (!model.IsEmpty())
+            {
+                if (!model.LoginName.IsEmpty())
+                {
+                    var currentAcc = await _userRepository.GetSingleAsync(m => m.UserName == model.LoginName);
+                    if (!currentAcc.IsEmpty())
+                    {
+                        if (currentAcc.Password == model.LoginPass)
+                        {
+                            var user = _mapper.Map<UserViewModel>(currentAcc);
+                            res = Tuple.Create<bool, string, UserViewModel>(true, "登录成功", user);
+                        }
+                        else
+                        {
+                            res = Tuple.Create<bool, string, UserViewModel>(false, "账号或密码错误，请重试", null);
+                        }
+                    }
+                    else
+                    {
+                        res = Tuple.Create<bool, string, UserViewModel>(false, "当前用户不存在", null);
+                    }
+                }
+            }
+            else
+            {
+                res = Tuple.Create<bool, string, UserViewModel>(false, "请输入登录信息", null);
+            }
+            return res;
+        }
     }
 }
