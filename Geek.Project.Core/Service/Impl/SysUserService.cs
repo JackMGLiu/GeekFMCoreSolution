@@ -79,8 +79,8 @@ namespace Geek.Project.Core.Service.Impl
 
             var count = await query.CountAsync();
             var data = await query
-                .Skip(parameters.PageIndex * parameters.PageSize)
-                .Take(parameters.PageSize)
+                .Skip((parameters.PageIndex - 1) * parameters.PageSize)
+                .Take(parameters.PageIndex * parameters.PageSize)
                 .ToListAsync();
             return new PagedList<SysUser>(parameters.PageIndex, parameters.PageSize, count, data);
         }

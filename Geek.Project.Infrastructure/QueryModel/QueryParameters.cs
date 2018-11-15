@@ -1,9 +1,7 @@
 ﻿using Geek.Project.Entity.Base;
-using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace Geek.Project.Infrastructure.QueryModel
 {

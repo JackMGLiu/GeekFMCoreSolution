@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AutoMapper;
 using Geek.Project.Core.Repository.Impl;
 using Geek.Project.Core.Repository.Interface;
 using Geek.Project.Core.Service.Impl;
 using Geek.Project.Core.Service.Interface;
 using Geek.Project.Core.ViewModel.SysUser;
 using Geek.Project.Infrastructure.DataBase;
-using Geek.Project.Infrastructure.Repository;
 using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
@@ -57,6 +53,8 @@ namespace Geek.Project.Portal
                 options.UseSqlServer(connectionString);
             }, ServiceLifetime.Scoped);
 
+            //mapper
+            services.AddAutoMapper();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ISysUserRepository, SysUserRepository>();

@@ -1,5 +1,3 @@
-using System;
-
 namespace Geek.Project.Portal.Models
 {
     public class ErrorViewModel

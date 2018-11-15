@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Geek.Project.Core.ViewModel.SysRole;
+using System;
 
 namespace Geek.Project.Core.ViewModel.SysUser
 {
@@ -18,6 +17,6 @@ namespace Geek.Project.Core.ViewModel.SysUser
         public DateTime? CreateTime { get; set; }
         public string Remark { get; set; }
 
-        //public virtual SysRole Role { get; set; }
+        public RoleViewModel Role { get; set; }
     }
 }
