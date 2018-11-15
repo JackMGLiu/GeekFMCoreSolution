@@ -16,27 +16,49 @@
         <div class="layui-card-body">
 
             <div class="layui-form toolbar">
-                <div class="layui-form-item">
-                    <div class="layui-inline" style="width: 120px;">
-                        <select id="sltKey">
-                            <option value="">搜索条件</option>
-                            <option value="user_id">ID</option>
-                            <option value="username">账号</option>
-                            <option value="nick_name">用户名</option>
-                            <option value="phone">手机号</option>
-                        </select>
+                <div class="layui-form-item" id="searchFrom">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">用&nbsp;&nbsp;户&nbsp;&nbsp;名：</label>
+                        <div class="layui-input-inline">
+                            <input class="layui-input" type="text" id="UserName" name="UserName" placeholder="输入用户名" />
+                        </div>
                     </div>
                     <div class="layui-inline">
-                        <input id="edtSearch" class="layui-input" type="text" placeholder="输入关键字" />
+                        <label class="layui-form-label">姓&emsp;&emsp;名：</label>
+                        <div class="layui-input-inline">
+                            <input class="layui-input" type="text" id="RealName" name="RealName" placeholder="输入姓名" />
+                        </div>
                     </div>
                     <div class="layui-inline">
-                        <button id="btnSearch" class="layui-btn icon-btn"><i class="layui-icon">&#xe615;</i>搜索</button>
-                        <button id="btnAdd" class="layui-btn icon-btn"><i class="layui-icon">&#xe654;</i>添加</button>
-                        <button id="btnExp" class="layui-btn icon-btn"><i class="layui-icon">&#xe67d;</i>导出</button>
+                        <label class="layui-form-label">状&emsp;&emsp;态：</label>
+                        <div class="layui-input-inline">
+                            <select id="Status" name="Status">
+                                <option value="">所有</option>
+                                <option value="1">正常</option>
+                                <option value="0">锁定</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">注册时间：</label>
+                        <div class="layui-input-inline">
+                            <input id="CreateTime" name="CreateTime" class="layui-input date-icon" type="text"
+                                   placeholder="选择注册时间" />
+                        </div>
+                    </div>
+                    <div class="layui-inline" style="padding-left: 20px;">
+                        <button class="layui-btn icon-btn" id="btnSearch">
+                            <i class="layui-icon">&#xe615;</i>搜索
+                        </button>
+                        <button class="layui-btn icon-btn">
+                            <i class="layui-icon">&#xe654;</i>添加
+                        </button>
+                        <button id="btnExport" class="layui-btn icon-btn">
+                            <i class="layui-icon">&#xe67d;</i>导出
+                        </button>
                     </div>
                 </div>
             </div>
-
             <table class="layui-table" id="userTable" lay-filter="userTable"></table>
 
         </div>
@@ -53,7 +75,7 @@
 <!-- 表格状态列 -->
 <script type="text/html" id="tbaleState">
     <input type="checkbox" lay-filter="ckState" value="{{d.userId}}" lay-skin="switch" lay-text="正常|锁定"
-           {{d.state==0?'checked':''}} />
+           {{d.Status === 1 ?'checked':''}} />
 </script>
 @section scripts{
     <script src="~/assets/js/user/index.js"></script>

@@ -70,12 +70,16 @@ namespace Geek.Project.Core.Service.Impl
         public async Task<PagedList<SysUser>> GetAllUsersAsync(UserParameters parameters)
         {
             var query = _userRepository.Query("Role");
-            //if (!string.IsNullOrEmpty(parameters.Title))
-            //{
-            //    var title = parameters.Title.ToLowerInvariant();
-            //    query = query.Where(x => x.Title.ToLowerInvariant() == title);
-            //}
-
+            if (!string.IsNullOrEmpty(parameters.UserName))
+            {
+                var userName = parameters.UserName.ToLowerInvariant();
+                query = query.Where(x => x.UserName.ToLowerInvariant().Contains(userName));
+            }
+            if (!string.IsNullOrEmpty(parameters.RealName))
+            {
+                var realName = parameters.RealName.ToLowerInvariant();
+                query = query.Where(x => x.RealName.ToLowerInvariant().Contains(realName));
+            }
             //var query = _dbContext.Posts.OrderBy(x => x.Id);
             //query = query.OrderBy(x => x.Id);
 

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Geek.Project.Portal.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Geek.Project.Portal.Controllers
 {
@@ -11,6 +12,7 @@ namespace Geek.Project.Portal.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            //var name = CurrentUser._userViewModel.RealName;
             return View();
         }
 

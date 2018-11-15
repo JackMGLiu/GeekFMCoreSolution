@@ -1,15 +1,16 @@
-﻿layui.use(['layer', 'form', 'table', 'util', 'admin'], function () {
+﻿layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate'], function () {
     var layer = layui.layer;
     var form = layui.form;
     var table = layui.table;
     var util = layui.util;
     var admin = layui.admin;
+    var laydate = layui.laydate;
 
     // 渲染表格
     var ins1 = table.render({
         elem: '#userTable',
         url: '/sys/users',
-        height: 'full-120',
+        height: 'full-160',
         limit: 15,
         limits: [10, 15, 20, 30, 40, 50, 100, 200],
         page: { //支持传入 laypage 组件的所有参数（某些参数除外，如：jump/elem） - 详见文档
@@ -40,8 +41,22 @@
                     return util.toDateString(d.CreateTime);
                 }, title: '创建时间'
             },
-            { field: 'state', sort: true, templet: '#tbaleState', title: '状态' },
-            { align: 'left', toolbar: '#tableBar', title: '操作', fixed: "right", minWidth: 120 }
+            { field: 'state', sort: true, width: 90, templet: '#tbaleState', title: '状态' },
+            { align: 'left', toolbar: '#tableBar', title: '操作', fixed: "right", minWidth: 150 }
         ]]
+    });
+
+    // 渲染laydate
+    laydate.render({
+        elem: '#CreateTime'
+    });    // 搜索按钮点击事件
+    $('#btnSearch').click(function () {
+        var formData = $('#searchFrom').getFormData();
+        table.reload('userTable', {
+            page: {
+                curr: 1
+            },
+            where: formData
+        });
     });
 });

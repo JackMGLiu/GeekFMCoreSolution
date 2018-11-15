@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 namespace Geek.Project.Infrastructure.QueryModel
 {
-    public abstract class QueryParameters<TKey> : INotifyPropertyChanged
+    public abstract class QueryParameters : INotifyPropertyChanged
     {
         private const int DefaultPageSize = 10;
         private const int DefaultMaxPageSize = 100;

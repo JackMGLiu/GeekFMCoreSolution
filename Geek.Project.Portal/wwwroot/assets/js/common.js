@@ -11,8 +11,6 @@ layui.config({
     var $ = layui.jquery;
     var layer = layui.layer;
 
-    //console.log("tztztztz", getProjectUrl() + 'module/');
-
     // 加载缓存的主题
     var theme = layui.data('geekweb').theme;
     if (theme) {
@@ -54,3 +52,42 @@ function getProjectUrl() {
     }
     return layuiDir.substring(0, layuiDir.indexOf('assets'));
 }
+
+//自定义
+/*获取和设置表单数据*/
+$.fn.getFormData = function (keyValue) {// 获取表单数据
+    var resdata = {};
+    $(this).find('input,select,textarea').each(function (r) {
+        var id = $(this).attr('id');
+        if (!!id) {
+            var type = $(this).attr('type');
+            switch (type) {
+                case "radio":
+                    if ($("#" + id).is(":checked")) {
+                        var _name = $("#" + id).attr('name');
+                        resdata[_name] = $("#" + id).val();
+                    }
+                    break;
+                case "checkbox":
+                    if ($("#" + id).is(":checked")) {
+                        resdata[id] = 1;
+                    } else {
+                        resdata[id] = 0;
+                    }
+                    break;
+                default:
+                    var value = $("#" + id).val();
+                    resdata[id] = $.trim(value);
+                    break;
+            }
+            resdata[id] += '';
+            if (resdata[id] === '') {
+                resdata[id] = '&nbsp;';
+            }
+            if (resdata[id] === '&nbsp;' && !keyValue) {
+                resdata[id] = '';
+            }
+        }
+    });
+    return resdata;
+};

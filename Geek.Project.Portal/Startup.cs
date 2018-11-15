@@ -39,6 +39,9 @@ namespace Geek.Project.Portal
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+            //Session服务
+            services.AddSession();
+
             //https
             services.AddHttpsRedirection(options =>
             {
@@ -86,6 +89,8 @@ namespace Geek.Project.Portal
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseHttpsRedirection();
+            app.UseSession();  //Session
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

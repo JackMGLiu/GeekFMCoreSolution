@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Geek.Project.Core.Service.Interface;
 using Geek.Project.Core.ViewModel.SysUser;
+using Geek.Project.Utils.Helper;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Geek.Project.Portal.Controllers
@@ -33,6 +34,7 @@ namespace Geek.Project.Portal.Controllers
                 msg = data.Item2,
                 data = data.Item3
             };
+            //HttpContext.Session.Set("CurrentUser", ByteConvertHelper.Object2Bytes(data.Item3));
             return Json(res);
         }
     }
