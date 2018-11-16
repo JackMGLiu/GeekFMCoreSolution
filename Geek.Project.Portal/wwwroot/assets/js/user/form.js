@@ -23,7 +23,7 @@ layui.use(['layer', 'form', 'formSelects', 'admin'], function () {
                 dataType: 'json',
                 success: function (res) {
                     if (res) {
-                        return '该用户名已经存在！';
+                        return '该用户名已经存在';
                     }
                 }
             });
@@ -74,7 +74,7 @@ function unameIsExist(obj) {
         dataType: 'json',
         success: function (res) {
             if (res) {
-                layer.msg('用户名已经存在', {
+                layer.msg('该用户名已经存在', {
                     icon: 5,
                     time: 1500,
                     shift: 6
