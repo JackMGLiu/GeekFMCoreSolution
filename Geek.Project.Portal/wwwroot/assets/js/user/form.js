@@ -1,6 +1,7 @@
-﻿layui.use(['layer', 'form', 'formSelects', 'admin'], function () {
+﻿var form;
+layui.use(['layer', 'form', 'formSelects', 'admin'], function () {
     var layer = layui.layer;
-    var form = layui.form;
+    form = layui.form;
     var formSelects = layui.formSelects;
     var admin = layui.admin;
 
@@ -8,6 +9,26 @@
     var user = admin.getTempData('t_user');
 
     admin.iframeAuto();  // 让当前iframe弹层高度适应
+
+    //$('#UserName').on('onblur', blurV);
+    form.verify({
+        UserName: function (value) {
+            $.ajax({
+                type: 'get',
+                async: false, // 使用同步的方法
+                url: '/sysuser/checkval',
+                data: { //要提交到服务端验证的用户名
+                    userName: value
+                },
+                dataType: 'json',
+                success: function (res) {
+                    if (res) {
+                        return '该用户名已经存在！';
+                    }
+                }
+            });
+        }
+    });
 
     // 表单提交事件
     form.on('submit(btnSubmit)', function (data) {
@@ -39,4 +60,74 @@
         }, 'json');
         return false;
     });
+
 });
+
+function unameIsExist(obj) {
+    $.ajax({
+        type: 'get',
+        async: false, // 使用同步的方法
+        url: '/sysuser/checkval',
+        data: { //要提交到服务端验证的用户名
+            userName: obj.value
+        },
+        dataType: 'json',
+        success: function (res) {
+            if (res) {
+                layer.msg('用户名已经存在', {
+                    icon: 5,
+                    time: 1500,
+                    shift: 6
+                }, function () {
+                    $(obj).focus().select();
+                });
+                return;
+            }
+        }
+    });
+}
+
+
+function blurV() {
+    var DANGER = 'layui-form-danger',
+        stop = null,
+        verify = form.verify;
+    //device = layui.device()
+    var othis = $(this), ver = othis.attr('lay-verify'), tips = '';
+    var value = othis.val(), isFn = typeof verify[ver] === 'function';
+    othis.removeClass(DANGER);
+    //console.log(ver);
+    //console.log(value);
+    $.ajax({
+        type: 'get',
+        async: false, // 使用同步的方法
+        url: '/sysuser/checkval',
+        data: { //要提交到服务端验证的用户名
+            userName: value
+        },
+        dataType: 'json',
+        success: function (res) {
+            if (res) {
+                //return '该用户名已经存在！';
+                othis.addClass(DANGER);
+                layer.msg('用户名已经存在' || verify[ver][1], {
+                    icon: 5
+                    , shift: 6
+                });
+                return stop = true;
+            }
+        }
+    });
+    //if (verify[ver] && (isFn ? tips = verify[ver](value, this) : !verify[ver][0].test(value))) {
+    //    layer.msg(tips || verify[ver][1], {
+    //        icon: 5
+    //        , shift: 6
+    //    });
+    //    ////非移动设备自动定位焦点
+    //    //if (!device.android && !device.ios) {
+    //    //    this.focus();
+    //    //}
+    //    othis.addClass(DANGER);
+    //    return stop = true;
+    //}
+}

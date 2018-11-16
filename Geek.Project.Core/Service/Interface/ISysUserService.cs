@@ -23,6 +23,8 @@ namespace Geek.Project.Core.Service.Interface
 
         Task<bool> IsExist();
 
+        Task<bool> IsExist(string userName);
+
         Task<PagedList<SysUser>> GetAllUsersAsync(UserParameters parameters);
 
         /// <summary>

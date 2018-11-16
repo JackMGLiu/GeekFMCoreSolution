@@ -58,6 +58,11 @@ namespace Geek.Project.Core.Service.Impl
             return await _userRepository.IsExistAsync(u => u.Age == 63);
         }
 
+        public async Task<bool> IsExist(string userName)
+        {
+            return await _userRepository.IsExistAsync(u => u.UserName == userName);
+        }
+
         public void Update()
         {
             //_uow.BeginTransaction();
@@ -138,5 +143,7 @@ namespace Geek.Project.Core.Service.Impl
             }
             return false;
         }
+
+
     }
 }

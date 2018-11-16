@@ -9,14 +9,14 @@
     <div class="layui-form-item">
         <label class="layui-form-label">账号</label>
         <div class="layui-input-block">
-            <input name="UserName" placeholder="请输入账号" type="text" class="layui-input" maxlength="20"
-                   lay-verify="required" required />
+            <input id="UserName" name="UserName" placeholder="请输入账号" type="text" class="layui-input" autocomplete="off" maxlength="20"
+                   lay-verify="required|UserName" required onblur="unameIsExist(this);" />
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">真实姓名</label>
         <div class="layui-input-block">
-            <input name="RealName" placeholder="请输入真实姓名" type="text" class="layui-input" maxlength="20"
+            <input name="RealName" placeholder="请输入真实姓名" type="text" class="layui-input" autocomplete="off" maxlength="20"
                    lay-verify="required" required />
         </div>
     </div>
@@ -29,7 +29,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">电子邮件</label>
         <div class="layui-input-block">
-            <input name="Email" placeholder="请输入电子邮件" type="email" class="layui-input" lay-verify="required|email" required />
+            <input name="Email" placeholder="请输入电子邮件" type="email" class="layui-input" autocomplete="off" lay-verify="required|email" required />
         </div>
     </div>
     <div class="layui-form-item">

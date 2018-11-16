@@ -87,5 +87,12 @@ namespace Geek.Project.Portal.Areas.System.Controllers
             }
             return Json(jsonResult);
         }
+
+        [HttpGet("sysuser/checkval")]
+        public async Task<IActionResult> Check(string userName)
+        {
+            var res = await _sysUserService.IsExist(userName);
+            return Json(res);
+        }
     }
 }
