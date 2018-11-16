@@ -63,14 +63,12 @@ namespace Geek.Project.Core.Service.Impl
             return await _userRepository.IsExistAsync(u => u.UserName == userName);
         }
 
-        public void Update()
+        public bool Update(SysUser model)
         {
-            //_uow.BeginTransaction();
-            var user = _userRepository.GetByKey(625);
-            user.UpdateTime = DateTime.Now;
-            user.Remark = "Hello World122122";
-            _userRepository.Update(user);
-            _uow.Commit();
+            model.UpdateTime = DateTime.Now;
+            _userRepository.Update(model);
+            var res = _uow.Commit();
+            return res > 0;
         }
 
         public async Task<PagedList<SysUser>> GetAllUsersAsync(UserParameters parameters)
@@ -144,6 +142,9 @@ namespace Geek.Project.Core.Service.Impl
             return false;
         }
 
-
+        public async Task<SysUser> GetUserByKeyAsync(int key)
+        {
+            return await _userRepository.GetSingleAsync(u => u.Id == key, "Role");
+        }
     }
 }

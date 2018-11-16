@@ -9,7 +9,7 @@ layui.use(['layer', 'element', 'admin', 'index', 'notice'], function () {
 
     // 默认加载主页
     index.loadView({
-        menuPath: '/main/console',
+        menuPath: '/Main/Console',
         menuName: '<i class="layui-icon layui-icon-home"></i>'
     });
 

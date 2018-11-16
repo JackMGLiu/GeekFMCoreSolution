@@ -46,6 +46,7 @@ namespace Geek.Project.Portal
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .UseIISIntegration()
                 .UseSerilog();
     }
 }

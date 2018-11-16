@@ -15,7 +15,8 @@ namespace Geek.Project.Core.Service.Interface
 
         SysUser GetUserByKey(int key);
 
-        void Update();
+        Task<SysUser> GetUserByKeyAsync(int key);
+        bool Update(SysUser model);
 
         Task<List<SysUser>> GetUserListAsync();
 

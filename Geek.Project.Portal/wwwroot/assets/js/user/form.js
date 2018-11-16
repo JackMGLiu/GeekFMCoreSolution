@@ -8,15 +8,27 @@ layui.use(['layer', 'form', 'formSelects', 'admin'], function () {
     // 回显user数据
     var user = admin.getTempData('t_user');
 
+    var url = geek.isNullOrEmpty(user) ? '/System/SysUser/Form' : '/System/SysUser/Form?key=' + user.Id;
+    console.log(url);
+
+    if (user) {
+        $('input[name="UserName"]').attr('readonly', 'readonly').removeAttr('onblur');
+        form.val('userForm', user);
+        //var rds = new Array();
+        //for (var i = 0; i < user.roles.length; i++) {
+        //    rds.push(user.roles[i].roleId);
+        //}
+        //formSelects.value('roleId', rds);
+    }
     admin.iframeAuto();  // 让当前iframe弹层高度适应
 
-    //$('#UserName').on('onblur', blurV);
+    //验证
     form.verify({
         UserName: function (value) {
             $.ajax({
                 type: 'get',
                 async: false, // 使用同步的方法
-                url: '/sysuser/checkval',
+                url: '/System/SysUser/CheckName',
                 data: { //要提交到服务端验证的用户名
                     userName: value
                 },
@@ -33,7 +45,7 @@ layui.use(['layer', 'form', 'formSelects', 'admin'], function () {
     // 表单提交事件
     form.on('submit(btnSubmit)', function (data) {
         layer.load(2);
-        $.post('/sys/userform', data.field, function (data) {
+        $.post(url, data.field, function (data) {
             layer.closeAll('loading');
             if (data.status === '1') {
                 top.notice.success({
@@ -67,7 +79,7 @@ function unameIsExist(obj) {
     $.ajax({
         type: 'get',
         async: false, // 使用同步的方法
-        url: '/sysuser/checkval',
+        url: '/System/SysUser/CheckName',
         data: { //要提交到服务端验证的用户名
             userName: obj.value
         },

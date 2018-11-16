@@ -24,8 +24,8 @@ namespace Geek.Project.Portal.Controllers
             return View();
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> Login(LoginViewModel model)
+        [HttpPost]
+        public async Task<IActionResult> CheckLogin(LoginViewModel model)
         {
             var data = await _sysUserService.AccountLogin(model);
             var res = new

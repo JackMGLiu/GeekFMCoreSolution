@@ -11,7 +11,7 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
     // 渲染表格
     var ins1 = table.render({
         elem: '#userTable',
-        url: '/sys/users',
+        url: '/System/SysUser/PageUserData',
         height: 'full-160',
         limit: 15,
         limits: [10, 15, 20, 30, 40, 50, 100, 200],
@@ -31,8 +31,8 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
             { type: 'numbers', width: 80, title: '序号' },
             { field: 'UserName', width: 120, title: '账号' },
             { field: 'RealName', width: 120, title: '姓名' },
-            { field: 'Age', sort: true, width: 70, title: '年龄' },
-            { field: 'Email', minWidth: 125, title: '电子邮箱' },
+            { field: 'Age', sort: true, width: 80, title: '年龄' },
+            { field: 'Email', minWidth: 130, title: '电子邮箱' },
             {
                 field: 'RoleName', width: 100, title: '角色', templet: function (d) {
                     if (geek.isNullOrEmpty(d.Role)) {
@@ -48,16 +48,28 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
                     return util.toDateString(d.CreateTime);
                 }, title: '创建时间'
             },
-            { field: 'state', sort: true, width: 95, templet: '#tbaleState', title: '状态' },
+            { field: 'state', sort: true, width: 100, templet: '#tbaleState', title: '状态' },
             { align: 'left', toolbar: '#tableBar', title: '操作', fixed: "right", minWidth: 135 }
         ]]
     });
 
-    // 渲染laydate
+    // 渲染laydate 日期范围
     laydate.render({
-        elem: '#CreateTime'
+        elem: '#CreateTime',
+        range: true
     });
 
+    // 工具条点击事件
+    table.on('tool(userTable)', function (obj) {
+        var data = obj.data;
+        var layEvent = obj.event;
+
+        if (layEvent === 'edit') { // 修改
+            showEditModel(data);
+        } else if (layEvent === 'reset') { // 重置密码
+            //resetPsw(obj.data.userId);
+        }
+    });
 
     // 搜索按钮点击事件
     $('#btnSearch').click(function () {
@@ -83,7 +95,7 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
         var index = top.layui.admin.open({
             type: 2,
             title: data ? '编辑用户' : '新增用户',
-            content: '/sys/userform',
+            content: '/System/SysUser/Form',
             area: ['55%', '70%'],
             success: function (layero, index) {
                 setTimeout(function () {
