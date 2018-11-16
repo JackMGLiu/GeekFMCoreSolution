@@ -8,6 +8,7 @@ using Geek.Project.Infrastructure.QueryModel;
 using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
 using Geek.Project.Utils.Extensions;
+using Geek.Project.Utils.Security;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -103,7 +104,7 @@ namespace Geek.Project.Core.Service.Impl
                     var currentAcc = await _userRepository.GetSingleAsync(m => m.UserName == model.LoginName);
                     if (!currentAcc.IsEmpty())
                     {
-                        if (currentAcc.Password == model.LoginPass)
+                        if (currentAcc.Password == model.LoginPass.Md5Hash())
                         {
                             var user = _mapper.Map<UserViewModel>(currentAcc);
                             res = Tuple.Create<bool, string, UserViewModel>(true, "登录成功", user);
@@ -124,6 +125,18 @@ namespace Geek.Project.Core.Service.Impl
                 res = Tuple.Create<bool, string, UserViewModel>(false, "请输入登录信息", null);
             }
             return res;
+        }
+
+        public async Task<bool> AddUser(CreateUserModel model)
+        {
+            if (!model.IsEmpty())
+            {
+                var user = _mapper.Map<SysUser>(model);
+                await _userRepository.InsertAsync(user);
+                var res = await _uow.CommitAsync();
+                return res > 0;
+            }
+            return false;
         }
     }
 }

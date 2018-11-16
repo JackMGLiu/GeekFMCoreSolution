@@ -1,10 +1,12 @@
-﻿layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate'], function () {
+﻿var notice;
+layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], function () {
     var layer = layui.layer;
     var form = layui.form;
     var table = layui.table;
     var util = layui.util;
     var admin = layui.admin;
     var laydate = layui.laydate;
+    notice = layui.notice;
 
     // 渲染表格
     var ins1 = table.render({
@@ -33,7 +35,12 @@
             { field: 'Email', minWidth: 125, title: '电子邮箱' },
             {
                 field: 'RoleName', width: 100, title: '角色', templet: function (d) {
-                    return d.Role.roleName;
+                    if (geek.isNullOrEmpty(d.Role)) {
+                        return '<span style="color:red; font-weight:bolder;">暂无</span>';
+                    } else {
+                        return d.Role.roleName;
+                    }
+
                 }
             },
             {
@@ -69,12 +76,15 @@
     });
 
     // 显示表单弹窗
-    function showEditModel(data) {        admin.putTempData('t_user', data);
-        admin.putTempData('formOk', false);        var index = top.layui.admin.open({
+    function showEditModel(data) {
+        admin.putTempData('t_user', data);
+        admin.putTempData('formOk', false);
+
+        var index = top.layui.admin.open({
             type: 2,
             title: data ? '编辑用户' : '新增用户',
             content: '/sys/userform',
-            area: ['65%', '70%'],
+            area: ['55%', '70%'],
             success: function (layero, index) {
                 setTimeout(function () {
                     top.layui.layer.tips('点击此处返回数据列表', '.layui-layer-setwin .layui-layer-close', {
@@ -83,7 +93,8 @@
                 }, 500);
             },
             end: function () {
-                //admin.getTempData('formOk') && table.reload('userTable');  // 成功刷新表格
+                admin.getTempData('formOk') && table.reload('userTable');  // 成功刷新表格
             }
-        });    }
+        });
+    }
 });

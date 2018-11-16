@@ -11,7 +11,7 @@ namespace Geek.Project.Portal.Mappers
         {
             CreateMap<SysUser, UserViewModel>();
             CreateMap<UserViewModel, SysUser>();
-
+            CreateMap<CreateUserModel, SysUser>();
 
             CreateMap<SysRole, RoleViewModel>();
             CreateMap<RoleViewModel, SysRole>();

@@ -2,7 +2,9 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using Geek.Project.Core.Service.Interface;
+using Geek.Project.Core.ViewModel;
 using Geek.Project.Core.ViewModel.SysUser;
+using Geek.Project.Entity;
 using Geek.Project.Infrastructure.QueryModel;
 using Microsoft.AspNetCore.Mvc;
 
@@ -59,13 +61,31 @@ namespace Geek.Project.Portal.Areas.System.Controllers
         }
 
         /// <summary>
-        /// 用户列表
+        /// 用户表单
         /// </summary>
         /// <returns></returns>
         [HttpGet("sys/userform")]
         public IActionResult Form()
         {
             return View();
+        }
+
+        [HttpPost("sys/userform")]
+        public async Task<IActionResult> Form(CreateUserModel model)
+        {
+            var jsonResult = new ResultModel();
+            var res = await _sysUserService.AddUser(model);
+            if (res)
+            {
+                jsonResult.status = "1";
+                jsonResult.msg = "新增信息成功";
+            }
+            else
+            {
+                jsonResult.status = "0";
+                jsonResult.msg = "新增信息失败";
+            }
+            return Json(jsonResult);
         }
     }
 }

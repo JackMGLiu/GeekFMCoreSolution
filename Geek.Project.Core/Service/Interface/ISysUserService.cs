@@ -9,6 +9,8 @@ namespace Geek.Project.Core.Service.Interface
 {
     public interface ISysUserService
     {
+        Task<bool> AddUser(CreateUserModel model);
+
         List<SysUser> GetUserList();
 
         SysUser GetUserByKey(int key);
