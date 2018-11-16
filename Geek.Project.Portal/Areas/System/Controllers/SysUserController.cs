@@ -57,5 +57,15 @@ namespace Geek.Project.Portal.Areas.System.Controllers
             };
             return Json(jsonRes);
         }
+
+        /// <summary>
+        /// 用户列表
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("sys/userform")]
+        public IActionResult Form()
+        {
+            return View();
+        }
     }
 }
