@@ -193,9 +193,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="json\user.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Update="wwwroot\favicon.ico">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>

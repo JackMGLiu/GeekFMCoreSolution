@@ -18,7 +18,7 @@ namespace Geek.Project.Portal.Controllers
             this._sysUserService = sysUserService;
         }
 
-        [HttpGet("login")]
+        [HttpGet]
         public IActionResult Index()
         {
             return View();

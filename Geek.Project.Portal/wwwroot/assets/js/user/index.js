@@ -4,7 +4,8 @@
     var table = layui.table;
     var util = layui.util;
     var admin = layui.admin;
-    var laydate = layui.laydate;
+    var laydate = layui.laydate;
+
 
     // 渲染表格
     var ins1 = table.render({
@@ -30,7 +31,7 @@
             { field: 'UserName', width: 120, title: '账号' },
             { field: 'RealName', width: 120, title: '姓名' },
             { field: 'Age', sort: true, width: 70, title: '年龄' },
-            { field: 'Email', minWidth: 120, title: '电子邮箱' },
+            { field: 'Email', minWidth: 125, title: '电子邮箱' },
             {
                 field: 'RoleName', width: 100, title: '角色', templet: function (d) {
                     return d.Role.roleName;
@@ -41,15 +42,18 @@
                     return util.toDateString(d.CreateTime);
                 }, title: '创建时间'
             },
-            { field: 'state', sort: true, width: 90, templet: '#tbaleState', title: '状态' },
-            { align: 'left', toolbar: '#tableBar', title: '操作', fixed: "right", minWidth: 150 }
+            { field: 'state', sort: true, width: 95, templet: '#tbaleState', title: '状态' },
+            { align: 'left', toolbar: '#tableBar', title: '操作', fixed: "right", minWidth: 135 }
         ]]
     });
 
     // 渲染laydate
     laydate.render({
         elem: '#CreateTime'
-    });    // 搜索按钮点击事件
+    });
+
+
+    // 搜索按钮点击事件
     $('#btnSearch').click(function () {
         var formData = $('#searchFrom').getFormData();
         table.reload('userTable', {

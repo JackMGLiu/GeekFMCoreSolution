@@ -1,0 +1,802 @@
+2018-11-16 09:44:10.837 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-16 09:44:13.211 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-16 09:44:13.235 +08:00 [INF] Request finished in 26.6843ms 307 
+2018-11-16 09:44:13.434 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-16 09:44:13.622 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-16 09:44:13.638 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:44:13.653 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3121ms.
+2018-11-16 09:44:13.680 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 09:44:13.793 +08:00 [INF] Executed ViewResult - view Index executed in 129.0924ms.
+2018-11-16 09:44:13.795 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 170.8307ms
+2018-11-16 09:44:13.809 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-16 09:44:13.809 +08:00 [INF] Request finished in 375.8184ms 200 text/html; charset=utf-8
+2018-11-16 09:44:13.812 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-16 09:44:13.821 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\css\site.css'
+2018-11-16 09:44:13.823 +08:00 [INF] Request finished in 13.5586ms 200 text/css
+2018-11-16 09:44:13.825 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-16 09:44:13.837 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-11-16 09:44:13.837 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.js'
+2018-11-16 09:44:13.840 +08:00 [INF] Request finished in 27.5854ms 200 text/css
+2018-11-16 09:44:13.842 +08:00 [INF] Request finished in 17.289ms 200 application/javascript
+2018-11-16 09:44:13.846 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-16 09:44:13.849 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-11-16 09:44:13.853 +08:00 [INF] Request finished in 7.1565ms 200 application/javascript
+2018-11-16 09:44:13.856 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-16 09:44:13.862 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\js\site.js'
+2018-11-16 09:44:13.865 +08:00 [INF] Request finished in 8.6486ms 200 application/javascript
+2018-11-16 09:44:13.867 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-16 09:44:13.869 +08:00 [INF] Sending file. Request path: '/images/banner1.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner1.svg'
+2018-11-16 09:44:13.873 +08:00 [INF] Request finished in 6.5758ms 200 image/svg+xml
+2018-11-16 09:44:13.876 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-16 09:44:13.878 +08:00 [INF] Sending file. Request path: '/images/banner2.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner2.svg'
+2018-11-16 09:44:13.882 +08:00 [INF] Request finished in 6.448ms 200 image/svg+xml
+2018-11-16 09:44:13.885 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-16 09:44:13.887 +08:00 [INF] Sending file. Request path: '/images/banner3.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner3.svg'
+2018-11-16 09:44:13.891 +08:00 [INF] Request finished in 6.2055ms 200 image/svg+xml
+2018-11-16 09:44:13.939 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-16 09:44:13.942 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-11-16 09:44:13.945 +08:00 [INF] Request finished in 6.0023ms 200 font/woff2
+2018-11-16 09:44:14.303 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/favicon.ico  
+2018-11-16 09:44:14.307 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-11-16 09:44:14.318 +08:00 [INF] Request finished in 14.8109ms 200 image/x-icon
+2018-11-16 09:44:31.944 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-16 09:44:33.889 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-16 09:44:33.921 +08:00 [INF] Request finished in 35.928ms 307 
+2018-11-16 09:44:33.947 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-16 09:44:34.163 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-16 09:44:34.181 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:44:34.206 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7531ms.
+2018-11-16 09:44:34.248 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 09:44:34.401 +08:00 [INF] Executed ViewResult - view Index executed in 182.4533ms.
+2018-11-16 09:44:34.403 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 238.00910000000002ms
+2018-11-16 09:44:34.414 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-16 09:44:34.416 +08:00 [INF] Request finished in 468.3086ms 200 text/html; charset=utf-8
+2018-11-16 09:44:34.417 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-16 09:44:34.423 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-16 09:44:34.423 +08:00 [INF] The file /css/site.css was not modified
+2018-11-16 09:44:34.432 +08:00 [INF] Request finished in 17.9711ms 304 text/css
+2018-11-16 09:44:34.429 +08:00 [INF] Request finished in 11.9046ms 304 text/css
+2018-11-16 09:44:34.437 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-16 09:44:34.440 +08:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-16 09:44:34.441 +08:00 [INF] Request finished in 3.8356ms 304 application/javascript
+2018-11-16 09:44:34.446 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-16 09:44:34.448 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-16 09:44:34.450 +08:00 [INF] Request finished in 3.5941ms 304 application/javascript
+2018-11-16 09:44:34.454 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-16 09:44:34.458 +08:00 [INF] The file /js/site.js was not modified
+2018-11-16 09:44:34.461 +08:00 [INF] Request finished in 6.8033ms 304 application/javascript
+2018-11-16 09:44:34.463 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-16 09:44:34.465 +08:00 [INF] The file /images/banner1.svg was not modified
+2018-11-16 09:44:34.468 +08:00 [INF] Request finished in 4.6302ms 304 image/svg+xml
+2018-11-16 09:44:34.471 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-16 09:44:34.472 +08:00 [INF] The file /images/banner2.svg was not modified
+2018-11-16 09:44:34.474 +08:00 [INF] Request finished in 3.1155ms 304 image/svg+xml
+2018-11-16 09:44:34.477 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-16 09:44:34.478 +08:00 [INF] The file /images/banner3.svg was not modified
+2018-11-16 09:44:34.480 +08:00 [INF] Request finished in 3.6271ms 304 image/svg+xml
+2018-11-16 09:44:34.529 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-16 09:44:34.531 +08:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-16 09:44:34.533 +08:00 [INF] Request finished in 3.8129ms 304 font/woff2
+2018-11-16 09:44:45.925 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/login  
+2018-11-16 09:44:45.934 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-11-16 09:44:46.189 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:44:46.193 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:44:46.196 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.17880000000000001ms.
+2018-11-16 09:44:46.203 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 09:44:46.224 +08:00 [INF] Executed ViewResult - view Index executed in 24.398600000000002ms.
+2018-11-16 09:44:46.228 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 290.2045ms
+2018-11-16 09:44:46.232 +08:00 [INF] Request finished in 307.2597ms 200 text/html; charset=utf-8
+2018-11-16 09:44:46.245 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/css/login.css  
+2018-11-16 09:44:46.245 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/layui.css  
+2018-11-16 09:44:46.254 +08:00 [INF] Sending file. Request path: '/assets/css/login.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\login.css'
+2018-11-16 09:44:46.259 +08:00 [INF] Request finished in 13.9234ms 200 text/css
+2018-11-16 09:44:46.261 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.min.js  
+2018-11-16 09:44:46.267 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/layui.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\layui.css'
+2018-11-16 09:44:46.269 +08:00 [INF] Request finished in 23.9735ms 200 text/css
+2018-11-16 09:44:46.278 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.min.js'
+2018-11-16 09:44:46.282 +08:00 [INF] Request finished in 20.9581ms 200 application/javascript
+2018-11-16 09:44:46.285 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/layui.js  
+2018-11-16 09:44:46.288 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/layui.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\layui.js'
+2018-11-16 09:44:46.291 +08:00 [INF] Request finished in 5.5695ms 200 application/javascript
+2018-11-16 09:44:46.295 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-16 09:44:46.298 +08:00 [INF] Sending file. Request path: '/assets/js/common.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\common.js'
+2018-11-16 09:44:46.302 +08:00 [INF] Request finished in 6.6006ms 200 application/javascript
+2018-11-16 09:44:46.306 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/logo.png  
+2018-11-16 09:44:46.309 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/bg_login.png  
+2018-11-16 09:44:46.309 +08:00 [INF] Sending file. Request path: '/assets/images/logo.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\logo.png'
+2018-11-16 09:44:46.310 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/font/iconfont.woff?v=240  
+2018-11-16 09:44:46.312 +08:00 [INF] Sending file. Request path: '/assets/images/bg_login.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\bg_login.png'
+2018-11-16 09:44:46.316 +08:00 [INF] Request finished in 9.491ms 200 image/png
+2018-11-16 09:44:46.318 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/font/iconfont.woff'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\font\iconfont.woff'
+2018-11-16 09:44:46.321 +08:00 [INF] Request finished in 11.4167ms 200 image/png
+2018-11-16 09:44:46.328 +08:00 [INF] Request finished in 18.1332ms 200 application/font-woff
+2018-11-16 09:44:46.362 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/layer.js  
+2018-11-16 09:44:46.364 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/layer.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\layer.js'
+2018-11-16 09:44:46.367 +08:00 [INF] Request finished in 4.9626ms 200 application/javascript
+2018-11-16 09:44:46.432 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/layer/default/layer.css?v=3.1.1  
+2018-11-16 09:44:46.436 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/layer.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\layer.css'
+2018-11-16 09:44:46.439 +08:00 [INF] Request finished in 7.4486ms 200 text/css
+2018-11-16 09:44:46.445 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/form.js  
+2018-11-16 09:44:46.447 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/form.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\form.js'
+2018-11-16 09:44:46.450 +08:00 [INF] Request finished in 5.5476ms 200 application/javascript
+2018-11-16 09:44:46.461 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/notice/notice.js  
+2018-11-16 09:44:46.463 +08:00 [INF] Sending file. Request path: '/module/notice/notice.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\notice\notice.js'
+2018-11-16 09:44:46.467 +08:00 [INF] Request finished in 5.8183ms 200 application/javascript
+2018-11-16 09:44:46.470 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/notice/notice.css  
+2018-11-16 09:44:46.475 +08:00 [INF] Sending file. Request path: '/module/notice/notice.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\notice\notice.css'
+2018-11-16 09:44:46.479 +08:00 [INF] Request finished in 9.0866ms 200 text/css
+2018-11-16 09:44:53.451 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/layer/default/loading-2.gif  
+2018-11-16 09:44:53.456 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/loading-2.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\loading-2.gif'
+2018-11-16 09:44:53.460 +08:00 [INF] Request finished in 8.5222ms 200 image/gif
+2018-11-16 09:44:53.466 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:9001/login application/x-www-form-urlencoded; charset=UTF-8 34
+2018-11-16 09:44:53.489 +08:00 [INF] Route matched with {action = "Login", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Login (Geek.Project.Portal)
+2018-11-16 09:44:53.496 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:44:53.538 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Login (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-11-16 09:44:54.023 +08:00 [INF] Executed DbCommand (88ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-11-16 09:44:54.109 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Login (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 558.6443ms.
+2018-11-16 09:44:54.119 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-16 09:44:54.167 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Login (Geek.Project.Portal) in 671.99070000000006ms
+2018-11-16 09:44:54.173 +08:00 [INF] Request finished in 707.1861ms 200 application/json; charset=utf-8
+2018-11-16 09:44:57.550 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main  
+2018-11-16 09:44:57.555 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-16 09:44:57.561 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:44:57.564 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.186ms.
+2018-11-16 09:44:57.569 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 09:44:57.586 +08:00 [INF] Executed ViewResult - view Index executed in 19.6614ms.
+2018-11-16 09:44:57.589 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 28.0347ms
+2018-11-16 09:44:57.596 +08:00 [INF] Request finished in 46.5638ms 200 text/html; charset=utf-8
+2018-11-16 09:44:57.609 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/css/admin.css  
+2018-11-16 09:44:57.611 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/main.js  
+2018-11-16 09:44:57.612 +08:00 [INF] Sending file. Request path: '/assets/css/admin.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\admin.css'
+2018-11-16 09:44:57.614 +08:00 [INF] Sending file. Request path: '/assets/js/main.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\main.js'
+2018-11-16 09:44:57.619 +08:00 [INF] Request finished in 10.4782ms 200 text/css
+2018-11-16 09:44:57.627 +08:00 [INF] Request finished in 16.2883ms 200 application/javascript
+2018-11-16 09:44:57.632 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/head.png  
+2018-11-16 09:44:57.634 +08:00 [INF] Sending file. Request path: '/assets/images/head.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\head.png'
+2018-11-16 09:44:57.637 +08:00 [INF] Request finished in 4.3994ms 200 image/png
+2018-11-16 09:44:57.697 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/ic_loading.gif  
+2018-11-16 09:44:57.699 +08:00 [INF] Sending file. Request path: '/assets/images/ic_loading.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\ic_loading.gif'
+2018-11-16 09:44:57.702 +08:00 [INF] Request finished in 5.4337ms 200 image/gif
+2018-11-16 09:44:57.810 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/element.js  
+2018-11-16 09:44:57.814 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/element.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\element.js'
+2018-11-16 09:44:57.817 +08:00 [INF] Request finished in 7.3755ms 200 application/javascript
+2018-11-16 09:44:57.833 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/admin.js  
+2018-11-16 09:44:57.837 +08:00 [INF] Sending file. Request path: '/module/admin.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\admin.js'
+2018-11-16 09:44:57.843 +08:00 [INF] Request finished in 9.7999ms 200 application/javascript
+2018-11-16 09:44:57.848 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/index.js  
+2018-11-16 09:44:57.849 +08:00 [INF] Sending file. Request path: '/module/index.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\index.js'
+2018-11-16 09:44:57.852 +08:00 [INF] Request finished in 4.6464ms 200 application/javascript
+2018-11-16 09:44:57.860 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-16 09:44:57.863 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-16 09:44:57.866 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:44:57.873 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.41500000000000004ms.
+2018-11-16 09:44:57.882 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-16 09:44:57.979 +08:00 [INF] Executed ViewResult - view Console executed in 100.56580000000001ms.
+2018-11-16 09:44:57.983 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 116.6207ms
+2018-11-16 09:44:57.988 +08:00 [INF] Request finished in 127.5623ms 200 text/html; charset=utf-8
+2018-11-16 09:44:58.122 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-16 09:44:58.125 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-16 09:44:58.129 +08:00 [INF] Request finished in 7.7079ms 200 image/x-icon
+2018-11-16 09:45:02.206 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-16 09:45:02.212 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-16 09:45:02.219 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:02.224 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:45:02.226 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1312ms.
+2018-11-16 09:45:02.230 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 09:45:02.236 +08:00 [INF] Executed ViewResult - view Index executed in 7.514ms.
+2018-11-16 09:45:02.240 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 21.7974ms
+2018-11-16 09:45:02.244 +08:00 [INF] Request finished in 37.3664ms 200 text/html; charset=utf-8
+2018-11-16 09:45:02.250 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-16 09:45:02.252 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-16 09:45:02.257 +08:00 [INF] Request finished in 7.2479ms 200 application/javascript
+2018-11-16 09:45:02.298 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/icon_date.png  
+2018-11-16 09:45:02.300 +08:00 [INF] Sending file. Request path: '/assets/images/icon_date.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\icon_date.png'
+2018-11-16 09:45:02.303 +08:00 [INF] Request finished in 5.122ms 200 image/png
+2018-11-16 09:45:02.374 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/table.js  
+2018-11-16 09:45:02.378 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/table.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\table.js'
+2018-11-16 09:45:02.383 +08:00 [INF] Request finished in 8.7414ms 200 application/javascript
+2018-11-16 09:45:02.388 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laytpl.js  
+2018-11-16 09:45:02.394 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laytpl.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laytpl.js'
+2018-11-16 09:45:02.403 +08:00 [INF] Request finished in 14.8639ms 200 application/javascript
+2018-11-16 09:45:02.407 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laypage.js  
+2018-11-16 09:45:02.410 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laypage.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laypage.js'
+2018-11-16 09:45:02.413 +08:00 [INF] Request finished in 5.8473ms 200 application/javascript
+2018-11-16 09:45:02.415 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/util.js  
+2018-11-16 09:45:02.419 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/util.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\util.js'
+2018-11-16 09:45:02.425 +08:00 [INF] Request finished in 9.6061ms 200 application/javascript
+2018-11-16 09:45:02.436 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laydate.js  
+2018-11-16 09:45:02.439 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laydate.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laydate.js'
+2018-11-16 09:45:02.443 +08:00 [INF] Request finished in 7.239ms 200 application/javascript
+2018-11-16 09:45:02.448 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/laydate/default/laydate.css?v=5.0.9  
+2018-11-16 09:45:02.452 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/laydate/default/laydate.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\laydate\default\laydate.css'
+2018-11-16 09:45:02.458 +08:00 [INF] Request finished in 10.0056ms 200 text/css
+2018-11-16 09:45:02.466 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15  
+2018-11-16 09:45:02.478 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:02.482 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:02.498 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:02.519 +08:00 [WRN] The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-11-16 09:45:02.593 +08:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-11-16 09:45:02.608 +08:00 [WRN] Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2018-11-16 09:45:02.707 +08:00 [INF] Executed DbCommand (43ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-11-16 09:45:02.775 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 272.538ms.
+2018-11-16 09:45:02.780 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:02.791 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 309.5873ms
+2018-11-16 09:45:02.795 +08:00 [INF] Request finished in 329.4796ms 200 application/json; charset=utf-8
+2018-11-16 09:45:09.997 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15&UserName=&RealName=1&Status=&CreateTime=  
+2018-11-16 09:45:10.001 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:10.005 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:10.013 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:10.019 +08:00 [WRN] The Include operation for navigation '[x].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-11-16 09:45:10.028 +08:00 [WRN] The LINQ expression 'where [x].RealName.ToLowerInvariant().Contains(__realName_0)' could not be translated and will be evaluated locally.
+2018-11-16 09:45:10.034 +08:00 [WRN] The LINQ expression 'Count()' could not be translated and will be evaluated locally.
+2018-11-16 09:45:10.090 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[RealName]
+FROM [SysUser] AS [x]
+2018-11-16 09:45:10.100 +08:00 [WRN] Query: '(from SysUser x in DbSet<SysUser> where bool string [x].RealName.ToLowerInvariant().Contains(__realN...' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2018-11-16 09:45:10.110 +08:00 [WRN] The LINQ expression 'where [x].RealName.ToLowerInvariant().Contains(__realName_0)' could not be translated and will be evaluated locally.
+2018-11-16 09:45:10.114 +08:00 [WRN] The LINQ expression 'Skip(__p_1)' could not be translated and will be evaluated locally.
+2018-11-16 09:45:10.116 +08:00 [WRN] The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally.
+2018-11-16 09:45:10.176 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-11-16 09:45:10.190 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 175.01600000000002ms.
+2018-11-16 09:45:10.195 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:10.199 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 194.63920000000002ms
+2018-11-16 09:45:10.203 +08:00 [INF] Request finished in 206.8036ms 200 application/json; charset=utf-8
+2018-11-16 09:45:12.286 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=6&PageSize=15&UserName=&RealName=1&Status=&CreateTime=  
+2018-11-16 09:45:12.289 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:12.293 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:12.300 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:12.343 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[RealName]
+FROM [SysUser] AS [x]
+2018-11-16 09:45:12.390 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-11-16 09:45:12.407 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 103.0882ms.
+2018-11-16 09:45:12.412 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:12.416 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 123.68100000000001ms
+2018-11-16 09:45:12.421 +08:00 [INF] Request finished in 135.7781ms 200 application/json; charset=utf-8
+2018-11-16 09:45:15.461 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15&UserName=&RealName=122&Status=&CreateTime=  
+2018-11-16 09:45:15.465 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:15.469 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:15.477 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:15.520 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[RealName]
+FROM [SysUser] AS [x]
+2018-11-16 09:45:15.567 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-11-16 09:45:15.578 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 96.617100000000008ms.
+2018-11-16 09:45:15.581 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:15.585 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 117.27990000000001ms
+2018-11-16 09:45:15.591 +08:00 [INF] Request finished in 129.7112ms 200 application/json; charset=utf-8
+2018-11-16 09:45:19.880 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15&UserName=&RealName=123&Status=&CreateTime=  
+2018-11-16 09:45:19.884 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:19.888 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:19.894 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:19.937 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[RealName]
+FROM [SysUser] AS [x]
+2018-11-16 09:45:19.984 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-11-16 09:45:19.992 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 94.0826ms.
+2018-11-16 09:45:19.996 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:20.000 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 112.34410000000001ms
+2018-11-16 09:45:20.005 +08:00 [INF] Request finished in 125.7669ms 200 application/json; charset=utf-8
+2018-11-16 09:45:22.828 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15&UserName=&RealName=1&Status=&CreateTime=  
+2018-11-16 09:45:22.833 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:22.837 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:22.844 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:22.889 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[RealName]
+FROM [SysUser] AS [x]
+2018-11-16 09:45:22.936 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-11-16 09:45:22.943 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 92.8019ms.
+2018-11-16 09:45:22.945 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:22.949 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 112.38520000000001ms
+2018-11-16 09:45:22.953 +08:00 [INF] Request finished in 124.9495ms 200 application/json; charset=utf-8
+2018-11-16 09:45:24.615 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15&UserName=&RealName=2&Status=&CreateTime=  
+2018-11-16 09:45:24.618 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:24.624 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:24.632 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:24.680 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[RealName]
+FROM [SysUser] AS [x]
+2018-11-16 09:45:24.725 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-11-16 09:45:24.731 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 90.1444ms.
+2018-11-16 09:45:24.737 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:24.742 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 118.275ms
+2018-11-16 09:45:24.744 +08:00 [INF] Request finished in 129.303ms 200 application/json; charset=utf-8
+2018-11-16 09:45:30.190 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15&UserName=&RealName=&Status=&CreateTime=  
+2018-11-16 09:45:30.194 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:30.197 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:30.206 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:30.249 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-11-16 09:45:30.298 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-11-16 09:45:30.311 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 100.7949ms.
+2018-11-16 09:45:30.314 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:30.321 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 124.30460000000001ms
+2018-11-16 09:45:30.324 +08:00 [INF] Request finished in 134.2809ms 200 application/json; charset=utf-8
+2018-11-16 09:45:32.052 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=6&PageSize=15&UserName=&RealName=&Status=&CreateTime=  
+2018-11-16 09:45:32.056 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:32.059 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:32.066 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:32.111 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-11-16 09:45:32.157 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-11-16 09:45:32.164 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 92.3263ms.
+2018-11-16 09:45:32.168 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:32.172 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 113.9214ms
+2018-11-16 09:45:32.176 +08:00 [INF] Request finished in 123.8939ms 200 application/json; charset=utf-8
+2018-11-16 09:45:32.644 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=5&PageSize=15&UserName=&RealName=&Status=&CreateTime=  
+2018-11-16 09:45:32.647 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:32.650 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:32.657 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:32.700 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-11-16 09:45:32.745 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-11-16 09:45:32.755 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 92.8391ms.
+2018-11-16 09:45:32.758 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:32.762 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 113.1997ms
+2018-11-16 09:45:32.767 +08:00 [INF] Request finished in 122.5899ms 200 application/json; charset=utf-8
+2018-11-16 09:45:33.461 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=6&PageSize=15&UserName=&RealName=&Status=&CreateTime=  
+2018-11-16 09:45:33.464 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:33.469 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:33.476 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:33.520 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-11-16 09:45:33.564 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-11-16 09:45:33.574 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 91.615500000000011ms.
+2018-11-16 09:45:33.578 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:33.582 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 113.2033ms
+2018-11-16 09:45:33.584 +08:00 [INF] Request finished in 123.4179ms 200 application/json; charset=utf-8
+2018-11-16 09:45:39.728 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15&UserName=&RealName=11&Status=&CreateTime=  
+2018-11-16 09:45:39.731 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:45:39.735 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:45:39.742 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:45:39.784 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[RealName]
+FROM [SysUser] AS [x]
+2018-11-16 09:45:39.830 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-11-16 09:45:39.837 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 91.4611ms.
+2018-11-16 09:45:39.841 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:45:39.845 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 109.92930000000001ms
+2018-11-16 09:45:39.848 +08:00 [INF] Request finished in 119.8957ms 200 application/json; charset=utf-8
+2018-11-16 09:46:49.350 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main  
+2018-11-16 09:46:49.354 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-16 09:46:49.356 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:46:49.361 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0429ms.
+2018-11-16 09:46:49.364 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 09:46:49.366 +08:00 [INF] Executed ViewResult - view Index executed in 1.9634ms.
+2018-11-16 09:46:49.368 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 11.542ms
+2018-11-16 09:46:49.373 +08:00 [INF] Request finished in 22.0744ms 200 text/html; charset=utf-8
+2018-11-16 09:46:49.395 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/layui.css  
+2018-11-16 09:46:49.396 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/css/admin.css  
+2018-11-16 09:46:49.398 +08:00 [INF] The file /assets/libs/layui/css/layui.css was not modified
+2018-11-16 09:46:49.399 +08:00 [INF] The file /assets/css/admin.css was not modified
+2018-11-16 09:46:49.403 +08:00 [INF] Request finished in 7.8529ms 304 text/css
+2018-11-16 09:46:49.407 +08:00 [INF] Request finished in 10.8047ms 304 text/css
+2018-11-16 09:46:49.411 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.min.js  
+2018-11-16 09:46:49.416 +08:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2018-11-16 09:46:49.418 +08:00 [INF] Request finished in 7.1823ms 304 application/javascript
+2018-11-16 09:46:49.421 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/layui.js  
+2018-11-16 09:46:49.423 +08:00 [INF] The file /assets/libs/layui/layui.js was not modified
+2018-11-16 09:46:49.428 +08:00 [INF] Request finished in 7.356ms 304 application/javascript
+2018-11-16 09:46:49.431 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-16 09:46:49.433 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-11-16 09:46:49.437 +08:00 [INF] Request finished in 6.209ms 304 application/javascript
+2018-11-16 09:46:49.440 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/main.js  
+2018-11-16 09:46:49.442 +08:00 [INF] The file /assets/js/main.js was not modified
+2018-11-16 09:46:49.443 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/logo.png  
+2018-11-16 09:46:49.443 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/head.png  
+2018-11-16 09:46:49.446 +08:00 [INF] Request finished in 5.8086ms 304 application/javascript
+2018-11-16 09:46:49.448 +08:00 [INF] The file /assets/images/logo.png was not modified
+2018-11-16 09:46:49.452 +08:00 [INF] The file /assets/images/head.png was not modified
+2018-11-16 09:46:49.456 +08:00 [INF] Request finished in 12.956ms 304 image/png
+2018-11-16 09:46:49.460 +08:00 [INF] Request finished in 16.1797ms 304 image/png
+2018-11-16 09:46:49.467 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/layer.js  
+2018-11-16 09:46:49.468 +08:00 [INF] The file /assets/libs/layui/lay/modules/layer.js was not modified
+2018-11-16 09:46:49.470 +08:00 [INF] Request finished in 3.7207ms 304 application/javascript
+2018-11-16 09:46:49.471 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/font/iconfont.woff?v=240  
+2018-11-16 09:46:49.474 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/ic_loading.gif  
+2018-11-16 09:46:49.476 +08:00 [INF] The file /assets/libs/layui/font/iconfont.woff was not modified
+2018-11-16 09:46:49.478 +08:00 [INF] The file /assets/images/ic_loading.gif was not modified
+2018-11-16 09:46:49.479 +08:00 [INF] Request finished in 8.4595ms 304 application/font-woff
+2018-11-16 09:46:49.481 +08:00 [INF] Request finished in 6.8516ms 304 image/gif
+2018-11-16 09:46:49.563 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/layer/default/layer.css?v=3.1.1  
+2018-11-16 09:46:49.566 +08:00 [INF] The file /assets/libs/layui/css/modules/layer/default/layer.css was not modified
+2018-11-16 09:46:49.569 +08:00 [INF] Request finished in 5.1404ms 304 text/css
+2018-11-16 09:46:49.573 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/element.js  
+2018-11-16 09:46:49.577 +08:00 [INF] The file /assets/libs/layui/lay/modules/element.js was not modified
+2018-11-16 09:46:49.580 +08:00 [INF] Request finished in 7.4089ms 304 application/javascript
+2018-11-16 09:46:49.599 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/admin.js  
+2018-11-16 09:46:49.601 +08:00 [INF] The file /module/admin.js was not modified
+2018-11-16 09:46:49.606 +08:00 [INF] Request finished in 6.9514ms 304 application/javascript
+2018-11-16 09:46:49.615 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/index.js  
+2018-11-16 09:46:49.617 +08:00 [INF] The file /module/index.js was not modified
+2018-11-16 09:46:49.619 +08:00 [INF] Request finished in 4.0136ms 304 application/javascript
+2018-11-16 09:46:49.629 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-16 09:46:49.631 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-16 09:46:49.634 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:46:49.638 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-16 09:46:49.639 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.020300000000000002ms.
+2018-11-16 09:46:49.641 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-16 09:46:49.645 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-16 09:46:49.651 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:46:49.657 +08:00 [INF] Executed ViewResult - view Console executed in 12.6003ms.
+2018-11-16 09:46:49.666 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:46:49.671 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 37.4538ms
+2018-11-16 09:46:49.674 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.085ms.
+2018-11-16 09:46:49.677 +08:00 [INF] Request finished in 48.3671ms 200 text/html; charset=utf-8
+2018-11-16 09:46:49.683 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 09:46:49.688 +08:00 [INF] Executed ViewResult - view Index executed in 5.1094ms.
+2018-11-16 09:46:49.691 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 40.377ms
+2018-11-16 09:46:49.695 +08:00 [INF] Request finished in 57.0533ms 200 text/html; charset=utf-8
+2018-11-16 09:46:49.778 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-16 09:46:49.782 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-16 09:46:49.786 +08:00 [INF] Request finished in 8.0376ms 200 application/javascript
+2018-11-16 09:46:49.823 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/icon_date.png  
+2018-11-16 09:46:49.825 +08:00 [INF] The file /assets/images/icon_date.png was not modified
+2018-11-16 09:46:49.829 +08:00 [INF] Request finished in 6.0669ms 304 image/png
+2018-11-16 09:46:49.883 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/form.js  
+2018-11-16 09:46:49.886 +08:00 [INF] The file /assets/libs/layui/lay/modules/form.js was not modified
+2018-11-16 09:46:49.890 +08:00 [INF] Request finished in 7.3058ms 304 application/javascript
+2018-11-16 09:46:49.913 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-16 09:46:49.917 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-16 09:46:49.921 +08:00 [INF] Request finished in 7.566ms 200 image/x-icon
+2018-11-16 09:46:49.926 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/table.js  
+2018-11-16 09:46:49.929 +08:00 [INF] The file /assets/libs/layui/lay/modules/table.js was not modified
+2018-11-16 09:46:49.932 +08:00 [INF] Request finished in 6.3828ms 304 application/javascript
+2018-11-16 09:46:49.939 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laytpl.js  
+2018-11-16 09:46:49.941 +08:00 [INF] The file /assets/libs/layui/lay/modules/laytpl.js was not modified
+2018-11-16 09:46:49.945 +08:00 [INF] Request finished in 5.2813ms 304 application/javascript
+2018-11-16 09:46:49.950 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laypage.js  
+2018-11-16 09:46:49.953 +08:00 [INF] The file /assets/libs/layui/lay/modules/laypage.js was not modified
+2018-11-16 09:46:49.957 +08:00 [INF] Request finished in 7.2206ms 304 application/javascript
+2018-11-16 09:46:49.963 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/util.js  
+2018-11-16 09:46:49.965 +08:00 [INF] The file /assets/libs/layui/lay/modules/util.js was not modified
+2018-11-16 09:46:49.967 +08:00 [INF] Request finished in 3.8036ms 304 application/javascript
+2018-11-16 09:46:49.978 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laydate.js  
+2018-11-16 09:46:49.981 +08:00 [INF] The file /assets/libs/layui/lay/modules/laydate.js was not modified
+2018-11-16 09:46:49.984 +08:00 [INF] Request finished in 6.5777ms 304 application/javascript
+2018-11-16 09:46:49.993 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/laydate/default/laydate.css?v=5.0.9  
+2018-11-16 09:46:49.996 +08:00 [INF] The file /assets/libs/layui/css/modules/laydate/default/laydate.css was not modified
+2018-11-16 09:46:49.998 +08:00 [INF] Request finished in 5.3866ms 304 text/css
+2018-11-16 09:46:50.005 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15  
+2018-11-16 09:46:50.006 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:46:50.012 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:46:50.019 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:46:50.063 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-11-16 09:46:50.106 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-11-16 09:46:50.117 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 93.528900000000007ms.
+2018-11-16 09:46:50.122 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:46:50.131 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 120.45230000000001ms
+2018-11-16 09:46:50.137 +08:00 [INF] Request finished in 131.9227ms 200 application/json; charset=utf-8
+2018-11-16 09:46:58.033 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-16 09:46:58.036 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-16 09:46:58.039 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:46:58.042 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 09:46:58.046 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0238ms.
+2018-11-16 09:46:58.049 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 09:46:58.051 +08:00 [INF] Executed ViewResult - view Index executed in 2.3868ms.
+2018-11-16 09:46:58.055 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 16.204ms
+2018-11-16 09:46:58.058 +08:00 [INF] Request finished in 25.2595ms 200 text/html; charset=utf-8
+2018-11-16 09:46:58.073 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-16 09:46:58.076 +08:00 [INF] The file /assets/js/user/index.js was not modified
+2018-11-16 09:46:58.081 +08:00 [INF] Request finished in 8.0246ms 304 application/javascript
+2018-11-16 09:46:58.230 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15  
+2018-11-16 09:46:58.232 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 09:46:58.236 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 09:46:58.245 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 09:46:58.290 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-11-16 09:46:58.343 +08:00 [INF] Executed DbCommand (45ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-11-16 09:46:58.350 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 98.450200000000009ms.
+2018-11-16 09:46:58.356 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 09:46:58.361 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 126.4795ms
+2018-11-16 09:46:58.365 +08:00 [INF] Request finished in 134.9167ms 200 application/json; charset=utf-8
+2018-11-16 10:05:44.519 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-16 10:05:46.016 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-16 10:05:46.036 +08:00 [INF] Request finished in 22.4798ms 307 
+2018-11-16 10:05:46.225 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-16 10:05:46.352 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-16 10:05:46.363 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 10:05:46.373 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2879ms.
+2018-11-16 10:05:46.394 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 10:05:46.499 +08:00 [INF] Executed ViewResult - view Index executed in 117.2583ms.
+2018-11-16 10:05:46.501 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 147.174ms
+2018-11-16 10:05:46.515 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-16 10:05:46.515 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-16 10:05:46.515 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-16 10:05:46.515 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-16 10:05:46.515 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-16 10:05:46.515 +08:00 [INF] Request finished in 290.1537ms 200 text/html; charset=utf-8
+2018-11-16 10:05:46.520 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-16 10:05:46.546 +08:00 [INF] Sending file. Request path: '/images/banner1.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner1.svg'
+2018-11-16 10:05:46.546 +08:00 [INF] Sending file. Request path: '/images/banner3.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner3.svg'
+2018-11-16 10:05:46.546 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\css\site.css'
+2018-11-16 10:05:46.550 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-11-16 10:05:46.550 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-11-16 10:05:46.552 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.js'
+2018-11-16 10:05:46.554 +08:00 [INF] Request finished in 39.6435ms 200 image/svg+xml
+2018-11-16 10:05:46.555 +08:00 [INF] Request finished in 40.6094ms 200 image/svg+xml
+2018-11-16 10:05:46.557 +08:00 [INF] Request finished in 42.4853ms 200 text/css
+2018-11-16 10:05:46.561 +08:00 [INF] Request finished in 46.079ms 200 application/javascript
+2018-11-16 10:05:46.564 +08:00 [INF] Request finished in 48.7982ms 200 text/css
+2018-11-16 10:05:46.566 +08:00 [INF] Request finished in 46.0697ms 200 application/javascript
+2018-11-16 10:05:46.567 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-16 10:05:46.572 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-16 10:05:46.579 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\js\site.js'
+2018-11-16 10:05:46.581 +08:00 [INF] Sending file. Request path: '/images/banner2.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner2.svg'
+2018-11-16 10:05:46.583 +08:00 [INF] Request finished in 16.1723ms 200 application/javascript
+2018-11-16 10:05:46.586 +08:00 [INF] Request finished in 14.1721ms 200 image/svg+xml
+2018-11-16 10:05:46.623 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-16 10:05:46.626 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-11-16 10:05:46.631 +08:00 [INF] Request finished in 8.0736ms 200 font/woff2
+2018-11-16 14:11:46.265 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-16 14:11:48.638 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-16 14:11:48.664 +08:00 [INF] Request finished in 27.2761ms 307 
+2018-11-16 14:11:48.802 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-16 14:11:48.923 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal)
+2018-11-16 14:11:48.934 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 14:11:48.944 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2577ms.
+2018-11-16 14:11:48.966 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 14:11:49.078 +08:00 [INF] Executed ViewResult - view Index executed in 125.4809ms.
+2018-11-16 14:11:49.081 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.HomeController.Index (Geek.Project.Portal) in 155.6034ms
+2018-11-16 14:11:49.093 +08:00 [INF] Request finished in 291.0749ms 200 text/html; charset=utf-8
+2018-11-16 14:11:49.110 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-16 14:11:49.118 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/css/site.css  
+2018-11-16 14:11:49.118 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.js  
+2018-11-16 14:11:49.118 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-16 14:11:49.118 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner1.svg  
+2018-11-16 14:11:49.118 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner2.svg  
+2018-11-16 14:11:49.122 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\css\site.css'
+2018-11-16 14:11:49.132 +08:00 [INF] Request finished in 14.3725ms 200 text/css
+2018-11-16 14:11:49.133 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-16 14:11:49.135 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+2018-11-16 14:11:49.135 +08:00 [INF] Sending file. Request path: '/images/banner1.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner1.svg'
+2018-11-16 14:11:49.135 +08:00 [INF] Sending file. Request path: '/images/banner2.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner2.svg'
+2018-11-16 14:11:49.140 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\js\site.js'
+2018-11-16 14:11:49.145 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+2018-11-16 14:11:49.146 +08:00 [INF] Request finished in 28.5198ms 200 application/javascript
+2018-11-16 14:11:49.149 +08:00 [INF] Request finished in 30.8474ms 200 image/svg+xml
+2018-11-16 14:11:49.150 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.js'
+2018-11-16 14:11:49.153 +08:00 [INF] Request finished in 34.5078ms 200 image/svg+xml
+2018-11-16 14:11:49.156 +08:00 [INF] Request finished in 22.8808ms 200 application/javascript
+2018-11-16 14:11:49.159 +08:00 [INF] Request finished in 49.1316ms 200 text/css
+2018-11-16 14:11:49.164 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/images/banner3.svg  
+2018-11-16 14:11:49.167 +08:00 [INF] Request finished in 49.6565ms 200 application/javascript
+2018-11-16 14:11:49.176 +08:00 [INF] Sending file. Request path: '/images/banner3.svg'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\images\banner3.svg'
+2018-11-16 14:11:49.180 +08:00 [INF] Request finished in 15.1449ms 200 image/svg+xml
+2018-11-16 14:11:49.211 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-16 14:11:49.213 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2'
+2018-11-16 14:11:49.215 +08:00 [INF] Request finished in 4.4527ms 200 font/woff2
+2018-11-16 14:11:49.338 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/favicon.ico  
+2018-11-16 14:11:49.340 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-11-16 14:11:49.343 +08:00 [INF] Request finished in 4.6911ms 200 image/x-icon
+2018-11-16 14:13:02.360 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-16 14:13:03.075 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-16 14:13:03.118 +08:00 [INF] Request finished in 44.9765ms 307 
+2018-11-16 14:13:03.220 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-16 14:13:03.340 +08:00 [INF] Request finished in 120.1801ms 404 
+2018-11-16 14:18:03.435 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-16 14:18:04.008 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:9000/  
+2018-11-16 14:18:04.042 +08:00 [INF] Request finished in 36.3564ms 307 
+2018-11-16 14:18:04.155 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/  
+2018-11-16 14:18:04.300 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-11-16 14:18:04.539 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 14:18:04.550 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 14:18:04.566 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.74130000000000007ms.
+2018-11-16 14:18:04.594 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 14:18:04.676 +08:00 [INF] Executed ViewResult - view Index executed in 97.352200000000011ms.
+2018-11-16 14:18:04.679 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 377.2715ms
+2018-11-16 14:18:04.691 +08:00 [INF] Request finished in 536.5529ms 200 text/html; charset=utf-8
+2018-11-16 14:18:04.719 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/css/login.css  
+2018-11-16 14:18:04.719 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/logo.png  
+2018-11-16 14:18:04.719 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/layui.css  
+2018-11-16 14:18:04.719 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/lib/jquery/dist/jquery.min.js  
+2018-11-16 14:18:04.738 +08:00 [INF] Sending file. Request path: '/assets/css/login.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\login.css'
+2018-11-16 14:18:04.738 +08:00 [INF] Sending file. Request path: '/assets/images/logo.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\logo.png'
+2018-11-16 14:18:04.746 +08:00 [INF] Request finished in 26.7971ms 200 text/css
+2018-11-16 14:18:04.748 +08:00 [INF] Request finished in 29.2357ms 200 image/png
+2018-11-16 14:18:04.758 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.min.js'
+2018-11-16 14:18:04.758 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/layui.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\layui.css'
+2018-11-16 14:18:04.760 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/layui.js  
+2018-11-16 14:18:04.762 +08:00 [INF] Request finished in 43.3077ms 200 application/javascript
+2018-11-16 14:18:04.765 +08:00 [INF] Request finished in 45.8707ms 200 text/css
+2018-11-16 14:18:04.767 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/layui.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\layui.js'
+2018-11-16 14:18:04.770 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/common.js  
+2018-11-16 14:18:04.774 +08:00 [INF] Request finished in 14.2776ms 200 application/javascript
+2018-11-16 14:18:04.776 +08:00 [INF] Sending file. Request path: '/assets/js/common.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\common.js'
+2018-11-16 14:18:04.781 +08:00 [INF] Request finished in 11.5883ms 200 application/javascript
+2018-11-16 14:18:04.802 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/bg_login.png  
+2018-11-16 14:18:04.804 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/font/iconfont.woff?v=240  
+2018-11-16 14:18:04.807 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/font/iconfont.woff'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\font\iconfont.woff'
+2018-11-16 14:18:04.811 +08:00 [INF] Request finished in 6.7042ms 200 application/font-woff
+2018-11-16 14:18:04.813 +08:00 [INF] Sending file. Request path: '/assets/images/bg_login.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\bg_login.png'
+2018-11-16 14:18:04.818 +08:00 [INF] Request finished in 16.1303ms 200 image/png
+2018-11-16 14:18:04.888 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/layer.js  
+2018-11-16 14:18:04.893 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/layer.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\layer.js'
+2018-11-16 14:18:04.900 +08:00 [INF] Request finished in 11.0966ms 200 application/javascript
+2018-11-16 14:18:04.984 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/layer/default/layer.css?v=3.1.1  
+2018-11-16 14:18:04.988 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/layer.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\layer.css'
+2018-11-16 14:18:04.990 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/form.js  
+2018-11-16 14:18:04.995 +08:00 [INF] Request finished in 10.6391ms 200 text/css
+2018-11-16 14:18:04.998 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/form.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\form.js'
+2018-11-16 14:18:05.002 +08:00 [INF] Request finished in 12.0397ms 200 application/javascript
+2018-11-16 14:18:05.027 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/notice/notice.js  
+2018-11-16 14:18:05.029 +08:00 [INF] Sending file. Request path: '/module/notice/notice.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\notice\notice.js'
+2018-11-16 14:18:05.041 +08:00 [INF] Request finished in 13.0984ms 200 application/javascript
+2018-11-16 14:18:05.043 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/notice/notice.css  
+2018-11-16 14:18:05.046 +08:00 [INF] Sending file. Request path: '/module/notice/notice.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\notice\notice.css'
+2018-11-16 14:18:05.054 +08:00 [INF] Request finished in 11.2561ms 200 text/css
+2018-11-16 14:18:16.699 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/layer/default/loading-2.gif  
+2018-11-16 14:18:16.703 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/loading-2.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\loading-2.gif'
+2018-11-16 14:18:16.707 +08:00 [INF] Request finished in 7.558ms 200 image/gif
+2018-11-16 14:18:16.708 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:9001/login application/x-www-form-urlencoded; charset=UTF-8 34
+2018-11-16 14:18:16.731 +08:00 [INF] Route matched with {action = "Login", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Login (Geek.Project.Portal)
+2018-11-16 14:18:16.736 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 14:18:16.778 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Login (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-11-16 14:18:17.163 +08:00 [INF] Executed DbCommand (50ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-11-16 14:18:17.237 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Login (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 449.3167ms.
+2018-11-16 14:18:17.249 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType2`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-11-16 14:18:17.290 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Login (Geek.Project.Portal) in 555.1874ms
+2018-11-16 14:18:17.295 +08:00 [INF] Request finished in 586.8961ms 200 application/json; charset=utf-8
+2018-11-16 14:18:20.627 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main  
+2018-11-16 14:18:20.631 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-11-16 14:18:20.635 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 14:18:20.642 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3655ms.
+2018-11-16 14:18:20.651 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 14:18:20.666 +08:00 [INF] Executed ViewResult - view Index executed in 17.2591ms.
+2018-11-16 14:18:20.669 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 34.8509ms
+2018-11-16 14:18:20.671 +08:00 [INF] Request finished in 44.5987ms 200 text/html; charset=utf-8
+2018-11-16 14:18:20.679 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/css/admin.css  
+2018-11-16 14:18:20.679 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/head.png  
+2018-11-16 14:18:20.679 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/main.js  
+2018-11-16 14:18:20.682 +08:00 [INF] Sending file. Request path: '/assets/css/admin.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\admin.css'
+2018-11-16 14:18:20.684 +08:00 [INF] Sending file. Request path: '/assets/images/head.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\head.png'
+2018-11-16 14:18:20.686 +08:00 [INF] Sending file. Request path: '/assets/js/main.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\main.js'
+2018-11-16 14:18:20.692 +08:00 [INF] Request finished in 12.666ms 200 text/css
+2018-11-16 14:18:20.697 +08:00 [INF] Request finished in 17.2319ms 200 image/png
+2018-11-16 14:18:20.701 +08:00 [INF] Request finished in 21.2628ms 200 application/javascript
+2018-11-16 14:18:20.710 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/ic_loading.gif  
+2018-11-16 14:18:20.714 +08:00 [INF] Sending file. Request path: '/assets/images/ic_loading.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\ic_loading.gif'
+2018-11-16 14:18:20.717 +08:00 [INF] Request finished in 7.3229ms 200 image/gif
+2018-11-16 14:18:20.742 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/element.js  
+2018-11-16 14:18:20.744 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/element.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\element.js'
+2018-11-16 14:18:20.747 +08:00 [INF] Request finished in 5.1756ms 200 application/javascript
+2018-11-16 14:18:20.759 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/admin.js  
+2018-11-16 14:18:20.763 +08:00 [INF] Sending file. Request path: '/module/admin.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\admin.js'
+2018-11-16 14:18:20.766 +08:00 [INF] Request finished in 7.0156ms 200 application/javascript
+2018-11-16 14:18:20.769 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/module/index.js  
+2018-11-16 14:18:20.771 +08:00 [INF] Sending file. Request path: '/module/index.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\index.js'
+2018-11-16 14:18:20.776 +08:00 [INF] Request finished in 7.2144ms 200 application/javascript
+2018-11-16 14:18:20.782 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/main/console  
+2018-11-16 14:18:20.785 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-11-16 14:18:20.787 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 14:18:20.793 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2008ms.
+2018-11-16 14:18:20.800 +08:00 [INF] Executing ViewResult, running view Console.
+2018-11-16 14:18:20.893 +08:00 [INF] Executed ViewResult - view Console executed in 95.7668ms.
+2018-11-16 14:18:20.896 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 109.08040000000001ms
+2018-11-16 14:18:20.898 +08:00 [INF] Request finished in 116.8829ms 200 text/html; charset=utf-8
+2018-11-16 14:18:21.060 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/favicon.ico  
+2018-11-16 14:18:21.062 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-11-16 14:18:21.066 +08:00 [INF] Request finished in 6.6721ms 200 image/x-icon
+2018-11-16 14:18:27.565 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/system/sysuser/index  
+2018-11-16 14:18:27.568 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-11-16 14:18:27.572 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 14:18:27.577 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-11-16 14:18:27.580 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.275ms.
+2018-11-16 14:18:27.583 +08:00 [INF] Executing ViewResult, running view Index.
+2018-11-16 14:18:27.593 +08:00 [INF] Executed ViewResult - view Index executed in 10.530700000000001ms.
+2018-11-16 14:18:27.596 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 24.9572ms
+2018-11-16 14:18:27.600 +08:00 [INF] Request finished in 34.8845ms 200 text/html; charset=utf-8
+2018-11-16 14:18:27.604 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/js/user/index.js  
+2018-11-16 14:18:27.609 +08:00 [INF] Sending file. Request path: '/assets/js/user/index.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\index.js'
+2018-11-16 14:18:27.611 +08:00 [INF] Request finished in 6.8111ms 200 application/javascript
+2018-11-16 14:18:27.625 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/images/icon_date.png  
+2018-11-16 14:18:27.627 +08:00 [INF] Sending file. Request path: '/assets/images/icon_date.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\icon_date.png'
+2018-11-16 14:18:27.632 +08:00 [INF] Request finished in 6.6864ms 200 image/png
+2018-11-16 14:18:27.651 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/table.js  
+2018-11-16 14:18:27.655 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/table.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\table.js'
+2018-11-16 14:18:27.662 +08:00 [INF] Request finished in 11.0059ms 200 application/javascript
+2018-11-16 14:18:27.667 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laytpl.js  
+2018-11-16 14:18:27.670 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laytpl.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laytpl.js'
+2018-11-16 14:18:27.674 +08:00 [INF] Request finished in 6.5765ms 200 application/javascript
+2018-11-16 14:18:27.677 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laypage.js  
+2018-11-16 14:18:27.680 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laypage.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laypage.js'
+2018-11-16 14:18:27.684 +08:00 [INF] Request finished in 6.472ms 200 application/javascript
+2018-11-16 14:18:27.686 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/util.js  
+2018-11-16 14:18:27.689 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/util.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\util.js'
+2018-11-16 14:18:27.693 +08:00 [INF] Request finished in 6.98ms 200 application/javascript
+2018-11-16 14:18:27.701 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/lay/modules/laydate.js  
+2018-11-16 14:18:27.705 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/laydate.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\laydate.js'
+2018-11-16 14:18:27.710 +08:00 [INF] Request finished in 8.1109ms 200 application/javascript
+2018-11-16 14:18:27.713 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/assets/libs/layui/css/modules/laydate/default/laydate.css?v=5.0.9  
+2018-11-16 14:18:27.717 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/laydate/default/laydate.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\laydate\default\laydate.css'
+2018-11-16 14:18:27.726 +08:00 [INF] Request finished in 12.5287ms 200 text/css
+2018-11-16 14:18:27.736 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:9001/sys/users?PageIndex=1&PageSize=15  
+2018-11-16 14:18:27.747 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-11-16 14:18:27.750 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-11-16 14:18:27.760 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-11-16 14:18:27.784 +08:00 [WRN] The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-11-16 14:18:27.855 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-11-16 14:18:27.870 +08:00 [WRN] Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2018-11-16 14:18:27.964 +08:00 [INF] Executed DbCommand (37ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-11-16 14:18:28.040 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 276.2885ms.
+2018-11-16 14:18:28.043 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-11-16 14:18:28.055 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 305.6301ms
+2018-11-16 14:18:28.060 +08:00 [INF] Request finished in 323.3939ms 200 application/json; charset=utf-8
