@@ -97,8 +97,9 @@
                     if (data.status) {
                         notice.success({
                             title: '系统信息',
-                            timeout: 3000,
-                            position: 'topCenter',
+                            position: 'topRight',
+                            transitionIn: 'fadeInLeft',
+                            transitionOut: 'flipOutX',
                             message: data.msg + '，正在跳转页面...',
                             onOpen: function () {
                                 layer.closeAll('loading');
@@ -110,8 +111,9 @@
                     } else {
                         notice.warning({
                             title: '系统信息',
-                            timeout: 3000,
-                            position: 'topCenter',
+                            position: 'topRight',
+                            transitionIn: 'fadeInLeft',
+                            transitionOut: 'flipOutX',
                             message: data.msg,
                             onOpen: function () {
                                 layer.closeAll('loading');

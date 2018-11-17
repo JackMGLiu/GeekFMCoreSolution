@@ -84,6 +84,12 @@ namespace Geek.Project.Core.Service.Impl
                 var realName = parameters.RealName.ToLowerInvariant();
                 query = query.Where(x => x.RealName.ToLowerInvariant().Contains(realName));
             }
+
+            if (parameters.Status.HasValue)
+            {
+                var status = parameters.Status.Value;
+                query = query.Where(x => x.Status == status);
+            }
             //var query = _dbContext.Posts.OrderBy(x => x.Id);
             //query = query.OrderBy(x => x.Id);
 
@@ -145,6 +151,17 @@ namespace Geek.Project.Core.Service.Impl
         public async Task<SysUser> GetUserByKeyAsync(int key)
         {
             return await _userRepository.GetSingleAsync(u => u.Id == key, "Role");
+        }
+
+        public async Task UpdateStatus(int userId, int status)
+        {
+            var user = await _userRepository.GetSingleAsync(u => u.Id == userId);
+            if (!user.IsEmpty())
+            {
+                user.Status = status;
+                _userRepository.Update(user);
+                await _uow.CommitAsync();
+            }
         }
     }
 }

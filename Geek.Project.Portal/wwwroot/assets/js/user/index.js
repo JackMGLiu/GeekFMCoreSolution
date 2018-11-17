@@ -69,7 +69,27 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
         } else if (layEvent === 'reset') { // 重置密码
             //resetPsw(obj.data.userId);
         }
+    });
+
+
+    // 修改user状态
+    form.on('switch(ckUserState)', function (obj) {
+        layer.load(2);
+        $.post('/System/SysUser/CheckStatus', {
+            userId: obj.elem.value,
+            status: obj.elem.checked ? 1 : 0
+        }, function (data) {
+            layer.closeAll('loading');
+            if (data.status === '1') {
+                layer.msg(data.msg, { icon: 1 });
+            } else {
+                layer.msg(data.msg, { icon: 2 });
+                $(obj.elem).prop('checked', !obj.elem.checked);
+                form.render('checkbox');
+            }
+        }, 'json');
     });
+
 
     // 搜索按钮点击事件
     $('#btnSearch').click(function () {

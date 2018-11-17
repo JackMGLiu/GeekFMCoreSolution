@@ -34,5 +34,13 @@ namespace Geek.Project.Core.Service.Interface
         /// <param name="model"></param>
         /// <returns></returns>
         Task<Tuple<bool, string, UserViewModel>> AccountLogin(LoginViewModel model);
+
+        /// <summary>
+        /// 修改用户状态
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <param name="status"></param>
+        /// <returns></returns>
+        Task UpdateStatus(int userId, int status);
     }
 }

@@ -74,7 +74,7 @@
 
 <!-- 表格状态列 -->
 <script type="text/html" id="tbaleState">
-    <input type="checkbox" lay-filter="ckState" value="{{d.userId}}" lay-skin="switch" lay-text="正常|锁定"
+    <input type="checkbox" lay-filter="ckUserState" value="{{d.Id}}" lay-skin="switch" lay-text="正常|锁定"
            {{d.Status === 1 ?'checked':''}} />
 </script>
 @section scripts{

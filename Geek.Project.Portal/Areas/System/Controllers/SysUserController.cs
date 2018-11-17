@@ -137,5 +137,23 @@ namespace Geek.Project.Portal.Areas.System.Controllers
             var res = await _sysUserService.IsExist(userName);
             return Json(res);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> CheckStatus(int userId, int status)
+        {
+            var jsonResult = new ResultModel();
+            try
+            {
+                await _sysUserService.UpdateStatus(userId, status);
+                jsonResult.status = "1";
+                jsonResult.msg = "修改状态成功";
+            }
+            catch (Exception)
+            {
+                jsonResult.status = "0";
+                jsonResult.msg = "修改状态失败";
+            }
+            return Json(jsonResult);
+        }
     }
 }
