@@ -253,7 +253,7 @@ layui.define(['layer'], function (exports) {
             var url = $(this).attr('data-url');
             admin.popupRight({
                 type: 2,
-                content: url ? url : '/main/theme'
+                content: url ? url : '/Main/Theme'
             });
         },
         // 全屏

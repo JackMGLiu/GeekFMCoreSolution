@@ -8,6 +8,7 @@ using Geek.Project.Infrastructure.QueryModel;
 using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
 using Geek.Project.Utils.Extensions;
+using Geek.Project.Utils.Security;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -57,14 +58,17 @@ namespace Geek.Project.Core.Service.Impl
             return await _userRepository.IsExistAsync(u => u.Age == 63);
         }
 
-        public void Update()
+        public async Task<bool> IsExist(string userName)
         {
-            //_uow.BeginTransaction();
-            var user = _userRepository.GetByKey(625);
-            user.UpdateTime = DateTime.Now;
-            user.Remark = "Hello World122122";
-            _userRepository.Update(user);
-            _uow.Commit();
+            return await _userRepository.IsExistAsync(u => u.UserName == userName);
+        }
+
+        public bool Update(SysUser model)
+        {
+            model.UpdateTime = DateTime.Now;
+            _userRepository.Update(model);
+            var res = _uow.Commit();
+            return res > 0;
         }
 
         public async Task<PagedList<SysUser>> GetAllUsersAsync(UserParameters parameters)
@@ -79,6 +83,12 @@ namespace Geek.Project.Core.Service.Impl
             {
                 var realName = parameters.RealName.ToLowerInvariant();
                 query = query.Where(x => x.RealName.ToLowerInvariant().Contains(realName));
+            }
+
+            if (parameters.Status.HasValue)
+            {
+                var status = parameters.Status.Value;
+                query = query.Where(x => x.Status == status);
             }
             //var query = _dbContext.Posts.OrderBy(x => x.Id);
             //query = query.OrderBy(x => x.Id);
@@ -103,7 +113,7 @@ namespace Geek.Project.Core.Service.Impl
                     var currentAcc = await _userRepository.GetSingleAsync(m => m.UserName == model.LoginName);
                     if (!currentAcc.IsEmpty())
                     {
-                        if (currentAcc.Password == model.LoginPass)
+                        if (currentAcc.Password == model.LoginPass.Md5Hash())
                         {
                             var user = _mapper.Map<UserViewModel>(currentAcc);
                             res = Tuple.Create<bool, string, UserViewModel>(true, "登录成功", user);
@@ -124,6 +134,34 @@ namespace Geek.Project.Core.Service.Impl
                 res = Tuple.Create<bool, string, UserViewModel>(false, "请输入登录信息", null);
             }
             return res;
+        }
+
+        public async Task<bool> AddUser(CreateUserModel model)
+        {
+            if (!model.IsEmpty())
+            {
+                var user = _mapper.Map<SysUser>(model);
+                await _userRepository.InsertAsync(user);
+                var res = await _uow.CommitAsync();
+                return res > 0;
+            }
+            return false;
+        }
+
+        public async Task<SysUser> GetUserByKeyAsync(int key)
+        {
+            return await _userRepository.GetSingleAsync(u => u.Id == key, "Role");
+        }
+
+        public async Task UpdateStatus(int userId, int status)
+        {
+            var user = await _userRepository.GetSingleAsync(u => u.Id == userId);
+            if (!user.IsEmpty())
+            {
+                user.Status = status;
+                _userRepository.Update(user);
+                await _uow.CommitAsync();
+            }
         }
     }
 }

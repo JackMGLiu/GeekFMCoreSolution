@@ -31,17 +31,17 @@ layui.define(['jquery'], function (exports) {
         balloon: false,
         close: true,
         rtl: false,
-        position: 'bottomRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+        position: 'topRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
         target: '',
-        timeout: 5000,
-        pauseOnHover: true,
+        timeout: 2500,
+        pauseOnHover: false,
         resetOnHover: false,
-        progressBar: true,
+        progressBar: false,
         progressBarColor: '',
         animateInside: true,
         buttons: {},
-        transitionIn: 'fadeInUp', // bounceInLeft, bounceInRight, bounceInUp, bounceInDown, fadeIn, fadeInDown, fadeInUp, fadeInLeft, fadeInRight, flipInX
-        transitionOut: 'fadeOut', // fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
+        transitionIn: 'fadeInLeft', // bounceInLeft, bounceInRight, bounceInUp, bounceInDown, fadeIn, fadeInDown, fadeInUp, fadeInLeft, fadeInRight, flipInX
+        transitionOut: 'flipOutX', // fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
         transitionInMobile: 'fadeInUp',
         transitionOutMobile: 'fadeOutDown',
         onOpen: function () {
@@ -388,10 +388,10 @@ layui.define(['jquery'], function (exports) {
             try {
                 var event;
                 if (window.CustomEvent) {
-                    event = new CustomEvent('iziToast-close', {detail: {class: settings.class}});
+                    event = new CustomEvent('iziToast-close', { detail: { class: settings.class } });
                 } else {
                     event = document.createEvent('CustomEvent');
-                    event.initCustomEvent('iziToast-close', true, true, {class: settings.class});
+                    event.initCustomEvent('iziToast-close', true, true, { class: settings.class });
                 }
                 document.dispatchEvent(event);
             } catch (ex) {
@@ -634,10 +634,10 @@ layui.define(['jquery'], function (exports) {
         try {
             var event;
             if (window.CustomEvent) {
-                event = new CustomEvent('iziToast-open', {detail: {class: settings.class}});
+                event = new CustomEvent('iziToast-open', { detail: { class: settings.class } });
             } else {
                 event = document.createEvent('CustomEvent');
-                event.initCustomEvent('iziToast-open', true, true, {class: settings.class});
+                event.initCustomEvent('iziToast-open', true, true, { class: settings.class });
             }
             document.dispatchEvent(event);
         } catch (ex) {

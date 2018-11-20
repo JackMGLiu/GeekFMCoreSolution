@@ -1,24 +1,24 @@
 ﻿{
-  //"iisSettings": {
-  //  "windowsAuthentication": false,
-  //  "anonymousAuthentication": true,
-  //  "iisExpress": {
-  //    "applicationUrl": "http://localhost:50614",
-  //    "sslPort": 0
-  //  }
-  //},
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:8800",
+      "sslPort": 0
+    }
+  },
   "profiles": {
-    //"IIS Express": {
-    //  "commandName": "IISExpress",
-    //  "launchBrowser": true,
-    //  "environmentVariables": {
-    //    "ASPNETCORE_ENVIRONMENT": "Development"
-    //  }
-    //},
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
     "Geek.Project.Portal": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:9000;https://localhost:9001",
+      "applicationUrl": "http://localhost:8800",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

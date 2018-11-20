@@ -43,11 +43,11 @@ namespace Geek.Project.Portal
             services.AddSession();
 
             //https
-            services.AddHttpsRedirection(options =>
-            {
-                options.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
-                options.HttpsPort = 9001;
-            });
+            //services.AddHttpsRedirection(options =>
+            //{
+            //    options.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
+            //    options.HttpsPort = 8801;
+            //});
 
             services.AddDbContext<ProjectDbContext>(options =>
             {
@@ -88,7 +88,7 @@ namespace Geek.Project.Portal
 
             app.UseStaticFiles();
             app.UseCookiePolicy();
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseSession();  //Session
 
             app.UseMvc(routes =>
@@ -99,7 +99,7 @@ namespace Geek.Project.Portal
 
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Login}/{action=Index}/{id?}");
 
             });
         }

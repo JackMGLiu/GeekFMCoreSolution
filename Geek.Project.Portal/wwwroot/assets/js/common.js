@@ -54,6 +54,51 @@ function getProjectUrl() {
 }
 
 //自定义
+/*
+ * 描 述：操作类	
+ */
+var geek = {};
+geek = {
+    log: function () {
+        console.log('=====>' + new Date().getTime() + '<=====');
+        var len = arguments.length;
+        for (var i = 0; i < len; i++) {
+            console.log(arguments[i]);
+        }
+    },
+    // 创建一个GUID
+    newGuid: function () {
+        var guid = "";
+        for (var i = 1; i <= 32; i++) {
+            var n = Math.floor(Math.random() * 16.0).toString(16);
+            guid += n;
+            if ((i === 8) || (i === 12) || (i === 16) || (i === 20)) guid += "-";
+        }
+        return guid;
+    },
+    isNullOrEmpty: function (obj) {
+        //var obj = this;
+        var flag = false;
+        if (obj === null || obj === undefined || typeof (obj) === 'undefined' || obj === '') {
+            flag = true;
+        } else if (typeof (obj) === 'string') {
+            obj = obj.trim();
+            if (obj === '') {//为空  
+                flag = true;
+            } else {//不为空  
+                obj = obj.toUpperCase();
+                if (obj === 'NULL' || obj === 'UNDEFINED' || obj === '{}') {
+                    flag = true;
+                }
+            }
+        }
+        else {
+            flag = false;
+        }
+        return flag;
+    }
+};
+
 /*获取和设置表单数据*/
 $.fn.getFormData = function (keyValue) {// 获取表单数据
     var resdata = {};

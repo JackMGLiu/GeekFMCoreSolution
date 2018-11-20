@@ -45,7 +45,6 @@ namespace Geek.Project.Infrastructure.Repository
         #region Update
 
         void Update(TEntity entity);
-
         void Update(IEnumerable<TEntity> entities);
 
         #endregion
