@@ -54,6 +54,10 @@
     <None Include="wwwroot\assets\images\message.png" />
     <None Include="wwwroot\assets\images\welcome.png" />
     <None Include="wwwroot\assets\js\common.js" />
+    <None Include="wwwroot\assets\js\main.js" />
+    <None Include="wwwroot\assets\js\theme.js" />
+    <None Include="wwwroot\assets\js\user\form.js" />
+    <None Include="wwwroot\assets\js\user\index.js" />
     <None Include="wwwroot\assets\libs\echarts\echarts.min.js" />
     <None Include="wwwroot\assets\libs\echarts\echartsTheme.js" />
     <None Include="wwwroot\assets\libs\jquery\jquery-3.2.1.min.js" />
@@ -175,6 +179,12 @@
     <None Include="wwwroot\assets\libs\zTree\css\zTreeStyle\img\zTreeStandard.png" />
     <None Include="wwwroot\assets\libs\zTree\css\zTreeStyle\zTreeStyle.css" />
     <None Include="wwwroot\assets\libs\zTree\js\jquery.ztree.all-3.5.min.js" />
+    <None Include="wwwroot\module\dropdown\dropdown.js" />
+    <None Include="wwwroot\module\formSelects\formSelects-v4.all.js" />
+    <None Include="wwwroot\module\formSelects\formSelects-v4.js" />
+    <None Include="wwwroot\module\notice\notice.js" />
+    <None Include="wwwroot\module\step-lay\step.js" />
+    <None Include="wwwroot\module\treetable-lay\treetable.js" />
   </ItemGroup>
 
   <ItemGroup>
