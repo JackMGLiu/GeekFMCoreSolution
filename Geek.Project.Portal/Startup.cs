@@ -61,9 +61,11 @@ namespace Geek.Project.Portal
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ISysUserRepository, SysUserRepository>();
+            services.AddScoped<ISysRoleRepository, SysRoleRepository>();
             //services.AddScoped(typeof(IBaseRepository<,>), typeof(BaseRepository<,>));
 
             services.AddScoped<ISysUserService, SysUserService>();
+            services.AddScoped<ISysRoleService, SysRoleService>();
 
 
             //排序
