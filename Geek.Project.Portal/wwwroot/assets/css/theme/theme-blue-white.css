@@ -145,7 +145,7 @@
 }
 
 /** tab下划线 */
-.layui-layout-admin .layui-body .layui-tab .layui-tab-title li.layui-this:after {
+.layui-layout-admin .layui-body > .layui-tab > .layui-tab-title li.layui-this:after {
     background-color: #1e90ff;
 }
 

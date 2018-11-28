@@ -20,7 +20,7 @@ layui.config({
     // 移除loading动画
     setTimeout(function () {
         $('.page-loading').addClass('layui-hide');
-    }, window === top ? 1500 : 300);
+    }, window == top ? 1500 : 300);
 
 });
 
@@ -32,7 +32,6 @@ function removeTheme() {
 
 // 获取主题css的路径
 function getThemeDir() {
-    //console.log(getProjectUrl() + 'assets/css/theme/');
     return getProjectUrl() + 'assets/css/theme/';
 }
 

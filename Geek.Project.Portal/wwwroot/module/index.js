@@ -1,4 +1,4 @@
-/** EasyWeb iframe v3.0.6 data:2018-11-09 */
+/** EasyWeb iframe v3.0.7 data:2018-11-19 */
 
 layui.define(['layer', 'admin', 'element'], function (exports) {
     var $ = layui.jquery;
@@ -8,7 +8,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
 
     var cacheTab = layui.data('geekweb').cacheTab;
     var index = {
-        cacheTab: cacheTab === undefined ? true : cacheTab,  // 是否记忆打开的选项卡
+        cacheTab: cacheTab == undefined ? true : cacheTab,  // 是否记忆打开的选项卡
         // 加载主体部分
         loadView: function (param) {
             var menuPath = param.menuPath;
@@ -42,7 +42,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
                     }
                     var isAddCache = false;
                     for (var i = 0; i < indexTabs.length; i++) {
-                        if (param.menuPath === indexTabs[i].menuPath) {
+                        if (param.menuPath == indexTabs[i].menuPath) {
                             isAddCache = true;
                         }
                     }
@@ -92,7 +92,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
                     var mi = 0;
                     for (var i = 0; i < indexTabs.length; i++) {
                         index.loadView(indexTabs[i]);
-                        if (indexTabs[i].menuPath === tabPosition) {
+                        if (indexTabs[i].menuPath == tabPosition) {
                             mi = i;
                         }
                     }
@@ -103,7 +103,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
             }
             // 是否开启footer
             var openFooter = layui.data('geekweb').openFooter;
-            if (openFooter !== undefined && openFooter === false) {
+            if (openFooter != undefined && openFooter == false) {
                 $('.layui-layout-admin .layui-footer').css('display', 'none');
                 $('.layui-layout-admin .layui-body').css('bottom', '0');
             }
@@ -119,13 +119,13 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
     element.on('nav(admin-side-nav)', function (elem) {
         var $that = $(elem);
         var menuUrl = $that.attr('lay-href');
-        if (menuUrl && menuUrl !== 'javascript:;') {
+        if (menuUrl && menuUrl != 'javascript:;') {
             var menuName = $that.text();
             index.loadView({
                 menuPath: menuUrl,
                 menuName: menuName
             });
-        } else if ($('.layui-side .layui-nav-tree').attr('lay-accordion') === 'true' && $that.parent().hasClass('layui-nav-item')) {
+        } else if ($('.layui-side .layui-nav-tree').attr('lay-accordion') == 'true' && $that.parent().hasClass('layui-nav-item')) {
             if ($that.parent().hasClass('layui-nav-itemed') || $that.parent().hasClass('layui-this')) {
                 $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item').removeClass('layui-nav-itemed');
                 $that.parent().addClass('layui-nav-itemed');
@@ -159,7 +159,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
 
         // 切换tab自动刷新
         var autoRefresh = $('.layui-body .layui-tab[lay-filter="admin-pagetabs"]').attr('lay-autoRefresh');
-        if (autoRefresh === 'true') {
+        if (autoRefresh == 'true') {
             setTimeout(function () {
                 top.layui.admin.refresh();
             }, 300);
@@ -172,7 +172,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
             var layId = $(this).parent().attr('lay-id');
             var indexTabs = admin.getTempData('indexTabs');
             for (var i = 0; i < indexTabs.length; i++) {
-                if (layId === indexTabs[i].menuPath) {
+                if (layId == indexTabs[i].menuPath) {
                     indexTabs.splice(i, 1);
                 }
             }

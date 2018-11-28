@@ -1,4 +1,4 @@
-/** EasyWeb iframe v3.0.6 data:2018-11-09 */
+/** EasyWeb iframe v3.0.7 data:2018-11-19 */
 
 layui.define(['layer'], function (exports) {
     var $ = layui.jquery;
@@ -8,7 +8,7 @@ layui.define(['layer'], function (exports) {
         // 设置侧栏折叠
         flexible: function (expand) {
             var isExapnd = $('.layui-layout-admin').hasClass('admin-nav-mini');
-            if (isExapnd === !expand) {
+            if (isExapnd == !expand) {
                 return;
             }
             if (expand) {
@@ -22,10 +22,12 @@ layui.define(['layer'], function (exports) {
         activeNav: function (url) {
             if (!url) {
                 url = window.location.pathname;
+                var us = url.split('/');
+                url = us[us.length - 1];
             }
             $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item .layui-nav-child dd').removeClass('layui-this');
             $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item').removeClass('layui-this');
-            if (url && url !== '') {
+            if (url && url != '') {
                 $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item').removeClass('layui-nav-itemed');
                 var $a = $('.layui-layout-admin .layui-side .layui-nav a[lay-href="' + url + '"]');
                 $a.parent().addClass('layui-this');  // 选中当前
@@ -35,11 +37,16 @@ layui.define(['layer'], function (exports) {
         // 右侧弹出
         popupRight: function (param) {
             var eCallBack = param.end;
-            if (param.title === undefined) {
+            if (param.title == undefined) {
                 param.title = false;
                 param.closeBtn = false;
             }
-            param.anim = 2;
+            if (param.anim == undefined) {
+                param.anim = 2;
+            }
+            if (param.fixed == undefined) {
+                param.fixed = true;
+            }
             param.isOutAnim = false;
             param.offset = 'r';
             param.shadeClose = true;
@@ -55,14 +62,19 @@ layui.define(['layer'], function (exports) {
         // 封装layer.open
         open: function (param) {
             if (!param.area) {
-                param.area = (param.type === 2) ? ['380px', '300px'] : '380px';
+                param.area = (param.type == 2) ? ['360px', '300px'] : '360px';
             }
             if (!param.skin) {
                 param.skin = 'layui-layer-admin';
             }
-            param.offset = param.offset ? param.offset : '100px';
-            param.resize = param.resize !== undefined ? param.resize : false;
-            param.shade = param.shade !== undefined ? param.shade : .1;
+            if (!param.offset) {
+                param.offset = '100px';
+            }
+            if (param.fixed == undefined) {
+                param.fixed = false;
+            }
+            param.resize = param.resize != undefined ? param.resize : false;
+            param.shade = param.shade != undefined ? param.shade : .1;
             return layer.open(param);
         },
         // 封装ajax请求，返回数据类型为json
@@ -81,19 +93,17 @@ layui.define(['layer'], function (exports) {
             param.success = function (result, status, xhr) {
                 // 判断登录过期和没有权限
                 var jsonRs;
-                if ('json' === param.dataType.toLowerCase()) {
+                if ('json' == param.dataType.toLowerCase()) {
                     jsonRs = result;
-                } else if ('html' === param.dataType.toLowerCase() || 'text' === param.dataType.toLowerCase()) {
+                } else {
                     jsonRs = admin.parseJSON(result);
                 }
                 if (jsonRs) {
-                    if (jsonRs.code === 401) {
+                    if (jsonRs.code == 401) {
                         layer.msg(jsonRs.msg, { icon: 2, time: 1500 }, function () {
                             location.replace('./login');
                         }, 1000);
                         return;
-                    } else if ('html' === param.dataType.toLowerCase() && jsonRs.code === 403) {
-                        layer.msg(jsonRs.msg, { icon: 2 });
                     }
                 }
                 successCallback(result, status, xhr);
@@ -103,9 +113,30 @@ layui.define(['layer'], function (exports) {
             };
             $.ajax(param);
         },
+        // 判断是否为json
+        parseJSON: function (str) {
+            if (typeof str == 'string') {
+                try {
+                    var obj = JSON.parse(str);
+                    if (typeof obj == 'object' && obj) {
+                        return obj;
+                    }
+                } catch (e) {
+                    console.error(e);
+                }
+            }
+        },
+        // 显示加载动画
+        showLoading: function (elem) {
+            $(elem).append('<div class="page-loading"><div class="rubik-loader"></div></div>');
+        },
+        // 移除加载动画
+        removeLoading: function (elem) {
+            $(elem).children('.page-loading').remove();
+        },
         // 缓存临时数据
         putTempData: function (key, value) {
-            if (value) {
+            if (value != undefined && value != null) {
                 layui.sessionData('tempData', { key: key, value: value });
             } else {
                 layui.sessionData('tempData', { key: key, remove: true });
@@ -114,19 +145,6 @@ layui.define(['layer'], function (exports) {
         // 获取缓存临时数据
         getTempData: function (key) {
             return layui.sessionData('tempData')[key];
-        },
-        // 判断是否为json
-        parseJSON: function (str) {
-            if (typeof str === 'string') {
-                try {
-                    var obj = JSON.parse(str);
-                    if (typeof obj === 'object' && obj) {
-                        return obj;
-                    }
-                } catch (e) {
-                    console.log('err', e);
-                }
-            }
         },
         // 滑动选项卡
         rollPage: function (d) {
@@ -148,7 +166,7 @@ layui.define(['layer'], function (exports) {
                 $tabTitle.scrollLeft(left + 120);
             }
         },
-        // 刷新主体部分
+        // 刷新当前tab
         refresh: function () {
             var $iframe = $('.layui-layout-admin .layui-body .layui-tab-content .layui-tab-item.layui-show .admin-iframe');
             if (!$iframe) {
@@ -244,6 +262,10 @@ layui.define(['layer'], function (exports) {
             var expand = $('.layui-layout-admin').hasClass('admin-nav-mini');
             admin.flexible(expand);
         },
+        // 刷新主体部分
+        refresh: function () {
+            admin.refresh();
+        },
         //后退
         back: function () {
             history.back();
@@ -254,6 +276,17 @@ layui.define(['layer'], function (exports) {
             admin.popupRight({
                 type: 2,
                 content: url ? url : '/Main/Theme'
+            });
+        },
+        // 打开便签
+        note: function () {
+            var url = $(this).attr('data-url');
+            admin.popupRight({
+                id: 'layer-note',
+                title: '便签',
+                type: 2,
+                closeBtn: false,
+                content: url ? url : 'page/tpl/tpl-note.html'
             });
         },
         // 全屏
@@ -282,10 +315,6 @@ layui.define(['layer'], function (exports) {
                 }
                 ti.addClass(ic).removeClass(ac);
             }
-        },
-        // 刷新主体部分
-        refresh: function () {
-            admin.refresh();
         },
         // 左滑动tab
         leftPage: function () {
@@ -316,7 +345,7 @@ layui.define(['layer'], function (exports) {
             $('.layui-layout-admin .layui-body .layui-tab .layui-tab-title li:eq(0)').trigger('click');
             admin.closeTabOperNav();
         },
-        // 关闭所有弹窗
+        // 关闭当前iframe弹窗
         closeDialog: function () {
             admin.closeThisDialog();
         }
@@ -337,7 +366,7 @@ layui.define(['layer'], function (exports) {
     // 侧导航折叠状态下鼠标经过显示提示
     var isHover = false;
     $('body').on('mouseenter', '.layui-layout-admin.admin-nav-mini .layui-side .layui-nav .layui-nav-item>a', function () {
-        if (document.body.clientWidth > 750) {
+        if (admin.getPageWidth() > 750) {
             var $that = $(this);
             $('.admin-nav-hover>.layui-nav-child').css('top', 'auto');
             $('.admin-nav-hover').removeClass('admin-nav-hover');
@@ -348,7 +377,7 @@ layui.define(['layer'], function (exports) {
             } else {
                 var tipText = $that.find('cite').text();
                 var bgColor = $('.layui-layout-admin .layui-side').css('background-color');
-                bgColor = (bgColor === 'rgb(255, 255, 255)' ? '#009688' : bgColor);
+                bgColor = (bgColor == 'rgb(255, 255, 255)' ? '#009688' : bgColor);
                 layer.tips(tipText, $that, { tips: [2, bgColor], time: -1 });
             }
         }
@@ -372,7 +401,7 @@ layui.define(['layer'], function (exports) {
 
     // 侧导航折叠状态下点击展开
     /*$('body').on('click', '.layui-layout-admin.admin-nav-mini .layui-side .layui-nav .layui-nav-item>a', function () {
-        if (document.body.clientWidth > 750) {
+        if (admin.getPageWidth() > 750) {
             layer.closeAll('tips');
             $('li.layui-nav-itemed').removeClass('layui-nav-itemed');
             $(this).parent().addClass('layui-nav-itemed');

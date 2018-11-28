@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_PageLayout.cshtml";
+}
+
+@section styles{
+
+}
+<!-- 页面加载loading -->
+<div class="page-loading">
+    <div class="rubik-loader"></div>
+</div>
+<!-- 正文开始 -->
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <select name="roleId" xm-select="roleId"></select>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/assets/js/role/index.js"></script>
+}
