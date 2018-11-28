@@ -9,5 +9,7 @@ namespace Geek.Project.Core.ViewModel.SysUser
         public string RealName { get; set; }
 
         public int? Status { get; set; }
+
+        public string CreateTime { get; set; }
     }
 }

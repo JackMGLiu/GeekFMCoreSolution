@@ -41,17 +41,6 @@ namespace Geek.Project.Portal.Areas.System.Controllers
             var res = _mapper.Map<IEnumerable<UserViewModel>>(data);
             var shapedUserResources = res.ToDynamicIEnumerable(parameters.Fields);
 
-            //var jsonRes = new
-            //{
-            //    data.PageIndex,
-            //    data.PageSize,
-            //    TotalCount = data.TotalItemsCount,
-            //    data.PageCount,
-            //    resources = shapedUserResources
-            //    //previousPageLink,
-            //    //nextPageLink
-            //};
-
             var jsonRes = new
             {
                 code = 0,
@@ -152,6 +141,53 @@ namespace Geek.Project.Portal.Areas.System.Controllers
             {
                 jsonResult.status = "0";
                 jsonResult.msg = "修改状态失败";
+            }
+            return Json(jsonResult);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteModel(int userId)
+        {
+            var jsonResult = new ResultModel();
+            var res = await _sysUserService.DeleteUser(userId);
+            if (res)
+            {
+                await _sysUserService.DeleteUser(userId);
+                jsonResult.status = "1";
+                jsonResult.msg = "删除成功";
+            }
+            else
+            {
+                jsonResult.status = "0";
+                jsonResult.msg = "删除失败";
+            }
+            return Json(jsonResult);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteModels(string userIds)
+        {
+            var jsonResult = new ResultModel();
+            if (!userIds.IsEmpty())
+            {
+                int[] ids;
+                ids = Array.ConvertAll<string, int>(userIds.Split(','), s => int.Parse(s));
+                var res = await _sysUserService.DeleteUsers(ids);
+                if (res)
+                {
+                    jsonResult.status = "1";
+                    jsonResult.msg = "删除成功";
+                }
+                else
+                {
+                    jsonResult.status = "0";
+                    jsonResult.msg = "删除失败";
+                }
+            }
+            else
+            {
+                jsonResult.status = "0";
+                jsonResult.msg = "删除失败";
             }
             return Json(jsonResult);
         }
