@@ -13,4 +13,15 @@ layui.use(['layer', 'element', 'admin', 'index', 'notice'], function () {
         menuName: '<i class="layui-icon layui-icon-home"></i>'
     });
 
+    $('#btnLogout').click(function () {
+        top.layer.confirm('确定要退出本系统吗？', function (index) {
+            top.layer.close(index);
+            layer.load(2);
+            $.post('/Main/Logout', {}, function (data) {
+            }, 'json');
+            return false;
+        });
+
+    });
+
 });

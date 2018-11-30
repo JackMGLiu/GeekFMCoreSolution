@@ -17,7 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03Infrastructure", "03Infra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geek.Project.Entity", "Geek.Project.Entity\Geek.Project.Entity.csproj", "{EE619331-D276-4268-9503-668B6ECE9677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geek.Project.Portal", "Geek.Project.Portal\Geek.Project.Portal.csproj", "{90C9A92A-F8C8-47F4-8F99-3DBAE544D238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geek.Project.Portal", "Geek.Project.Portal\Geek.Project.Portal.csproj", "{90C9A92A-F8C8-47F4-8F99-3DBAE544D238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10Server", "10Server", "{1D683427-FC48-4755-847E-C8E0FCE70117}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geek.OAuthServer", "Geek.OAuthServer\Geek.OAuthServer.csproj", "{AF0A3DB6-D94F-4FA6-9FA8-26C18FD75822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geek.IdentityServer", "Geek.IdentityServer\Geek.IdentityServer.csproj", "{31EC35AE-97A7-439E-AB95-DF905012EF44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,14 @@ Global
 		{90C9A92A-F8C8-47F4-8F99-3DBAE544D238}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90C9A92A-F8C8-47F4-8F99-3DBAE544D238}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90C9A92A-F8C8-47F4-8F99-3DBAE544D238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0A3DB6-D94F-4FA6-9FA8-26C18FD75822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0A3DB6-D94F-4FA6-9FA8-26C18FD75822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0A3DB6-D94F-4FA6-9FA8-26C18FD75822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0A3DB6-D94F-4FA6-9FA8-26C18FD75822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31EC35AE-97A7-439E-AB95-DF905012EF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EC35AE-97A7-439E-AB95-DF905012EF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EC35AE-97A7-439E-AB95-DF905012EF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EC35AE-97A7-439E-AB95-DF905012EF44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +69,8 @@ Global
 		{C452814F-89FD-4FC8-8CB0-7889D7BA82C5} = {5E5E8E90-17FF-4F16-B15D-3A997FAE6F1E}
 		{EE619331-D276-4268-9503-668B6ECE9677} = {6411D4A1-D0C7-4C6E-8804-492097C4189B}
 		{90C9A92A-F8C8-47F4-8F99-3DBAE544D238} = {B993E4BC-5532-4D11-9218-6718F354A2BB}
+		{AF0A3DB6-D94F-4FA6-9FA8-26C18FD75822} = {1D683427-FC48-4755-847E-C8E0FCE70117}
+		{31EC35AE-97A7-439E-AB95-DF905012EF44} = {1D683427-FC48-4755-847E-C8E0FCE70117}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83F6FA52-3A95-4EF2-B205-787D96A67BCD}

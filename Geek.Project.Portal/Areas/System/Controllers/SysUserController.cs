@@ -152,7 +152,6 @@ namespace Geek.Project.Portal.Areas.System.Controllers
             var res = await _sysUserService.DeleteUser(userId);
             if (res)
             {
-                await _sysUserService.DeleteUser(userId);
                 jsonResult.status = "1";
                 jsonResult.msg = "删除成功";
             }

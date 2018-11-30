@@ -91,7 +91,8 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
                 form.render('checkbox');
             }
         }, 'json');
-    });
+    });
+
 
 
     // 搜索按钮点击事件
