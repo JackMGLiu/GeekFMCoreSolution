@@ -18,6 +18,35 @@ layui.use(['layer', 'element', 'admin', 'index', 'notice'], function () {
             top.layer.close(index);
             layer.load(2);
             $.post('/Main/Logout', {}, function (data) {
+                if (data.status) {
+                    notice.success({
+                        title: '系统信息',
+                        position: 'topRight',
+                        transitionIn: 'fadeInLeft',
+                        transitionOut: 'flipOutX',
+                        message: data.msg + '，正在登出系统...',
+                        onOpen: function () {
+                            layer.closeAll('loading');
+                        },
+                        onClose: function () {
+                            location.replace(data.backurl);
+                        }
+                    });
+                } else {
+                    notice.warning({
+                        title: '系统信息',
+                        position: 'topRight',
+                        transitionIn: 'fadeInLeft',
+                        transitionOut: 'flipOutX',
+                        message: data.msg,
+                        onOpen: function () {
+                            layer.closeAll('loading');
+                        },
+                        onClose: function () {
+                            location.replace('/');
+                        }
+                    });
+                }
             }, 'json');
             return false;
         });

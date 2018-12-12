@@ -2,9 +2,7 @@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta charset="utf-8" />
@@ -44,7 +42,8 @@
                 <li class="layui-nav-item" lay-unselect>
                     <a>
                         <img src="/assets/images/head.png" class="layui-nav-img">
-                        <cite>管理员</cite>
+                        <span>欢迎您：</span>
+                        <cite>@ViewData["UserName"]</cite>
                     </a>
                     <dl class="layui-nav-child">
                         <dd lay-unselect>
@@ -200,7 +199,6 @@
             Copyright © 2018 <a href="javascript:void(0);" target="_blank">GeekFM</a> All rights reserved.
             <span class="pull-right">Version 1.0.0</span>
         </div>
-
         <!-- 手机屏幕遮罩层 -->
         <div class="site-mobile-shade"></div>
     </div>

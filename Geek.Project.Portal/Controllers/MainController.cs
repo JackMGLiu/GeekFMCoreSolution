@@ -1,12 +1,13 @@
 ﻿using Geek.Project.Portal.Models;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Geek.Project.Portal.Controllers
 {
-    [Authorize]
+    [AdminAuthorize]
     public class MainController : Controller
     {
         /// <summary>
@@ -17,6 +18,8 @@ namespace Geek.Project.Portal.Controllers
         public IActionResult Index()
         {
             //var name = CurrentUser._userViewModel.RealName;
+            var userName = HttpContext.User.Claims.SingleOrDefault(t => t.Type == "userName");
+            ViewData["UserName"] = userName.Value;
             return View();
         }
 
@@ -39,11 +42,28 @@ namespace Geek.Project.Portal.Controllers
         {
             return View();
         }
-
-        public async Task<IActionResult> Logout()
+        public async Task<IActionResult> LogOut(string returnurl)
         {
-            await HttpContext.SignOutAsync();
-            return RedirectToAction("Index", "Main");
+            try
+            {
+                await HttpContext.SignOutAsync(AdminAuthorizeAttribute.AdminAuthenticationScheme);
+                var res = new
+                {
+                    status = true,
+                    msg = "退出成功",
+                    backurl = "/Login/Index"
+                };
+                return Json(res);
+            }
+            catch (Exception ex)
+            {
+                var res = new
+                {
+                    status = true,
+                    msg = "退出失败，请重试！",
+                };
+                return Json(res);
+            }
         }
     }
 }

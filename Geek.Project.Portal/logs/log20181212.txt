@@ -1,0 +1,1168 @@
+2018-12-12 17:20:00.398 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 17:20:00.967 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 17:20:01.154 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:20:01.160 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 2.9634ms
+2018-12-12 17:20:01.168 +08:00 [ERR] Connection id "0HLJ02BV1J7UA", Request id "0HLJ02BV1J7UA:00000001": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at Geek.Project.Portal.Models.AdminAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Models\AdminAuthorizeAttribute.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:20:01.243 +08:00 [INF] Request finished in 277.6868ms 500 
+2018-12-12 17:24:53.377 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 17:24:53.629 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 17:24:53.739 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:24:54.161 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:24:54.168 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:24:54.178 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.41960000000000003ms.
+2018-12-12 17:24:54.210 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:24:54.271 +08:00 [INF] Executed ViewResult - view Index executed in 84.2146ms.
+2018-12-12 17:24:54.271 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 531.8735ms
+2018-12-12 17:24:54.279 +08:00 [INF] Request finished in 651.3423ms 200 text/html; charset=utf-8
+2018-12-12 17:24:54.291 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/css/login.css  
+2018-12-12 17:24:54.291 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/logo.png  
+2018-12-12 17:24:54.291 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/lib/jquery/dist/jquery.min.js  
+2018-12-12 17:24:54.291 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/layui.css  
+2018-12-12 17:24:54.297 +08:00 [INF] The file /assets/libs/layui/css/layui.css was not modified
+2018-12-12 17:24:54.297 +08:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2018-12-12 17:24:54.297 +08:00 [INF] The file /assets/images/logo.png was not modified
+2018-12-12 17:24:54.307 +08:00 [INF] Request finished in 15.5807ms 304 application/javascript
+2018-12-12 17:24:54.307 +08:00 [INF] Request finished in 15.9711ms 304 image/png
+2018-12-12 17:24:54.307 +08:00 [INF] Request finished in 15.472ms 304 text/css
+2018-12-12 17:24:54.316 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/layui.js  
+2018-12-12 17:24:54.316 +08:00 [INF] The file /assets/libs/layui/layui.js was not modified
+2018-12-12 17:24:54.316 +08:00 [INF] Request finished in 0.585ms 304 application/javascript
+2018-12-12 17:24:54.321 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/common.js  
+2018-12-12 17:24:54.322 +08:00 [INF] The file /assets/js/common.js was not modified
+2018-12-12 17:24:54.322 +08:00 [INF] Request finished in 0.8487ms 304 application/javascript
+2018-12-12 17:24:54.351 +08:00 [INF] Sending file. Request path: '/assets/css/login.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\login.css'
+2018-12-12 17:24:54.354 +08:00 [INF] Request finished in 63.4714ms 200 text/css
+2018-12-12 17:24:54.356 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/bg_login.png  
+2018-12-12 17:24:54.358 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/font/iconfont.woff?v=240  
+2018-12-12 17:24:54.374 +08:00 [INF] The file /assets/libs/layui/font/iconfont.woff was not modified
+2018-12-12 17:24:54.375 +08:00 [INF] Request finished in 16.4291ms 304 application/font-woff
+2018-12-12 17:24:54.385 +08:00 [INF] Sending file. Request path: '/assets/images/bg_login.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\bg_login.png'
+2018-12-12 17:24:54.385 +08:00 [INF] Request finished in 28.8764ms 200 image/png
+2018-12-12 17:24:54.403 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/layer.js  
+2018-12-12 17:24:54.403 +08:00 [INF] The file /assets/libs/layui/lay/modules/layer.js was not modified
+2018-12-12 17:24:54.404 +08:00 [INF] Request finished in 0.7115ms 304 application/javascript
+2018-12-12 17:24:54.429 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/layer.css?v=3.1.1  
+2018-12-12 17:24:54.430 +08:00 [INF] The file /assets/libs/layui/css/modules/layer/default/layer.css was not modified
+2018-12-12 17:24:54.430 +08:00 [INF] Request finished in 0.6318ms 304 text/css
+2018-12-12 17:24:54.453 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/form.js  
+2018-12-12 17:24:54.495 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/form.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\form.js'
+2018-12-12 17:24:54.495 +08:00 [INF] Request finished in 41.9872ms 200 application/javascript
+2018-12-12 17:24:54.504 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/notice/notice.js  
+2018-12-12 17:24:54.505 +08:00 [INF] The file /module/notice/notice.js was not modified
+2018-12-12 17:24:54.505 +08:00 [INF] Request finished in 0.6139ms 304 application/javascript
+2018-12-12 17:24:54.514 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/notice/notice.css  
+2018-12-12 17:24:54.515 +08:00 [INF] The file /module/notice/notice.css was not modified
+2018-12-12 17:24:54.515 +08:00 [INF] Request finished in 0.6885ms 304 text/css
+2018-12-12 17:24:54.529 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/favicon.ico  
+2018-12-12 17:24:54.536 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-12-12 17:24:54.536 +08:00 [INF] Request finished in 6.665ms 200 image/x-icon
+2018-12-12 17:25:01.263 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:25:01.266 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:25:01.267 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.88340000000000007ms
+2018-12-12 17:25:01.268 +08:00 [ERR] Connection id "0HLJ02EM9EB3T", Request id "0HLJ02EM9EB3T:00000005": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at Geek.Project.Portal.Models.AdminAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Models\AdminAuthorizeAttribute.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:25:01.302 +08:00 [INF] Request finished in 38.4586ms 500 
+2018-12-12 17:25:11.909 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:25:11.910 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:25:11.910 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.1544ms
+2018-12-12 17:25:11.910 +08:00 [ERR] Connection id "0HLJ02EM9EB3Q", Request id "0HLJ02EM9EB3Q:00000005": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at Geek.Project.Portal.Models.AdminAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Models\AdminAuthorizeAttribute.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:25:11.912 +08:00 [INF] Request finished in 3.0406ms 500 
+2018-12-12 17:25:22.200 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:25:22.201 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:25:22.201 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.1505ms
+2018-12-12 17:25:22.201 +08:00 [ERR] Connection id "0HLJ02EM9EB3S", Request id "0HLJ02EM9EB3S:00000005": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at Geek.Project.Portal.Models.AdminAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Models\AdminAuthorizeAttribute.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:25:22.204 +08:00 [INF] Request finished in 4.0569ms 500 
+2018-12-12 17:25:28.819 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:25:28.820 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:25:28.820 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.2006ms
+2018-12-12 17:25:28.820 +08:00 [ERR] Connection id "0HLJ02EM9EB3R", Request id "0HLJ02EM9EB3R:00000004": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at Geek.Project.Portal.Models.AdminAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Models\AdminAuthorizeAttribute.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:25:28.822 +08:00 [INF] Request finished in 2.8255ms 500 
+2018-12-12 17:25:29.180 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:25:29.180 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:25:29.180 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.13520000000000001ms
+2018-12-12 17:25:29.181 +08:00 [ERR] Connection id "0HLJ02EM9EB3T", Request id "0HLJ02EM9EB3T:00000006": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at Geek.Project.Portal.Models.AdminAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Models\AdminAuthorizeAttribute.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:25:29.182 +08:00 [INF] Request finished in 2.5516ms 500 
+2018-12-12 17:25:29.649 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:25:29.649 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:25:29.650 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.1801ms
+2018-12-12 17:25:29.650 +08:00 [ERR] Connection id "0HLJ02EM9EB3Q", Request id "0HLJ02EM9EB3Q:00000006": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at Geek.Project.Portal.Models.AdminAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Models\AdminAuthorizeAttribute.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:25:29.651 +08:00 [INF] Request finished in 2.3949ms 500 
+2018-12-12 17:26:07.234 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 17:26:07.234 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:26:07.235 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:26:07.236 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:26:07.237 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0917ms.
+2018-12-12 17:26:07.238 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:26:07.240 +08:00 [INF] Executed ViewResult - view Index executed in 1.528ms.
+2018-12-12 17:26:07.240 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 5.9097ms
+2018-12-12 17:26:07.240 +08:00 [INF] Request finished in 6.6006ms 200 text/html; charset=utf-8
+2018-12-12 17:26:08.613 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/loading-2.gif  
+2018-12-12 17:26:08.613 +08:00 [INF] The file /assets/libs/layui/css/modules/layer/default/loading-2.gif was not modified
+2018-12-12 17:26:08.613 +08:00 [INF] Request finished in 0.4759ms 304 image/gif
+2018-12-12 17:26:08.623 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 17:26:08.644 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 17:26:08.645 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:26:08.689 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 17:26:29.936 +08:00 [ERR] An error occurred using the connection to database 'MicroServiceDb' on server '172.21.0.10,1433\mssql2012'.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+2018-12-12 17:26:29.968 +08:00 [ERR] An exception occurred in the database while iterating the results of a query for context type 'Geek.Project.Infrastructure.DataBase.ProjectDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2018-12-12 17:26:29.976 +08:00 [ERR] An exception occurred in the database while iterating the results of a query for context type 'Geek.Project.Infrastructure.DataBase.ProjectDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2018-12-12 17:26:30.019 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 21374.7517ms
+2018-12-12 17:26:30.020 +08:00 [ERR] Connection id "0HLJ02EM9EB3T", Request id "0HLJ02EM9EB3T:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+   at Geek.Project.Infrastructure.Repository.BaseRepository`2.GetSingleAsync(Expression`1 expression, String[] includes) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Infrastructure\Repository\BaseRepository.cs:line 70
+   at Geek.Project.Core.Service.Impl.SysUserService.AccountLogin(LoginViewModel model) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Core\Service\Impl\SysUserService.cs:line 119
+   at Geek.Project.Portal.Controllers.LoginController.CheckLogin(LoginViewModel model) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Controllers\LoginController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:26:30.040 +08:00 [INF] Request finished in 21416.9973ms 500 
+2018-12-12 17:27:15.055 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 17:27:15.498 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 17:27:15.619 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:27:15.784 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:27:15.791 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:27:15.801 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.28500000000000003ms.
+2018-12-12 17:27:15.824 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:27:15.881 +08:00 [INF] Executed ViewResult - view Index executed in 73.1348ms.
+2018-12-12 17:27:15.881 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 262.1043ms
+2018-12-12 17:27:15.887 +08:00 [INF] Request finished in 390.8476ms 200 text/html; charset=utf-8
+2018-12-12 17:27:15.971 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/favicon.ico  
+2018-12-12 17:27:15.979 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-12-12 17:27:15.979 +08:00 [INF] Request finished in 8.215ms 200 image/x-icon
+2018-12-12 17:27:17.338 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 17:27:17.353 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 17:27:17.355 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:27:17.396 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 17:27:17.802 +08:00 [INF] Executed DbCommand (45ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 17:27:17.897 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 497.11760000000004ms.
+2018-12-12 17:27:17.902 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 17:27:17.959 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 605.24ms
+2018-12-12 17:27:17.962 +08:00 [INF] Request finished in 623.9977ms 200 application/json; charset=utf-8
+2018-12-12 17:27:20.477 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:27:20.478 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:27:20.479 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 1.0483ms
+2018-12-12 17:27:20.480 +08:00 [ERR] Connection id "0HLJ02G0ICKL7", Request id "0HLJ02G0ICKL7:00000004": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at Geek.Project.Portal.Models.AdminAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Models\AdminAuthorizeAttribute.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-12 17:27:20.514 +08:00 [INF] Request finished in 37.2375ms 500 
+2018-12-12 17:32:04.954 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 17:32:05.419 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:32:05.540 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:32:05.549 +08:00 [INF] Authorization failed.
+2018-12-12 17:32:05.553 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2018-12-12 17:32:05.558 +08:00 [INF] Executing ChallengeResult with authentication schemes (["AdminAuthenticationScheme"]).
+2018-12-12 17:32:05.571 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme was challenged.
+2018-12-12 17:32:05.574 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 31.491000000000003ms
+2018-12-12 17:32:05.582 +08:00 [INF] Request finished in 164.2179ms 302 
+2018-12-12 17:32:05.590 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index?ReturnUrl=%2FMain%2FIndex  
+2018-12-12 17:32:05.593 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:32:05.762 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:32:05.769 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:32:05.774 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3824ms.
+2018-12-12 17:32:05.794 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:32:05.857 +08:00 [INF] Executed ViewResult - view Index executed in 77.8794ms.
+2018-12-12 17:32:05.857 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 263.7117ms
+2018-12-12 17:32:05.862 +08:00 [INF] Request finished in 271.188ms 200 text/html; charset=utf-8
+2018-12-12 17:32:08.084 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 17:32:08.100 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 17:32:08.101 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:32:08.135 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 17:32:08.573 +08:00 [INF] Executed DbCommand (52ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 17:32:08.651 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 516.0589ms.
+2018-12-12 17:32:08.658 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 17:32:08.694 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 593.80770000000007ms
+2018-12-12 17:32:08.698 +08:00 [INF] Request finished in 614.0983ms 200 application/json; charset=utf-8
+2018-12-12 17:32:11.211 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:32:11.212 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:32:11.212 +08:00 [INF] Authorization failed.
+2018-12-12 17:32:11.213 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2018-12-12 17:32:11.213 +08:00 [INF] Executing ChallengeResult with authentication schemes (["AdminAuthenticationScheme"]).
+2018-12-12 17:32:11.213 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme was challenged.
+2018-12-12 17:32:11.213 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 1.2403ms
+2018-12-12 17:32:11.213 +08:00 [INF] Request finished in 1.9777ms 302 
+2018-12-12 17:32:11.218 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index?ReturnUrl=%2FMain%2FIndex  
+2018-12-12 17:32:11.219 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:32:11.219 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:32:11.219 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:32:11.220 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0378ms.
+2018-12-12 17:32:11.220 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:32:11.222 +08:00 [INF] Executed ViewResult - view Index executed in 1.6531ms.
+2018-12-12 17:32:11.222 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 3.1138000000000003ms
+2018-12-12 17:32:11.222 +08:00 [INF] Request finished in 3.7571ms 200 text/html; charset=utf-8
+2018-12-12 17:38:15.562 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 17:38:15.828 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 17:38:15.941 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:38:15.948 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 17:38:15.950 +08:00 [INF] Executing RedirectResult, redirecting to /Account/Login.
+2018-12-12 17:38:15.952 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 8.9629000000000012ms
+2018-12-12 17:38:15.963 +08:00 [INF] Request finished in 137.0651ms 302 
+2018-12-12 17:38:15.970 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Account/Login  
+2018-12-12 17:38:15.971 +08:00 [INF] Request finished in 1.146ms 404 
+2018-12-12 17:39:35.351 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 17:39:35.621 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 17:39:35.729 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:39:35.737 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 17:39:35.739 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-12 17:39:35.741 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 9.2341ms
+2018-12-12 17:39:35.752 +08:00 [INF] Request finished in 132.6733ms 302 
+2018-12-12 17:39:35.765 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 17:39:35.767 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:39:35.930 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:39:35.937 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:39:35.941 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.24630000000000002ms.
+2018-12-12 17:39:35.961 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:39:36.009 +08:00 [INF] Executed ViewResult - view Index executed in 63.6342ms.
+2018-12-12 17:39:36.009 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 242.4555ms
+2018-12-12 17:39:36.013 +08:00 [INF] Request finished in 248.9089ms 200 text/html; charset=utf-8
+2018-12-12 17:39:37.321 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 17:39:37.339 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 17:39:37.340 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:39:37.377 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 17:39:37.787 +08:00 [INF] Executed DbCommand (51ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 17:39:37.867 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 483.61240000000004ms.
+2018-12-12 17:39:37.872 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 17:39:37.911 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 572.6738ms
+2018-12-12 17:39:37.924 +08:00 [INF] Request finished in 602.3972ms 200 application/json; charset=utf-8
+2018-12-12 17:39:40.436 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:39:40.437 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:39:40.437 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 17:39:40.437 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-12 17:39:40.437 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.3884ms
+2018-12-12 17:39:40.437 +08:00 [INF] Request finished in 1.1462ms 302 
+2018-12-12 17:39:40.442 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 17:39:40.443 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:39:40.443 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:39:40.443 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:39:40.443 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.063800000000000009ms.
+2018-12-12 17:39:40.444 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:39:40.445 +08:00 [INF] Executed ViewResult - view Index executed in 1.1653ms.
+2018-12-12 17:39:40.445 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 2.248ms
+2018-12-12 17:39:40.445 +08:00 [INF] Request finished in 3.0029ms 200 text/html; charset=utf-8
+2018-12-12 17:51:01.177 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 17:51:01.402 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 17:51:01.516 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:51:01.675 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:51:01.683 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:51:01.691 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2716ms.
+2018-12-12 17:51:01.713 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:51:01.769 +08:00 [INF] Executed ViewResult - view Index executed in 69.5057ms.
+2018-12-12 17:51:01.769 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 252.8709ms
+2018-12-12 17:51:01.778 +08:00 [INF] Request finished in 377.3547ms 200 text/html; charset=utf-8
+2018-12-12 17:51:01.885 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/favicon.ico  
+2018-12-12 17:51:01.891 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-12-12 17:51:01.892 +08:00 [INF] Request finished in 7.2344ms 200 image/x-icon
+2018-12-12 17:51:05.018 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 17:51:05.035 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 17:51:05.036 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:51:05.078 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 17:51:05.466 +08:00 [INF] Executed DbCommand (43ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 17:51:05.537 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed in.
+2018-12-12 17:51:05.539 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 456.9529ms.
+2018-12-12 17:51:05.545 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 17:51:05.581 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 546.5522ms
+2018-12-12 17:51:05.585 +08:00 [INF] Request finished in 567.0116ms 200 application/json; charset=utf-8
+2018-12-12 17:51:08.099 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:51:08.101 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:51:08.118 +08:00 [INF] Authorization was successful.
+2018-12-12 17:51:08.118 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:51:08.119 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2325ms.
+2018-12-12 17:51:08.125 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:51:08.137 +08:00 [INF] Executed ViewResult - view Index executed in 17.631ms.
+2018-12-12 17:51:08.137 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 35.900600000000004ms
+2018-12-12 17:51:08.137 +08:00 [INF] Request finished in 38.1395ms 200 text/html; charset=utf-8
+2018-12-12 17:51:08.152 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/head.png  
+2018-12-12 17:51:08.153 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/css/admin.css  
+2018-12-12 17:51:08.154 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/main.js  
+2018-12-12 17:51:08.155 +08:00 [INF] The file /assets/images/head.png was not modified
+2018-12-12 17:51:08.155 +08:00 [INF] The file /assets/css/admin.css was not modified
+2018-12-12 17:51:08.155 +08:00 [INF] The file /assets/js/main.js was not modified
+2018-12-12 17:51:08.157 +08:00 [INF] Request finished in 5.3723ms 304 image/png
+2018-12-12 17:51:08.157 +08:00 [INF] Request finished in 2.8136ms 304 application/javascript
+2018-12-12 17:51:08.157 +08:00 [INF] Request finished in 4.536ms 304 text/css
+2018-12-12 17:51:08.202 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/ic_loading.gif  
+2018-12-12 17:51:08.232 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/element.js  
+2018-12-12 17:51:08.233 +08:00 [INF] The file /assets/libs/layui/lay/modules/element.js was not modified
+2018-12-12 17:51:08.233 +08:00 [INF] Request finished in 0.7776ms 304 application/javascript
+2018-12-12 17:51:08.239 +08:00 [INF] The file /assets/images/ic_loading.gif was not modified
+2018-12-12 17:51:08.239 +08:00 [INF] Request finished in 37.5866ms 304 image/gif
+2018-12-12 17:51:08.256 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/admin.js  
+2018-12-12 17:51:08.257 +08:00 [INF] The file /module/admin.js was not modified
+2018-12-12 17:51:08.257 +08:00 [INF] Request finished in 1.0699ms 304 application/javascript
+2018-12-12 17:51:08.268 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/index.js  
+2018-12-12 17:51:08.268 +08:00 [INF] The file /module/index.js was not modified
+2018-12-12 17:51:08.269 +08:00 [INF] Request finished in 0.5668ms 304 application/javascript
+2018-12-12 17:51:08.287 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-12 17:51:08.289 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-12 17:51:08.289 +08:00 [INF] Authorization was successful.
+2018-12-12 17:51:08.289 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:51:08.290 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2394ms.
+2018-12-12 17:51:08.293 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-12 17:51:08.416 +08:00 [INF] Executed ViewResult - view Console executed in 125.9086ms.
+2018-12-12 17:51:08.416 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 127.20280000000001ms
+2018-12-12 17:51:08.416 +08:00 [INF] Request finished in 128.9011ms 200 text/html; charset=utf-8
+2018-12-12 17:51:08.509 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/favicon.ico  
+2018-12-12 17:51:08.509 +08:00 [INF] The file /assets/images/favicon.ico was not modified
+2018-12-12 17:51:08.510 +08:00 [INF] Request finished in 0.8528ms 304 image/x-icon
+2018-12-12 17:52:53.787 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/icon.png  
+2018-12-12 17:52:53.787 +08:00 [INF] The file /assets/libs/layui/css/modules/layer/default/icon.png was not modified
+2018-12-12 17:52:53.787 +08:00 [INF] Request finished in 0.6374ms 304 image/png
+2018-12-12 17:52:55.520 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Main/Logout  0
+2018-12-12 17:52:55.525 +08:00 [INF] Route matched with {action = "LogOut", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal)
+2018-12-12 17:52:55.525 +08:00 [INF] Authorization was successful.
+2018-12-12 17:52:55.525 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) with arguments ([""]) - Validation state: "Valid"
+2018-12-12 17:52:55.530 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed out.
+2018-12-12 17:52:55.530 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 4.7952ms.
+2018-12-12 17:52:55.531 +08:00 [INF] Executing RedirectResult, redirecting to /.
+2018-12-12 17:52:55.531 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) in 5.998ms
+2018-12-12 17:52:55.531 +08:00 [INF] Request finished in 10.5151ms 302 
+2018-12-12 17:52:55.534 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 17:52:55.535 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:52:55.538 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 17:52:55.539 +08:00 [INF] Executing JsonResult, writing value of type 'Geek.Project.Core.ViewModel.ResultModel'.
+2018-12-12 17:52:55.542 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 7.2008ms
+2018-12-12 17:52:55.542 +08:00 [INF] Request finished in 8.0499ms 200 application/json; charset=utf-8
+2018-12-12 17:53:04.911 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 17:53:04.911 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 17:53:04.911 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 17:53:04.911 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-12 17:53:04.912 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.29250000000000004ms
+2018-12-12 17:53:04.912 +08:00 [INF] Request finished in 0.8359ms 302 
+2018-12-12 17:53:04.917 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 17:53:04.918 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:53:04.918 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:53:04.919 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:53:04.919 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0274ms.
+2018-12-12 17:53:04.919 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:53:04.920 +08:00 [INF] Executed ViewResult - view Index executed in 0.90140000000000009ms.
+2018-12-12 17:53:04.920 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 2.3549ms
+2018-12-12 17:53:04.920 +08:00 [INF] Request finished in 3.0634ms 200 text/html; charset=utf-8
+2018-12-12 17:53:05.886 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 17:53:05.886 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 17:53:05.887 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 17:53:05.887 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 17:53:05.887 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0063ms.
+2018-12-12 17:53:05.887 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 17:53:05.888 +08:00 [INF] Executed ViewResult - view Index executed in 0.5434ms.
+2018-12-12 17:53:05.888 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.3749ms
+2018-12-12 17:53:05.888 +08:00 [INF] Request finished in 1.9223ms 200 text/html; charset=utf-8
+2018-12-12 17:53:05.991 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/favicon.ico  
+2018-12-12 17:53:05.999 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-12-12 17:53:05.999 +08:00 [INF] Request finished in 7.745ms 200 image/x-icon
+2018-12-12 18:01:05.084 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 18:01:05.560 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:01:05.674 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:01:05.835 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:01:05.843 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:05.851 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.29560000000000003ms.
+2018-12-12 18:01:05.873 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:01:05.944 +08:00 [INF] Executed ViewResult - view Index executed in 85.063ms.
+2018-12-12 18:01:05.945 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 269.9142ms
+2018-12-12 18:01:05.952 +08:00 [INF] Request finished in 394.134ms 200 text/html; charset=utf-8
+2018-12-12 18:01:06.069 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/favicon.ico  
+2018-12-12 18:01:06.088 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-12-12 18:01:06.092 +08:00 [INF] Request finished in 22.7341ms 200 image/x-icon
+2018-12-12 18:01:09.932 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 18:01:09.935 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:01:09.951 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 18:01:09.953 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-12 18:01:09.953 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 17.8244ms
+2018-12-12 18:01:09.954 +08:00 [INF] Request finished in 21.2536ms 302 
+2018-12-12 18:01:09.958 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:01:09.959 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:01:09.961 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:01:09.962 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:09.962 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0302ms.
+2018-12-12 18:01:09.962 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:01:09.963 +08:00 [INF] Executed ViewResult - view Index executed in 1.3014000000000001ms.
+2018-12-12 18:01:09.964 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 4.2498000000000005ms
+2018-12-12 18:01:09.964 +08:00 [INF] Request finished in 5.7128ms 200 text/html; charset=utf-8
+2018-12-12 18:01:11.716 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 18:01:11.732 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 18:01:11.733 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:01:11.768 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 18:01:12.165 +08:00 [INF] Executed DbCommand (48ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 18:01:12.238 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed in.
+2018-12-12 18:01:12.240 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 468.21160000000003ms.
+2018-12-12 18:01:12.244 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 18:01:12.284 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 551.42730000000006ms
+2018-12-12 18:01:12.285 +08:00 [INF] Request finished in 569.0429ms 200 application/json; charset=utf-8
+2018-12-12 18:01:14.799 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 18:01:14.800 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:01:14.815 +08:00 [INF] Authorization was successful.
+2018-12-12 18:01:14.815 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:14.816 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.18430000000000002ms.
+2018-12-12 18:01:14.819 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:01:14.830 +08:00 [INF] Executed ViewResult - view Index executed in 14.0789ms.
+2018-12-12 18:01:14.830 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 29.8564ms
+2018-12-12 18:01:14.830 +08:00 [INF] Request finished in 31.8288ms 200 text/html; charset=utf-8
+2018-12-12 18:01:14.930 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-12 18:01:14.932 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-12 18:01:14.932 +08:00 [INF] Authorization was successful.
+2018-12-12 18:01:14.932 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:14.933 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2139ms.
+2018-12-12 18:01:14.935 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-12 18:01:15.020 +08:00 [INF] Executed ViewResult - view Console executed in 87.6541ms.
+2018-12-12 18:01:15.021 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 88.7399ms
+2018-12-12 18:01:15.021 +08:00 [INF] Request finished in 90.6917ms 200 text/html; charset=utf-8
+2018-12-12 18:01:19.558 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Main/Logout  0
+2018-12-12 18:01:19.562 +08:00 [INF] Route matched with {action = "LogOut", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal)
+2018-12-12 18:01:19.562 +08:00 [INF] Authorization was successful.
+2018-12-12 18:01:19.563 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) with arguments ([""]) - Validation state: "Valid"
+2018-12-12 18:01:19.569 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed out.
+2018-12-12 18:01:19.569 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.6169ms.
+2018-12-12 18:01:19.569 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType5`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-12 18:01:19.572 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) in 9.1757ms
+2018-12-12 18:01:19.572 +08:00 [INF] Request finished in 14.3143ms 200 application/json; charset=utf-8
+2018-12-12 18:01:31.873 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 18:01:31.873 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:01:31.873 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 18:01:31.873 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-12 18:01:31.874 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.4288ms
+2018-12-12 18:01:31.874 +08:00 [INF] Request finished in 0.9443ms 302 
+2018-12-12 18:01:31.879 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:01:31.879 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:01:31.880 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:01:31.880 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:31.880 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0086ms.
+2018-12-12 18:01:31.880 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:01:31.880 +08:00 [INF] Executed ViewResult - view Index executed in 0.53960000000000008ms.
+2018-12-12 18:01:31.881 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.3136ms
+2018-12-12 18:01:31.881 +08:00 [INF] Request finished in 1.9348ms 200 text/html; charset=utf-8
+2018-12-12 18:01:34.711 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:01:34.711 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:01:34.712 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:01:34.712 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:34.712 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0058000000000000005ms.
+2018-12-12 18:01:34.712 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:01:34.713 +08:00 [INF] Executed ViewResult - view Index executed in 0.40280000000000005ms.
+2018-12-12 18:01:34.713 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.1245ms
+2018-12-12 18:01:34.713 +08:00 [INF] Request finished in 1.7085ms 200 text/html; charset=utf-8
+2018-12-12 18:01:34.797 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/favicon.ico  
+2018-12-12 18:01:34.798 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-12-12 18:01:34.798 +08:00 [INF] Request finished in 1.172ms 200 image/x-icon
+2018-12-12 18:01:42.369 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:01:42.369 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:01:42.370 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:01:42.370 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:42.370 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0057ms.
+2018-12-12 18:01:42.370 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:01:42.371 +08:00 [INF] Executed ViewResult - view Index executed in 0.4591ms.
+2018-12-12 18:01:42.371 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.1860000000000002ms
+2018-12-12 18:01:42.371 +08:00 [INF] Request finished in 1.7337ms 200 text/html; charset=utf-8
+2018-12-12 18:01:42.380 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/css/login.css  
+2018-12-12 18:01:42.381 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/layui.js  
+2018-12-12 18:01:42.382 +08:00 [INF] Sending file. Request path: '/assets/css/login.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\login.css'
+2018-12-12 18:01:42.382 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/logo.png  
+2018-12-12 18:01:42.382 +08:00 [INF] Request finished in 1.9829ms 200 text/css
+2018-12-12 18:01:42.382 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/lib/jquery/dist/jquery.min.js  
+2018-12-12 18:01:42.382 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/layui.css  
+2018-12-12 18:01:42.382 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/layui.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\layui.js'
+2018-12-12 18:01:42.383 +08:00 [INF] Request finished in 1.2869ms 200 application/javascript
+2018-12-12 18:01:42.383 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/common.js  
+2018-12-12 18:01:42.383 +08:00 [INF] Sending file. Request path: '/assets/js/common.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\common.js'
+2018-12-12 18:01:42.384 +08:00 [INF] Request finished in 0.9336ms 200 application/javascript
+2018-12-12 18:01:42.444 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/layui.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\layui.css'
+2018-12-12 18:01:42.445 +08:00 [INF] Request finished in 62.3173ms 200 text/css
+2018-12-12 18:01:42.448 +08:00 [INF] Sending file. Request path: '/assets/images/logo.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\logo.png'
+2018-12-12 18:01:42.448 +08:00 [INF] Request finished in 65.8308ms 200 image/png
+2018-12-12 18:01:42.461 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/bg_login.png  
+2018-12-12 18:01:42.461 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/font/iconfont.woff?v=240  
+2018-12-12 18:01:42.463 +08:00 [INF] Sending file. Request path: '/assets/images/bg_login.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\bg_login.png'
+2018-12-12 18:01:42.463 +08:00 [INF] Request finished in 1.7408ms 200 image/png
+2018-12-12 18:01:42.480 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/font/iconfont.woff'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\font\iconfont.woff'
+2018-12-12 18:01:42.480 +08:00 [INF] Request finished in 18.7991ms 200 application/font-woff
+2018-12-12 18:01:42.512 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.min.js'
+2018-12-12 18:01:42.512 +08:00 [INF] Request finished in 129.6712ms 200 application/javascript
+2018-12-12 18:01:42.550 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/layer.js  
+2018-12-12 18:01:42.550 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/layer.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\layer.js'
+2018-12-12 18:01:42.550 +08:00 [INF] Request finished in 0.8545ms 200 application/javascript
+2018-12-12 18:01:42.561 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/layer.css?v=3.1.1  
+2018-12-12 18:01:42.567 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/form.js  
+2018-12-12 18:01:42.567 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/form.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\form.js'
+2018-12-12 18:01:42.568 +08:00 [INF] Request finished in 1.0635ms 200 application/javascript
+2018-12-12 18:01:42.584 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/notice/notice.js  
+2018-12-12 18:01:42.585 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/layer.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\layer.css'
+2018-12-12 18:01:42.585 +08:00 [INF] Request finished in 23.6885ms 200 text/css
+2018-12-12 18:01:42.585 +08:00 [INF] Sending file. Request path: '/module/notice/notice.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\notice\notice.js'
+2018-12-12 18:01:42.585 +08:00 [INF] Request finished in 0.7227ms 200 application/javascript
+2018-12-12 18:01:42.598 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/notice/notice.css  
+2018-12-12 18:01:42.613 +08:00 [INF] Sending file. Request path: '/module/notice/notice.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\notice\notice.css'
+2018-12-12 18:01:42.613 +08:00 [INF] Request finished in 15.3693ms 200 text/css
+2018-12-12 18:01:49.966 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 32
+2018-12-12 18:01:49.966 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/loading-2.gif  
+2018-12-12 18:01:49.966 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 18:01:49.966 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:01:49.969 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 18:01:50.007 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/loading-2.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\loading-2.gif'
+2018-12-12 18:01:50.007 +08:00 [INF] Request finished in 41.5532ms 200 image/gif
+2018-12-12 18:01:50.009 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 18:01:50.012 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 42.34ms.
+2018-12-12 18:01:50.012 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 18:01:50.012 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 46.204100000000004ms
+2018-12-12 18:01:50.012 +08:00 [INF] Request finished in 46.7929ms 200 application/json; charset=utf-8
+2018-12-12 18:01:56.001 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 18:01:56.001 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 18:01:56.002 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:01:56.002 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 18:01:56.041 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 18:01:56.044 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed in.
+2018-12-12 18:01:56.044 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 41.462ms.
+2018-12-12 18:01:56.045 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 18:01:56.045 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 43.1569ms
+2018-12-12 18:01:56.045 +08:00 [INF] Request finished in 43.8013ms 200 application/json; charset=utf-8
+2018-12-12 18:01:58.567 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 18:01:58.568 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:01:58.568 +08:00 [INF] Authorization was successful.
+2018-12-12 18:01:58.568 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:58.568 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0079ms.
+2018-12-12 18:01:58.568 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:01:58.569 +08:00 [INF] Executed ViewResult - view Index executed in 0.7149ms.
+2018-12-12 18:01:58.569 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 1.1865ms
+2018-12-12 18:01:58.569 +08:00 [INF] Request finished in 1.8932ms 200 text/html; charset=utf-8
+2018-12-12 18:01:58.580 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/main.js  
+2018-12-12 18:01:58.580 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/css/admin.css  
+2018-12-12 18:01:58.580 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/head.png  
+2018-12-12 18:01:58.580 +08:00 [INF] Sending file. Request path: '/assets/js/main.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\main.js'
+2018-12-12 18:01:58.581 +08:00 [INF] Request finished in 0.9671ms 200 application/javascript
+2018-12-12 18:01:58.628 +08:00 [INF] Sending file. Request path: '/assets/css/admin.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\admin.css'
+2018-12-12 18:01:58.628 +08:00 [INF] Request finished in 48.5862ms 200 text/css
+2018-12-12 18:01:58.636 +08:00 [INF] Sending file. Request path: '/assets/images/head.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\head.png'
+2018-12-12 18:01:58.636 +08:00 [INF] Request finished in 56.1357ms 200 image/png
+2018-12-12 18:01:58.678 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/ic_loading.gif  
+2018-12-12 18:01:58.687 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/element.js  
+2018-12-12 18:01:58.687 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/element.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\element.js'
+2018-12-12 18:01:58.687 +08:00 [INF] Request finished in 0.8108ms 200 application/javascript
+2018-12-12 18:01:58.691 +08:00 [INF] Sending file. Request path: '/assets/images/ic_loading.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\ic_loading.gif'
+2018-12-12 18:01:58.691 +08:00 [INF] Request finished in 13.8514ms 200 image/gif
+2018-12-12 18:01:58.731 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/admin.js  
+2018-12-12 18:01:58.732 +08:00 [INF] Sending file. Request path: '/module/admin.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\admin.js'
+2018-12-12 18:01:58.732 +08:00 [INF] Request finished in 0.9015ms 200 application/javascript
+2018-12-12 18:01:58.743 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/index.js  
+2018-12-12 18:01:58.743 +08:00 [INF] Sending file. Request path: '/module/index.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\index.js'
+2018-12-12 18:01:58.744 +08:00 [INF] Request finished in 0.9519ms 200 application/javascript
+2018-12-12 18:01:58.785 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-12 18:01:58.786 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-12 18:01:58.786 +08:00 [INF] Authorization was successful.
+2018-12-12 18:01:58.786 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:01:58.786 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0094ms.
+2018-12-12 18:01:58.786 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-12 18:01:58.787 +08:00 [INF] Executed ViewResult - view Console executed in 0.6732ms.
+2018-12-12 18:01:58.787 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 1.1951ms
+2018-12-12 18:01:58.787 +08:00 [INF] Request finished in 1.97ms 200 text/html; charset=utf-8
+2018-12-12 18:02:02.270 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/icon.png  
+2018-12-12 18:02:02.313 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/icon.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\icon.png'
+2018-12-12 18:02:02.314 +08:00 [INF] Request finished in 43.7536ms 200 image/png
+2018-12-12 18:02:03.421 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Main/Logout  0
+2018-12-12 18:02:03.421 +08:00 [INF] Route matched with {action = "LogOut", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal)
+2018-12-12 18:02:03.422 +08:00 [INF] Authorization was successful.
+2018-12-12 18:02:03.422 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) with arguments ([""]) - Validation state: "Valid"
+2018-12-12 18:02:03.423 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed out.
+2018-12-12 18:02:03.423 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.2775ms.
+2018-12-12 18:02:03.423 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType5`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-12 18:02:03.423 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) in 1.5844ms
+2018-12-12 18:02:03.423 +08:00 [INF] Request finished in 2.345ms 200 application/json; charset=utf-8
+2018-12-12 18:02:05.953 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:02:05.954 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:02:05.954 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:02:05.954 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:02:05.954 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0244ms.
+2018-12-12 18:02:05.955 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:02:05.955 +08:00 [INF] Executed ViewResult - view Index executed in 0.4959ms.
+2018-12-12 18:02:05.955 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.4671ms
+2018-12-12 18:02:05.955 +08:00 [INF] Request finished in 2.0073ms 200 text/html; charset=utf-8
+2018-12-12 18:02:11.962 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:02:11.962 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:02:11.963 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:02:11.963 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:02:11.963 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.014400000000000001ms.
+2018-12-12 18:02:11.963 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:02:11.963 +08:00 [INF] Executed ViewResult - view Index executed in 0.3649ms.
+2018-12-12 18:02:11.964 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.1045ms
+2018-12-12 18:02:11.964 +08:00 [INF] Request finished in 1.8744ms 200 text/html; charset=utf-8
+2018-12-12 18:02:15.923 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 18:02:15.924 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:02:15.924 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 18:02:15.924 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-12 18:02:15.924 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.2594ms
+2018-12-12 18:02:15.924 +08:00 [INF] Request finished in 0.9854ms 302 
+2018-12-12 18:02:15.941 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:02:15.941 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:02:15.941 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:02:15.941 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:02:15.941 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0086ms.
+2018-12-12 18:02:15.942 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:02:15.942 +08:00 [INF] Executed ViewResult - view Index executed in 0.3335ms.
+2018-12-12 18:02:15.942 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.0972ms
+2018-12-12 18:02:15.942 +08:00 [INF] Request finished in 1.5945ms 200 text/html; charset=utf-8
+2018-12-12 18:05:35.537 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 18:05:35.821 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:05:35.933 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:05:36.106 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:05:36.114 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:05:36.123 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.28950000000000004ms.
+2018-12-12 18:05:36.143 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:05:36.200 +08:00 [INF] Executed ViewResult - view Index executed in 68.7168ms.
+2018-12-12 18:05:36.201 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 267.1019ms
+2018-12-12 18:05:36.208 +08:00 [INF] Request finished in 387.8692ms 200 text/html; charset=utf-8
+2018-12-12 18:05:42.217 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 18:05:42.241 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 18:05:42.242 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:05:42.284 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 18:05:42.682 +08:00 [INF] Executed DbCommand (45ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 18:05:42.751 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed in.
+2018-12-12 18:05:42.753 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 464.8166ms.
+2018-12-12 18:05:42.758 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 18:05:42.793 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 551.63470000000007ms
+2018-12-12 18:05:42.798 +08:00 [INF] Request finished in 580.4294ms 200 application/json; charset=utf-8
+2018-12-12 18:05:45.321 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 18:05:45.324 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:05:45.340 +08:00 [INF] Authorization was successful.
+2018-12-12 18:05:45.341 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:05:45.342 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0331000000000001ms.
+2018-12-12 18:05:45.346 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:05:45.359 +08:00 [INF] Executed ViewResult - view Index executed in 16.2208ms.
+2018-12-12 18:05:45.359 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 34.528ms
+2018-12-12 18:05:45.359 +08:00 [INF] Request finished in 37.3021ms 200 text/html; charset=utf-8
+2018-12-12 18:05:45.368 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/main.js  
+2018-12-12 18:05:45.377 +08:00 [INF] The file /assets/js/main.js was not modified
+2018-12-12 18:05:45.382 +08:00 [INF] Request finished in 13.2869ms 304 application/javascript
+2018-12-12 18:05:45.513 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-12 18:05:45.515 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-12 18:05:45.516 +08:00 [INF] Authorization was successful.
+2018-12-12 18:05:45.516 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:05:45.516 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.25420000000000004ms.
+2018-12-12 18:05:45.518 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-12 18:05:45.590 +08:00 [INF] Executed ViewResult - view Console executed in 74.0656ms.
+2018-12-12 18:05:45.591 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 75.5497ms
+2018-12-12 18:05:45.591 +08:00 [INF] Request finished in 77.4292ms 200 text/html; charset=utf-8
+2018-12-12 18:06:47.320 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 18:06:48.135 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 18:06:48.135 +08:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:8800/  0
+2018-12-12 18:06:48.166 +08:00 [INF] Request finished in 32.1521ms 200 
+2018-12-12 18:06:48.321 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:06:48.329 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 18:06:48.332 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-12 18:06:48.334 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 9.9176ms
+2018-12-12 18:06:48.346 +08:00 [INF] Request finished in 213.6774ms 302 
+2018-12-12 18:06:48.349 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:06:48.352 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:06:48.845 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:06:48.983 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:06:48.999 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.682ms.
+2018-12-12 18:06:49.064 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:06:49.178 +08:00 [INF] Executed ViewResult - view Index executed in 160.87120000000002ms.
+2018-12-12 18:06:49.179 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 826.8945ms
+2018-12-12 18:06:49.186 +08:00 [INF] Request finished in 836.9977ms 200 text/html; charset=utf-8
+2018-12-12 18:07:22.046 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 18:07:22.067 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 18:07:22.096 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:07:22.170 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 18:07:22.798 +08:00 [INF] Executed DbCommand (95ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 18:07:22.909 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed in.
+2018-12-12 18:07:22.911 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 735.94490000000008ms.
+2018-12-12 18:07:22.917 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 18:07:22.973 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 906.2409ms
+2018-12-12 18:07:22.978 +08:00 [INF] Request finished in 931.2331ms 200 application/json; charset=utf-8
+2018-12-12 18:07:25.491 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 18:07:25.493 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:07:25.505 +08:00 [INF] Authorization was successful.
+2018-12-12 18:07:25.530 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:08:29.648 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-12 18:08:30.003 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 18:08:30.141 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:08:30.151 +08:00 [INF] Authorization was successful.
+2018-12-12 18:08:30.162 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:08:30.172 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1242ms.
+2018-12-12 18:08:30.203 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:08:30.263 +08:00 [INF] Executed ViewResult - view Index executed in 78.796ms.
+2018-12-12 18:08:30.263 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 121.87790000000001ms
+2018-12-12 18:08:30.270 +08:00 [INF] Request finished in 268.9734ms 200 text/html; charset=utf-8
+2018-12-12 18:08:30.485 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-12 18:08:30.488 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-12 18:08:30.488 +08:00 [INF] Authorization was successful.
+2018-12-12 18:08:30.489 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:08:30.489 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2333ms.
+2018-12-12 18:08:30.493 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-12 18:08:30.598 +08:00 [INF] Executed ViewResult - view Console executed in 108.6387ms.
+2018-12-12 18:08:30.598 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 110.0009ms
+2018-12-12 18:08:30.598 +08:00 [INF] Request finished in 113.4085ms 200 text/html; charset=utf-8
+2018-12-12 18:08:33.980 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 18:08:33.981 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:08:33.981 +08:00 [INF] Authorization was successful.
+2018-12-12 18:08:33.981 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:08:33.981 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1042ms.
+2018-12-12 18:08:33.982 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:08:33.982 +08:00 [INF] Executed ViewResult - view Index executed in 0.8928ms.
+2018-12-12 18:08:33.982 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 1.7387000000000001ms
+2018-12-12 18:08:33.983 +08:00 [INF] Request finished in 2.6739ms 200 text/html; charset=utf-8
+2018-12-12 18:08:34.040 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/favicon.ico  
+2018-12-12 18:08:34.074 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-12 18:08:34.075 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-12 18:08:34.075 +08:00 [INF] Authorization was successful.
+2018-12-12 18:08:34.075 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:08:34.075 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.011300000000000001ms.
+2018-12-12 18:08:34.075 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-12 18:08:34.077 +08:00 [INF] Executed ViewResult - view Console executed in 1.8702ms.
+2018-12-12 18:08:34.077 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 2.4805ms
+2018-12-12 18:08:34.077 +08:00 [INF] Request finished in 3.3761ms 200 text/html; charset=utf-8
+2018-12-12 18:08:34.109 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-12-12 18:08:34.109 +08:00 [INF] Request finished in 69.439ms 200 image/x-icon
+2018-12-12 18:09:06.233 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 18:09:06.233 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:09:06.234 +08:00 [INF] Authorization was successful.
+2018-12-12 18:09:06.234 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:09:06.234 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0132ms.
+2018-12-12 18:09:07.986 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:09:07.997 +08:00 [INF] Executed ViewResult - view Index executed in 1762.8701ms.
+2018-12-12 18:09:07.997 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 1763.3639ms
+2018-12-12 18:09:07.997 +08:00 [INF] Request finished in 1764.4723ms 200 text/html; charset=utf-8
+2018-12-12 18:09:08.105 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-12 18:09:08.105 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-12 18:09:08.106 +08:00 [INF] Authorization was successful.
+2018-12-12 18:09:08.106 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:09:08.106 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0082ms.
+2018-12-12 18:09:08.106 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-12 18:09:08.107 +08:00 [INF] Executed ViewResult - view Console executed in 0.5239ms.
+2018-12-12 18:09:08.107 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 1.1982000000000002ms
+2018-12-12 18:09:08.107 +08:00 [INF] Request finished in 1.9921ms 200 text/html; charset=utf-8
+2018-12-12 18:09:08.190 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/favicon.ico  
+2018-12-12 18:09:08.197 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-12-12 18:09:08.200 +08:00 [INF] Request finished in 10.3429ms 200 image/x-icon
+2018-12-12 18:09:20.117 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Main/Logout  0
+2018-12-12 18:09:20.131 +08:00 [INF] Route matched with {action = "LogOut", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal)
+2018-12-12 18:09:20.131 +08:00 [INF] Authorization was successful.
+2018-12-12 18:09:20.145 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) with arguments ([""]) - Validation state: "Valid"
+2018-12-12 18:09:20.157 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed out.
+2018-12-12 18:09:20.158 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 8.4494ms.
+2018-12-12 18:09:20.159 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType5`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-12 18:09:20.190 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) in 59.4861ms
+2018-12-12 18:09:20.191 +08:00 [INF] Request finished in 73.9614ms 200 application/json; charset=utf-8
+2018-12-12 18:09:32.813 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-12 18:09:32.813 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:09:32.816 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-12 18:09:32.818 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-12 18:09:32.818 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 4.5163ms
+2018-12-12 18:09:32.819 +08:00 [INF] Request finished in 5.9418ms 302 
+2018-12-12 18:09:32.824 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:09:32.825 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:09:32.996 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:09:32.996 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:09:32.996 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1254ms.
+2018-12-12 18:09:32.999 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:09:33.055 +08:00 [INF] Executed ViewResult - view Index executed in 58.380500000000005ms.
+2018-12-12 18:09:33.055 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 229.8035ms
+2018-12-12 18:09:33.056 +08:00 [INF] Request finished in 231.9282ms 200 text/html; charset=utf-8
+2018-12-12 18:09:33.069 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/layui.css  
+2018-12-12 18:09:33.069 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/css/login.css  
+2018-12-12 18:09:33.070 +08:00 [INF] Sending file. Request path: '/assets/css/login.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\login.css'
+2018-12-12 18:09:33.070 +08:00 [INF] Request finished in 0.7023ms 200 text/css
+2018-12-12 18:09:33.070 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/logo.png  
+2018-12-12 18:09:33.071 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/lib/jquery/dist/jquery.min.js  
+2018-12-12 18:09:33.071 +08:00 [INF] Sending file. Request path: '/assets/images/logo.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\logo.png'
+2018-12-12 18:09:33.072 +08:00 [INF] Request finished in 1.0485ms 200 image/png
+2018-12-12 18:09:33.079 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\lib\jquery\dist\jquery.min.js'
+2018-12-12 18:09:33.079 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/layui.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\layui.css'
+2018-12-12 18:09:33.079 +08:00 [INF] Request finished in 8.3652ms 200 application/javascript
+2018-12-12 18:09:33.079 +08:00 [INF] Request finished in 10.0412ms 200 text/css
+2018-12-12 18:09:33.079 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/layui.js  
+2018-12-12 18:09:33.080 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/layui.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\layui.js'
+2018-12-12 18:09:33.080 +08:00 [INF] Request finished in 0.6783ms 200 application/javascript
+2018-12-12 18:09:33.096 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/common.js  
+2018-12-12 18:09:33.097 +08:00 [INF] Sending file. Request path: '/assets/js/common.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\common.js'
+2018-12-12 18:09:33.097 +08:00 [INF] Request finished in 0.7608ms 200 application/javascript
+2018-12-12 18:09:33.109 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/bg_login.png  
+2018-12-12 18:09:33.110 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/font/iconfont.woff?v=240  
+2018-12-12 18:09:33.110 +08:00 [INF] Sending file. Request path: '/assets/images/bg_login.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\bg_login.png'
+2018-12-12 18:09:33.110 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/font/iconfont.woff'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\font\iconfont.woff'
+2018-12-12 18:09:33.110 +08:00 [INF] Request finished in 1.5166ms 200 image/png
+2018-12-12 18:09:33.111 +08:00 [INF] Request finished in 0.7773ms 200 application/font-woff
+2018-12-12 18:09:33.127 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/layer.js  
+2018-12-12 18:09:33.128 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/layer.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\layer.js'
+2018-12-12 18:09:33.128 +08:00 [INF] Request finished in 1.2475ms 200 application/javascript
+2018-12-12 18:09:33.148 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/layer.css?v=3.1.1  
+2018-12-12 18:09:33.149 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/layer.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\layer.css'
+2018-12-12 18:09:33.149 +08:00 [INF] Request finished in 1.3959ms 200 text/css
+2018-12-12 18:09:33.181 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/form.js  
+2018-12-12 18:09:33.183 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/form.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\form.js'
+2018-12-12 18:09:33.183 +08:00 [INF] Request finished in 1.7966ms 200 application/javascript
+2018-12-12 18:09:33.210 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/notice/notice.js  
+2018-12-12 18:09:33.210 +08:00 [INF] Sending file. Request path: '/module/notice/notice.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\notice\notice.js'
+2018-12-12 18:09:33.210 +08:00 [INF] Request finished in 0.6642ms 200 application/javascript
+2018-12-12 18:09:33.216 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/notice/notice.css  
+2018-12-12 18:09:33.217 +08:00 [INF] Sending file. Request path: '/module/notice/notice.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\notice\notice.css'
+2018-12-12 18:09:33.217 +08:00 [INF] Request finished in 1.3165ms 200 text/css
+2018-12-12 18:09:34.375 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/loading-2.gif  
+2018-12-12 18:09:34.376 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/loading-2.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\loading-2.gif'
+2018-12-12 18:09:34.376 +08:00 [INF] Request finished in 0.8926ms 200 image/gif
+2018-12-12 18:09:34.380 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-12 18:09:34.385 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-12 18:09:34.386 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:09:34.425 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-12 18:09:34.805 +08:00 [INF] Executed DbCommand (43ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-12 18:09:34.888 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed in.
+2018-12-12 18:09:34.892 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 466.54380000000003ms.
+2018-12-12 18:09:34.897 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-12 18:09:34.908 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 523.2711ms
+2018-12-12 18:09:34.909 +08:00 [INF] Request finished in 529.4515ms 200 application/json; charset=utf-8
+2018-12-12 18:09:37.422 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-12 18:09:37.423 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-12 18:09:37.423 +08:00 [INF] Authorization was successful.
+2018-12-12 18:09:37.423 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:09:37.423 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.014100000000000001ms.
+2018-12-12 18:09:37.423 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:09:37.423 +08:00 [INF] Executed ViewResult - view Index executed in 0.46380000000000005ms.
+2018-12-12 18:09:37.424 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 0.78870000000000007ms
+2018-12-12 18:09:37.424 +08:00 [INF] Request finished in 1.4246ms 200 text/html; charset=utf-8
+2018-12-12 18:09:37.439 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/css/admin.css  
+2018-12-12 18:09:37.440 +08:00 [INF] Sending file. Request path: '/assets/css/admin.css'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\css\admin.css'
+2018-12-12 18:09:37.440 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/main.js  
+2018-12-12 18:09:37.441 +08:00 [INF] Request finished in 1.1213ms 200 text/css
+2018-12-12 18:09:37.441 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/head.png  
+2018-12-12 18:09:37.441 +08:00 [INF] Sending file. Request path: '/assets/js/main.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\main.js'
+2018-12-12 18:09:37.441 +08:00 [INF] Request finished in 0.9502ms 200 application/javascript
+2018-12-12 18:09:37.442 +08:00 [INF] Sending file. Request path: '/assets/images/head.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\head.png'
+2018-12-12 18:09:37.443 +08:00 [INF] Request finished in 1.4067ms 200 image/png
+2018-12-12 18:09:37.472 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/ic_loading.gif  
+2018-12-12 18:09:37.473 +08:00 [INF] Sending file. Request path: '/assets/images/ic_loading.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\ic_loading.gif'
+2018-12-12 18:09:37.473 +08:00 [INF] Request finished in 1.1788ms 200 image/gif
+2018-12-12 18:09:37.493 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/lay/modules/element.js  
+2018-12-12 18:09:37.494 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/lay/modules/element.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\lay\modules\element.js'
+2018-12-12 18:09:37.494 +08:00 [INF] Request finished in 0.7539ms 200 application/javascript
+2018-12-12 18:09:37.509 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/admin.js  
+2018-12-12 18:09:37.511 +08:00 [INF] Sending file. Request path: '/module/admin.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\admin.js'
+2018-12-12 18:09:37.511 +08:00 [INF] Request finished in 1.1862ms 200 application/javascript
+2018-12-12 18:09:37.520 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/index.js  
+2018-12-12 18:09:37.520 +08:00 [INF] Sending file. Request path: '/module/index.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\module\index.js'
+2018-12-12 18:09:37.521 +08:00 [INF] Request finished in 0.875ms 200 application/javascript
+2018-12-12 18:09:37.537 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-12 18:09:37.538 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-12 18:09:37.538 +08:00 [INF] Authorization was successful.
+2018-12-12 18:09:37.539 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:09:37.539 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0087000000000000011ms.
+2018-12-12 18:09:37.539 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-12 18:09:37.539 +08:00 [INF] Executed ViewResult - view Console executed in 0.5229ms.
+2018-12-12 18:09:37.539 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 1.2109ms
+2018-12-12 18:09:37.540 +08:00 [INF] Request finished in 2.686ms 200 text/html; charset=utf-8
+2018-12-12 18:09:37.584 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/favicon.ico  
+2018-12-12 18:09:37.585 +08:00 [INF] Sending file. Request path: '/assets/images/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\favicon.ico'
+2018-12-12 18:09:37.585 +08:00 [INF] Request finished in 1.2322ms 200 image/x-icon
+2018-12-12 18:09:40.043 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/loading-1.gif  
+2018-12-12 18:09:40.043 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Theme  
+2018-12-12 18:09:40.045 +08:00 [INF] Route matched with {action = "Theme", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Theme (Geek.Project.Portal)
+2018-12-12 18:09:40.046 +08:00 [INF] Authorization was successful.
+2018-12-12 18:09:40.046 +08:00 [INF] The file /assets/libs/layui/css/modules/layer/default/loading-1.gif was not modified
+2018-12-12 18:09:40.046 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Theme (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:09:40.046 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Theme (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.13ms.
+2018-12-12 18:09:40.047 +08:00 [INF] Request finished in 4.3373ms 304 image/gif
+2018-12-12 18:09:40.052 +08:00 [INF] Executing ViewResult, running view Theme.
+2018-12-12 18:09:40.072 +08:00 [INF] Executed ViewResult - view Theme executed in 25.867700000000003ms.
+2018-12-12 18:09:40.072 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Theme (Geek.Project.Portal) in 26.680100000000003ms
+2018-12-12 18:09:40.072 +08:00 [INF] Request finished in 29.0378ms 200 text/html; charset=utf-8
+2018-12-12 18:09:40.083 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_2.png  
+2018-12-12 18:09:40.083 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_1.png  
+2018-12-12 18:09:40.083 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_7.png  
+2018-12-12 18:09:40.086 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_7.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_7.png'
+2018-12-12 18:09:40.086 +08:00 [INF] Request finished in 3.2621ms 200 image/png
+2018-12-12 18:09:40.087 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/theme.js  
+2018-12-12 18:09:40.087 +08:00 [INF] The file /assets/js/theme.js was not modified
+2018-12-12 18:09:40.088 +08:00 [INF] Request finished in 1.1014ms 304 application/javascript
+2018-12-12 18:09:40.089 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_3.png  
+2018-12-12 18:09:40.089 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_4.png  
+2018-12-12 18:09:40.091 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_5.png  
+2018-12-12 18:09:40.093 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_6.png  
+2018-12-12 18:09:40.122 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_2.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_2.png'
+2018-12-12 18:09:40.123 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_5.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_5.png'
+2018-12-12 18:09:40.123 +08:00 [INF] Request finished in 39.8213ms 200 image/png
+2018-12-12 18:09:40.122 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_3.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_3.png'
+2018-12-12 18:09:40.123 +08:00 [INF] Request finished in 31.919ms 200 image/png
+2018-12-12 18:09:40.123 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_4.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_4.png'
+2018-12-12 18:09:40.123 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_1.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_1.png'
+2018-12-12 18:09:40.123 +08:00 [INF] Request finished in 33.4823ms 200 image/png
+2018-12-12 18:09:40.123 +08:00 [INF] Request finished in 40.023ms 200 image/png
+2018-12-12 18:09:40.123 +08:00 [INF] Request finished in 33.5162ms 200 image/png
+2018-12-12 18:09:40.123 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_6.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_6.png'
+2018-12-12 18:09:40.123 +08:00 [INF] Request finished in 30.1549ms 200 image/png
+2018-12-12 18:09:40.129 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_12.png  
+2018-12-12 18:09:40.129 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_11.png  
+2018-12-12 18:09:40.129 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_8.png  
+2018-12-12 18:09:40.131 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_12.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_12.png'
+2018-12-12 18:09:40.132 +08:00 [INF] Request finished in 2.9141ms 200 image/png
+2018-12-12 18:09:40.132 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_8.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_8.png'
+2018-12-12 18:09:40.132 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_11.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_11.png'
+2018-12-12 18:09:40.132 +08:00 [INF] Request finished in 3.0423ms 200 image/png
+2018-12-12 18:09:40.132 +08:00 [INF] Request finished in 3.0627ms 200 image/png
+2018-12-12 18:09:40.133 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_10.png  
+2018-12-12 18:09:40.134 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/images/img_theme_9.png  
+2018-12-12 18:09:40.137 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_10.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_10.png'
+2018-12-12 18:09:40.137 +08:00 [INF] Request finished in 4.1692ms 200 image/png
+2018-12-12 18:09:40.138 +08:00 [INF] Sending file. Request path: '/assets/images/img_theme_9.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\images\img_theme_9.png'
+2018-12-12 18:09:40.138 +08:00 [INF] Request finished in 3.4088ms 200 image/png
+2018-12-12 18:09:43.747 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/icon.png  
+2018-12-12 18:09:43.748 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/icon.png'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\icon.png'
+2018-12-12 18:09:43.748 +08:00 [INF] Request finished in 0.8371ms 200 image/png
+2018-12-12 18:09:44.560 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Main/Logout  0
+2018-12-12 18:09:44.561 +08:00 [INF] Route matched with {action = "LogOut", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal)
+2018-12-12 18:09:44.561 +08:00 [INF] Authorization was successful.
+2018-12-12 18:09:44.561 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) with arguments ([""]) - Validation state: "Valid"
+2018-12-12 18:09:44.561 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed out.
+2018-12-12 18:09:44.561 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 0.2165ms.
+2018-12-12 18:09:44.562 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType5`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-12 18:09:44.562 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.LogOut (Geek.Project.Portal) in 0.76230000000000009ms
+2018-12-12 18:09:44.562 +08:00 [INF] Request finished in 1.3697ms 200 application/json; charset=utf-8
+2018-12-12 18:09:47.075 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-12 18:09:47.076 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-12 18:09:47.076 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-12 18:09:47.076 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-12 18:09:47.076 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.015300000000000001ms.
+2018-12-12 18:09:47.077 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-12 18:09:47.077 +08:00 [INF] Executed ViewResult - view Index executed in 0.78350000000000009ms.
+2018-12-12 18:09:47.077 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.6658000000000002ms
+2018-12-12 18:09:47.078 +08:00 [INF] Request finished in 2.2346ms 200 text/html; charset=utf-8
+2018-12-12 18:09:47.140 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/favicon.ico  
+2018-12-12 18:09:47.141 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-12-12 18:09:47.141 +08:00 [INF] Request finished in 0.8376ms 200 image/x-icon
