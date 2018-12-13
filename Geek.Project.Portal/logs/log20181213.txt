@@ -1081,3 +1081,1134 @@ FROM [SysRole] AS [s]
 2018-12-13 10:31:18.686 +08:00 [INF] Executed ViewResult - view Index executed in 0.5984ms.
 2018-12-13 10:31:18.686 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 1.5599ms
 2018-12-13 10:31:18.687 +08:00 [INF] Request finished in 2.1915ms 200 text/html; charset=utf-8
+2018-12-13 10:49:09.700 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-13 10:49:09.957 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-13 10:49:10.089 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-13 10:49:10.248 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:49:10.300 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-13 10:49:24.175 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-13 10:49:24.562 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/  
+2018-12-13 10:49:24.727 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-13 10:49:24.734 +08:00 [INF] Authorization failed for the request at filter 'Geek.Project.Portal.Models.AdminAuthorizeAttribute'.
+2018-12-13 10:49:24.736 +08:00 [INF] Executing RedirectResult, redirecting to /Login/Index.
+2018-12-13 10:49:24.740 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 9.3472ms
+2018-12-13 10:49:24.756 +08:00 [INF] Request finished in 197.1789ms 302 
+2018-12-13 10:49:24.764 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-13 10:49:24.768 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-13 10:49:24.967 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:49:24.976 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-13 10:49:24.981 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2732ms.
+2018-12-13 10:49:25.008 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-13 10:49:25.070 +08:00 [INF] Executed ViewResult - view Index executed in 84.0481ms.
+2018-12-13 10:49:25.071 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 302.21070000000003ms
+2018-12-13 10:49:25.075 +08:00 [INF] Request finished in 311.5891ms 200 text/html; charset=utf-8
+2018-12-13 10:49:29.465 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Login/Index  
+2018-12-13 10:49:29.466 +08:00 [INF] Route matched with {action = "Index", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal)
+2018-12-13 10:49:29.467 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:49:29.467 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-13 10:49:29.467 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0393ms.
+2018-12-13 10:49:29.468 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-13 10:49:29.469 +08:00 [INF] Executed ViewResult - view Index executed in 1.1226ms.
+2018-12-13 10:49:29.469 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.Index (Geek.Project.Portal) in 2.9635000000000002ms
+2018-12-13 10:49:29.469 +08:00 [INF] Request finished in 3.8129ms 200 text/html; charset=utf-8
+2018-12-13 10:49:29.555 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/favicon.ico  
+2018-12-13 10:49:29.569 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\favicon.ico'
+2018-12-13 10:49:29.573 +08:00 [INF] Request finished in 17.6034ms 200 image/x-icon
+2018-12-13 10:49:30.565 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-13 10:49:30.584 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-13 10:49:30.584 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:49:30.632 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-13 10:49:51.771 +08:00 [ERR] An error occurred using the connection to database 'MicroServiceDb' on server '172.21.0.10,1433\mssql2012'.
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+2018-12-13 10:49:51.816 +08:00 [ERR] An exception occurred in the database while iterating the results of a query for context type 'Geek.Project.Infrastructure.DataBase.ProjectDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2018-12-13 10:49:51.823 +08:00 [ERR] An exception occurred in the database while iterating the results of a query for context type 'Geek.Project.Infrastructure.DataBase.ProjectDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2018-12-13 10:49:51.849 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 21265.393900000003ms
+2018-12-13 10:49:51.851 +08:00 [ERR] Connection id "0HLJ0KMBLQAER", Request id "0HLJ0KMBLQAER:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call. ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。) ---> System.ComponentModel.Win32Exception: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+   at Geek.Project.Infrastructure.Repository.BaseRepository`2.GetSingleAsync(Expression`1 expression, String[] includes) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Infrastructure\Repository\BaseRepository.cs:line 70
+   at Geek.Project.Core.Service.Impl.SysUserService.AccountLogin(LoginViewModel model) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Core\Service\Impl\SysUserService.cs:line 119
+   at Geek.Project.Portal.Controllers.LoginController.CheckLogin(LoginViewModel model) in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Controllers\LoginController.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2018-12-13 10:49:51.879 +08:00 [INF] Request finished in 21314.1376ms 500 
+2018-12-13 10:50:00.845 +08:00 [INF] User profile is available. Using 'C:\Users\LiuJian-MSI\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-13 10:50:01.262 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/Login/CheckLogin application/x-www-form-urlencoded; charset=UTF-8 34
+2018-12-13 10:50:01.493 +08:00 [INF] Route matched with {action = "CheckLogin", controller = "Login", area = ""}. Executing action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal)
+2018-12-13 10:50:01.699 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:50:01.746 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.LoginViewModel"]) - Validation state: "Valid"
+2018-12-13 10:50:02.187 +08:00 [INF] Executed DbCommand (48ms) [Parameters=[@__model_LoginName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [m].[Id], [m].[Address], [m].[Age], [m].[CreateTime], [m].[Email], [m].[Password], [m].[RealName], [m].[Remark], [m].[RoleId], [m].[Status], [m].[UpdateTime], [m].[UserName]
+FROM [SysUser] AS [m]
+WHERE [m].[UserName] = @__model_LoginName_0
+2018-12-13 10:50:02.279 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed in.
+2018-12-13 10:50:02.284 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 523.5621ms.
+2018-12-13 10:50:02.294 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType4`3[[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Geek.Project.Core.ViewModel.SysUser.UserViewModel, Geek.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-13 10:50:02.346 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.LoginController.CheckLogin (Geek.Project.Portal) in 848.5854ms
+2018-12-13 10:50:02.354 +08:00 [INF] Request finished in 1093.0553ms 200 application/json; charset=utf-8
+2018-12-13 10:50:04.867 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Index  
+2018-12-13 10:50:04.871 +08:00 [INF] Route matched with {action = "Index", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal)
+2018-12-13 10:50:04.884 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:04.887 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-13 10:50:04.889 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.2735000000000003ms.
+2018-12-13 10:50:04.904 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-13 10:50:04.952 +08:00 [INF] Executed ViewResult - view Index executed in 59.4953ms.
+2018-12-13 10:50:04.952 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Index (Geek.Project.Portal) in 80.391ms
+2018-12-13 10:50:04.955 +08:00 [INF] Request finished in 87.7946ms 200 text/html; charset=utf-8
+2018-12-13 10:50:04.968 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/css/admin.css  
+2018-12-13 10:50:04.975 +08:00 [INF] The file /assets/css/admin.css was not modified
+2018-12-13 10:50:04.978 +08:00 [INF] Request finished in 9.884ms 304 text/css
+2018-12-13 10:50:05.036 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/admin.js  
+2018-12-13 10:50:05.037 +08:00 [INF] The file /module/admin.js was not modified
+2018-12-13 10:50:05.037 +08:00 [INF] Request finished in 1.4924ms 304 application/javascript
+2018-12-13 10:50:05.045 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/module/index.js  
+2018-12-13 10:50:05.045 +08:00 [INF] The file /module/index.js was not modified
+2018-12-13 10:50:05.045 +08:00 [INF] Request finished in 0.7597ms 304 application/javascript
+2018-12-13 10:50:05.063 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/Main/Console  
+2018-12-13 10:50:05.064 +08:00 [INF] Route matched with {action = "Console", controller = "Main", area = ""}. Executing action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal)
+2018-12-13 10:50:05.065 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:05.065 +08:00 [INF] Executing action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-13 10:50:05.066 +08:00 [INF] Executed action method Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5355ms.
+2018-12-13 10:50:05.069 +08:00 [INF] Executing ViewResult, running view Console.
+2018-12-13 10:50:05.160 +08:00 [INF] Executed ViewResult - view Console executed in 94.08420000000001ms.
+2018-12-13 10:50:05.161 +08:00 [INF] Executed action Geek.Project.Portal.Controllers.MainController.Console (Geek.Project.Portal) in 96.2566ms
+2018-12-13 10:50:05.161 +08:00 [INF] Request finished in 97.9584ms 200 text/html; charset=utf-8
+2018-12-13 10:50:08.937 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/system/sysuser/index  
+2018-12-13 10:50:08.940 +08:00 [INF] Route matched with {area = "System", action = "Index", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal)
+2018-12-13 10:50:08.940 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:08.941 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:50:08.942 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-13 10:50:08.943 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2068ms.
+2018-12-13 10:50:08.944 +08:00 [INF] Executing ViewResult, running view Index.
+2018-12-13 10:50:08.950 +08:00 [INF] Executed ViewResult - view Index executed in 7.7856000000000005ms.
+2018-12-13 10:50:08.951 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Index (Geek.Project.Portal) in 10.8024ms
+2018-12-13 10:50:08.951 +08:00 [INF] Request finished in 13.4888ms 200 text/html; charset=utf-8
+2018-12-13 10:50:09.074 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/System/SysUser/PageUserData?PageIndex=1&PageSize=15  
+2018-12-13 10:50:09.087 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-12-13 10:50:09.087 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:09.088 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:50:09.097 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-12-13 10:50:09.112 +08:00 [WRN] The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-12-13 10:50:09.189 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+2018-12-13 10:50:09.203 +08:00 [WRN] Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2018-12-13 10:50:09.305 +08:00 [INF] Executed DbCommand (39ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2018-12-13 10:50:09.392 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 294.6575ms.
+2018-12-13 10:50:09.392 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-13 10:50:09.402 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 315.1292ms
+2018-12-13 10:50:09.402 +08:00 [INF] Request finished in 328.3578ms 200 application/json; charset=utf-8
+2018-12-13 10:50:13.194 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/System/SysUser/PageUserData?PageIndex=1&PageSize=15&UserName=zhang&RealName=&Status=&CreateTime=  
+2018-12-13 10:50:13.195 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-12-13 10:50:13.195 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:13.195 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:50:13.197 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-12-13 10:50:13.202 +08:00 [WRN] The Include operation for navigation '[x].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-12-13 10:50:13.207 +08:00 [WRN] The LINQ expression 'where [x].UserName.ToLowerInvariant().Contains(__userName_0)' could not be translated and will be evaluated locally.
+2018-12-13 10:50:13.209 +08:00 [WRN] The LINQ expression 'Count()' could not be translated and will be evaluated locally.
+2018-12-13 10:50:13.262 +08:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[UserName]
+FROM [SysUser] AS [x]
+2018-12-13 10:50:13.270 +08:00 [WRN] Query: '(from SysUser x in DbSet<SysUser> where bool string [x].UserName.ToLowerInvariant().Contains(__userN...' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2018-12-13 10:50:13.276 +08:00 [WRN] The LINQ expression 'where [x].UserName.ToLowerInvariant().Contains(__userName_0)' could not be translated and will be evaluated locally.
+2018-12-13 10:50:13.277 +08:00 [WRN] The LINQ expression 'Skip(__p_1)' could not be translated and will be evaluated locally.
+2018-12-13 10:50:13.277 +08:00 [WRN] The LINQ expression 'Take(__p_2)' could not be translated and will be evaluated locally.
+2018-12-13 10:50:13.339 +08:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-12-13 10:50:13.382 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 185.59ms.
+2018-12-13 10:50:13.383 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-13 10:50:13.383 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 188.1166ms
+2018-12-13 10:50:13.383 +08:00 [INF] Request finished in 189.0535ms 200 application/json; charset=utf-8
+2018-12-13 10:50:17.409 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/libs/layui/css/modules/layer/default/loading-1.gif  
+2018-12-13 10:50:17.413 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/System/SysUser/Form  
+2018-12-13 10:50:17.413 +08:00 [INF] Sending file. Request path: '/assets/libs/layui/css/modules/layer/default/loading-1.gif'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\libs\layui\css\modules\layer\default\loading-1.gif'
+2018-12-13 10:50:17.413 +08:00 [INF] Request finished in 4.0225ms 200 image/gif
+2018-12-13 10:50:17.415 +08:00 [INF] Route matched with {area = "System", action = "Form", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Form (Geek.Project.Portal)
+2018-12-13 10:50:17.416 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:17.416 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:50:17.416 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Form (Geek.Project.Portal) - Validation state: "Valid"
+2018-12-13 10:50:17.417 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Form (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.19920000000000002ms.
+2018-12-13 10:50:17.422 +08:00 [INF] Executing ViewResult, running view Form.
+2018-12-13 10:50:17.448 +08:00 [INF] Executed ViewResult - view Form executed in 31.436600000000002ms.
+2018-12-13 10:50:17.449 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Form (Geek.Project.Portal) in 33.421600000000005ms
+2018-12-13 10:50:17.449 +08:00 [INF] Request finished in 36.2384ms 200 text/html; charset=utf-8
+2018-12-13 10:50:17.459 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/assets/js/user/form.js  
+2018-12-13 10:50:17.467 +08:00 [INF] Sending file. Request path: '/assets/js/user/form.js'. Physical path: 'E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\wwwroot\assets\js\user\form.js'
+2018-12-13 10:50:17.468 +08:00 [INF] Request finished in 8.7179ms 200 application/javascript
+2018-12-13 10:50:33.616 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/System/SysUser/CheckName?userName=zhangd  
+2018-12-13 10:50:33.620 +08:00 [INF] Route matched with {area = "System", action = "CheckName", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.CheckName (Geek.Project.Portal)
+2018-12-13 10:50:33.620 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:33.621 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:50:33.621 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.CheckName (Geek.Project.Portal) with arguments (["zhangd"]) - Validation state: "Valid"
+2018-12-13 10:50:33.690 +08:00 [INF] Executed DbCommand (41ms) [Parameters=[@__userName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [SysUser] AS [u]
+        WHERE [u].[UserName] = @__userName_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2018-12-13 10:50:33.697 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.CheckName (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 75.6709ms.
+2018-12-13 10:50:33.697 +08:00 [INF] Executing JsonResult, writing value of type 'System.Boolean'.
+2018-12-13 10:50:33.697 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.CheckName (Geek.Project.Portal) in 76.7669ms
+2018-12-13 10:50:33.697 +08:00 [INF] Request finished in 80.6297ms 200 application/json; charset=utf-8
+2018-12-13 10:50:33.708 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:8800/System/SysUser/Form?key=1629 application/x-www-form-urlencoded; charset=UTF-8 142
+2018-12-13 10:50:33.716 +08:00 [INF] Route matched with {area = "System", action = "Form", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Form (Geek.Project.Portal)
+2018-12-13 10:50:33.716 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:33.717 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:50:33.720 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Form (Geek.Project.Portal) with arguments (["1629","Geek.Project.Core.ViewModel.SysUser.CreateUserModel"]) - Validation state: "Valid"
+2018-12-13 10:50:33.771 +08:00 [INF] Executed DbCommand (41ms) [Parameters=[@__key_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Address], [u].[Age], [u].[CreateTime], [u].[Email], [u].[Password], [u].[RealName], [u].[Remark], [u].[RoleId], [u].[Status], [u].[UpdateTime], [u].[UserName], [u.Role].[Id], [u.Role].[RoleName]
+FROM [SysUser] AS [u]
+LEFT JOIN [SysRole] AS [u.Role] ON [u].[RoleId] = [u.Role].[Id]
+WHERE [u].[Id] = @__key_0
+2018-12-13 10:50:33.886 +08:00 [INF] Executed DbCommand (42ms) [Parameters=[@p11='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [SysUser] SET [Address] = @p0, [Age] = @p1, [CreateTime] = @p2, [Email] = @p3, [Password] = @p4, [RealName] = @p5, [Remark] = @p6, [RoleId] = @p7, [Status] = @p8, [UpdateTime] = @p9, [UserName] = @p10
+WHERE [Id] = @p11;
+SELECT @@ROWCOUNT;
+2018-12-13 10:50:33.928 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.Form (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 208.0446ms.
+2018-12-13 10:50:33.928 +08:00 [INF] Executing JsonResult, writing value of type 'Geek.Project.Core.ViewModel.ResultModel'.
+2018-12-13 10:50:33.930 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.Form (Geek.Project.Portal) in 214.6399ms
+2018-12-13 10:50:33.931 +08:00 [INF] Request finished in 222.4462ms 200 application/json; charset=utf-8
+2018-12-13 10:50:34.149 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:8800/System/SysUser/PageUserData?PageIndex=1&PageSize=15&UserName=zhang&RealName=&Status=&CreateTime=  
+2018-12-13 10:50:34.149 +08:00 [INF] Route matched with {area = "System", action = "PageUserData", controller = "SysUser"}. Executing action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal)
+2018-12-13 10:50:34.149 +08:00 [INF] Authorization was successful.
+2018-12-13 10:50:34.150 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-12-13 10:50:34.150 +08:00 [INF] Executing action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) with arguments (["Geek.Project.Core.ViewModel.SysUser.UserParameters"]) - Validation state: "Valid"
+2018-12-13 10:50:34.193 +08:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[UserName]
+FROM [SysUser] AS [x]
+2018-12-13 10:50:34.234 +08:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [x].[Id], [x].[Address], [x].[Age], [x].[CreateTime], [x].[Email], [x].[Password], [x].[RealName], [x].[Remark], [x].[RoleId], [x].[Status], [x].[UpdateTime], [x].[UserName], [x.Role].[Id], [x.Role].[RoleName]
+FROM [SysUser] AS [x]
+LEFT JOIN [SysRole] AS [x.Role] ON [x].[RoleId] = [x.Role].[Id]
+2018-12-13 10:50:34.235 +08:00 [INF] Executed action method Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal), returned result Microsoft.AspNetCore.Mvc.JsonResult in 85.1879ms.
+2018-12-13 10:50:34.236 +08:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType2`4[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[System.Dynamic.ExpandoObject, System.Linq.Expressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2018-12-13 10:50:34.236 +08:00 [INF] Executed action Geek.Project.Portal.Areas.System.Controllers.SysUserController.PageUserData (Geek.Project.Portal) in 86.56880000000001ms
+2018-12-13 10:50:34.236 +08:00 [INF] Request finished in 87.3017ms 200 application/json; charset=utf-8
+2018-12-13 14:23:40.484 +08:00 [INF] AuthenticationScheme: AdminAuthenticationScheme signed in.
+2018-12-13 14:45:18.601 +08:00 [INF] 用户首页 (by Geek.Project.Core.ViewModel.LoginModel.CurrentUserModel, at 2018-12-13 14:45:18.598)
+2018-12-13 14:45:18.831 +08:00 [WRN] The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-12-13 14:45:19.124 +08:00 [WRN] Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2018-12-13 14:50:07.014 +08:00 [INF] 用户首页
+2018-12-13 14:50:07.256 +08:00 [WRN] The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-12-13 14:50:07.597 +08:00 [WRN] Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+2018-12-13 14:50:12.657 +08:00 [INF] 用户首页
+[14:55:12 Warning] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[14:55:12 Warning] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[14:56:12 Warning] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[14:56:12 Warning] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[14:56:12 Information] 
+查询用户信息列表
+
+[14:56:31 Information] 
+查询用户信息列表
+
+[15:03:22 Warning  ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[15:03:22 Warning  ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[15:03:22 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController admin] 
+查询用户信息列表
+
+[15:03:24 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController admin] 
+查询用户信息列表
+
+[15:04:26 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[15:04:27 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[15:04:27 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:04:32 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:08:11 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0P6V1RTN9", Request id "0HLJ0P6V1RTN9:00000001": An unhandled exception was thrown by the application.
+System.Exception: 错误信息
+   at Geek.Project.Portal.Areas.System.Controllers.SysRoleController.Demo() in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Areas\System\Controllers\SysRoleController.cs:line 25
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[15:11:14 Error Geek.Project.Portal.Areas.System.Controllers.SysRoleController /System/SysRole/Demo admin] 
+这是错误信息
+
+[15:11:14 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0P8LFIJFG", Request id "0HLJ0P8LFIJFG:00000001": An unhandled exception was thrown by the application.
+System.Exception: 错误信息
+   at Geek.Project.Portal.Areas.System.Controllers.SysRoleController.Demo() in E:\Projects\Geek\JackMGLiu\GeekFMCoreSolution\Geek.Project.Portal\Areas\System\Controllers\SysRoleController.cs:line 26
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[15:14:32 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[15:14:33 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[15:14:33 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:15:34 Information   ] Microsoft.EntityFrameworkCore.Infrastructure
+Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+[15:15:34 Information   ] Microsoft.EntityFrameworkCore.Infrastructure
+Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+[15:15:35 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[15:15:35 Information   ] Microsoft.EntityFrameworkCore.Database.Command
+Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+
+[15:15:35 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[15:15:35 Information   ] Microsoft.EntityFrameworkCore.Database.Command
+Executed DbCommand (40ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+
+[15:15:35 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:15:38 Information   ] Microsoft.EntityFrameworkCore.Infrastructure
+Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+[15:15:38 Information   ] Microsoft.EntityFrameworkCore.Infrastructure
+Entity Framework Core 2.1.4-rtm-31024 initialized 'ProjectDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+
+[15:15:38 Information   ] Microsoft.EntityFrameworkCore.Database.Command
+Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SysUser] AS [s]
+
+[15:15:38 Information   ] Microsoft.EntityFrameworkCore.Database.Command
+Executed DbCommand (40ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Address], [s].[Age], [s].[CreateTime], [s].[Email], [s].[Password], [s].[RealName], [s].[Remark], [s].[RoleId], [s].[Status], [s].[UpdateTime], [s].[UserName], [s.Role].[Id], [s.Role].[RoleName]
+FROM [SysUser] AS [s]
+LEFT JOIN [SysRole] AS [s.Role] ON [s].[RoleId] = [s.Role].[Id]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+
+[15:15:38 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:17:08 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:21:01 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[15:21:02 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[15:21:02 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:22:09 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:24:24 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[15:24:27 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[15:24:27 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[15:24:27 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:59:50 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[16:58:18 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[16:58:26 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R4FAFNC6", Request id "0HLJ0R4FAFNC6:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:00:13 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R5HTE2JI", Request id "0HLJ0R5HTE2JI:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:00:18 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[17:00:18 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[17:00:18 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[17:00:37 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R5HTE2JH", Request id "0HLJ0R5HTE2JH:00000008": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:00:38 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[17:00:41 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R5HTE2JH", Request id "0HLJ0R5HTE2JH:0000000B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:01:47 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R6COP9LB", Request id "0HLJ0R6COP9LB:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:02:39 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R6S6NI3J", Request id "0HLJ0R6S6NI3J:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:05:47 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORNS", Request id "0HLJ0R8FHORNS:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:05:55 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORNS", Request id "0HLJ0R8FHORNS:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:07:23 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORNT", Request id "0HLJ0R8FHORNT:00000004": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:07:30 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORNT", Request id "0HLJ0R8FHORNT:00000008": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:08:39 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORNU", Request id "0HLJ0R8FHORNU:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:08:54 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[17:09:00 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[17:09:00 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[17:09:00 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[17:09:04 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO1", Request id "0HLJ0R8FHORO1:0000000B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:09:41 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO0", Request id "0HLJ0R8FHORO0:0000000C": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:09:41 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORNU", Request id "0HLJ0R8FHORNU:00000011": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:09:42 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORNV", Request id "0HLJ0R8FHORNV:0000000C": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:09:42 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO1", Request id "0HLJ0R8FHORO1:0000000C": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:09:42 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO0", Request id "0HLJ0R8FHORO0:0000000D": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:09:43 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO1", Request id "0HLJ0R8FHORO1:0000000E": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:09:44 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[17:09:55 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[17:10:02 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO1", Request id "0HLJ0R8FHORO1:00000016": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:10:13 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO1", Request id "0HLJ0R8FHORO1:00000017": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:11:17 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO2", Request id "0HLJ0R8FHORO2:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:11:41 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO2", Request id "0HLJ0R8FHORO2:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:11:44 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO2", Request id "0HLJ0R8FHORO2:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:11:44 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO2", Request id "0HLJ0R8FHORO2:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:12:17 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO2", Request id "0HLJ0R8FHORO2:00000008": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:12:18 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO2", Request id "0HLJ0R8FHORO2:00000009": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:12:18 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO2", Request id "0HLJ0R8FHORO2:0000000A": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[17:12:19 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJ0R8FHORO2", Request id "0HLJ0R8FHORO2:0000000B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+

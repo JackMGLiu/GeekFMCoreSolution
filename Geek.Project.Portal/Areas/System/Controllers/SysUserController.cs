@@ -48,6 +48,7 @@ namespace Geek.Project.Portal.Areas.System.Controllers
                 count = data.TotalItemsCount,
                 data = shapedUserResources
             };
+            LogInformation("查询用户信息列表");
             return Json(jsonRes);
         }
 
@@ -96,6 +97,7 @@ namespace Geek.Project.Portal.Areas.System.Controllers
             }
             else
             {
+
                 var res = await _sysUserService.AddUser(model);
                 if (res)
                 {

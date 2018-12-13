@@ -19,6 +19,5 @@ namespace Geek.Project.Entity
         public string Remark { get; set; }
 
         public virtual SysRole Role { get; set; }
-
     }
 }
