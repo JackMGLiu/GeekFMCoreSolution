@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Geek.Project.Core.Service.Interface;
+using Geek.Project.Portal.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
-using Geek.Project.Core.Service.Interface;
-using Microsoft.AspNetCore.Mvc;
 
 namespace Geek.Project.Portal.Areas.System.Controllers
 {
     [Area("System")]
-    public class SysRoleController : Controller
+    public class SysRoleController : BaseController
     {
         private readonly ISysRoleService _sysRoleService;
 

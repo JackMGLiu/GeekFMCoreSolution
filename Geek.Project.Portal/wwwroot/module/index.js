@@ -1,12 +1,15 @@
-/** EasyWeb iframe v3.0.7 data:2018-11-19 */
-
 layui.define(['layer', 'admin', 'element'], function (exports) {
     var $ = layui.jquery;
     var layer = layui.layer;
     var admin = layui.admin;
     var element = layui.element;
+    var cacheTab = layui.data(admin.tableName).cacheTab;
+    var tabEndCall = {};
+    var bodyDOM = '.layui-layout-admin>.layui-body';
+    var tabDOM = bodyDOM + '>.layui-tab';
+    var tabFilter = 'admin-pagetabs';
+    var navFilter = 'admin-side-nav';
 
-    var cacheTab = layui.data('geekweb').cacheTab;
     var index = {
         cacheTab: cacheTab == undefined ? true : cacheTab,  // 是否记忆打开的选项卡
         // 加载主体部分
@@ -21,7 +24,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
 
             // 判断选项卡是否已添加
             var flag = false;
-            $('.layui-layout-admin .layui-body .layui-tab .layui-tab-title>li').each(function () {
+            $(tabDOM + '>.layui-tab-title>li').each(function () {
                 if ($(this).attr('lay-id') === menuPath) {
                     flag = true;
                     return false;
@@ -29,7 +32,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
             });
             // 没有则添加
             if (!flag) {
-                element.tabAdd('admin-pagetabs', {
+                element.tabAdd(tabFilter, {
                     id: menuPath,
                     title: menuName ? menuName : '无标题',
                     content: '<iframe src="' + menuPath + '" frameborder="0" class="admin-iframe"></iframe>'
@@ -53,7 +56,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
                 }
             }
             // 切换到该选项卡
-            element.tabChange('admin-pagetabs', menuPath);
+            element.tabChange(tabFilter, menuPath);
             // 移动设备切换页面隐藏侧导航
             if (document.body.clientWidth <= 750) {
                 admin.flexible(true);
@@ -64,6 +67,9 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
             var url = param.url;
             var title = param.title;
 
+            if (param.end) {
+                tabEndCall[url] = param.end;
+            }
             index.loadView({
                 menuPath: url,
                 menuName: title
@@ -71,7 +77,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
         },
         // 关闭选项卡
         closeTab: function (url) {
-            element.tabDelete('admin-pagetabs', url);
+            element.tabDelete(tabFilter, url);
         },
         // 关闭选项卡记忆功能
         closeTabCache: function () {
@@ -102,32 +108,31 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
                 }
             }
             // 是否开启footer
-            var openFooter = layui.data('geekweb').openFooter;
+            var openFooter = layui.data(admin.tableName).openFooter;
             if (openFooter != undefined && openFooter == false) {
-                $('.layui-layout-admin .layui-footer').css('display', 'none');
-                $('.layui-layout-admin .layui-body').css('bottom', '0');
+                $('body.layui-layout-body').addClass('close-footer');
             }
             // 是否开启tab自动刷新
-            var tabAutoRefresh = layui.data('geekweb').tabAutoRefresh;
+            var tabAutoRefresh = layui.data(admin.tableName).tabAutoRefresh;
             if (tabAutoRefresh) {
-                $('.layui-body .layui-tab[lay-filter="admin-pagetabs"]').attr('lay-autoRefresh', 'true');
+                $(tabDOM).attr('lay-autoRefresh', 'true');
             }
         }
     };
 
     // 监听侧导航栏点击事件
-    element.on('nav(admin-side-nav)', function (elem) {
+    element.on('nav(' + navFilter + ')', function (elem) {
         var $that = $(elem);
         var menuUrl = $that.attr('lay-href');
         if (menuUrl && menuUrl != 'javascript:;') {
-            var menuName = $that.text();
+            var menuName = $that.text().replace(/(^\s*)|(\s*$)/g, '');
             index.loadView({
                 menuPath: menuUrl,
                 menuName: menuName
             });
         } else if ($('.layui-side .layui-nav-tree').attr('lay-accordion') == 'true' && $that.parent().hasClass('layui-nav-item')) {
             if ($that.parent().hasClass('layui-nav-itemed') || $that.parent().hasClass('layui-this')) {
-                $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item').removeClass('layui-nav-itemed');
+                $('.layui-layout-admin>.layui-side .layui-nav .layui-nav-item').removeClass('layui-nav-itemed');
                 $that.parent().addClass('layui-nav-itemed');
             }
         } else {
@@ -136,7 +141,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
     });
 
     // tab选项卡切换监听
-    element.on('tab(admin-pagetabs)', function (data) {
+    element.on('tab(' + tabFilter + ')', function (data) {
         var layId = $(this).attr('lay-id');
 
         admin.rollPage('auto');  // 自动滚动
@@ -144,7 +149,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
         // $('.layui-table-tips-c').trigger('click');  // 切换tab关闭表格内浮窗
 
         // 解决切换tab滚动条时而消失的问题
-        var $iframe = $('.layui-layout-admin .layui-body .layui-tab-content .layui-tab-item.layui-show .admin-iframe')[0];
+        var $iframe = $(tabDOM + '>.layui-tab-content>.layui-tab-item.layui-show .admin-iframe')[0];
         if ($iframe) {
             $iframe.style.height = "99%";
             $iframe.scrollWidth;
@@ -158,7 +163,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
         }
 
         // 切换tab自动刷新
-        var autoRefresh = $('.layui-body .layui-tab[lay-filter="admin-pagetabs"]').attr('lay-autoRefresh');
+        var autoRefresh = $(tabDOM).attr('lay-autoRefresh');
         if (autoRefresh == 'true') {
             setTimeout(function () {
                 top.layui.admin.refresh();
@@ -167,9 +172,9 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
     });
 
     // tab选项卡删除监听
-    element.on('tabDelete(admin-pagetabs)', function (data) {
+    element.on('tabDelete(' + tabFilter + ')', function (data) {
+        var layId = $(this).parent().attr('lay-id');
         if (index.cacheTab) {
-            var layId = $(this).parent().attr('lay-id');
             var indexTabs = admin.getTempData('indexTabs');
             for (var i = 0; i < indexTabs.length; i++) {
                 if (layId == indexTabs[i].menuPath) {
@@ -177,6 +182,9 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
                 }
             }
             admin.putTempData('indexTabs', indexTabs);
+        }
+        if (tabEndCall[layId]) {
+            tabEndCall[layId].call();
         }
     });
 

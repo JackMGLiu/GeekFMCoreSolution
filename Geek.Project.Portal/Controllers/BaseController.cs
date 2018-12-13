@@ -1,20 +1,36 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
+﻿using Geek.Project.Core.ViewModel.LoginModel;
+using Geek.Project.Portal.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace Geek.Project.Portal.Controllers
 {
+    [AdminAuthorize]
     public class BaseController : Controller
     {
-        public override void OnActionExecuting(ActionExecutingContext filterContext)
+        private CurrentUserModel _currentUser;
+
+        public CurrentUserModel CurrentUser
         {
-            byte[] result;
-            filterContext.HttpContext.Session.TryGetValue("CurrentUser", out result);
-            if (result == null)
+            get
             {
-                filterContext.Result = new RedirectResult("/login");
-                return;
+                var islogin = HttpContext.User.Identity.IsAuthenticated;
+                if (islogin)
+                {
+                    _currentUser = new CurrentUserModel();
+                    _currentUser.UserId = HttpContext.User.Claims.SingleOrDefault(t => t.Type == "userId").Value;
+                    _currentUser.UserName = HttpContext.User.Claims.SingleOrDefault(t => t.Type == "userName").Value;
+                    _currentUser.RealName = HttpContext.User.Claims.SingleOrDefault(t => t.Type == "realName").Value;
+                    _currentUser.RoleId = HttpContext.User.Claims.SingleOrDefault(t => t.Type == "roleId").Value;
+                    return _currentUser;
+                }
+                else
+                {
+                    HttpContext.SignOutAsync(AdminAuthorizeAttribute.AdminAuthenticationScheme).Wait();
+                    return null;
+                }
             }
-            base.OnActionExecuting(filterContext);
         }
     }
 }

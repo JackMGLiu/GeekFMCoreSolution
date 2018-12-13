@@ -1,10 +1,9 @@
-/** EasyWeb iframe v3.0.7 data:2018-11-19 */
-
 layui.define(['layer'], function (exports) {
     var $ = layui.jquery;
     var layer = layui.layer;
 
     var admin = {
+        tableName: 'geekweb',
         // 设置侧栏折叠
         flexible: function (expand) {
             var isExapnd = $('.layui-layout-admin').hasClass('admin-nav-mini');
@@ -151,7 +150,7 @@ layui.define(['layer'], function (exports) {
             var $tabTitle = $('.layui-layout-admin .layui-body .layui-tab .layui-tab-title');
             var left = $tabTitle.scrollLeft();
             if ('left' === d) {
-                $tabTitle.scrollLeft(left - 120);
+                $tabTitle.animate({ 'scrollLeft': left - 120 }, 100);
             } else if ('auto' === d) {
                 var autoLeft = 0;
                 $tabTitle.children("li").each(function () {
@@ -161,9 +160,9 @@ layui.define(['layer'], function (exports) {
                         autoLeft += $(this).outerWidth();
                     }
                 });
-                $tabTitle.scrollLeft(autoLeft - 47);
+                $tabTitle.animate({ 'scrollLeft': autoLeft - 47 }, 100);
             } else {
-                $tabTitle.scrollLeft(left + 120);
+                $tabTitle.animate({ 'scrollLeft': left + 120 }, 100);
             }
         },
         // 刷新当前tab
@@ -275,7 +274,7 @@ layui.define(['layer'], function (exports) {
             var url = $(this).attr('data-url');
             admin.popupRight({
                 type: 2,
-                content: url ? url : '/Main/Theme'
+                content: url ? url : 'page/tpl/tpl-theme.html'
             });
         },
         // 打开便签

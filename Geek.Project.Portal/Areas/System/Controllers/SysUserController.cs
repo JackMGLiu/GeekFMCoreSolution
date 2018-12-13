@@ -1,19 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Geek.Project.Core.Service.Interface;
 using Geek.Project.Core.ViewModel;
 using Geek.Project.Core.ViewModel.SysUser;
-using Geek.Project.Entity;
 using Geek.Project.Infrastructure.QueryModel;
+using Geek.Project.Portal.Controllers;
 using Geek.Project.Utils.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Geek.Project.Portal.Areas.System.Controllers
 {
     [Area("System")]
-    public class SysUserController : Controller
+    public class SysUserController : BaseController
     {
         private readonly IMapper _mapper;
         private readonly ISysUserService _sysUserService;

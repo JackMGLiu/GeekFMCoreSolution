@@ -32,7 +32,8 @@ namespace Geek.Project.Portal.Controllers
             {
                 var claimIdentity = new ClaimsIdentity(AdminAuthorizeAttribute.AdminAuthenticationScheme);
                 claimIdentity.AddClaim(new Claim("userId", data.Item3.Id.ToString()));
-                claimIdentity.AddClaim(new Claim("userName", data.Item3.UserName.ToString()));
+                claimIdentity.AddClaim(new Claim("userName", data.Item3.UserName));
+                claimIdentity.AddClaim(new Claim("realName", data.Item3.RealName));
                 claimIdentity.AddClaim(new Claim("roleId", data.Item3.RoleId.ToString()));
                 var claimsPrincipal = new ClaimsPrincipal(claimIdentity);
                 await HttpContext.SignInAsync(claimsPrincipal, new AuthenticationProperties

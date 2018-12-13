@@ -2,13 +2,11 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Geek.Project.Portal.Controllers
 {
-    [AdminAuthorize]
-    public class MainController : Controller
+    public class MainController : BaseController
     {
         /// <summary>
         /// 首页
@@ -17,9 +15,8 @@ namespace Geek.Project.Portal.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            //var name = CurrentUser._userViewModel.RealName;
-            var userName = HttpContext.User.Claims.SingleOrDefault(t => t.Type == "userName");
-            ViewData["UserName"] = userName.Value;
+            var userName = CurrentUser.UserName;
+            ViewData["UserName"] = userName;
             return View();
         }
 
