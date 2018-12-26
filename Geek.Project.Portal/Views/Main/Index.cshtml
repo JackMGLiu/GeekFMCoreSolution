@@ -2,9 +2,7 @@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta charset="utf-8" />
@@ -44,7 +42,8 @@
                 <li class="layui-nav-item" lay-unselect>
                     <a>
                         <img src="/assets/images/head.png" class="layui-nav-img">
-                        <cite>管理员</cite>
+                        <span>欢迎您：</span>
+                        <cite>@ViewData["UserName"]</cite>
                     </a>
                     <dl class="layui-nav-child">
                         <dd lay-unselect>
@@ -83,6 +82,7 @@
                             <dd><a lay-href="/system/sysuser/index">用户管理</a></dd>
                             <dd><a lay-href="/system/sysrole/index">角色管理</a></dd>
                             <dd><a lay-href="page/system/loginRecord.html">登录日志</a></dd>
+                            <dd><a lay-href="/system/syslog/index">系统日志</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item">
@@ -200,7 +200,6 @@
             Copyright © 2018 <a href="javascript:void(0);" target="_blank">GeekFM</a> All rights reserved.
             <span class="pull-right">Version 1.0.0</span>
         </div>
-
         <!-- 手机屏幕遮罩层 -->
         <div class="site-mobile-shade"></div>
     </div>

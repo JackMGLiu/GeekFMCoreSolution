@@ -10,6 +10,7 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
 
     // 渲染表格
     var ins1 = table.render({
+        id: 'userTable',
         elem: '#userTable',
         url: '/System/SysUser/PageUserData',
         height: 'full-160',
@@ -56,7 +57,7 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
     // 渲染laydate 日期范围
     laydate.render({
         elem: '#CreateTime',
-        range: true
+        range: '-'
     });
 
     // 工具条点击事件
@@ -66,6 +67,8 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
 
         if (layEvent === 'edit') { // 修改
             showEditModel(data);
+        } else if (obj.event === 'del') { //删除
+            delObj(obj);
         } else if (layEvent === 'reset') { // 重置密码
             //resetPsw(obj.data.userId);
         }
@@ -88,7 +91,8 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
                 form.render('checkbox');
             }
         }, 'json');
-    });
+    });
+
 
 
     // 搜索按钮点击事件
@@ -105,6 +109,10 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
     //新增
     $('#btn_add').click(function () {
         showEditModel();
+    });
+
+    $('#btn_delAll').click(function () {
+        delObjs();
     });
 
     // 显示表单弹窗
@@ -129,4 +137,79 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
             }
         });
     }
+
+    //删除
+    function delObj(obj) {
+        top.layer.confirm('确定要删除这条数据吗？', function (index) {
+            top.layer.close(index);
+            layer.load(2);
+            $.post('/System/SysUser/DeleteModel', {
+                userId: obj.data.Id
+            }, function (data) {
+                layer.closeAll('loading');
+                if (data.status === '1') {
+                    top.notice.success({
+                        title: '系统信息',
+                        message: data.msg,
+                        class: 'noticeTop'
+                    });
+                    table.reload('userTable');
+                } else {
+                    top.notice.error({
+                        title: '系统信息',
+                        message: data.msg,
+                        class: 'noticeTop'
+                    });
+                }
+            }, 'json');
+        });
+    }
+
+    //删除
+    function delObjs() {
+        var checkStatus = table.checkStatus('userTable');
+        var itemCount = checkStatus.data.length;
+        if (itemCount > 0) {
+            var data = checkStatus.data;
+            var ids = new Array();
+            for (var i in data) {
+                ids.push(data[i].Id);
+            }
+            var res = ids.join();
+            top.layer.confirm('确定要删除这【' + itemCount + '】条数据吗？', function (index) {
+                top.layer.close(index);
+                layer.load(2);
+                $.post('/System/SysUser/DeleteModels', {
+                    userIds: res
+                }, function (data) {
+                    layer.closeAll('loading');
+                    if (data.status === '1') {
+                        top.notice.success({
+                            title: '系统信息',
+                            message: data.msg,
+                            class: 'noticeTop'
+                        });
+                        table.reload('userTable');
+                    } else {
+                        top.notice.error({
+                            title: '系统信息',
+                            message: data.msg,
+                            class: 'noticeTop'
+                        });
+                    }
+                }, 'json');
+            });
+        }
+        else {
+            top.notice.warning({
+                title: '系统信息',
+                message: '请选择要删除的项',
+                class: 'noticeTop'
+            });
+            return;
+        }
+        //console.log(checkStatus.data); //获取选中行的数据
+        //console.log(checkStatus.data.length); //获取选中行数量，可作为是否有选中行的条件
+    }
+
 });

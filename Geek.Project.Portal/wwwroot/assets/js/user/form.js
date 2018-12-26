@@ -50,9 +50,9 @@ layui.use(['layer', 'form', 'formSelects', 'admin'], function () {
             if (data.status === '1') {
                 top.notice.success({
                     title: '系统信息',
-                    timeout: 2500,
-                    position: 'topRight',
-                    transitionIn: 'bounceInLeft',
+                    //timeout: 2500,
+                    //position: 'topRight',
+                    //transitionIn: 'bounceInLeft',
                     message: data.msg,
                     class: 'noticeTop'
                 });

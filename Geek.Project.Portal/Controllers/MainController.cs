@@ -1,9 +1,12 @@
 ﻿using Geek.Project.Portal.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 
 namespace Geek.Project.Portal.Controllers
 {
-    public class MainController : Controller
+    public class MainController : BaseController
     {
         /// <summary>
         /// 首页
@@ -12,7 +15,8 @@ namespace Geek.Project.Portal.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            //var name = CurrentUser._userViewModel.RealName;
+            var userName = CurrentUser.UserName;
+            ViewData["UserName"] = userName;
             return View();
         }
 
@@ -34,6 +38,29 @@ namespace Geek.Project.Portal.Controllers
         public IActionResult Console()
         {
             return View();
+        }
+        public async Task<IActionResult> LogOut(string returnurl)
+        {
+            try
+            {
+                await HttpContext.SignOutAsync(AdminAuthorizeAttribute.AdminAuthenticationScheme);
+                var res = new
+                {
+                    status = true,
+                    msg = "退出成功",
+                    backurl = "/Login/Index"
+                };
+                return Json(res);
+            }
+            catch (Exception ex)
+            {
+                var res = new
+                {
+                    status = true,
+                    msg = "退出失败，请重试！",
+                };
+                return Json(res);
+            }
         }
     }
 }

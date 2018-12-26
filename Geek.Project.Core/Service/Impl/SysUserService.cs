@@ -84,11 +84,17 @@ namespace Geek.Project.Core.Service.Impl
                 var realName = parameters.RealName.ToLowerInvariant();
                 query = query.Where(x => x.RealName.ToLowerInvariant().Contains(realName));
             }
-
             if (parameters.Status.HasValue)
             {
                 var status = parameters.Status.Value;
                 query = query.Where(x => x.Status == status);
+            }
+            if (!string.IsNullOrEmpty(parameters.CreateTime))
+            {
+                var time = parameters.CreateTime.Trim().Split('-');
+                var start = DateTime.Parse(time[0] + '-' + time[1] + '-' + time[2]);
+                var end = DateTime.Parse(time[3] + '-' + time[4] + '-' + time[5]);
+                query = query.Where(x => x.CreateTime.Value >= start && x.CreateTime.Value <= end);
             }
             //var query = _dbContext.Posts.OrderBy(x => x.Id);
             //query = query.OrderBy(x => x.Id);
@@ -162,6 +168,22 @@ namespace Geek.Project.Core.Service.Impl
                 _userRepository.Update(user);
                 await _uow.CommitAsync();
             }
+        }
+
+        public async Task<bool> DeleteUser(int userId)
+        {
+            _userRepository.Remove(userId);
+            return await _uow.CommitAsync() > 0;
+        }
+
+        public async Task<bool> DeleteUsers(int[] arrIds)
+        {
+            if (arrIds.Length > 0)
+            {
+                _userRepository.Remove(u => arrIds.Contains(u.Id));
+                return await _uow.CommitAsync() > 0;
+            }
+            return false;
         }
     }
 }

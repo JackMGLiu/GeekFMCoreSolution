@@ -42,5 +42,21 @@ namespace Geek.Project.Core.Service.Interface
         /// <param name="status"></param>
         /// <returns></returns>
         Task UpdateStatus(int userId, int status);
+
+        /// <summary>
+        /// 删除用户
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <param name="status"></param>
+        /// <returns></returns>
+        Task<bool> DeleteUser(int userId);
+
+        /// <summary>
+        /// 删除用户集合
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <param name="status"></param>
+        /// <returns></returns>
+        Task<bool> DeleteUsers(int[] arrIds);
     }
 }
