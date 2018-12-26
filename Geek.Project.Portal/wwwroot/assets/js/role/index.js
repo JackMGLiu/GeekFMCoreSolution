@@ -10,9 +10,10 @@
         success: function (id, url, searchVal, result) {
             console.log(id);
             console.log(result);
-            formSelects.value('roleId', [2, 4]);
-        }
+            formSelects.value('roleId', [2, 4]);
+
+        }
+
     });
 
 });
-
