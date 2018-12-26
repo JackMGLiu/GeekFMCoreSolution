@@ -104,6 +104,7 @@ namespace Geek.Project.Portal
             services.AddScoped<ISysRoleService, SysRoleService>();
             services.AddScoped<ISysLogService, SysLogService>();
 
+
             //排序
             var propertyMappingContainer = new PropertyMappingContainer();
             propertyMappingContainer.Register<UserPropertyMapping>();

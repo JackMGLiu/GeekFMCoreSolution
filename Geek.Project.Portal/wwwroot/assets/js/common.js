@@ -6,15 +6,29 @@ layui.config({
     treetable: 'treetable-lay/treetable',
     dropdown: 'dropdown/dropdown',
     notice: 'notice/notice',
-    step: 'step-lay/step'
-}).use(['layer'], function () {
+    step: 'step-lay/step',
+    dtree: 'dtree/dtree',
+    citypicker: 'city-picker/city-picker',
+    tableSelect: 'tableSelect/tableSelect'
+}).use(['layer', 'admin', 'element'], function () {
     var $ = layui.jquery;
     var layer = layui.layer;
+    var admin = layui.admin;
+    var element = layui.element;
 
     // 加载缓存的主题
-    var theme = layui.data('geekweb').theme;
+    var theme = layui.data(admin.tableName).theme;
     if (theme) {
         layui.link(getThemeDir() + theme + '.css');
+    }
+
+    // 判断是否开启多标签
+    if (top.layui.index && top.layui.index.pageTabs) {
+        $('body').addClass('tab-open');
+    } else {
+        if (window != top) {
+            top.layui.admin.activeNav(location.href.substring(getProjectUrl().length));
+        }
     }
 
     // 移除loading动画
@@ -54,7 +68,7 @@ function getProjectUrl() {
 
 //自定义
 /*
- * 描 述：操作类	
+ * 描 述：操作类    
  */
 var geek = {};
 geek = {

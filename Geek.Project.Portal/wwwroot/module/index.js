@@ -1,3 +1,5 @@
+/** iframe v3.0.9 data:2018-12-24 */
+
 layui.define(['layer', 'admin', 'element'], function (exports) {
     var $ = layui.jquery;
     var layer = layui.layer;
@@ -11,54 +13,64 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
     var navFilter = 'admin-side-nav';
 
     var index = {
+        pageTabs: true,  // 是否开启多标签
         cacheTab: cacheTab == undefined ? true : cacheTab,  // 是否记忆打开的选项卡
+        mTabList: [], // 当前Tab
+        mTabPosition: undefined, // 当前选中Tab
         // 加载主体部分
         loadView: function (param) {
             var menuPath = param.menuPath;
             var menuName = param.menuName;
-
             if (!menuPath) {
                 console.error('url不能为空');
+                layer.msg('url不能为空', { icon: 2 });
                 return;
             }
-
-            // 判断选项卡是否已添加
-            var flag = false;
-            $(tabDOM + '>.layui-tab-title>li').each(function () {
-                if ($(this).attr('lay-id') === menuPath) {
-                    flag = true;
-                    return false;
-                }
-            });
-            // 没有则添加
-            if (!flag) {
-                element.tabAdd(tabFilter, {
-                    id: menuPath,
-                    title: menuName ? menuName : '无标题',
-                    content: '<iframe src="' + menuPath + '" frameborder="0" class="admin-iframe"></iframe>'
+            // 是否开启多标签
+            if (index.pageTabs) {
+                // 判断选项卡是否已添加
+                var flag = false;
+                $(tabDOM + '>.layui-tab-title>li').each(function () {
+                    if ($(this).attr('lay-id') === menuPath) {
+                        flag = true;
+                        return false;
+                    }
                 });
+                // 没有则添加
+                if (!flag) {
+                    element.tabAdd(tabFilter, {
+                        id: menuPath,
+                        title: menuName ? menuName : '无标题',
+                        content: '<iframe src="' + menuPath + '" frameborder="0" class="admin-iframe"></iframe>'
+                    });
+                    index.mTabList.push(param);
+                    if (index.cacheTab) {  // 记忆选项卡
+                        admin.putTempData('indexTabs', index.mTabList);
+                    }
+                }
+                // 切换到该选项卡
+                element.tabChange(tabFilter, menuPath);
+            } else {
+                var $contentDom = $(bodyDOM + '>.admin-iframe');
+                if (!$contentDom || $contentDom.length <= 0) {
+                    $(bodyDOM).html('<iframe src="' + menuPath + '" frameborder="0" class="admin-iframe"></iframe>');
+                } else {
+                    $contentDom.attr('src', menuPath);
+                }
                 // 记忆选项卡
+                index.mTabList.splice(0, index.mTabList.length);
+                index.mTabList.push(param);
                 if (index.cacheTab) {
-                    var indexTabs = admin.getTempData('indexTabs');
-                    if (!indexTabs) {
-                        indexTabs = new Array();
-                    }
-                    var isAddCache = false;
-                    for (var i = 0; i < indexTabs.length; i++) {
-                        if (param.menuPath == indexTabs[i].menuPath) {
-                            isAddCache = true;
-                        }
-                    }
-                    if (!isAddCache) {
-                        indexTabs.push(param);
-                        admin.putTempData('indexTabs', indexTabs);
-                    }
+                    admin.putTempData('indexTabs', index.mTabList);
+                }
+                // 记录当前Tab位置
+                index.mTabPosition = param.menuPath;
+                if (index.cacheTab) {
+                    admin.putTempData('tabPosition', index.mTabPosition);
                 }
             }
-            // 切换到该选项卡
-            element.tabChange(tabFilter, menuPath);
             // 移动设备切换页面隐藏侧导航
-            if (document.body.clientWidth <= 750) {
+            if (admin.getPageWidth() <= 750) {
                 admin.flexible(true);
             }
         },
@@ -66,7 +78,6 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
         openTab: function (param) {
             var url = param.url;
             var title = param.title;
-
             if (param.end) {
                 tabEndCall[url] = param.end;
             }
@@ -79,15 +90,6 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
         closeTab: function (url) {
             element.tabDelete(tabFilter, url);
         },
-        // 关闭选项卡记忆功能
-        closeTabCache: function () {
-            index.cacheTab = false;
-            admin.putTempData('indexTabs', undefined);
-        },
-        // 清除缓存的tab
-        clearTabCache: function () {
-            admin.putTempData('indexTabs', undefined);
-        },
         // 加载设置
         loadSetting: function () {
             // 恢复记忆的tab选项卡
@@ -95,16 +97,23 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
                 var indexTabs = admin.getTempData('indexTabs');
                 if (indexTabs) {
                     var tabPosition = admin.getTempData('tabPosition');
-                    var mi = 0;
+                    var mi = -1;
                     for (var i = 0; i < indexTabs.length; i++) {
-                        index.loadView(indexTabs[i]);
+                        if (index.pageTabs) {
+                            index.loadView(indexTabs[i]);
+                        }
                         if (indexTabs[i].menuPath == tabPosition) {
                             mi = i;
                         }
                     }
-                    setTimeout(function () {
-                        index.loadView(indexTabs[mi]);
-                    }, 500);
+                    if (mi != -1) {
+                        setTimeout(function () {
+                            index.loadView(indexTabs[mi]);
+                            if (!index.pageTabs) {
+                                admin.activeNav(tabPosition);
+                            }
+                        }, 500);
+                    }
                 }
             }
             // 是否开启footer
@@ -117,6 +126,22 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
             if (tabAutoRefresh) {
                 $(tabDOM).attr('lay-autoRefresh', 'true');
             }
+        },
+        // 设置是否记忆Tab
+        setTabCache: function (isCache) {
+            layui.data(admin.tableName, { key: 'cacheTab', value: isCache });
+            index.cacheTab = isCache;
+            if (isCache) {
+                admin.putTempData('indexTabs', index.mTabList);
+                admin.putTempData('tabPosition', index.mTabPosition);
+            } else {
+                admin.putTempData('indexTabs', []);
+                admin.putTempData('tabPosition', undefined);
+            }
+        },
+        // 清除选项卡记忆
+        closeTabCache: function () {
+            admin.putTempData('indexTabs', undefined);
         }
     };
 
@@ -135,6 +160,7 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
                 $('.layui-layout-admin>.layui-side .layui-nav .layui-nav-item').removeClass('layui-nav-itemed');
                 $that.parent().addClass('layui-nav-itemed');
             }
+            $that.trigger('mouseenter');
         } else {
             admin.setNavHoverCss($that.parentsUntil('.layui-nav-item').parent().children().eq(0));
         }
@@ -144,9 +170,12 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
     element.on('tab(' + tabFilter + ')', function (data) {
         var layId = $(this).attr('lay-id');
 
+        index.mTabPosition = layId;  // 记录当前Tab位置
+        if (index.cacheTab) {
+            admin.putTempData('tabPosition', index.mTabPosition);
+        }
         admin.rollPage('auto');  // 自动滚动
         admin.activeNav(layId);  // 设置导航栏选中
-        // $('.layui-table-tips-c').trigger('click');  // 切换tab关闭表格内浮窗
 
         // 解决切换tab滚动条时而消失的问题
         var $iframe = $(tabDOM + '>.layui-tab-content>.layui-tab-item.layui-show .admin-iframe')[0];
@@ -157,36 +186,32 @@ layui.define(['layer', 'admin', 'element'], function (exports) {
         }
         $iframe.focus();
 
-        // 记忆当前选中的选项卡
-        if (index.cacheTab) {
-            admin.putTempData('tabPosition', layId);
-        }
-
         // 切换tab自动刷新
         var autoRefresh = $(tabDOM).attr('lay-autoRefresh');
         if (autoRefresh == 'true') {
             setTimeout(function () {
-                top.layui.admin.refresh();
+                admin.refresh();
             }, 300);
         }
     });
 
     // tab选项卡删除监听
     element.on('tabDelete(' + tabFilter + ')', function (data) {
-        var layId = $(this).parent().attr('lay-id');
+        var layId = index.mTabList[data.index].menuPath;
+        index.mTabList.splice(data.index, 1);
         if (index.cacheTab) {
-            var indexTabs = admin.getTempData('indexTabs');
-            for (var i = 0; i < indexTabs.length; i++) {
-                if (layId == indexTabs[i].menuPath) {
-                    indexTabs.splice(i, 1);
-                }
-            }
-            admin.putTempData('indexTabs', indexTabs);
+            admin.putTempData('indexTabs', index.mTabList);
         }
         if (tabEndCall[layId]) {
             tabEndCall[layId].call();
         }
     });
+
+    // 是否开启多标签
+    var openTab = layui.data(admin.tableName).openTab;
+    if (openTab != undefined) {
+        index.pageTabs = openTab;
+    }
 
     exports('index', index);
 });

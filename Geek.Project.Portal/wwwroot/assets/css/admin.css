@@ -1,3 +1,5 @@
+/** iframe v3.0.9 data:2018-12-24 */
+
 html {
     background-color: #f2f2f2;
 }
@@ -118,6 +120,7 @@ html {
         top: 50px;
         transition: left .3s;
         overflow: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
 .layui-fluid {
@@ -778,6 +781,7 @@ html {
 
     .tab-open .layui-body-header + div {
         position: static;
+        top: 0;
     }
 
 /** 表格上方工具栏样式 */
@@ -790,7 +794,7 @@ html {
         margin-bottom: 0;
     }
 
-.layui-table-view {
+.toolbar + table + .layui-table-view {
     margin: 0;
 }
 
@@ -1132,4 +1136,9 @@ html {
 
 .nav-btn.nav-btn-lg .layui-nav-item.text-center > a {
     padding: 0 13px 0 13px;
+}
+
+/** dtree选中颜色重写 */
+.dtree-theme-item-this {
+    background-color: #eeeeee !important;
 }
