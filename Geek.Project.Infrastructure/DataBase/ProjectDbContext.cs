@@ -13,11 +13,13 @@ namespace Geek.Project.Infrastructure.DataBase
 
         public DbSet<SysUser> SysUsers { get; set; }
         public DbSet<SysRole> SysRoles { get; set; }
+        public DbSet<SysLog> sysLogs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new SysUserConfiguration());
             modelBuilder.ApplyConfiguration(new SysRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new SysLogConfiguration());
             base.OnModelCreating(modelBuilder);
         }
     }

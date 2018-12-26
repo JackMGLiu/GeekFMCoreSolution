@@ -7,3 +7,55 @@
 <div class="page-loading">
     <div class="rubik-loader"></div>
 </div>
+<!-- 正文开始 -->
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <div class="layui-form toolbar">
+                <div class="layui-form-item" id="searchFrom">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">日志级别：</label>
+                        <div class="layui-input-inline">
+                            <select id="Level" name="Level">
+                                <option value="">所有</option>
+                                <option value="Verbose">详细</option>
+                                <option value="Debug">调试</option>
+                                <option value="Information" selected>消息</option>
+                                <option value="Warning">警告</option>
+                                <option value="Error">错误</option>
+                                <option value="Fatal">严重</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">记录时间：</label>
+                        <div class="layui-input-inline">
+                            <input id="TimeStamp" name="TimeStamp" class="layui-input date-icon" type="text"
+                                   placeholder="选择记录日志时间区间" />
+                        </div>
+                    </div>
+                    <div class="layui-inline" style="padding-left: 20px;">
+                        <button class="layui-btn icon-btn" id="btnSearch">
+                            <i class="layui-icon">&#xe615;</i>搜索
+                        </button>
+                        <button class="layui-btn icon-btn layui-btn-danger" id="btn_delAll">
+                            <i class="layui-icon">&#xe640;</i>批量删除
+                        </button>
+                        @*<button id="btnExport" class="layui-btn icon-btn">
+                                <i class="layui-icon">&#xe67d;</i>导出
+                            </button>*@
+                    </div>
+                </div>
+            </div>
+            <table class="layui-table" id="logTable" lay-filter="logTable"></table>
+        </div>
+    </div>
+</div>
+<!-- 表格操作列 -->
+<script type="text/html" id="tableBar">
+    <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="look">查看</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+@section scripts{
+    <script src="~/assets/js/log/index.js"></script>
+}

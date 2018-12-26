@@ -211,5 +211,4 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
         //console.log(checkStatus.data); //获取选中行的数据
         //console.log(checkStatus.data.length); //获取选中行数量，可作为是否有选中行的条件
     }
-
 });

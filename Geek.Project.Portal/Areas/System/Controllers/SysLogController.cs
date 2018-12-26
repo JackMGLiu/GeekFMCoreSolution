@@ -41,7 +41,7 @@ namespace Geek.Project.Portal.Areas.System.Controllers
                 data = shapedLogResources
             };
             LogInformation("查询日志信息列表");
-            return null;
+            return Json(jsonRes);
         }
 
     }
