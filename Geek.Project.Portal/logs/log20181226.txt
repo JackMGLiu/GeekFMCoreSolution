@@ -1,0 +1,62 @@
+[10:40:47 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[10:40:47 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[10:40:47 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[10:41:12 Error   ] Microsoft.AspNetCore.Server.Kestrel
+Connection id "0HLJARDTMI26V", Request id "0HLJARDTMI26V:00000010": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Unable to resolve service for type 'Geek.Project.Core.Service.Interface.ISysLogService' while attempting to activate 'Geek.Project.Portal.Areas.System.Controllers.SysLogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+[11:11:21 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[11:11:37 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[11:11:38 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[11:11:38 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:11:48 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:13:52 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[11:15:27 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:15:28 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:15:34 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:15:34 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:15:38 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+

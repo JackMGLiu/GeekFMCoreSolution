@@ -8,7 +8,6 @@
 layui.define(['jquery'], function (exports) {
     var $ = layui.jquery;
 
-
     var PLUGIN_NAME = 'iziToast';
     var iziToast = {};
     var supports = !!document.querySelector; // Feature test
@@ -31,23 +30,24 @@ layui.define(['jquery'], function (exports) {
         balloon: false,
         close: true,
         rtl: false,
-        position: 'topRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+        position: 'bottomRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
         target: '',
-        timeout: 2500,
-        pauseOnHover: false,
+        timeout: 5000,
+        pauseOnHover: true,
         resetOnHover: false,
-        progressBar: false,
+        progressBar: true,
         progressBarColor: '',
         animateInside: true,
         buttons: {},
-        transitionIn: 'fadeInLeft', // bounceInLeft, bounceInRight, bounceInUp, bounceInDown, fadeIn, fadeInDown, fadeInUp, fadeInLeft, fadeInRight, flipInX
-        transitionOut: 'flipOutX', // fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
+        transitionIn: 'fadeInUp', // bounceInLeft, bounceInRight, bounceInUp, bounceInDown, fadeIn, fadeInDown, fadeInUp, fadeInLeft, fadeInRight, flipInX
+        transitionOut: 'fadeOut', // fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
         transitionInMobile: 'fadeInUp',
         transitionOutMobile: 'fadeOutDown',
         onOpen: function () {
         },
         onClose: function () {
-        }
+        },
+        useAppend: false
     };
 
     //
@@ -388,10 +388,10 @@ layui.define(['jquery'], function (exports) {
             try {
                 var event;
                 if (window.CustomEvent) {
-                    event = new CustomEvent('iziToast-close', { detail: { class: settings.class } });
+                    event = new CustomEvent('iziToast-close', {detail: {class: settings.class}});
                 } else {
                     event = document.createEvent('CustomEvent');
-                    event.initCustomEvent('iziToast-close', true, true, { class: settings.class });
+                    event.initCustomEvent('iziToast-close', true, true, {class: settings.class});
                 }
                 document.dispatchEvent(event);
             } catch (ex) {
@@ -622,7 +622,8 @@ layui.define(['jquery'], function (exports) {
                 $wrapper.classList.add(position);
                 document.body.appendChild($wrapper);
             }
-            if (settings.position == "topLeft" || settings.position == "topCenter" || settings.position == "topRight") {
+            if ((settings.position == "topLeft" || settings.position == "topCenter" || settings.position == "topRight") && !settings.useAppend) {
+
                 $wrapper.insertBefore($toastCapsule, $wrapper.firstChild);
             } else {
                 $wrapper.appendChild($toastCapsule);
@@ -634,10 +635,10 @@ layui.define(['jquery'], function (exports) {
         try {
             var event;
             if (window.CustomEvent) {
-                event = new CustomEvent('iziToast-open', { detail: { class: settings.class } });
+                event = new CustomEvent('iziToast-open', {detail: {class: settings.class}});
             } else {
                 event = document.createEvent('CustomEvent');
-                event.initCustomEvent('iziToast-open', true, true, { class: settings.class });
+                event.initCustomEvent('iziToast-open', true, true, {class: settings.class});
             }
             document.dispatchEvent(event);
         } catch (ex) {
@@ -708,6 +709,30 @@ layui.define(['jquery'], function (exports) {
             });
         }
     };
+
+    iziToast.msg = function (msg, options) {
+        var icons = ['ico-msgOk', 'ico-msgError', 'ico-msgWran', 'ico-msgLoad'];
+        options.icon = icons[options.icon - 1];
+        var theme = {
+            title: '',
+            message: msg,
+            position: 'topCenter',
+            transitionIn: 'fadeInDown',
+            transitionOut: 'fadeOutUp',
+            progressBar: false,
+            animateInside: false,
+            close: false,
+            class: 'msg',
+            timeout: 3000,
+            useAppend: true
+        };
+
+        var settings = extend(config, options || {});
+        settings = extend(theme, settings || {});
+
+        this.show(settings);
+    };
+
 
     layui.link(layui.cache.base + 'notice/notice.css');
 

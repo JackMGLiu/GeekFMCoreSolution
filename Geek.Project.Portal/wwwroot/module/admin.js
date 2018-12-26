@@ -1,3 +1,5 @@
+/** iframe v3.0.9 data:2018-12-24 */
+
 layui.define(['layer'], function (exports) {
     var $ = layui.jquery;
     var layer = layui.layer;
@@ -24,13 +26,19 @@ layui.define(['layer'], function (exports) {
                 var us = url.split('/');
                 url = us[us.length - 1];
             }
-            $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item .layui-nav-child dd').removeClass('layui-this');
-            $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item').removeClass('layui-this');
             if (url && url != '') {
-                $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item').removeClass('layui-nav-itemed');
                 var $a = $('.layui-layout-admin .layui-side .layui-nav a[lay-href="' + url + '"]');
-                $a.parent().addClass('layui-this');  // 选中当前
-                $a.parent('dd').parents('.layui-nav-child').parent().addClass('layui-nav-itemed');  // 展开所有父级
+                if ($a && $a.length > 0) {
+                    $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item .layui-nav-child dd').removeClass('layui-this');
+                    $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item').removeClass('layui-this');
+                    $('.layui-layout-admin .layui-side .layui-nav .layui-nav-item').removeClass('layui-nav-itemed');
+                    $a.parent().addClass('layui-this');  // 选中当前
+                    $a.parent('dd').parents('.layui-nav-child').parent().addClass('layui-nav-itemed');  // 展开所有父级
+                } else {
+                    console.warn(url + ' is not in left side');
+                }
+            } else {
+                console.warn('active url not be null');
             }
         },
         // 右侧弹出
@@ -166,13 +174,23 @@ layui.define(['layer'], function (exports) {
             }
         },
         // 刷新当前tab
-        refresh: function () {
-            var $iframe = $('.layui-layout-admin .layui-body .layui-tab-content .layui-tab-item.layui-show .admin-iframe');
-            if (!$iframe) {
-                $iframe = $('.layui-layout-admin .layui-body>.admin-iframe');
+        refresh: function (url) {
+            var $iframe;
+            if (!url) {
+                $iframe = $('.layui-layout-admin>.layui-body>.layui-tab>.layui-tab-content>.layui-tab-item.layui-show>.admin-iframe');
+                if (!$iframe || $iframe.length <= 0) {
+                    $iframe = $('.layui-layout-admin>.layui-body>.admin-iframe');
+                }
+            } else {
+                $iframe = $('.layui-layout-admin>.layui-body>.layui-tab>.layui-tab-content>.layui-tab-item>.admin-iframe[src="' + url + '"]');
+                if (!$iframe || $iframe.length <= 0) {
+                    $iframe = $('.layui-layout-admin>.layui-body>.admin-iframe[src="' + url + '"]');
+                }
             }
-            if ($iframe) {
+            if ($iframe && $iframe[0]) {
                 $iframe[0].contentWindow.location.reload(true);
+            } else {
+                console.warn(url + ' is not found');
             }
         },
         // 关闭选项卡操作菜单
@@ -274,7 +292,7 @@ layui.define(['layer'], function (exports) {
             var url = $(this).attr('data-url');
             admin.popupRight({
                 type: 2,
-                content: url ? url : 'page/tpl/tpl-theme.html'
+                content: url ? url : '/main/theme'
             });
         },
         // 打开便签
