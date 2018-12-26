@@ -1,5 +1,4 @@
-﻿using Geek.Project.Entity.Base;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 namespace Geek.Project.Infrastructure.Repository
 {
     public interface IBaseRepository<TEntity, TKey>
-         where TEntity : class, IEntity
+         where TEntity : class
     {
         #region Query
 

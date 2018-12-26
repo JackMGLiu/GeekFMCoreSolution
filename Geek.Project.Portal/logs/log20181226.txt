@@ -60,3 +60,195 @@ AuthenticationScheme: AdminAuthenticationScheme signed in.
 [11:15:38 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
 查询用户信息列表
 
+[11:48:29 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed out.
+
+[11:48:38 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[11:48:46 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[11:48:46 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[11:48:47 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:52:30 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:53:05 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:53:14 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:53:35 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:53:54 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[11:54:00 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:56:06 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:56:08 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:56:22 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:56:33 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[11:56:38 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:57:13 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:57:14 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:57:25 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:57:47 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:58:22 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:58:49 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:59:07 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:59:23 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[11:59:48 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:00:01 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:00:08 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:00:15 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:00:25 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:00:37 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:00:49 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:01:05 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:01:32 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:01:54 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:02:01 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:02:19 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[12:02:25 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:02:56 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:03:08 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:03:34 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:03:59 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:04:17 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:04:18 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:04:58 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[12:05:11 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:37:59 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[15:38:07 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[15:38:07 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[15:38:08 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:41:29 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:42:43 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[15:45:26 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[15:45:31 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:49:33 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[15:51:05 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[15:53:22 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[15:53:48 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[15:54:35 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[15:54:42 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed out.
+
+[15:55:04 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[17:24:07 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[17:24:13 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[17:24:13 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[17:24:13 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+

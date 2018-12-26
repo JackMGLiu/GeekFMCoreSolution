@@ -13,7 +13,15 @@
             formSelects.value('roleId', [2, 4]);
 
         }
-
     });
+
+    $('#btn1').click(function () {
+        var h = admin.getPageHeight();
+        alert(h);
+        //admin.showLoading('#demo1');
+    });
+});
+
+$(function () {
 
 });

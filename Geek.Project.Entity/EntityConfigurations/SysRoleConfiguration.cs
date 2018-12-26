@@ -9,6 +9,7 @@ namespace Geek.Project.Entity.Configurations
         {
             builder.ToTable("SysRole");
             builder.HasKey(m => m.Id);
+            builder.Property(m => m.RoleName).IsRequired().HasMaxLength(50);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Geek.Project.Entity;
 using Geek.Project.Entity.Configurations;
+using Geek.Project.Entity.EntityConfigurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace Geek.Project.Infrastructure.DataBase
@@ -18,6 +19,7 @@ namespace Geek.Project.Infrastructure.DataBase
         {
             modelBuilder.ApplyConfiguration(new SysUserConfiguration());
             modelBuilder.ApplyConfiguration(new SysRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new BlogArticleConfiguration());
             base.OnModelCreating(modelBuilder);
         }
     }

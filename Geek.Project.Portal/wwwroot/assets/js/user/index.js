@@ -29,11 +29,11 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
         },
         cols: [[
             { type: 'checkbox' },
-            { type: 'numbers', width: 80, title: '序号' },
-            { field: 'UserName', width: 120, title: '账号' },
-            { field: 'RealName', width: 120, title: '姓名' },
-            { field: 'Age', sort: true, width: 80, title: '年龄' },
-            { field: 'Email', minWidth: 130, title: '电子邮箱' },
+            { type: 'numbers', width: 65, title: '序号' },
+            { field: 'UserName', width: 110, title: '账号' },
+            { field: 'RealName', width: 110, title: '姓名' },
+            { field: 'Age', sort: true, width: 65, title: '年龄' },
+            { field: 'Email', minWidth: 165, title: '电子邮箱' },
             {
                 field: 'RoleName', width: 100, title: '角色', templet: function (d) {
                     if (geek.isNullOrEmpty(d.Role)) {
@@ -45,12 +45,12 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
                 }
             },
             {
-                sort: true, templet: function (d) {
+                sort: true, width: 160, templet: function (d) {
                     return util.toDateString(d.CreateTime);
                 }, title: '创建时间'
             },
             { field: 'state', sort: true, width: 100, templet: '#tbaleState', title: '状态' },
-            { align: 'left', toolbar: '#tableBar', title: '操作', fixed: "right", minWidth: 135 }
+            { align: 'left', toolbar: '#tableBar', title: '操作', fixed: "right", width: 185 }
         ]]
     });
 

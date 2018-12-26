@@ -1,5 +1,4 @@
-﻿using Geek.Project.Entity.Base;
-using Geek.Project.Infrastructure.UnitOfWork;
+﻿using Geek.Project.Infrastructure.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +9,7 @@ using System.Threading.Tasks;
 namespace Geek.Project.Infrastructure.Repository
 {
     public class BaseRepository<TEntity, TKey> : IBaseRepository<TEntity, TKey>
-        where TEntity : class, IEntity
+        where TEntity : class
     {
         #region fields
 

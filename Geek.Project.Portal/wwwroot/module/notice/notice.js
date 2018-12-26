@@ -32,10 +32,10 @@ layui.define(['jquery'], function (exports) {
         rtl: false,
         position: 'bottomRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
         target: '',
-        timeout: 5000,
-        pauseOnHover: true,
+        timeout: 2000,
+        pauseOnHover: false,
         resetOnHover: false,
-        progressBar: true,
+        progressBar: false,
         progressBarColor: '',
         animateInside: true,
         buttons: {},
@@ -388,10 +388,10 @@ layui.define(['jquery'], function (exports) {
             try {
                 var event;
                 if (window.CustomEvent) {
-                    event = new CustomEvent('iziToast-close', {detail: {class: settings.class}});
+                    event = new CustomEvent('iziToast-close', { detail: { class: settings.class } });
                 } else {
                     event = document.createEvent('CustomEvent');
-                    event.initCustomEvent('iziToast-close', true, true, {class: settings.class});
+                    event.initCustomEvent('iziToast-close', true, true, { class: settings.class });
                 }
                 document.dispatchEvent(event);
             } catch (ex) {
@@ -635,10 +635,10 @@ layui.define(['jquery'], function (exports) {
         try {
             var event;
             if (window.CustomEvent) {
-                event = new CustomEvent('iziToast-open', {detail: {class: settings.class}});
+                event = new CustomEvent('iziToast-open', { detail: { class: settings.class } });
             } else {
                 event = document.createEvent('CustomEvent');
-                event.initCustomEvent('iziToast-open', true, true, {class: settings.class});
+                event.initCustomEvent('iziToast-open', true, true, { class: settings.class });
             }
             document.dispatchEvent(event);
         } catch (ex) {
