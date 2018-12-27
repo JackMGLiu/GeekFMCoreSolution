@@ -15,6 +15,5 @@ namespace Geek.Project.Entity
         public string User { get; set; }
         public string Class { get; set; }
         public string Url { get; set; }
-        public object CreateTime { get; set; }
     }
 }

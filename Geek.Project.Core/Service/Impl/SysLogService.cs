@@ -3,7 +3,6 @@ using Geek.Project.Core.Repository.Interface;
 using Geek.Project.Core.Service.Interface;
 using Geek.Project.Core.ViewModel.SysLog;
 using Geek.Project.Entity;
-using Geek.Project.Infrastructure.Extensions;
 using Geek.Project.Infrastructure.QueryModel;
 using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
@@ -45,10 +44,11 @@ namespace Geek.Project.Core.Service.Impl
                 query = query.Where(x => x.TimeStamp >= start && x.TimeStamp <= end);
             }
 
-            query = query.ApplySort(parameters.OrderBy, _propertyMappingContainer.Resolve<SysLogViewModel, SysLog>()); //排序
+            //query = query.ApplySort(parameters.OrderBy, _propertyMappingContainer.Resolve<SysLogViewModel, SysLog>()); //排序
 
             var count = await query.CountAsync();
             var data = await query
+                .OrderByDescending(m => m.TimeStamp)
                 .Skip((parameters.PageIndex - 1) * parameters.PageSize)
                 .Take(parameters.PageIndex * parameters.PageSize)
                 .ToListAsync();
