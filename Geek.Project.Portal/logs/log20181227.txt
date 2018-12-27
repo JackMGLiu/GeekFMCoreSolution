@@ -1,0 +1,3 @@
+[08:57:56 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
