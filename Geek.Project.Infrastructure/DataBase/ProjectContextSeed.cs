@@ -1,5 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Geek.Project.Entity;
+using Geek.Project.Utils.Security;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Geek.Project.Infrastructure.DataBase
@@ -12,6 +16,22 @@ namespace Geek.Project.Infrastructure.DataBase
 
             try
             {
+                context.Database.Migrate();
+                if (!context.SysUsers.Any())
+                {
+                    context.SysUsers.Add(new SysUser
+                    {
+                        UserName = "admin",
+                        Password = "admin123".Md5Hash(),
+                        RealName = "刘健",
+                        Status = 1,
+                        Age = 33,
+                        Email = "125267283@qq.com",
+                        CreateTime = DateTime.Now,
+                        Remark = "管理员账户"
+
+                    });
+                }
                 //数据
                 await context.SaveChangesAsync();
             }

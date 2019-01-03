@@ -62,5 +62,15 @@ namespace Geek.Project.Portal.Controllers
                 return Json(res);
             }
         }
+
+        /// <summary>
+        /// 个人中心
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult CurrentUserInfo()
+        {
+            return View();
+        }
     }
 }

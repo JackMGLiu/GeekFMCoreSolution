@@ -30,7 +30,7 @@ layui.define(['jquery'], function (exports) {
         balloon: false,
         close: true,
         rtl: false,
-        position: 'bottomRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+        position: 'topRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
         target: '',
         timeout: 2000,
         pauseOnHover: false,
@@ -39,8 +39,8 @@ layui.define(['jquery'], function (exports) {
         progressBarColor: '',
         animateInside: true,
         buttons: {},
-        transitionIn: 'fadeInUp', // bounceInLeft, bounceInRight, bounceInUp, bounceInDown, fadeIn, fadeInDown, fadeInUp, fadeInLeft, fadeInRight, flipInX
-        transitionOut: 'fadeOut', // fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
+        transitionIn: 'flipOutX', // bounceInLeft, bounceInRight, bounceInUp, bounceInDown, fadeIn, fadeInDown, fadeInUp, fadeInLeft, fadeInRight, flipInX
+        transitionOut: 'fadeOutUp', // fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
         transitionInMobile: 'fadeInUp',
         transitionOutMobile: 'fadeOutDown',
         onOpen: function () {

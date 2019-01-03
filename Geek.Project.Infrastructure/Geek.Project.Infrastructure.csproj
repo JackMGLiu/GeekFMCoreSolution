@@ -6,11 +6,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.9" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Geek.Project.Entity\Geek.Project.Entity.csproj" />
+    <ProjectReference Include="..\Geek.Project.Utils\Geek.Project.Utils.csproj" />
   </ItemGroup>
 
 </Project>

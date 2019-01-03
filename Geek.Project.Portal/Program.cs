@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore;
+﻿using Geek.Project.Infrastructure.DataBase;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Events;
 using Serilog.Sinks.MSSqlServer;
+using System;
 using System.Collections.ObjectModel;
 using System.Data;
 using System.IO;
@@ -48,16 +50,16 @@ namespace Geek.Project.Portal
             {
                 var services = scope.ServiceProvider;
                 var loggerFactory = services.GetRequiredService<ILoggerFactory>();
-                //try
-                //{
-                //    var context = services.GetRequiredService<MyDbContext>();
-                //    MyContextSeed.SeedAsync(context, loggerFactory).Wait();
-                //}
-                //catch (Exception e)
-                //{
-                //    var logger = loggerFactory.CreateLogger<Program>();
-                //    logger.LogError(e, "初始化数据失败！");
-                //}
+                try
+                {
+                    var context = services.GetRequiredService<ProjectDbContext>();
+                    ProjectContextSeed.SeedAsync(context, loggerFactory).Wait();
+                }
+                catch (Exception e)
+                {
+                    var logger = loggerFactory.CreateLogger<Program>();
+                    logger.LogError(e, "初始化数据失败！");
+                }
             }
 
             host.Run();
