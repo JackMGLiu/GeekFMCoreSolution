@@ -8,6 +8,7 @@ using Geek.Project.Infrastructure.DataBase;
 using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
 using Geek.Project.Portal.Models;
+using Geek.Project.Portal.Models.MiddleWares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -125,6 +126,12 @@ namespace Geek.Project.Portal
             //{
             //    app.UseExceptionHandler("/Home/Error");
             //}
+            //自定义异常
+            app.UseCustomException(new CustomExceptionMiddleWareOption(
+                handleType: CustomExceptionHandleType.Both,  //根据url关键字决定处理方式
+                 jsonHandleUrlKeys: new PathString[] { "/api" },
+                  errorHandingPath: "/Home/Error"));
+
             app.UseAuthentication();
             app.UseStaticFiles();
             app.UseCookiePolicy();

@@ -1,8 +1,9 @@
-﻿using System.Threading.Tasks;
-using Geek.Project.Core.Service.Interface;
+﻿using Geek.Project.Core.Service.Interface;
 using Geek.Project.Core.ViewModel.SysUser;
 using Geek.Project.Infrastructure.QueryModel;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 
 namespace Geek.Project.Portal.Controllers
 {
@@ -41,6 +42,25 @@ namespace Geek.Project.Portal.Controllers
         {
             var res = await _sysUserService.IsExist();
             return Ok(res);
+        }
+
+        [HttpGet]
+        public IActionResult Test7()
+        {
+            try
+            {
+                Convert.ToInt32("abc");
+                return View();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("不能转换");
+            }
+        }
+
+        public IActionResult Test6()
+        {
+            return View();
         }
 
         [HttpGet()]
