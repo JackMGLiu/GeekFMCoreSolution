@@ -13,6 +13,7 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
         id: 'logTable',
         elem: '#logTable',
         url: '/System/SysLog/PageLogData',
+        where: { 'Level': 'Information' },
         height: 'full-120',
         limit: 15,
         limits: [10, 15, 20, 30, 40, 50, 100, 200],
