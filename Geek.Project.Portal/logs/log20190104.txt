@@ -1,0 +1,21 @@
+[09:03:53 Information   ] Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler
+AuthenticationScheme: AdminAuthenticationScheme signed in.
+
+[09:05:48 Information Geek.Project.Portal.Areas.System.Controllers.SysLogController /System/SysLog/PageLogData admin] 
+查询日志信息列表
+
+[09:05:55 Warning   ] Microsoft.EntityFrameworkCore.Query
+The Include operation for navigation '[<generated>_2].Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+
+[09:05:55 Warning   ] Microsoft.EntityFrameworkCore.Query
+Query: '(from SysUser <generated>_3 in DbSet<SysUser> select [<generated>_3]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+
+[09:05:55 Information Geek.Project.Portal.Areas.System.Controllers.SysUserController /System/SysUser/PageUserData admin] 
+查询用户信息列表
+
+[09:06:00 Information Geek.Project.Portal.Areas.System.Controllers.SysLogController /System/SysLog/PageLogData admin] 
+查询日志信息列表
+
+[09:06:02 Information Geek.Project.Portal.Areas.System.Controllers.SysLogController /System/SysLog/PageLogData admin] 
+查询日志信息列表
+

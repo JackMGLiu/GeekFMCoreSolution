@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\System\Views\SysLog\Index.cshtml" />
     <None Include="wwwroot\assets\css\admin.css" />
     <None Include="wwwroot\assets\css\error-page.css" />
     <None Include="wwwroot\assets\css\login.css" />
@@ -54,6 +55,7 @@
     <None Include="wwwroot\assets\images\message.png" />
     <None Include="wwwroot\assets\images\welcome.png" />
     <None Include="wwwroot\assets\js\common.js" />
+    <None Include="wwwroot\assets\js\log\index.js" />
     <None Include="wwwroot\assets\js\main.js" />
     <None Include="wwwroot\assets\js\theme.js" />
     <None Include="wwwroot\assets\js\user\form.js" />
