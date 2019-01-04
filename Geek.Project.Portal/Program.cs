@@ -17,7 +17,7 @@ namespace Geek.Project.Portal
     {
         public static void Main(string[] args)
         {
-            var logDbConnection = @"Server=140.143.7.32,1433\\mssql2012;database=MicroServiceDb;uid=sa;pwd=sa2012LJ";
+            var logDbConnection = @"Server=140.143.7.32,1433\\mssql2012;database=GeekBolgDb;uid=sa;pwd=sa2012LJ";
             var logTable = "Logs";
             var opts = new ColumnOptions
             {
