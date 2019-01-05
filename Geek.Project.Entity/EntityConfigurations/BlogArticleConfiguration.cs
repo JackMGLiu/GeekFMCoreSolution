@@ -7,9 +7,9 @@ namespace Geek.Project.Entity.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<BlogArticle> builder)
         {
-            builder.ToTable("BlogArticle");
-            builder.HasKey(m => m.BlogId);
-            builder.Property(m => m.BlogId).HasMaxLength(36);
+            builder.ToTable(nameof(BlogArticle));
+            builder.HasKey(m => m.Id);
+            builder.Property(m => m.Id).IsRequired().HasMaxLength(50);
             builder.Property(m => m.BlogSubmitter).HasMaxLength(50);
             builder.Property(m => m.BlogTitle).IsRequired().HasMaxLength(200);
             builder.Property(m => m.BlogCategory).HasMaxLength(2000);

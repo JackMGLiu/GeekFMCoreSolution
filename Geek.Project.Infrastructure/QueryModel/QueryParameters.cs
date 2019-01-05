@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 namespace Geek.Project.Infrastructure.QueryModel
 {
-    public abstract class QueryParameters : INotifyPropertyChanged
+    public abstract class QueryParameters<TKey> : INotifyPropertyChanged
     {
         private const int DefaultPageSize = 10;
         private const int DefaultMaxPageSize = 100;
@@ -29,7 +29,7 @@ namespace Geek.Project.Infrastructure.QueryModel
         public string OrderBy
         {
             get => _orderBy;
-            set => _orderBy = value ?? nameof(IEntity.Id);
+            set => _orderBy = value ?? nameof(IEntity<TKey>.Id);
         }
 
         private int _maxPageSize = DefaultMaxPageSize;

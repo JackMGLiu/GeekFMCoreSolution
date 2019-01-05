@@ -14,14 +14,18 @@ namespace Geek.Project.Infrastructure.DataBase
 
         public DbSet<SysUser> SysUsers { get; set; }
         public DbSet<SysRole> SysRoles { get; set; }
+        public DbSet<SysMenu> sysMenus { get; set; }
         public DbSet<SysLog> SysLogs { get; set; }
+        public DbSet<RolePermission> RolePermissions { get; set; }
         public DbSet<BlogArticle> BlogArticles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new SysUserConfiguration());
             modelBuilder.ApplyConfiguration(new SysRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new SysMenuConfiguration());
             modelBuilder.ApplyConfiguration(new SysLogConfiguration());
+            modelBuilder.ApplyConfiguration(new RolePermissionConfiguration());
             modelBuilder.ApplyConfiguration(new BlogArticleConfiguration());
             base.OnModelCreating(modelBuilder);
         }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Geek.Project.Infrastructure.Migrations
 {
-    public partial class FirstMigration : Migration
+    public partial class _20190104001Migration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,7 +12,7 @@ namespace Geek.Project.Infrastructure.Migrations
                 name: "BlogArticle",
                 columns: table => new
                 {
-                    BlogId = table.Column<string>(maxLength: 36, nullable: false),
+                    Id = table.Column<string>(maxLength: 50, nullable: false),
                     BlogSubmitter = table.Column<string>(maxLength: 50, nullable: true),
                     BlogTitle = table.Column<string>(maxLength: 200, nullable: false),
                     BlogCategory = table.Column<string>(maxLength: 2000, nullable: true),
@@ -25,7 +25,7 @@ namespace Geek.Project.Infrastructure.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_BlogArticle", x => x.BlogId);
+                    table.PrimaryKey("PK_BlogArticle", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -50,12 +50,58 @@ namespace Geek.Project.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "SysRole",
+                name: "RolePermission",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    RoleName = table.Column<string>(maxLength: 50, nullable: false)
+                    RoleId = table.Column<string>(maxLength: 50, nullable: false),
+                    MenuId = table.Column<int>(nullable: false),
+                    Permission = table.Column<string>(maxLength: 2000, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_RolePermission", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "SysMenu",
+                columns: table => new
+                {
+                    Id = table.Column<string>(nullable: false),
+                    ParentId = table.Column<int>(nullable: true, defaultValue: 0),
+                    MenuName = table.Column<string>(maxLength: 50, nullable: false),
+                    DisplayName = table.Column<string>(maxLength: 50, nullable: false),
+                    Icon = table.Column<string>(maxLength: 50, nullable: true),
+                    LinkUrl = table.Column<string>(maxLength: 200, nullable: true),
+                    SortCode = table.Column<int>(nullable: true, defaultValue: 0),
+                    Permission = table.Column<string>(nullable: true, defaultValue: "2000"),
+                    IsDisplay = table.Column<bool>(nullable: true, defaultValue: false),
+                    IsDefault = table.Column<bool>(nullable: false),
+                    Status = table.Column<int>(nullable: false, defaultValue: 0),
+                    IsDelete = table.Column<int>(nullable: false, defaultValue: 0),
+                    UpdateTime = table.Column<DateTime>(nullable: true),
+                    CreateTime = table.Column<DateTime>(nullable: false),
+                    Remark = table.Column<string>(maxLength: 200, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SysMenu", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "SysRole",
+                columns: table => new
+                {
+                    Id = table.Column<string>(maxLength: 50, nullable: false),
+                    RoleName = table.Column<string>(maxLength: 50, nullable: false),
+                    IsSuperManager = table.Column<bool>(nullable: false, defaultValue: false),
+                    IsDefault = table.Column<bool>(nullable: false, defaultValue: false),
+                    Status = table.Column<int>(nullable: false, defaultValue: 0),
+                    IsDelete = table.Column<int>(nullable: false, defaultValue: 0),
+                    UpdateTime = table.Column<DateTime>(nullable: true),
+                    CreateTime = table.Column<DateTime>(nullable: false),
+                    Remark = table.Column<string>(maxLength: 200, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -66,16 +112,22 @@ namespace Geek.Project.Infrastructure.Migrations
                 name: "SysUser",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<string>(maxLength: 50, nullable: false),
                     UserName = table.Column<string>(maxLength: 50, nullable: false),
                     Password = table.Column<string>(maxLength: 200, nullable: false),
+                    RoleId = table.Column<string>(maxLength: 50, nullable: true),
                     RealName = table.Column<string>(maxLength: 50, nullable: false),
-                    RoleId = table.Column<int>(nullable: true),
-                    Status = table.Column<int>(nullable: false, defaultValue: 0),
+                    NickName = table.Column<string>(maxLength: 50, nullable: true),
+                    PhotoPath = table.Column<string>(maxLength: 200, nullable: true),
+                    LoginCount = table.Column<int>(nullable: true, defaultValue: 0),
+                    LastLoginIp = table.Column<string>(maxLength: 50, nullable: true),
+                    LastLoginTime = table.Column<DateTime>(nullable: true),
                     Age = table.Column<int>(nullable: true, defaultValue: 0),
+                    Mobile = table.Column<string>(maxLength: 50, nullable: false),
                     Email = table.Column<string>(maxLength: 200, nullable: true),
                     Address = table.Column<string>(maxLength: 200, nullable: true),
+                    Status = table.Column<int>(nullable: false, defaultValue: 0),
+                    IsDelete = table.Column<int>(nullable: false, defaultValue: 0),
                     UpdateTime = table.Column<DateTime>(nullable: true),
                     CreateTime = table.Column<DateTime>(nullable: false),
                     Remark = table.Column<string>(maxLength: 200, nullable: true)
@@ -83,18 +135,7 @@ namespace Geek.Project.Infrastructure.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_SysUser", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_SysUser_SysRole_RoleId",
-                        column: x => x.RoleId,
-                        principalTable: "SysRole",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_SysUser_RoleId",
-                table: "SysUser",
-                column: "RoleId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -106,10 +147,16 @@ namespace Geek.Project.Infrastructure.Migrations
                 name: "Logs");
 
             migrationBuilder.DropTable(
-                name: "SysUser");
+                name: "RolePermission");
+
+            migrationBuilder.DropTable(
+                name: "SysMenu");
 
             migrationBuilder.DropTable(
                 name: "SysRole");
+
+            migrationBuilder.DropTable(
+                name: "SysUser");
         }
     }
 }

@@ -5,9 +5,7 @@ using Geek.Project.Entity;
 using Geek.Project.Infrastructure.Services;
 using Geek.Project.Infrastructure.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Geek.Project.Core.Service.Impl
@@ -17,9 +15,9 @@ namespace Geek.Project.Core.Service.Impl
         private readonly IUnitOfWork _uow;
         private readonly IMapper _mapper;
         private readonly ISysRoleRepository _roleRepository;
-        private readonly IPropertyMappingContainer _propertyMappingContainer;
+        private readonly IPropertyMappingContainer<string> _propertyMappingContainer;
 
-        public SysRoleService(IUnitOfWork uow, IMapper mapper, ISysRoleRepository roleRepository, IPropertyMappingContainer propertyMappingContainer)
+        public SysRoleService(IUnitOfWork uow, IMapper mapper, ISysRoleRepository roleRepository, IPropertyMappingContainer<string> propertyMappingContainer)
         {
             this._uow = uow;
             this._mapper = mapper;

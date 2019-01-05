@@ -2,7 +2,7 @@
 
 namespace Geek.Project.Core.ViewModel.SysUser
 {
-    public class UserParameters : QueryParameters
+    public class UserParameters : QueryParameters<string>
     {
         public string UserName { get; set; }
 

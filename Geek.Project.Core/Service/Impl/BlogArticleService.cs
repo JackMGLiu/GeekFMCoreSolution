@@ -11,9 +11,9 @@ namespace Geek.Project.Core.Service.Impl
         private readonly IUnitOfWork _uow;
         private readonly IMapper _mapper;
         private readonly IBlogArticleRepository _blogArticleRepository;
-        private readonly IPropertyMappingContainer _propertyMappingContainer;
+        private readonly IPropertyMappingContainer<string> _propertyMappingContainer;
 
-        public BlogArticleService(IUnitOfWork uow, IMapper mapper, IBlogArticleRepository blogArticleRepository, IPropertyMappingContainer propertyMappingContainer)
+        public BlogArticleService(IUnitOfWork uow, IMapper mapper, IBlogArticleRepository blogArticleRepository, IPropertyMappingContainer<string> propertyMappingContainer)
         {
             this._uow = uow;
             this._mapper = mapper;

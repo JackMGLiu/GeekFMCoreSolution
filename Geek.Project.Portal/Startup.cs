@@ -108,9 +108,13 @@ namespace Geek.Project.Portal
             services.AddScoped<IBlogArticleService, BlogArticleService>();
 
             //排序
-            var propertyMappingContainer = new PropertyMappingContainer();
-            propertyMappingContainer.Register<UserPropertyMapping>();
-            services.AddSingleton<IPropertyMappingContainer>(propertyMappingContainer);
+            var propertyStringKeyMappingContainer = new PropertyMappingContainer<string>();
+            var propertyIntKeyMappingContainer = new PropertyMappingContainer<int>();
+
+            propertyStringKeyMappingContainer.Register<UserPropertyMapping>();
+
+            services.AddSingleton<IPropertyMappingContainer<string>>(propertyStringKeyMappingContainer);
+            services.AddSingleton<IPropertyMappingContainer<int>>(propertyIntKeyMappingContainer);
 
             services.AddTransient<ITypeHelperService, TypeHelperService>();
         }

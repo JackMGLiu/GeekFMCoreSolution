@@ -1,16 +1,17 @@
-﻿using System;
+﻿using Geek.Project.Entity.Base;
+using System;
 
 namespace Geek.Project.Entity
 {
     /// <summary>
     /// 博客文章
     /// </summary>
-    public class BlogArticle
+    public class BlogArticle : IEntity<string>
     {
         /// <summary>
         /// 主键
         /// </summary>
-        public string BlogId { get; set; }
+        public string Id { get; set; }
 
         /// <summary>
         /// 创建人

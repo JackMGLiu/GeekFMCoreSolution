@@ -21,15 +21,35 @@ namespace Geek.Project.Infrastructure.DataBase
                 {
                     context.SysUsers.Add(new SysUser
                     {
+                        Id = "100000",
+                        RoleId = "System",
                         UserName = "admin",
                         Password = "admin123".Md5Hash(),
                         RealName = "刘健",
+                        NickName = "极客锋芒",
                         Status = 1,
+                        IsDelete = 0,
+                        Mobile = "18636936239",
+                        Address = "山西省太原市杏花岭区",
                         Age = 33,
                         Email = "125267283@qq.com",
                         CreateTime = DateTime.Now,
                         Remark = "管理员账户"
+                    });
+                }
 
+                if (!context.SysRoles.Any())
+                {
+                    context.SysRoles.Add(new SysRole
+                    {
+                        Id = "System",
+                        RoleName = "超级管理员",
+                        IsSuperManager = true,
+                        IsDefault = true,
+                        Status = 1,
+                        IsDelete = 0,
+                        CreateTime = DateTime.Now,
+                        Remark = "超级管理员"
                     });
                 }
                 //数据

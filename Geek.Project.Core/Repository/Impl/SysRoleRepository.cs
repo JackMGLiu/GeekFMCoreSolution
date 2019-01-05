@@ -5,7 +5,7 @@ using Geek.Project.Infrastructure.UnitOfWork;
 
 namespace Geek.Project.Core.Repository.Impl
 {
-    public class SysRoleRepository : BaseRepository<SysRole, int>, ISysRoleRepository
+    public class SysRoleRepository : BaseRepository<SysRole, string>, ISysRoleRepository
     {
         public SysRoleRepository(IUnitOfWork unitOfWork) : base(unitOfWork)
         {

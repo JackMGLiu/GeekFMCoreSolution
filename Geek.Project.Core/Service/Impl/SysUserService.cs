@@ -22,9 +22,9 @@ namespace Geek.Project.Core.Service.Impl
         private readonly IUnitOfWork _uow;
         private readonly IMapper _mapper;
         private readonly ISysUserRepository _userRepository;
-        private readonly IPropertyMappingContainer _propertyMappingContainer;
+        private readonly IPropertyMappingContainer<string> _propertyMappingContainer;
 
-        public SysUserService(IUnitOfWork uow, IMapper mapper, ISysUserRepository userRepository, IPropertyMappingContainer propertyMappingContainer)
+        public SysUserService(IUnitOfWork uow, IMapper mapper, ISysUserRepository userRepository, IPropertyMappingContainer<string> propertyMappingContainer)
         {
             this._uow = uow;
             this._mapper = mapper;
@@ -32,7 +32,7 @@ namespace Geek.Project.Core.Service.Impl
             this._propertyMappingContainer = propertyMappingContainer;
         }
 
-        public SysUser GetUserByKey(int key)
+        public SysUser GetUserByKey(string key)
         {
             return _userRepository.GetByKey(key);
         }
@@ -94,7 +94,7 @@ namespace Geek.Project.Core.Service.Impl
                 var time = parameters.CreateTime.Trim().Split('-');
                 var start = DateTime.Parse(time[0] + '-' + time[1] + '-' + time[2]);
                 var end = DateTime.Parse(time[3] + '-' + time[4] + '-' + time[5]);
-                query = query.Where(x => x.CreateTime.Value >= start && x.CreateTime.Value <= end);
+                query = query.Where(x => x.CreateTime >= start && x.CreateTime <= end);
             }
             //var query = _dbContext.Posts.OrderBy(x => x.Id);
             //query = query.OrderBy(x => x.Id);
@@ -154,12 +154,12 @@ namespace Geek.Project.Core.Service.Impl
             return false;
         }
 
-        public async Task<SysUser> GetUserByKeyAsync(int key)
+        public async Task<SysUser> GetUserByKeyAsync(string key)
         {
             return await _userRepository.GetSingleAsync(u => u.Id == key, "Role");
         }
 
-        public async Task UpdateStatus(int userId, int status)
+        public async Task UpdateStatus(string userId, int status)
         {
             var user = await _userRepository.GetSingleAsync(u => u.Id == userId);
             if (!user.IsEmpty())
@@ -170,13 +170,13 @@ namespace Geek.Project.Core.Service.Impl
             }
         }
 
-        public async Task<bool> DeleteUser(int userId)
+        public async Task<bool> DeleteUser(string userId)
         {
             _userRepository.Remove(userId);
             return await _uow.CommitAsync() > 0;
         }
 
-        public async Task<bool> DeleteUsers(int[] arrIds)
+        public async Task<bool> DeleteUsers(string[] arrIds)
         {
             if (arrIds.Length > 0)
             {

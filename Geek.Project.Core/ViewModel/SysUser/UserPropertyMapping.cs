@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Geek.Project.Core.ViewModel.SysUser
 {
-    public class UserPropertyMapping : PropertyMapping<UserViewModel, Entity.SysUser>
+    public class UserPropertyMapping : PropertyMapping<string, UserViewModel, Entity.SysUser>
     {
         public UserPropertyMapping() : base(
             new Dictionary<string, List<MappedProperty>>

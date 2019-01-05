@@ -63,12 +63,12 @@ namespace Geek.Project.Portal.Areas.System.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Form(int? key, CreateUserModel model)
+        public async Task<IActionResult> Form(string key, CreateUserModel model)
         {
             var jsonResult = new ResultModel();
-            if (key.HasValue)
+            if (!key.IsEmpty())
             {
-                var current = await _sysUserService.GetUserByKeyAsync(key.Value);
+                var current = await _sysUserService.GetUserByKeyAsync(key);
                 if (!current.IsEmpty())
                 {
 
@@ -116,7 +116,7 @@ namespace Geek.Project.Portal.Areas.System.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetModelByKey(int userId)
+        public async Task<IActionResult> GetModelByKey(string userId)
         {
             var res = await _sysUserService.GetUserByKeyAsync(userId);
             return Json(res);
@@ -130,7 +130,7 @@ namespace Geek.Project.Portal.Areas.System.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CheckStatus(int userId, int status)
+        public async Task<IActionResult> CheckStatus(string userId, int status)
         {
             var jsonResult = new ResultModel();
             try
@@ -148,7 +148,7 @@ namespace Geek.Project.Portal.Areas.System.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> DeleteModel(int userId)
+        public async Task<IActionResult> DeleteModel(string userId)
         {
             var jsonResult = new ResultModel();
             var res = await _sysUserService.DeleteUser(userId);
@@ -171,8 +171,10 @@ namespace Geek.Project.Portal.Areas.System.Controllers
             var jsonResult = new ResultModel();
             if (!userIds.IsEmpty())
             {
-                int[] ids;
-                ids = Array.ConvertAll<string, int>(userIds.Split(','), s => int.Parse(s));
+                //int[] ids;
+                //ids = Array.ConvertAll<string, int>(userIds.Split(','), s => int.Parse(s));
+                string[] ids;
+                ids = Array.ConvertAll<string, string>(userIds.Split(','), s => s);
                 var res = await _sysUserService.DeleteUsers(ids);
                 if (res)
                 {

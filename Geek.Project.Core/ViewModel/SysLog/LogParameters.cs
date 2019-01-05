@@ -2,7 +2,7 @@
 
 namespace Geek.Project.Core.ViewModel.SysLog
 {
-    public class LogParameters : QueryParameters
+    public class LogParameters : QueryParameters<int>
     {
         public string Level { get; set; }
 

@@ -13,9 +13,9 @@ namespace Geek.Project.Core.Service.Interface
 
         List<SysUser> GetUserList();
 
-        SysUser GetUserByKey(int key);
+        SysUser GetUserByKey(string key);
 
-        Task<SysUser> GetUserByKeyAsync(int key);
+        Task<SysUser> GetUserByKeyAsync(string key);
         bool Update(SysUser model);
 
         Task<List<SysUser>> GetUserListAsync();
@@ -41,7 +41,7 @@ namespace Geek.Project.Core.Service.Interface
         /// <param name="userId"></param>
         /// <param name="status"></param>
         /// <returns></returns>
-        Task UpdateStatus(int userId, int status);
+        Task UpdateStatus(string userId, int status);
 
         /// <summary>
         /// 删除用户
@@ -49,7 +49,7 @@ namespace Geek.Project.Core.Service.Interface
         /// <param name="userId"></param>
         /// <param name="status"></param>
         /// <returns></returns>
-        Task<bool> DeleteUser(int userId);
+        Task<bool> DeleteUser(string userId);
 
         /// <summary>
         /// 删除用户集合
@@ -57,6 +57,6 @@ namespace Geek.Project.Core.Service.Interface
         /// <param name="userId"></param>
         /// <param name="status"></param>
         /// <returns></returns>
-        Task<bool> DeleteUsers(int[] arrIds);
+        Task<bool> DeleteUsers(string[] arrIds);
     }
 }

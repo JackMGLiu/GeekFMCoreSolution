@@ -3,7 +3,7 @@ using System;
 
 namespace Geek.Project.Entity
 {
-    public class SysLog : IEntity
+    public class SysLog : IEntity<int>
     {
         public int Id { get; set; }
         public string Message { get; set; }

@@ -18,9 +18,9 @@ namespace Geek.Project.Core.Service.Impl
         private readonly IUnitOfWork _uow;
         private readonly IMapper _mapper;
         private readonly ISysLogRepository _logRepository;
-        private readonly IPropertyMappingContainer _propertyMappingContainer;
+        private readonly IPropertyMappingContainer<int> _propertyMappingContainer;
 
-        public SysLogService(IUnitOfWork uow, IMapper mapper, ISysLogRepository logRepository, IPropertyMappingContainer propertyMappingContainer)
+        public SysLogService(IUnitOfWork uow, IMapper mapper, ISysLogRepository logRepository, IPropertyMappingContainer<int> propertyMappingContainer)
         {
             this._uow = uow;
             this._mapper = mapper;
