@@ -30,12 +30,12 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
         cols: [[
             { type: 'checkbox' },
             { type: 'numbers', width: 65, title: '序号' },
-            { field: 'UserName', width: 110, title: '账号' },
-            { field: 'RealName', width: 110, title: '姓名' },
+            { field: 'UserName', width: 110, title: '用户名' },
+            { field: 'RealName', width: 100, title: '姓名' },
             { field: 'Age', sort: true, width: 65, title: '年龄' },
             { field: 'Email', minWidth: 165, title: '电子邮箱' },
             {
-                field: 'RoleName', width: 100, title: '角色', templet: function (d) {
+                field: 'RoleName', width: 100, title: '当前角色', templet: function (d) {
                     if (geek.isNullOrEmpty(d.Role)) {
                         return '<span style="color:red; font-weight:bolder;">暂无</span>';
                     } else {
@@ -77,23 +77,29 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
 
     // 修改user状态
     form.on('switch(ckUserState)', function (obj) {
-        layer.load(2);
-        $.post('/System/SysUser/CheckStatus', {
-            userId: obj.elem.value,
-            status: obj.elem.checked ? 1 : 0
-        }, function (data) {
-            layer.closeAll('loading');
-            if (data.status === '1') {
-                layer.msg(data.msg, { icon: 1 });
-            } else {
-                layer.msg(data.msg, { icon: 2 });
-                $(obj.elem).prop('checked', !obj.elem.checked);
-                form.render('checkbox');
-            }
-        }, 'json');
+        var status = obj.elem.checked;
+        var confirmMsg = status == false ? '确定要禁用该用户吗？' : '确定要启用该用户吗？'
+        top.layer.confirm(confirmMsg, function (index) {
+            layer.load(2);
+            $.post('/System/SysUser/CheckStatus', {
+                userId: obj.elem.value,
+                status: status ? 1 : 0
+            }, function (data) {
+                layer.closeAll('loading');
+                if (data.status === '1') {
+                    layer.msg(data.msg, { icon: 1 });
+                } else {
+                    layer.msg(data.msg, { icon: 2 });
+                    $(obj.elem).prop('checked', !obj.elem.checked);
+                    form.render('checkbox');
+                }
+                table.reload('userTable');
+            }, 'json');
+            top.layer.close(index);
+        }, function () {
+            table.reload('userTable');
+        });
     });
-
-
 
     // 搜索按钮点击事件
     $('#btnSearch').click(function () {
@@ -141,7 +147,6 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
     //删除
     function delObj(obj) {
         top.layer.confirm('确定要删除这条数据吗？', function (index) {
-            top.layer.close(index);
             layer.load(2);
             $.post('/System/SysUser/DeleteModel', {
                 userId: obj.data.Id
@@ -162,6 +167,7 @@ layui.use(['layer', 'form', 'table', 'util', 'admin', 'laydate', 'notice'], func
                     });
                 }
             }, 'json');
+            top.layer.close(index);
         });
     }
 
